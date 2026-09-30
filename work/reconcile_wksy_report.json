@@ -1,0 +1,704 @@
+{
+  "work_id": "XJ-WKSY",
+  "snapshot_path": "work/source-snapshots/wksy-index-2026-09-29.html",
+  "snapshot_sha256": "16fc174eede550bcf6b15002c7d485b7ed2583d08f48f671d08ded1745008797",
+  "existing_record_count": 853,
+  "snapshot_paragraph_count": 851,
+  "count_matches": false,
+  "chapter_boundary_mismatches": 0,
+  "text_diffs": 98,
+  "chapter_mismatch_detail": [],
+  "diff_detail": [
+    {
+      "ordinal": 596,
+      "source_id": "XJ-WKSY-V4-P160",
+      "has_legacy_difference_grade": true,
+      "existing_text": "羌活　菊花　麻黃　川芎　石膏　防風　前胡　黃芩　細辛　甘草　枳殼　白茯苓　蔓荊子（各一兩）　薄荷　白芷（各五錢）",
+      "snapshot_text": "羌活　菊花　麻黃　川芎　石膏　防風　前胡　黃芩　細辛　甘草　枳殼　白茯苓　蔓荊子（各一兩）　蒲荷　白芷（各五錢）"
+    },
+    {
+      "ordinal": 597,
+      "source_id": "XJ-WKSY-V4-P161",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右每服五錢，薑水煎，日二三服。",
+      "snapshot_text": "上每服五錢，姜水煎，日二三服。"
+    },
+    {
+      "ordinal": 600,
+      "source_id": "XJ-WKSY-V4-P164",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右每服五七錢，水煎服。",
+      "snapshot_text": "上每服五七錢，水煎服。"
+    },
+    {
+      "ordinal": 603,
+      "source_id": "XJ-WKSY-V4-P167",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右每服五七錢，水煎服。臟腑和而自汗者，可服此藥。若臟腑秘小便赤而自汗者，急以大芎黃湯下之。",
+      "snapshot_text": "上每服五七錢，水煎服。臟腑和而自汗者，可服此藥。若臟腑秘小便赤而自汗者，急以大芎黃湯下之。"
+    },
+    {
+      "ordinal": 604,
+      "source_id": "XJ-WKSY-V4-P168",
+      "has_legacy_difference_grade": true,
+      "existing_text": "六味丸（一名地黃丸）",
+      "snapshot_text": "六味丸（一名六味地黃丸）"
+    },
+    {
+      "ordinal": 607,
+      "source_id": "XJ-WKSY-V4-P171",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右地黃杵膏，餘為末，蜜丸桐子大，每服七八十丸，滾湯下。",
+      "snapshot_text": "上地黃杵膏，余為末，蜜丸桐子大，每服七八十丸，滾湯下。"
+    },
+    {
+      "ordinal": 614,
+      "source_id": "XJ-WKSY-V4-P178",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑棗水煎，空心午前服。",
+      "snapshot_text": "上薑、棗水煎，空心午前服。"
+    },
+    {
+      "ordinal": 615,
+      "source_id": "XJ-WKSY-V4-P179",
+      "has_legacy_difference_grade": true,
+      "existing_text": "生脈散　治胃氣虧損，陰火上衝，口乾喘促，或肢體倦怠，肌肉消瘦，面色萎黃，汲汲短氣，汗出不止，食少作渴；或膿水出多，氣血俱虛，煩躁不安，睡臥不寧；或濕熱大行，火土合病，脾胃虛弱，身重氣短；或金為火制，絕寒水生化之源，肢體痿軟，腳欹眼黑等症。",
+      "snapshot_text": "生脈散　治胃氣虧損，陰火上衝，口乾喘促，或肢體倦怠，肌肉消瘦，面色痿黃，汲汲短氣，汗出不止，食少作渴；或膿水出多，氣血俱虛，煩躁不安，睡臥不寧；或濕熱大行，火土合病，脾胃虛弱，身重氣短；或金為火制，絕寒水生化之源，肢體痿軟，腳欹眼黑等症。"
+    },
+    {
+      "ordinal": 617,
+      "source_id": "XJ-WKSY-V4-P181",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。如不應，倍之。",
+      "snapshot_text": "上水煎服。如不應，倍之。"
+    },
+    {
+      "ordinal": 618,
+      "source_id": "XJ-WKSY-V4-P182",
+      "has_legacy_difference_grade": true,
+      "existing_text": "人參養榮湯　治脾胃虧損，氣血俱虛，發熱惡寒，四肢倦怠，肌肉消瘦，面色萎黃，汲汲短氣，食少作渴。凡大病後，最宜用此。",
+      "snapshot_text": "人參養榮湯　治脾胃虧損，氣血俱虛，發熱惡寒，四肢倦怠，肌肉消瘦，面色痿黃，汲汲短氣，食少作渴。凡大病後，最宜用此。"
+    },
+    {
+      "ordinal": 620,
+      "source_id": "XJ-WKSY-V4-P184",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 623,
+      "source_id": "XJ-WKSY-V4-P187",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑棗水煎服。",
+      "snapshot_text": "上薑棗水煎服。"
+    },
+    {
+      "ordinal": 627,
+      "source_id": "XJ-WKSY-V4-P191",
+      "has_legacy_difference_grade": true,
+      "existing_text": "當歸　熟地黃（各三錢）　芍藥（二錢）　川芎（一錢五分）　右水煎服。",
+      "snapshot_text": "當歸　熟地黃（各三錢）　芍藥（二錢）　川芎（一錢五分）　上水煎服。"
+    },
+    {
+      "ordinal": 630,
+      "source_id": "XJ-WKSY-V4-P194",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 633,
+      "source_id": "XJ-WKSY-V4-P197",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 636,
+      "source_id": "XJ-WKSY-V4-P200",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 637,
+      "source_id": "XJ-WKSY-V4-P201",
+      "has_legacy_difference_grade": true,
+      "existing_text": "加味逍遙散　治肝脾血虛，內熱發熱；或遍身瘙癢寒熱；或肢體作痛，頭目昏重；或怔忡頰赤，口燥咽乾；或發熱盜汗，食少不寐；或口舌生瘡，耳內作痛；或胸乳腹脹，小便欠利。",
+      "snapshot_text": "加味逍遙散　治肝脾血虛，內熱發熱；或遍身瘙癢寒熱；或肢體作痛，頭目昏重；或怔仲頰赤，口燥咽乾；或發熱盜汗，食少不寐；或口舌生瘡，耳內作痛；或胸乳腹脹，小便欠利。"
+    },
+    {
+      "ordinal": 639,
+      "source_id": "XJ-WKSY-V4-P203",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 642,
+      "source_id": "XJ-WKSY-V4-P206",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 645,
+      "source_id": "XJ-WKSY-V4-P209",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，水丸桐子大，每服百丸，空心白滾湯下。",
+      "snapshot_text": "上為末，水丸桐子大，每服百丸，空心白滾湯下。"
+    },
+    {
+      "ordinal": 647,
+      "source_id": "XJ-WKSY-V4-P211",
+      "has_legacy_difference_grade": true,
+      "existing_text": "澤瀉　豬苓　白朮　赤茯苓　肉桂（各等分）",
+      "snapshot_text": "澤瀉　豬苓　肉桂　白朮　赤茯苓（各等分）"
+    },
+    {
+      "ordinal": 648,
+      "source_id": "XJ-WKSY-V4-P212",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為細末，每服一二錢，熱湯調下。",
+      "snapshot_text": "上為細末，每服一二錢，熱湯調下。"
+    },
+    {
+      "ordinal": 649,
+      "source_id": "XJ-WKSY-V4-P213",
+      "has_legacy_difference_grade": true,
+      "existing_text": "犀角地黃湯　治胃火血熱，妄行吐衄，或大便下血者。",
+      "snapshot_text": "犀角地黃丸　治胃火血熱，妄行吐衄，或大便下血者。"
+    },
+    {
+      "ordinal": 651,
+      "source_id": "XJ-WKSY-V4-P215",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎熟，入犀角末服。",
+      "snapshot_text": "上水煎熟，入犀末服。"
+    },
+    {
+      "ordinal": 652,
+      "source_id": "XJ-WKSY-V4-P216",
+      "has_legacy_difference_grade": true,
+      "existing_text": "若因怒而致，加山梔、柴胡。若脾氣虛而不能攝，用歸脾湯。若肝脾火動而妄行，用加味逍遙散。若脾氣虛而不能統，用補中益氣湯加炮黑乾薑。若血虛有火而妄行，用四物加炮薑。若腎經虛火而血妄行，用六味丸料；不應，急加肉桂，以引虛火歸源。",
+      "snapshot_text": "若因怒而致，加山梔、柴胡。若脾氣虛而不能攝，用歸脾湯。若肝脾火動而妄行，用加味逍遙散。若脾氣虛而不能統，用補中益氣湯加炮黑乾薑。若血虛有火而妄行，用四物加炮姜。若腎經虛火而血妄行，用六味丸料；不應，急加肉桂，以引虛火歸源。"
+    },
+    {
+      "ordinal": 655,
+      "source_id": "XJ-WKSY-V4-P219",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。痛未止，石膏之類可量加。",
+      "snapshot_text": "上水煎服。痛未止，石膏之類可量加。"
+    },
+    {
+      "ordinal": 658,
+      "source_id": "XJ-WKSY-V4-P222",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右各另研為末，煉蜜或豬膽汁丸，桐子大，每服三四十丸，白湯下。若用豬膽汁導之，而不結燥，急補元氣。",
+      "snapshot_text": "上各另研為末，煉蜜或豬膽汁丸，桐子大，每服三四十丸，白湯下。若用豬膽汁導之，而不結燥，急補元氣。"
+    },
+    {
+      "ordinal": 661,
+      "source_id": "XJ-WKSY-V4-P225",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，水二碗，生薑八兩、紅棗一百枚，煮熟取棗肉和末丸，桐子大，每服五七十丸，空心食前白湯下。",
+      "snapshot_text": "上為末，水二碗，姜八兩、紅棗一百枚，煮熟取棗肉和末丸，桐子大，每服五七十丸，空心食前白湯下。"
+    },
+    {
+      "ordinal": 664,
+      "source_id": "XJ-WKSY-V4-P228",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，用大紅棗四十九枚、生薑四兩切碎，同棗用水煮熟，去薑取棗肉和藥丸，桐子大，每服五十丸，空心鹽湯送下。",
+      "snapshot_text": "上為末，用大紅棗四十枚、生薑四兩，水煮熟，去姜取棗肉和藥丸，桐子大，每服五十丸，空心鹽湯送下。"
+    },
+    {
+      "ordinal": 667,
+      "source_id": "XJ-WKSY-V4-P231",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，水調麴櫱麵糊丸，桐子大，每服七十丸，白湯下。",
+      "snapshot_text": "上為末，水調麴櫱麵糊丸，桐子大，每服七十丸，白湯下。"
+    },
+    {
+      "ordinal": 673,
+      "source_id": "XJ-WKSY-V4-P237",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 676,
+      "source_id": "XJ-WKSY-V4-P240",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，入地黃膏，加煉蜜少許，丸桐子大，每服三十丸，烏梅煎湯下，日進二服。",
+      "snapshot_text": "上為末，入地黃膏，加煉蜜少許，丸桐子大，每服三十丸，烏梅煎湯下，日進二服。"
+    },
+    {
+      "ordinal": 679,
+      "source_id": "XJ-WKSY-V4-P243",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右將熟地黃搗碎，酒拌濕杵膏，入前末和勻，加煉蜜為丸，桐子大，每服百丸，空心白湯送下，不應，用加減八味丸。",
+      "snapshot_text": "上將熟地黃掏碎，酒拌濕杵膏，入前末和勻，加煉蜜為丸，桐子大，每服百丸，空心白湯送下，不應，用加減八味丸。"
+    },
+    {
+      "ordinal": 680,
+      "source_id": "XJ-WKSY-V4-P244",
+      "has_legacy_difference_grade": true,
+      "existing_text": "琥珀膏　治頸項瘰癧，及腋下，初如梅子，腫結硬強，漸如連珠，不消不潰，或潰而膿水不絕，經久不瘥，漸成漏症。",
+      "snapshot_text": "琥珀膏　治頸項瘰癧，及脅下，初如梅子，腫結硬強，漸如連珠，不消不潰，或潰而膿水不絕，經久不瘥，漸成漏症。"
+    },
+    {
+      "ordinal": 681,
+      "source_id": "XJ-WKSY-V4-P245",
+      "has_legacy_difference_grade": true,
+      "existing_text": "琥珀（一兩）　木通　桂心　當歸　白芷　防風　松脂　硃砂（研）　木鱉子（肉，各五錢）麻油（二斤）　丁香　木香（各三錢）",
+      "snapshot_text": "琥珀（一兩）　木通　桂心　當歸　白芷　防風　松脂　硃砂（研）　木鱉子（肉，各五錢）麻油（二斤）　丁香　木香（各二錢）"
+    },
+    {
+      "ordinal": 682,
+      "source_id": "XJ-WKSY-V4-P246",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右先用琥珀、丁香、桂心、硃砂、木香為末，其餘藥入油內，煎黑濾去粗，徐徐入黃丹，再煎軟硬得中，即成膏矣。",
+      "snapshot_text": "上先用琥珀、丁香、桂心、硃砂、木香為末，其餘藥入油內，煎黑濾去粗，徐徐入黃丹，再煎軟硬得中，即成膏矣。"
+    },
+    {
+      "ordinal": 685,
+      "source_id": "XJ-WKSY-V4-P249",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 688,
+      "source_id": "XJ-WKSY-V4-P252",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 691,
+      "source_id": "XJ-WKSY-V4-P255",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右入糯米一撮，水煎服。",
+      "snapshot_text": "上入糯米一撮，水煎服。"
+    },
+    {
+      "ordinal": 694,
+      "source_id": "XJ-WKSY-V4-P258",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑、棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 697,
+      "source_id": "XJ-WKSY-V4-P261",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑、棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 700,
+      "source_id": "XJ-WKSY-V4-P264",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 703,
+      "source_id": "XJ-WKSY-V4-P267",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎稠湯化服之。",
+      "snapshot_text": "上水煎稠湯化服之。"
+    },
+    {
+      "ordinal": 706,
+      "source_id": "XJ-WKSY-V4-P270",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 708,
+      "source_id": "XJ-WKSY-V4-P272",
+      "has_legacy_difference_grade": true,
+      "existing_text": "肉蓯蓉（酒浸焙乾）　葫蘆巴（炒）　附子　陽起石　五味子　菟絲子（洗淨酒浸）　肉豆蔻　川烏　沉香　鹿茸（酒浸炒）　巴戟天（去心）　鍾乳粉（各一兩半）",
+      "snapshot_text": "肉蓯蓉（酒浸焙乾）　葫蘆巴（炒）　附子　陽起石　五味子　菟絲子（洗淨酒浸）　肉豆蔻川烏　沉香　鹿茸（酒浸炒）　巴戟天（去心）　鍾乳粉（各一兩半）"
+    },
+    {
+      "ordinal": 709,
+      "source_id": "XJ-WKSY-V4-P273",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，用羊腰子兩對，治如食法，酒煮搗爛，入酒糊丸，如梧桐子大。每服七十丸，空心米飲、鹽湯任下。",
+      "snapshot_text": "上為末，用羊腰子兩對，治如食法，酒煮搗爛，入酒糊丸，如梧桐子。每服七十丸，空心米飲、鹽湯任下。"
+    },
+    {
+      "ordinal": 712,
+      "source_id": "XJ-WKSY-V4-P276",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑、棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 715,
+      "source_id": "XJ-WKSY-V4-P279",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑、棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 718,
+      "source_id": "XJ-WKSY-V4-P282",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑、棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 720,
+      "source_id": "XJ-WKSY-V4-P284",
+      "has_legacy_difference_grade": true,
+      "existing_text": "人參　白朮　陳皮　茯苓（各一錢）　半夏（八分）　桔梗（七分）　甘草（五分）　右薑、棗水煎服。",
+      "snapshot_text": "人參　白朮　陳皮　茯苓（各一錢）　半夏（八分）　桔梗（七分）　甘草（五分）　上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 722,
+      "source_id": "XJ-WKSY-V4-P286",
+      "has_legacy_difference_grade": true,
+      "existing_text": "人參　白朮　陳皮　茯苓　半夏（各一錢）　炮薑　丁香　炙草（各五分）　右薑棗水煎服。",
+      "snapshot_text": "人參　白朮　陳皮　茯苓　半夏（各一兩）　炮姜　丁香　炙草（各五分）　上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 725,
+      "source_id": "XJ-WKSY-V4-P289",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑、棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 728,
+      "source_id": "XJ-WKSY-V4-P292",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右作二劑，水煎服。",
+      "snapshot_text": "上作二劑，水煎服。"
+    },
+    {
+      "ordinal": 731,
+      "source_id": "XJ-WKSY-V4-P295",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右每服五七錢水煎服，加減仝上。亦治便血。",
+      "snapshot_text": "上每五七錢水煎服，加減同上。亦治便血。"
+    },
+    {
+      "ordinal": 734,
+      "source_id": "XJ-WKSY-V4-P298",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為細末，研極細，用紙花子貼瘡口上。",
+      "snapshot_text": "上為細末，研極細，用紙花子貼瘡口上。"
+    },
+    {
+      "ordinal": 737,
+      "source_id": "XJ-WKSY-V4-P301",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右先將豬蹄一隻，用水數碗煮熟取清汁，分作十數次，每次用前藥一兩，煎十數沸去滓，無風處淋洗，死肉惡隨洗而下，極效。",
+      "snapshot_text": "上先將豬蹄彎一隻，用水數碗煮熟取清汁，分作十數次，每次用前藥一兩，煎十數沸去滓，無風處淋洗，死肉惡隨洗而下，極效。"
+    },
+    {
+      "ordinal": 740,
+      "source_id": "XJ-WKSY-V4-P304",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右用水酒煎服。",
+      "snapshot_text": "上用水酒煎服。"
+    },
+    {
+      "ordinal": 742,
+      "source_id": "XJ-WKSY-V4-P306",
+      "has_legacy_difference_grade": true,
+      "existing_text": "人參（一錢）　柴胡（八分）　白朮（一錢五分）　牡丹皮（八分）　茯苓（一錢）　陳皮（八分）甘草（五分）　當歸（一錢五分）　貝母（一錢）　川芎（八分）　山梔（炒）　芍藥（炒）　熟地黃（各一錢）　右水煎服。",
+      "snapshot_text": "人參（一錢）　柴胡（八分）　白朮（一錢五分）　牡丹皮（八錢）　茯苓（一錢）　陳皮（八分）甘草（五分）　當歸（一錢五分）　貝母（一錢）　川芎（八分）　山梔（炒）　芍藥（炒）　熟地黃（各一錢）　上水煎服。"
+    },
+    {
+      "ordinal": 745,
+      "source_id": "XJ-WKSY-V4-P309",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑水煎服。",
+      "snapshot_text": "上姜水煎服。"
+    },
+    {
+      "ordinal": 748,
+      "source_id": "XJ-WKSY-V4-P312",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，每服一錢酒調下。",
+      "snapshot_text": "上為末，每服一錢酒調下。"
+    },
+    {
+      "ordinal": 750,
+      "source_id": "XJ-WKSY-V4-P314",
+      "has_legacy_difference_grade": true,
+      "existing_text": "沉香　木香　橘紅（四兩）　豬厭肉子（生於豚豬項下者，一枚如棗大，取四十九）　珍珠（四十九粒，砂鍋內泥封口煨過）",
+      "snapshot_text": "沉香　木香　橘紅（四兩）　豬厭肉子（生於豚豬項下）　珍珠（四十九粒，砂鍋內泥封口煨，過絲一枚如棗大，取四十丸）"
+    },
+    {
+      "ordinal": 751,
+      "source_id": "XJ-WKSY-V4-P315",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，每服一錢，臨臥冷酒調下，徐徐嚥之。輕者三五服，重者一料全愈。忌鹹酸、油膩、澀氣等物。修合用除日效。",
+      "snapshot_text": "上為末，每服一錢，臨臥冷酒調搽，徐徐嚥下，輕者三五服，重者一料痊愈。修合用除日效，忌鹹酸、油膩、澀氣等物。"
+    },
+    {
+      "ordinal": 753,
+      "source_id": "XJ-WKSY-V4-P317",
+      "has_legacy_difference_grade": true,
+      "existing_text": "海藻　昆布（各二兩）　龍膽草（二兩）　小麥（四兩，醋煮炒乾）",
+      "snapshot_text": "海藻　昆布（各一兩）　小麥（四兩，醋煮炒乾）　龍膽草（二兩）"
+    },
+    {
+      "ordinal": 754,
+      "source_id": "XJ-WKSY-V4-P318",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，煉蜜丸，桐子大。每服二三十丸，臨臥白湯送下，並噙化嚥之。",
+      "snapshot_text": "上為末，煉蜜丸，桐子大。每服二三十丸，臨臥白湯下，並噙化咽之。"
+    },
+    {
+      "ordinal": 755,
+      "source_id": "XJ-WKSY-V4-P319",
+      "has_legacy_difference_grade": true,
+      "existing_text": "普濟消毒飲　治天行時毒，頭面腫痛，或咽喉不利，若饑饉之後患之，最宜用，仍當固胃氣。",
+      "snapshot_text": "普濟消毒散　治天行時毒，頭面腫痛，或咽喉不利，若饑饉之後患之，最宜用，仍當固胃氣。"
+    },
+    {
+      "ordinal": 756,
+      "source_id": "XJ-WKSY-V4-P320",
+      "has_legacy_difference_grade": true,
+      "existing_text": "黃芩　連翹（各五錢）　人參（三錢）　陳皮　玄參　甘草　柴胡　桔梗（各一錢）　牛蒡子　馬勃　板藍草根（各七分）　白殭蠶　升麻（各五分）　右水煎服，大便秘，量加大黃。",
+      "snapshot_text": "黃芩　連翹（各五錢）　人參（三錢）　陳皮　玄參　甘草　柴胡　桔梗（各一錢）　牛蒡子馬勃　板藍草根（各七分）　白殭蠶　升麻（各五分）　上水煎服，大便秘，量加大黃。"
+    },
+    {
+      "ordinal": 759,
+      "source_id": "XJ-WKSY-V4-P323",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，用紙捻蘸少許，入鼻內，取嚏為度。",
+      "snapshot_text": "上為末，用紙捻蘸少許，入鼻內，取嚏為度。"
+    },
+    {
+      "ordinal": 765,
+      "source_id": "XJ-WKSY-V4-P329",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 768,
+      "source_id": "XJ-WKSY-V4-P332",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 772,
+      "source_id": "XJ-WKSY-V4-P336",
+      "has_legacy_difference_grade": true,
+      "existing_text": "升麻　川芎　當歸（各一錢半）　連翹　黃連　牛蒡子　白芷（各一錢）",
+      "snapshot_text": "升麻　川芎　當歸（各錢半）　連翹　黃連　牛蒡子　白芷（各一錢）"
+    },
+    {
+      "ordinal": 773,
+      "source_id": "XJ-WKSY-V4-P337",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。焮連太陽加羌活；連耳後，加山梔、柴胡。",
+      "snapshot_text": "上水煎服。焮連太陽加羌活；連耳後，加山梔、柴胡。"
+    },
+    {
+      "ordinal": 776,
+      "source_id": "XJ-WKSY-V4-P340",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 779,
+      "source_id": "XJ-WKSY-V4-P343",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 784,
+      "source_id": "XJ-WKSY-V4-P348",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，蒸餅糊丸，桐子大，每服一錢，空心米湯下。",
+      "snapshot_text": "上為末，蒸餅糊丸，桐子大，每服一錢，空心米湯下。"
+    },
+    {
+      "ordinal": 787,
+      "source_id": "XJ-WKSY-V4-P351",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 790,
+      "source_id": "XJ-WKSY-V4-P354",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水酒煎服。",
+      "snapshot_text": "上水酒煎服。"
+    },
+    {
+      "ordinal": 793,
+      "source_id": "XJ-WKSY-V4-P357",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 794,
+      "source_id": "XJ-WKSY-V4-P358",
+      "has_legacy_difference_grade": true,
+      "existing_text": "加味龍膽瀉肝湯　治肝經濕熱，或囊癰便毒，下疳懸癰，腫焮作痛，小便澀滯；或婦人陰瘡癢痛；或男子陰挺腫脹，或出膿水。",
+      "snapshot_text": "加味龍膽湯　治肝經濕熱，或囊癰便毒，下疳懸癰，腫焮作痛，小便澀滯；或婦人陰瘡癢痛；或男子陰挺腫脹，或出膿水。"
+    },
+    {
+      "ordinal": 796,
+      "source_id": "XJ-WKSY-V4-P360",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 797,
+      "source_id": "XJ-WKSY-V4-P361",
+      "has_legacy_difference_grade": true,
+      "existing_text": "清心蓮心飲　治膀胱氣虛濕熱，玉莖腫痛，或莖竅澀滯，口苦咽乾，小便色赤或白濁，夜安靜而晝發熱。",
+      "snapshot_text": "清心蓮心丸　治膀胱氣虛濕熱，玉莖腫痛，或莖竅澀滯，口苦咽乾，小便色赤或白濁，夜安靜而晝發熱。"
+    },
+    {
+      "ordinal": 799,
+      "source_id": "XJ-WKSY-V4-P363",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 802,
+      "source_id": "XJ-WKSY-V4-P366",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右用燈心三十根煎服。",
+      "snapshot_text": "上用燈心三十根，水煎服。"
+    },
+    {
+      "ordinal": 805,
+      "source_id": "XJ-WKSY-V4-P369",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為細末，每服五錢，水煎服。",
+      "snapshot_text": "上為細末，每服五錢，水煎服。"
+    },
+    {
+      "ordinal": 809,
+      "source_id": "XJ-WKSY-V4-P373",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，用紅棗肉同蜜為丸，桐子大，每服七十丸，溫酒送下，每日三服，白湯送下。",
+      "snapshot_text": "上為末，用紅棗肉同蜜為丸，桐子大，每服七十丸，溫酒送下，每日三服，白湯送下。"
+    },
+    {
+      "ordinal": 812,
+      "source_id": "XJ-WKSY-V4-P376",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑棗水煎服。",
+      "snapshot_text": "上薑、棗水煎服。"
+    },
+    {
+      "ordinal": 815,
+      "source_id": "XJ-WKSY-V4-P379",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 818,
+      "source_id": "XJ-WKSY-V4-P382",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，每服二錢，用豬腰子一枚，批開入藥，濕紙包裹煨熟，空心連腰子細嚼，鹽湯送下。",
+      "snapshot_text": "上為末，每服二錢，用豬腰子一枚，批開入藥，濕紙包裹煨熟，空心連腰子細嚼，鹽湯送下。"
+    },
+    {
+      "ordinal": 821,
+      "source_id": "XJ-WKSY-V4-P385",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，每服三錢，茶清調下，瘡癬溫酒下。",
+      "snapshot_text": "上為末，每服三錢，茶清調下，瘡癬溫酒下。"
+    },
+    {
+      "ordinal": 822,
+      "source_id": "XJ-WKSY-V4-P386",
+      "has_legacy_difference_grade": true,
+      "existing_text": "升麻和氣飲　治風癬瘡疥熱結，大便不通。",
+      "snapshot_text": "升麻和氣湯　治風癬瘡疥熱結，大便不通。"
+    },
+    {
+      "ordinal": 824,
+      "source_id": "XJ-WKSY-V4-P388",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 827,
+      "source_id": "XJ-WKSY-V4-P391",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 830,
+      "source_id": "XJ-WKSY-V4-P394",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服，衣覆之，取微汗。濕司天，加蒼朮，天淫雨，亦加。如渴加石膏三錢，知母一錢，不渴不加。",
+      "snapshot_text": "上水煎服，衣覆之，取微汗。濕司天，加蒼朮，天淫雨，亦加。如渴加石膏三錢，知母一錢，不渴不加。"
+    },
+    {
+      "ordinal": 834,
+      "source_id": "XJ-WKSY-V4-P398",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    },
+    {
+      "ordinal": 837,
+      "source_id": "XJ-WKSY-V4-P401",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右各別為末，酒糊丸，桐子大，每服三十丸，鹽湯溫酒任下，孕婦不可服。",
+      "snapshot_text": "上各別為末，酒糊丸，桐子大，每服三十丸，鹽湯溫酒任下，孕婦不可服。"
+    },
+    {
+      "ordinal": 840,
+      "source_id": "XJ-WKSY-V4-P404",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右用麻油二斤，入銅鍋內，煎至黑濾去查，入黃丹十二兩，再煎，水中捻軟硬得中，即成膏矣。",
+      "snapshot_text": "上用麻油二斤，入銅鍋內，煎至黑濾去粗，入黃丹十二兩，再煎，水中捻軟硬得中，即成膏矣。"
+    },
+    {
+      "ordinal": 845,
+      "source_id": "XJ-WKSY-V4-P409",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右鎔蠟和礬末，急和勻，眾手丸，桐子大。每服十丸，漸漸加二十丸，滾湯下。如服金石發疽，別用白礬末一兩，作三五服，溫酒調下。有人遍身生瘡，狀如蛇頭，服之即效。此藥能解毒氣，內攻須多服有效。治毒蛇咬，鎔滴傷處，痛止毒出，仍服兩許。",
+      "snapshot_text": "上熔蠟和礬末，急和勻，眾手丸，桐子大。每服十丸，漸漸加二十丸，滾湯下。如服金石發疽，別用白礬末一兩，作三五服，溫酒調下。有人遍身生瘡，狀如蛇頭，服之即效。此藥能解毒氣，內攻須多服有效。治毒蛇咬，熔滴傷處，痛止毒出，仍服兩許。"
+    },
+    {
+      "ordinal": 848,
+      "source_id": "XJ-WKSY-V4-P412",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右先用當歸、地黃，入油煎黑去查，入蠟熔化，候溫攪勻，即成膏矣。用塗患處，將紙蓋之，發背、癰疽、湯火等症，潰爛用之尤妙。凡死肉潰爛已盡，好肉有些須尚連，宜用利刀剪之，蓋死肉有毒，去遲則傷新矣。如洗拭換膏，必須預備，即貼之。若死肉去盡，尤宜速貼，然新肉畏風尤甚，不可忽也。",
+      "snapshot_text": "上先用當歸、地黃，入油煎黑去粗，入蠟熔化，候溫攪勻，即成膏矣。用塗患處，將紙蓋之，發背、癰疽、湯火等症，潰爛用之尤妙。凡死肉潰爛已盡，好肉有些須尚連，宜用利刀剪之，蓋死肉有毒，去遲則傷新矣。如洗拭換膏，必須預備，即貼之。若死肉去盡，尤宜速貼，然新肉畏風尤甚，不可忽也。"
+    },
+    {
+      "ordinal": 851,
+      "source_id": "XJ-WKSY-V4-P415",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右水煎服。",
+      "snapshot_text": "上水煎服。"
+    }
+  ],
+  "length_note": "existing=853 snapshot=851; compared only first 851 in alignment order",
+  "extra_existing_tail": [
+    "XJ-WKSY-V4-P416",
+    "XJ-WKSY-V4-P417"
+  ]
+}

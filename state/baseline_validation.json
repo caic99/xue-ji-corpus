@@ -1,0 +1,368 @@
+{
+  "date": "2026-09-29",
+  "structured": {
+    "cases": 216,
+    "non_case_units": 383
+  },
+  "source_text_sha256": "20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9",
+  "source_validation": {
+    "corpus": "outputs/薛己核心医案_结构化样本.md",
+    "works": {
+      "XJ-NKZY": {
+        "title": "內科摘要",
+        "records": 544,
+        "headings": [
+          "卷上",
+          "卷下"
+        ],
+        "id_series": {
+          "XJ-NKZY-V1": {
+            "count": 176,
+            "first": 1,
+            "last": 176
+          },
+          "XJ-NKZY-V2": {
+            "count": 368,
+            "first": 1,
+            "last": 368
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      },
+      "XJ-NKCZ": {
+        "title": "女科撮要",
+        "records": 593,
+        "headings": [
+          "前序",
+          "卷上",
+          "卷下"
+        ],
+        "id_series": {
+          "XJ-NKCZ-PRE": {
+            "count": 2,
+            "first": 1,
+            "last": 2
+          },
+          "XJ-NKCZ-V1": {
+            "count": 257,
+            "first": 1,
+            "last": 257
+          },
+          "XJ-NKCZ-V2": {
+            "count": 334,
+            "first": 1,
+            "last": 334
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      },
+      "XJ-ZTLY": {
+        "title": "正體類要",
+        "records": 329,
+        "headings": [
+          "序",
+          "上卷",
+          "下卷"
+        ],
+        "id_series": {
+          "XJ-ZTLY-PRE": {
+            "count": 2,
+            "first": 1,
+            "last": 2
+          },
+          "XJ-ZTLY-V1": {
+            "count": 112,
+            "first": 1,
+            "last": 112
+          },
+          "XJ-ZTLY-V2": {
+            "count": 215,
+            "first": 1,
+            "last": 215
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      },
+      "XJ-KCLY": {
+        "title": "口齒類要",
+        "records": 322,
+        "headings": [
+          "繭唇一",
+          "口瘡二",
+          "齒痛三",
+          "舌症四",
+          "喉痹諸症五",
+          "喉痛六",
+          "諸骨稻穀發鯁七",
+          "治諸鯁咒法八",
+          "誤吞水蛭九",
+          "諸蟲入耳十",
+          "蛇入七竅及蟲咬傷十一",
+          "男女體氣十二",
+          "附方並注"
+        ],
+        "id_series": {
+          "XJ-KCLY-H1": {
+            "count": 13,
+            "first": 1,
+            "last": 13
+          },
+          "XJ-KCLY-H2": {
+            "count": 15,
+            "first": 1,
+            "last": 15
+          },
+          "XJ-KCLY-H3": {
+            "count": 25,
+            "first": 1,
+            "last": 25
+          },
+          "XJ-KCLY-H4": {
+            "count": 13,
+            "first": 1,
+            "last": 13
+          },
+          "XJ-KCLY-H5": {
+            "count": 14,
+            "first": 1,
+            "last": 14
+          },
+          "XJ-KCLY-H6": {
+            "count": 21,
+            "first": 1,
+            "last": 21
+          },
+          "XJ-KCLY-H7": {
+            "count": 10,
+            "first": 1,
+            "last": 10
+          },
+          "XJ-KCLY-H8": {
+            "count": 1,
+            "first": 1,
+            "last": 1
+          },
+          "XJ-KCLY-H9": {
+            "count": 1,
+            "first": 1,
+            "last": 1
+          },
+          "XJ-KCLY-H10": {
+            "count": 3,
+            "first": 1,
+            "last": 3
+          },
+          "XJ-KCLY-H11": {
+            "count": 1,
+            "first": 1,
+            "last": 1
+          },
+          "XJ-KCLY-H12": {
+            "count": 1,
+            "first": 1,
+            "last": 1
+          },
+          "XJ-KCLY-H13": {
+            "count": 204,
+            "first": 1,
+            "last": 204
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      },
+      "XJ-LZWKFH": {
+        "title": "立齋外科發揮",
+        "records": 1170,
+        "headings": [
+          "敘",
+          "卷一",
+          "卷二",
+          "卷三",
+          "卷四",
+          "卷五",
+          "卷六",
+          "卷七",
+          "卷八"
+        ],
+        "id_series": {
+          "XJ-LZWKFH-H1": {
+            "count": 2,
+            "first": 1,
+            "last": 2
+          },
+          "XJ-LZWKFH-V1": {
+            "count": 99,
+            "first": 1,
+            "last": 99
+          },
+          "XJ-LZWKFH-V2": {
+            "count": 136,
+            "first": 1,
+            "last": 136
+          },
+          "XJ-LZWKFH-V3": {
+            "count": 178,
+            "first": 1,
+            "last": 178
+          },
+          "XJ-LZWKFH-V4": {
+            "count": 115,
+            "first": 1,
+            "last": 115
+          },
+          "XJ-LZWKFH-V5": {
+            "count": 205,
+            "first": 1,
+            "last": 205
+          },
+          "XJ-LZWKFH-V6": {
+            "count": 121,
+            "first": 1,
+            "last": 121
+          },
+          "XJ-LZWKFH-V7": {
+            "count": 163,
+            "first": 1,
+            "last": 163
+          },
+          "XJ-LZWKFH-V8": {
+            "count": 151,
+            "first": 1,
+            "last": 151
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      },
+      "XJ-WKSY": {
+        "title": "外科樞要",
+        "records": 853,
+        "headings": [
+          "序",
+          "卷一",
+          "卷二",
+          "卷三",
+          "卷四"
+        ],
+        "id_series": {
+          "XJ-WKSY-PRE": {
+            "count": 2,
+            "first": 1,
+            "last": 2
+          },
+          "XJ-WKSY-V1": {
+            "count": 100,
+            "first": 1,
+            "last": 100
+          },
+          "XJ-WKSY-V2": {
+            "count": 166,
+            "first": 1,
+            "last": 166
+          },
+          "XJ-WKSY-V3": {
+            "count": 168,
+            "first": 1,
+            "last": 168
+          },
+          "XJ-WKSY-V4": {
+            "count": 417,
+            "first": 1,
+            "last": 417
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      },
+      "XJ-LYJY": {
+        "title": "癘瘍機要",
+        "records": 407,
+        "headings": [
+          "序",
+          "上卷",
+          "中卷",
+          "下卷"
+        ],
+        "id_series": {
+          "XJ-LYJY-PRE": {
+            "count": 2,
+            "first": 1,
+            "last": 2
+          },
+          "XJ-LYJY-V1": {
+            "count": 113,
+            "first": 1,
+            "last": 113
+          },
+          "XJ-LYJY-V2": {
+            "count": 71,
+            "first": 1,
+            "last": 71
+          },
+          "XJ-LYJY-V3": {
+            "count": 221,
+            "first": 1,
+            "last": 221
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      },
+      "XJ-BYCY": {
+        "title": "保嬰粹要",
+        "records": 1139,
+        "headings": [
+          "卷五（保嬰粹要）"
+        ],
+        "id_series": {
+          "XJ-BYCY-V5": {
+            "count": 1139,
+            "first": 1,
+            "last": 1139
+          }
+        },
+        "errors": [],
+        "warnings": [
+          "尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+        ]
+      }
+    },
+    "summary": {
+      "works": 8,
+      "records": 5357,
+      "duplicate_source_ids": 0,
+      "errors": 0,
+      "warnings": 8
+    },
+    "errors": [],
+    "warnings": [
+      "XJ-NKZY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）",
+      "XJ-NKCZ: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）",
+      "XJ-ZTLY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）",
+      "XJ-KCLY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）",
+      "XJ-LZWKFH: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）",
+      "XJ-WKSY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）",
+      "XJ-LYJY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）",
+      "XJ-BYCY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）"
+    ]
+  },
+  "limitation": "结构和回退检查，不是全书古籍影像校定"
+}

@@ -1,0 +1,41 @@
+{
+  "work_id": "XJ-LZWKFH",
+  "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+  "snapshot_sha256": "92d5f11e7abb766eb850987cca96b4159be67a627232c2d5a367f1ae1a7e12b7",
+  "existing_record_count": 1170,
+  "snapshot_paragraph_count": 1170,
+  "count_matches": true,
+  "chapter_boundary_mismatches": 0,
+  "text_diffs": 4,
+  "chapter_mismatch_detail": [],
+  "diff_detail": [
+    {
+      "ordinal": 713,
+      "source_id": "XJ-LZWKFH-V5-P183",
+      "has_legacy_difference_grade": true,
+      "existing_text": "一男子因瘡痛傷胃氣，少食作嘔，惡寒，以六君子湯加當歸，四劑少愈；以十宣散加白朮、茯苓、陳皮，數劑而膿成，針之；又以前散去防風、白芷，數劑而痊。",
+      "snapshot_text": "一男子因瘡痛傷胃氣，少食作嘔，惡寒，以六君子湯加當歸，四劑稍愈；以十宣散加白朮、茯苓、陳皮，數劑而膿成，針之；又以前散去防風、白芷，數劑而痊。"
+    },
+    {
+      "ordinal": 714,
+      "source_id": "XJ-LZWKFH-V5-P184",
+      "has_legacy_difference_grade": true,
+      "existing_text": "一男子患發背腫硬，煩渴便秘，脈沉實作嘔，以內疏黃連湯，一劑少愈；以金銀花散，四劑，並隔蒜灸而消。",
+      "snapshot_text": "一男子患發背腫硬，煩渴便秘，脈沉實作嘔，以內疏黃連湯，二劑愈；以金銀花散，四劑，並隔蒜灸而消。"
+    },
+    {
+      "ordinal": 715,
+      "source_id": "XJ-LZWKFH-V5-P185",
+      "has_legacy_difference_grade": true,
+      "existing_text": "一男子腋下患毒，咳逆不食，腸鳴切痛，四肢厥冷，脈細，以托裡溫中湯，二劑頓愈；更以香砂六君子湯、二神丸，而飲食頓進；以十全大補湯，下十餘劑而斂。",
+      "snapshot_text": "一男子腋下患毒，咳逆不食，腸鳴切痛，四肢厥冷，脈細，以托裡理中湯，二劑頓愈；更以香砂六君子湯、二神丸，而飲食頓進；以十全大補湯，下十餘劑而斂。"
+    },
+    {
+      "ordinal": 735,
+      "source_id": "XJ-LZWKFH-V5-P205",
+      "has_legacy_difference_grade": true,
+      "existing_text": "破故紙（四兩，炒）　肉豆蔻（二兩，生用）　右為末，用大紅棗四十九枚，生薑四兩切碎，同棗用水煮熟，去姜取棗肉，和藥丸，梧子大。每服五十丸，空心鹽湯下。",
+      "snapshot_text": "破故紙（四兩，炒）　肉豆蔻（二兩，生用）　上為末，用大紅棗四十九枚，生薑四兩切碎，同棗用水煮熟，去姜取棗肉，和藥丸，梧子大。每服五十丸，空心鹽湯下。"
+    }
+  ]
+}

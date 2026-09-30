@@ -1,0 +1,687 @@
+{
+  "handoff_date": "2026-09-29",
+  "last_substantive_corpus_work_date": "2026-09-29",
+  "main_document": "outputs/薛己核心医案_结构化样本.md",
+  "main_document_sha256": "367d686f1b0116050ea47a84d5cc678e46b5545af61d5a75345b6631eda4fa28",
+  "source_text_sha256": "20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9",
+  "structured_totals": {
+    "cases": 1532,
+    "non_case_units": 3268
+  },
+  "case_retrieval_statuses": {
+    "source_research_with_caveats": 1525,
+    "needs_review": 7
+  },
+  "unit_retrieval_statuses": {
+    "source_research_with_caveats": 3248,
+    "needs_review": 20
+  },
+  "formula_groups": 1240,
+  "works": [
+    {
+      "work_id": "XJ-NKZY",
+      "title": "內科摘要",
+      "source_records": 544,
+      "source_record_kind_counts": {
+        "source_paragraph": 544
+      },
+      "volume_record_counts": {
+        "卷上": 176,
+        "卷下": 368
+      },
+      "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
+      "source_edition_claim": "日本承應三年（1654年）刊本；國家圖書館掃描本",
+      "rights_status": "CC0（依來源站著作權聲明）；古籍正文為公眾領域",
+      "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
+      "edition_view_url": null,
+      "scan_status_counts": {
+        "sampled_variants_found": 8,
+        "not_started": 529,
+        "sampled_verified": 7
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 538,
+        "needs_review": 6
+      },
+      "case_count": 216,
+      "case_structuring": "full_working_transcription_first_pass_selected_tags_incomplete",
+      "electronic_source_alignment": "all_544_paragraphs_and_23_chapters_aligned_with_documented_edits",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "case_structuring_note": " 2026-09-30：卷下89案的 mechanism_quote（56案填入、33案留空）、formula_quote（73案填入、16案留空）及3案 treatment_quote 已补入，均为案文连续原句（脚本逐条校验为子串，validate 0 errors，text_sha256 不变）；留空表示案文无薛己本人明确病机表述／无本案所用方名（如仅为患者自服药、引丹溪／东垣语），不等于原书未载。草拟为模型判断，未经人工复核。",
+      "formula_group_count": 112,
+      "non_case_unit_count": 383
+    },
+    {
+      "work_id": "XJ-NKCZ",
+      "title": "女科撮要",
+      "source_records": 593,
+      "source_record_kind_counts": {
+        "source_paragraph": 593
+      },
+      "volume_record_counts": {
+        "前序": 2,
+        "卷上": 257,
+        "卷下": 334
+      },
+      "source_url": "https://jicheng.tw/tcm/book/%E5%A5%B3%E7%A7%91%E6%92%AE%E8%A6%81/index.html",
+      "source_edition_claim": "日本承應三年（1654年）刊本；國家圖書館掃描本",
+      "rights_status": "CC0（依來源站著作權聲明）；古籍正文為公眾領域",
+      "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
+      "edition_view_url": null,
+      "scan_status_counts": {
+        "not_started": 586,
+        "sampled_variants_found": 7
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 593
+      },
+      "case_count": 185,
+      "case_structuring": "complete_full_first_pass_both_volumes_all_33_sections",
+      "electronic_source_alignment": "all_593_paragraphs_and_33_chapters_aligned_with_documented_edits",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "current_snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "current_snapshot_date": "2026-09-29",
+      "current_snapshot_sha256": "28921572ccecdf2bb34d1e907b8f7e7616f48f446735dbdcf8f95b9463f59c20",
+      "reconciliation_note": "593/593 exact-match current snapshot except 7 already-documented legacy corrections (V2-P164/168/172/175/177/178/181); 0 chapter-boundary mismatches; site now displays dual 底本 attribution (1546 + 1654) not previously recorded at book level",
+      "case_structuring_note": "《女科撮要》全書（前序2段+卷上16篇257段+卷下16篇334段=593條）2026-09-29全部完成首輪結構化：227 cases, 228 formula_groups累計（跨全書，含NKZY 112組）。含3個一段多案拆分（卷上P099/P023即卷下保產篇、卷下P080）、4個簽名見證例（卷上P041/P042/P124、卷下P020）、2個跨方通用加減條未歸入單一formula_id（卷下P182/P237）。char-complete coverage validated chapter-by-chapter via work/audit_corpus.py + work/validate_complete_corpus.py，全數通過無錯誤。修正一處提取腳本邊界錯誤（P334因正則跨書貪婪匹配誤帶下一書內容，已用books()函式正確重取並改正，未留痕跡於正文）。NEXT-02（女科撮要完整医案与非医案组织）已完成。下一步：NEXT-03（内科摘要已知实质疑点）或NEXT-04（其余六书，按外科樞要→立齋外科發揮→口齒類要→正體類要→疠疡机要→保婴粹要順序）",
+      "formula_group_count": 116,
+      "non_case_unit_count": 453
+    },
+    {
+      "work_id": "XJ-ZTLY",
+      "title": "正體類要",
+      "source_records": 329,
+      "source_record_kind_counts": {
+        "source_paragraph": 329
+      },
+      "volume_record_counts": {
+        "序": 2,
+        "上卷": 112,
+        "下卷": 215
+      },
+      "source_url": "https://jicheng.tw/tcm/book/%E6%AD%A3%E9%AB%94%E9%A1%9E%E8%A6%81/index.html",
+      "source_edition_claim": "日本承應三年（1654年）刊本；國家圖書館掃描本",
+      "rights_status": "CC0（依來源站著作權聲明）；古籍正文為公眾領域",
+      "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
+      "edition_view_url": null,
+      "scan_status_counts": {
+        "not_started": 323,
+        "sampled_variants_found": 5,
+        "sampled_verified": 1
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 329
+      },
+      "case_count": 84,
+      "case_structuring": "complete_full_first_pass_序_上卷_下卷",
+      "electronic_source_alignment": "all_329_paragraphs_and_6_chapters_aligned_with_documented_edits",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "current_snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "current_snapshot_date": "2026-09-29",
+      "current_snapshot_sha256": "9ecbaaf891a03a2a923b7a078c96f9002a1cea397c64213ebed0653a54e7080f",
+      "reconciliation_note": "329/329 exact-match except 5 already-documented legacy corrections; 0 chapter-boundary mismatches; no new unexplained differences",
+      "case_structuring_note": "本書結構同《立齋外科發揮》：理論段後直接接病案，不設「治驗」分節標籤（惟章節本身以「治驗」命名）。病案敘事統一以「有一患者」開篇（不同於他書「一男子/一婦人」或具名具職官身分）。序2條、上卷「正體主治大法」19條（純症狀-治法通則，無病案）、上卷「撲傷之症治驗」35條，共56條2026-09-29完成：34 cases、35個非醫案單元。P052「（痓當作痙）」為正字校勘括注，非病案亦非通論。char-complete coverage全數validated，0 errors，text_sha256穩定於20077b83...基線。上卷「墜跌金傷治驗」P055-108共54條（本書上卷單一子篇最大者）2026-09-29接續完成：46 cases、13個非醫案單元。病案敘事多具名具職官身分（陳侍御/李進士/吳給事等），篇中8處括注「（二條）」「（三條）」為原書病案分組標記，非病案內容，另立chapter_scope_note。char-complete coverage全數validated，0 errors，text_sha256穩定。上卷「湯火所傷治驗」P109-112共4條2026-09-29接續完成：4 cases、1個非醫案單元。至此《正體類要》上卷四子篇（正體主治大法/撲傷之症治驗/墜跌金傷治驗/湯火所傷治驗，共112條）首輪結構化全部完成：84 cases，49個非醫案單元。char-complete coverage全數validated，0 errors，text_sha256穩定於20077b83...基線。下卷「方藥」P001-215共215條2026-09-29接續完成：0 cases、215個非醫案單元，歸為75個formula_id（多數方劑無方名，依三段式體例（主治/藥味/煎服法）辨識邊界，並依藥味內容比對本語料庫已見同名方劑逕行標注通行方名，無法比對者另擬描述性名稱）。另有6段「愚按」薛己自跋按語（P106/131/154/164/168/206），獨立成formula_use_commentary，不併入方劑組。P93-95與P207-209為同一方（半夏南星川烏，治風痰壅盛）之原文重出收錄，均各自獨立成組未合併。方劑歸組屬模型依三段式體例推得，未經人工逐方覆核；各方與上卷具體病案之對應關係本輪未逐一建立交叉引用。至此《正體類要》全書329條（序2+上卷112+下卷215）首輪結構化全部完成：84 cases，49個病案相關非醫案單元，75個formula_group（另6個按語單元）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors，0 duplicate IDs，text_sha256穩定於20077b83...基線。order中第四本書已完成。",
+      "formula_group_count": 75,
+      "non_case_unit_count": 264
+    },
+    {
+      "work_id": "XJ-KCLY",
+      "title": "口齒類要",
+      "source_records": 322,
+      "source_record_kind_counts": {
+        "source_paragraph": 322
+      },
+      "volume_record_counts": {
+        "繭唇一": 13,
+        "口瘡二": 15,
+        "齒痛三": 25,
+        "舌症四": 13,
+        "喉痹諸症五": 14,
+        "喉痛六": 21,
+        "諸骨稻穀發鯁七": 10,
+        "治諸鯁咒法八": 1,
+        "誤吞水蛭九": 1,
+        "諸蟲入耳十": 3,
+        "蛇入七竅及蟲咬傷十一": 1,
+        "男女體氣十二": 1,
+        "附方並注": 204
+      },
+      "source_url": "https://jicheng.tw/tcm/book/%E5%8F%A3%E9%BD%92%E9%A1%9E%E8%A6%81/index.html",
+      "source_edition_claim": "日本承應三年（1654年）刊本；國家圖書館掃描本",
+      "rights_status": "CC0（依來源站著作權聲明）；古籍正文為公眾領域",
+      "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
+      "edition_view_url": null,
+      "scan_status_counts": {
+        "not_started": 315,
+        "sampled_variants_found": 7
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 322
+      },
+      "case_count": 81,
+      "case_structuring": "complete_full_first_pass_all_thirteen_chapters",
+      "electronic_source_alignment": "all_322_paragraphs_and_13_chapters_aligned_with_documented_edits",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "current_snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "current_snapshot_date": "2026-09-29",
+      "current_snapshot_sha256": "db74dbe8fdf885cc11a26a2addfa57a4c7561b885305cb4179044abe859e673d",
+      "reconciliation_note": "322/322 exact-match except 7 already-documented legacy corrections; 0 chapter-boundary mismatches; no new unexplained differences",
+      "case_structuring_note": "本書結構同《內科摘要》：理論段+「治驗」分節標籤+病案，方劑統一收於全書末章「附方並注」（H13，204段），不隨各篇分設。繭唇一(13)、口瘡二(15)、齒痛三(25)共53條2026-09-29完成：47 cases、9個非醫案單元。齒痛三篇末兩則簽名見證體病例（P024史羊生、P025郁貌）original_case_author已改署實際簽名者。方劑歸組留待處理完H13附方並注章時統一建立。重要教訓：本插入最初誤植於KCLY本書原始文字段落之後、下一本書標題之前，導致work/audit_corpus.py的RECORD_RE（要求`#{3,5}`終止符，`## `二級標題不滿足）把插入內容的說明段落吞入前一條原始段落正文（XJ-KCLY-H13-P204），造成source文本層text_sha256漂移；已定位並修正並記入HANDOFF.md第6節——所有新書的首次結構化插入必須銜接在既有結構化區塊尾端，不可緊鄰任何原始來源段落或下一本書的`# 《書名》`標題插入，否則需人工核對text_sha256是否漂移。舌症四(13)、喉痹諸症五(14)共27條2026-09-29接續完成：16 cases、13個非醫案單元。喉痹諸症五篇「治驗」標籤前有連續8段理論引文（P001-008，含孫押班治都知潘元從喉閉之歷史軼事，非薛己親診不析出case_id），各自獨立成單元。方劑歸組仍留待處理完H13附方並注章時統一建立。text_sha256已確認穩定於20077b83...基線，插入位置正確（緊接既有結構化區塊尾端）。喉痛六（附乳蛾、懸癰、楊梅瘡）P001-021共21條2026-09-29接續完成：18 cases、6個非醫案單元。含P018簽名見證體（沈大方自署，記立齋先生/薛己以六味地黃丸料加山梔柴胡治其頸項拘攣案）；P020/P021案末薛己自註「余見《保嬰粹要》」「余見《外科樞要》」，另立cross_work_reference，不跨書合併病案。char-complete coverage全數validated，0 errors，text_sha256穩定。諸骨稻穀發鯁七(10)、治諸鯁咒法八(1)、誤吞水蛭九(1)、諸蟲入耳十(3)、蛇入七竅及蟲咬傷十一(1)、男女體氣十二(1)共17條2026-09-29接續完成：0 cases、17個非醫案單元（各自獨立formula_id）。此六篇皆簡短驗方列舉，無「治驗」標籤、無患者敘事。至此《口齒類要》除全書末章「附方並注」（204條，收全書方劑）外，其餘12篇（118條）全部完成首輪結構化：81 cases，45個非醫案單元。char-complete coverage全數validated，0 errors，text_sha256穩定於20077b83...基線。全書末章「附方並注」（H13，204條）2026-09-29接續完成：0 cases、204個非醫案單元，歸為71個formula_id（按方名+主治+藥味三段式逐方辨識邊界；其中7方僅方名+主治二段，因末句以「即前方/前散加…」或「即後方每料加…」指代他方藥味不重複列出；另1方「又方」薄荷葉蓬砂冰片吹喉方為單段附方，緊接潤喉散後但藥味不同、獨立成組）。方劑歸組屬模型依三段式體例推得，未經人工逐方覆核；各方與此前十二篇具體病案之對應關係本輪未逐一建立交叉引用。至此《口齒類要》全書十三篇322條首輪結構化全部完成：81 cases，249個非醫案單元（其中204個屬H13方劑），71 formula_group。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors，0 duplicate IDs，text_sha256穩定於20077b83...基線。order中第三本書已完成。",
+      "formula_group_count": 88,
+      "non_case_unit_count": 249
+    },
+    {
+      "work_id": "XJ-LZWKFH",
+      "title": "立齋外科發揮",
+      "source_records": 1170,
+      "source_record_kind_counts": {
+        "source_paragraph": 1170
+      },
+      "volume_record_counts": {
+        "敘": 2,
+        "卷一": 99,
+        "卷二": 136,
+        "卷三": 178,
+        "卷四": 115,
+        "卷五": 205,
+        "卷六": 121,
+        "卷七": 163,
+        "卷八": 151
+      },
+      "source_url": "https://jicheng.tw/tcm/book/%E7%AB%8B%E9%BD%8B%E5%A4%96%E7%A7%91%E7%99%BC%E6%8F%AE/index.html",
+      "source_edition_claim": "早稻田大學圖書館掃描本",
+      "rights_status": "CC0（依來源站著作權聲明）；古籍正文為公眾領域",
+      "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
+      "edition_view_url": null,
+      "scan_status_counts": {
+        "not_started": 1129,
+        "sampled_verified": 37,
+        "sampled_variants_found": 4
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 1170
+      },
+      "case_count": 445,
+      "case_structuring": "complete_full_first_pass_all_eight_volumes",
+      "electronic_source_alignment": "all_1170_paragraphs_and_33_chapters_aligned_with_documented_edits",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "current_snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "current_snapshot_date": "2026-09-29",
+      "current_snapshot_sha256": "92d5f11e7abb766eb850987cca96b4159be67a627232c2d5a367f1ae1a7e12b7",
+      "reconciliation_note": "1170/1170 exact-match except 4 already-documented legacy corrections; 0 chapter-boundary mismatches; no new unexplained differences",
+      "case_structuring_note": "敘2段+卷一3篇99條 2026-09-29完成：40 cases（含1段3患者拆分 XJ-LZWKFH-V1-P063，其中一案因不信醫囑而死）、74個非醫案單元（44個formula_group，多為書內互見存根「方見XX門」而非完整方劑定義）。本書結構與前三書不同：理論段後直接接病例，不設「治驗」分節標籤。過程中修正一處全形空格邊界導致的驗證失敗（audit_corpus.py的actual文本必經strip()，聲明跨度邊界不能落在純空白字符上）。卷二第一子篇「潰瘍發熱（附惡寒）」P001-041共41條2026-09-29接續完成：16 cases、25個非醫案單元（15個formula_group，含7個書內互見存根）。卷二第二子篇「發背」P042-098共57條2026-09-29接續完成：22 cases（含4段多患者拆分P053/054/057/059，各2-3名患者+段內或段末通論／集體轉歸文字；P053/P057兩處全形空格邊界依前例將空格與其後一字一併併入前一案跨度尾部，避免驗證器strip()邊界不對稱誤判）、48個非醫案單元（26個formula_group，含9個書內互見存根）。卷二第三子篇「腦疽」P099-136共38條2026-09-29接續完成：14 cases、28個非醫案單元（21個formula_group，含20個書內互見存根）。至此卷二三個子篇（136條）全部完成首輪逐案結構化。卷三前三子篇（鬢疽23條、時毒30條、疔瘡10條，共63條，篇名取自books()解析之原書h2標題）2026-09-29接續完成：24 cases、49個非醫案單元（26個formula_group）。含一段五段式拆分XJ-LZWKFH-V3-P009（主案+通論+兩則具名小案「福泉黃吏部」「周都憲」+齊氏／河間引文），及一段獨立無醫案通論P036（不強行掛靠前案）。卷三最後子篇「臀癰（附腿癰並腿痛腳氣）」P064-178共115條（全書單一子篇最大者）2026-09-29接續完成：52 cases、84個非醫案單元（42個formula_group）。含三段多患者拆分：P076（一老人/一弱人+通論）、P103（一男子+三則簡短具名見證「舍俞魯用」「蜀彭黃門大安人」「都金二官女」，因原文全形空格邊界併字，person_quote略去首字但原文無刪減+通論）、P107（一老人/一婦人「並愈」為兩案共同轉歸語+河間引文）。P104一段薛己自述服藥經驗（余中氣不足以補中益氣湯加附子）因緊接通論段內未獨立成句起始，本輪併入formula_use_commentary單元未析出獨立case_id。至此《立齋外科發揮》卷三全書178條（鬢疽/時毒/疔瘡/臀癰四子篇）首輪逐案結構化全部完成，連同已完成之敘+卷一+卷二，全書前三卷（413條）已完成。卷四（脫疽16條、肺癰肺痿66條、腸癰33條，共115條）2026-09-29接續完成：35 cases、89個非醫案單元（41個formula_group）。脫疽篇篇首連續三段（P001-003）皆通論無案，各自獨立成general_claim。無跨段落多患者拆分。至此敘+卷一至卷四（528條）全部完成首輪逐案結構化。卷五第一子篇「瘰癧」P001-097共97條（本書單一子篇次大者）2026-09-29接續完成：35 cases、80個非醫案單元（34個formula_group）。含2段多患者（以句號而非全形空格分隔，無邊界空白問題）：P015（4案+2則穿插通則）、P016（2案）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷五第二子篇「流注」P098-148共51條2026-09-29接續完成：24 cases、38個非醫案單元（22個formula_group）。含2段雙患者（P108、P116，皆句號分隔無邊界空白問題）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷五第三子篇「瘡瘍作渴」P149-180共32條2026-09-29接續完成：13 cases、21個非醫案單元（10個formula_group）。含3段獨立無病案通論（P154/P157/P163）及1段薛己自述方劑源流家學典故（P158案末author_commentary）。卷五第四子篇「作嘔」P181-205共25條2026-09-29接續完成：6 cases、20個非醫案單元（10個formula_group）。至此《立齋外科發揮》卷五全書（瘰癧/流注/瘡瘍作渴/作嘔四子篇，共205條）首輪逐案結構化全部完成，連同已完成之敘+卷一至卷四，全書前五卷（733條）已完成。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷六第一子篇「咽喉」P001-052共52條2026-09-29接續完成：31 cases、29個非醫案單元（14個formula_group）。含1段三患者拆分P024（婦人/彌月小兒/男子，皆萆薢湯所治潰蝕證，第二三案間全形空格依前例併字處理）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷六第二三子篇「癍疹（附小兒丹毒）」（28條）「天泡瘡（舊名）」（11條，共39條）2026-09-29接續完成：15 cases、30個非醫案單元（17個formula_group）。含1段5段式拆分P059（2案+3通論/引文，皆句號分隔）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷六最後子篇「楊梅瘡」P092-121共30條2026-09-29接續完成：11 cases、19個非醫案單元（15個formula_group）。P092為篇首括注（近時稱……），另立chapter_scope_note。至此《立齋外科發揮》卷六全書（咽喉/癍疹/天泡瘡/楊梅瘡四子篇，共121條）首輪逐案結構化全部完成，連同已完成之敘+卷一至卷五，全書前六卷（854條）已完成。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷七第一子篇「便癰」P001-036共36條2026-09-29接續完成：12 cases、25個非醫案單元（16個formula_group）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷七第二三子篇「懸癰」（22條）「下疳」（23條，共45條）2026-09-29接續完成：20 cases、30個非醫案單元（17個formula_group）。下疳篇P065-067、P068-069兩組「多段共享轉歸」結構（症狀簡述段treatment_record_status=shared_unit_only，末案以shared_case_refs回指），為本書首見。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷七第四子篇「囊癰」P082-105共24條2026-09-29接續完成：9 cases、17個非醫案單元（12個formula_group）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷七最後子篇「痔漏附便血脫肛」P106-163共58條（本卷單一子篇最大者）2026-09-29接續完成：15 cases、49個非醫案單元（23個formula_group）。P120全段引河間《內經》無病案，段首「一」屬列舉用語非患者。P160為痔病因通論不歸入方劑組。至此《立齋外科發揮》卷七全書（便癰/懸癰/下疳/囊癰/痔漏五子篇，共163條）首輪逐案結構化全部完成，連同已完成之敘+卷一至卷六，全書前七卷（1017條）已完成。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷八第一二子篇「便秘門」（14條）「乳癰附乳岩並男子乳癰」（44條，共58條）2026-09-29接續完成：26 cases、40個非醫案單元（23個formula_group）。乳癰篇含3例婦人乳岩不信醫囑而歿、1例男子乳岩辭不治果死，均保留原記不作療效推斷。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷八第三四子篇「婦人血風瘡附陰瘡陰腫陰挺」（25條）「瘡疥」（24條，共49條）2026-09-29接續完成：14 cases、36個非醫案單元（21個formula_group）。血風瘡篇之附項（陰瘡/陰腫/陰挺，P075-083）僅列方劑無病案，直接續列於本篇方劑之後。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors。卷八第五六子篇「杖瘡附墜馬並破傷風及犬蛇蟲傷」（15條）「傷損脈法」（29條，共44條）2026-09-29接續完成：11 cases、37個非醫案單元（19個formula_group）。杖瘡篇無「附方」分節標籤，方劑段落直接接續病案。傷損脈法篇前三段（P123-125）為《內經》《金匱》《脈經》脈法引文，各自獨立成quoted_author_claim。至此《立齋外科發揮》全書八卷1170條（敘2+卷一99+卷二136+卷三178+卷四115+卷五205+卷六121+卷七163+卷八151，注：敘計入卷一總數99內）首輪逐案結構化全部完成：445 cases，900+非醫案單元，450+ formula_group（本書累計，跨全部八卷）。char-complete coverage全數validated via work/audit_corpus.py + work/validate_complete_corpus.py，0 errors，0 duplicate IDs。《立齋外科發揮》為本輪NEXT-04任務的第二本書，已完成；下一步按order接續《口齒類要》（322條）",
+      "formula_group_count": 468,
+      "non_case_unit_count": 875
+    },
+    {
+      "work_id": "XJ-WKSY",
+      "title": "外科樞要",
+      "source_records": 853,
+      "source_record_kind_counts": {
+        "source_paragraph": 853
+      },
+      "volume_record_counts": {
+        "序": 2,
+        "卷一": 100,
+        "卷二": 166,
+        "卷三": 168,
+        "卷四": 417
+      },
+      "source_url": "https://jicheng.tw/tcm/book/%E5%A4%96%E7%A7%91%E6%A8%9E%E8%A6%81/index.html",
+      "source_edition_claim": "日本承應三年（1654年）刊本；國家圖書館掃描本",
+      "rights_status": "CC0（依來源站著作權聲明）；古籍正文為公眾領域",
+      "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
+      "edition_view_url": null,
+      "scan_status_counts": {
+        "not_started": 615,
+        "sampled_variants_found": 101,
+        "sampled_verified": 137
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 852,
+        "needs_review": 1
+      },
+      "case_count": 277,
+      "case_structuring": "complete_full_first_pass_all_four_volumes",
+      "case_structuring_note": "《外科樞要》全書（序2段+卷一100+卷二166+卷三168+卷四417=853條）2026-09-29全部完成首輪結構化：277 cases（多具名具職官身分患者，含3個一段多案拆分/共享單元：卷一P066簽名見證例、卷二P031/P142各拆兩案）、417個formula_text/external_treatment_method_diagram單元（156個formula_group），另167個卷一/卷二/卷三引導性非醫案單元+若干案末拆出或共享片段。char-complete coverage validated via work/audit_corpus.py + work/validate_complete_corpus.py，全數通過無錯誤。影像逐字核校仍未完成（除既有標記外）",
+      "electronic_source_alignment": "all_853_paragraphs_and_62_chapters_aligned_with_documented_edits",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "current_snapshot_path": "work/source-snapshots/wksy-index-2026-09-29.html",
+      "current_snapshot_date": "2026-09-29",
+      "current_snapshot_sha256": "16fc174eede550bcf6b15002c7d485b7ed2583d08f48f671d08ded1745008797",
+      "reconciliation_note": "851/851 aligned snapshot paragraphs exact-match except 98 already-documented legacy corrections; working transcription retains 2 additional records (V4-P416/P417) recovered from image verification, matching existing handoff record",
+      "formula_group_count": 156,
+      "non_case_unit_count": 584
+    },
+    {
+      "work_id": "XJ-LYJY",
+      "title": "癘瘍機要",
+      "source_records": 407,
+      "source_record_kind_counts": {
+        "source_paragraph": 407
+      },
+      "volume_record_counts": {
+        "序": 2,
+        "上卷": 113,
+        "中卷": 71,
+        "下卷": 221
+      },
+      "source_url": "https://jicheng.tw/tcm/book/%E7%99%98%E7%98%8D%E6%A9%9F%E8%A6%81/index.html",
+      "source_edition_claim": "日本承應三年（1654年）刊本；國家圖書館掃描本",
+      "rights_status": "CC0（依來源站著作權聲明）；古籍正文為公眾領域",
+      "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
+      "edition_view_url": null,
+      "scan_status_counts": {
+        "not_started": 395,
+        "sampled_verified": 5,
+        "sampled_variants_found": 7
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 406,
+        "needs_review": 1
+      },
+      "case_count": 125,
+      "case_structuring": "complete_full_first_pass_序_上卷_中卷_下卷",
+      "electronic_source_alignment": "all_407_paragraphs_and_10_chapters_aligned_with_documented_edits",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "current_snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "current_snapshot_date": "2026-09-29",
+      "current_snapshot_sha256": "f0c0f3a938860d7a2a360350b68407422720142d85c1ee83d78cbadf1a96b6c2",
+      "reconciliation_note": "407/407 working-transcription paragraphs exact-match current snapshot's first 407 except 7 already-documented legacy corrections; current snapshot's 2 trailing extra paragraphs (當歸川芎散) already identified in handoff as misattributed and intentionally excluded",
+      "case_structuring_note": "2026-09-29：《癘瘍機要》全書407段首輪結構化全部完成。序2段+上卷113段（59個非醫案單元+54個case_id，本症治驗13案+類症治驗41案，P073-075具名患者欽天薛天契/翟鴻臚/松江掌教翟立之，P113門人朱大經卷末簽署見證案）+中卷「續治諸症」71段（71個case_id，P19余甥凌雲漢、P20稽勳季龍岡、P28舉人陸世明為具名患者）+下卷「各症方藥」221段（113個formula_id方劑組+3個愚按按語單元，0個病案）。合計125 case_id、282非醫案單元（61理論+221方藥章）。char-completecoverage全數通過，0 errors，0 duplicate IDs。過程中發現並修正一處與此書相關但更早存在（非本輪插入所致）的來源層瑕疵：全書最後一段XJ-LYJY-V3-P221的books()解析結果尾隨一段Markdown書間分隔線「\\n\\n---」（RECORD_RE對書邊界無3-5#標題時的已知邊界不敏感問題，詳見HANDOFF.md第6節），與XJ-NKZY-V2-P368、XJ-WKSY-V4-P417同一模式。核查確認全語料庫僅此3處受影響（NKZY/WKSY早於本輪已各自建有結構化單元採用「不改來源正文、由覆蓋其上的結構化單元span涵蓋全部含分隔線字元」之先例處置，保持text_sha256不變）；本輪為XJ-LYJY-U-V3-P221比照同一先例處置（source_end_char_exclusive=181含分隔線，並附editorial_separator_note），未改動原始來源文字層，source-layer text_sha256全程未變（20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9）。",
+      "formula_group_count": 113,
+      "non_case_unit_count": 282
+    },
+    {
+      "work_id": "XJ-BYCY",
+      "title": "保嬰粹要",
+      "source_records": 1139,
+      "source_record_kind_counts": {
+        "source_line": 1139
+      },
+      "volume_record_counts": {
+        "卷五": 1139
+      },
+      "source_url": "https://github.com/kanripo/KR3e0070/blob/master/KR3e0070_005.txt",
+      "source_edition_claim": "文渊阁《四库全书》本《薛氏医案》卷五（WYG）",
+      "rights_status": "Kanseki Repository 标示 CC BY-SA；具体版本号未标明；古籍原文为公有领域",
+      "rights_statement_url": "https://krx.kanripo.org/text/KR3e0070/",
+      "edition_view_url": "https://www.kanripo.org/ed/KR3e0070/WYG/005",
+      "scan_status_counts": {
+        "not_started": 1111,
+        "sampled_verified": 21,
+        "sampled_variants_found": 7
+      },
+      "retrieval_status_counts": {
+        "source_research_with_caveats": 1138,
+        "needs_review": 1
+      },
+      "case_count": 119,
+      "case_structuring": "complete_full_first_pass_全書1139行",
+      "electronic_source_alignment": "all_1139_lines_exact_match_current_kanripo_snapshot_144_folios",
+      "edition_chapter_completeness": "pending_external_chapter_mapping",
+      "image_text_completeness": "partial_legacy_samples_only",
+      "current_snapshot_path": "work/source-snapshots/bycy-kr3e0070_005-2026-09-29.txt",
+      "current_snapshot_date": "2026-09-29",
+      "current_snapshot_sha256": "b982c9002432898bb4ad7e5c8a145a0147cbc3c5359626b97f2ace05594801ab",
+      "reconciliation_note": "1139/1139 lines byte-identical to current raw Kanripo GitHub file (0 folio mismatches, 0 text diffs)",
+      "case_structuring_note": "2026-09-29：《保嬰粹要》全書1139行（L0001-L1139）首輪結構化全部完成，BYCY為既定NEXT-04順序中最後一書，至此八書全部完成首輪結構化。BYCY結構與其餘七書不同（四庫全書無標點逐行來源，非分段落source_paragraph；單案常跨2-10+行，另見多處單行多患者以○或全形空格分隔的集體轉歸案例）。為此擴展work/audit_corpus.py新增continued_source_refs複數欄位（分號分隔sid:start:end三元組鏈，支援任意長度多行拼接及同行不重疊字元分攤），並修復兩處配套缺陷（U+3000被.strip()誤剝離、coverage_id覆蓋檢查固定三位數補零不適配BYCY四位數行號），已用全量5357條記錄重新驗證0回歸、text_sha256全程未變，詳見HANDOFF.md第4、6節。四個並行agent分段草擬並逐一插入驗證：前置卷首L0001-4+第1-4篇寒熱瘰癧/驚搐瘰癧/流注/鶴膝風（L0005-174，34 case_id+15 text_unit_id）、第5-10篇胎毒發丹/傷食發丹/癍疹/五臟疳瘡/口瘡/瘡瘍（L0175-385，44 case_id+18 text_unit_id）、第11-19篇瘡疥/痘毒/天疱瘡/楊梅瘡/黄水粘瘡/痔瘡/肛門作痒/囊癰/下疳并陰痿+卷末附避難止小兒啼+終題（L0386-573、L1133-1139，41 case_id+32 text_unit_id）、附方并註方藥附錄（L0574-1132，112個formula_id方劑組，0獨立按語單元）。合計119 case_id、178個非醫案單元（含chapter_scope_note、section_label、general_claim、collective_outcome_note及新增appended_practical_note）+112 formula_id。char-complete coverage全數通過，0 errors，0 duplicate IDs，並額外以獨立Python腳本核對全書1139行零缺口零重疊。影像逐字核校未開始。",
+      "formula_group_count": 112,
+      "non_case_unit_count": 178
+    }
+  ],
+  "pending_sources": [
+    {
+      "source_id": "XJ-NKZY-V1-P071",
+      "reason": "所標承應本確切頁待定位；已有讀法據嘉靖影像／四庫平行本",
+      "source_metadata": {
+        "source_id": "XJ-NKZY-V1-P071",
+        "work_id": "XJ-NKZY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "卷上",
+        "section": "七、脾胃虧損吞酸噯腐等症",
+        "source_location": "卷上・七、脾胃虧損吞酸噯腐等症・正文段落71",
+        "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
+        "parallel_source_url": "https://zh.wikisource.org/wiki/%E8%96%9B%E6%B0%8F%E9%86%AB%E6%A1%88_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B701",
+        "scan_verification_status": "sampled_variants_found",
+        "rights_status": "CC0_public_transcription",
+        "collation_status": "corrected_against_1548_scan_and_WYG; 1654_exact_page_pending",
+        "original_public_transcription": "足脈漸復",
+        "preferred_reading": "尺脈漸復",
+        "difference_grade": "B_pulse_term",
+        "retrieval_warning": "公開轉錄將尺脈誤作足脈；引用時顯示校正與承應本確切頁待定位",
+        "retrieval_status": "needs_review",
+        "evidence_status": "unresolved",
+        "review_method": "legacy_model_review_human_review_not_documented",
+        "original_transcription_recovery": "current_snapshot_available_historical_snapshot_unknown",
+        "difference_type": "legacy_description_requires_facet_review",
+        "difference_impact": "content_or_retrieval",
+        "pending_reason": "所標承應本確切頁待定位；已有讀法據嘉靖影像／四庫平行本",
+        "current_source_paragraph_ordinal": "71",
+        "current_source_alignment": "different_with_legacy_collation",
+        "current_source_snapshot_date": "2026-09-28",
+        "current_source_transcription": "趙吏部文卿，患吐不止，吐出皆酸味，氣口脈大於人迎二三倍，速予投劑。予曰：此食鬱上，宜吐，不須用藥，乃候。其吐清水無酸氣，寸脈漸減，足脈漸復。翌早吐止，至午脈俱平復，勿藥自安。後撫陝右過蘇，顧訪傾蓋清談，厚過於昔，且念余在林下，頻以言慰之。"
+      }
+    },
+    {
+      "source_id": "XJ-NKZY-V1-P174",
+      "reason": "所標承應本確切頁待定位；方後指令標記按 C0 記錄",
+      "source_metadata": {
+        "source_id": "XJ-NKZY-V1-P174",
+        "work_id": "XJ-NKZY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "卷上",
+        "section": "十二、各症方藥",
+        "source_location": "卷上・十二、各症方藥・正文段落174",
+        "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
+        "parallel_source_url": "https://zh.wikisource.org/wiki/%E8%96%9B%E6%B0%8F%E9%86%AB%E6%A1%88_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B701",
+        "scan_verification_status": "sampled_variants_found",
+        "rights_status": "CC0_public_transcription",
+        "collation_status": "corrected_against_1548_scan_and_WYG; 1654_exact_page_pending",
+        "original_public_transcription": "上各另為末",
+        "preferred_reading": "右各另為末",
+        "difference_grade": "C_formula_instruction_glyph",
+        "retrieval_warning": "公開轉錄將右誤作上；正文已校正，承應本確切頁待定位",
+        "retrieval_status": "needs_review",
+        "evidence_status": "unresolved",
+        "review_method": "legacy_model_review_human_review_not_documented",
+        "original_transcription_recovery": "current_snapshot_available_historical_snapshot_unknown",
+        "difference_type": "legacy_description_requires_facet_review",
+        "difference_impact": "unassessed",
+        "pending_reason": "所標承應本確切頁待定位；方後指令標記按 C0 記錄",
+        "current_source_paragraph_ordinal": "174",
+        "current_source_alignment": "different_with_legacy_collation",
+        "current_source_snapshot_date": "2026-09-28",
+        "current_source_transcription": "上各另為末，和地黃加煉蜜，丸桐子大，每服七、八十丸，空心食前滾湯下。"
+      }
+    },
+    {
+      "source_id": "XJ-LYJY-V3-P018",
+      "reason": "四庫卷十九影像未核；劑量疑點不得定為版本事實",
+      "source_metadata": {
+        "source_id": "XJ-LYJY-V3-P018",
+        "work_id": "XJ-LYJY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "下卷",
+        "section": "各症方藥",
+        "source_location": "下卷・各症方藥・正文段落18",
+        "source_url": "https://jicheng.tw/tcm/book/%E7%99%98%E7%98%8D%E6%A9%9F%E8%A6%81/index.html",
+        "scan_source_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0010_%E7%99%98%E7%98%8D%E6%A9%9F%E8%A6%81.pdf?page=70",
+        "parallel_source_url": "https://zh.wikisource.org/wiki/%E8%96%9B%E6%B0%8F%E9%86%AB%E6%A1%88_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B719",
+        "scan_verification_status": "sampled_variants_found",
+        "rights_status": "CC0_public_transcription",
+        "collation_status": "instruction_glyph_corrected_against_1654_scan; parallel_transcription_discrepancy_not_confirmed_as_edition_variant",
+        "original_public_transcription": "白朮、山梔、荊芥各二錢五分；上為末",
+        "preferred_reading": "承應三年本：白朮、山梔、荊芥各二錢五分；右為末",
+        "parallel_edition_variant": "四庫卷十九公開轉錄疑讀（影像未核）：白朮、山梔、荊芥各五錢五分；右為末；同套四庫公開轉錄卷十六相同三味作各二錢五分",
+        "difference_grade": "D_WYG_image_unavailable_plus_B_dose_risk_plus_C_instruction_glyph",
+        "retrieval_warning": "二錢五分／五錢五分涉及劑量；四庫卷十九影像未核，現有證據不足以確認版本異文；回答必須顯示為轉錄疑點，不得生成臨床劑量建議",
+        "retrieval_status": "needs_review",
+        "evidence_status": "unresolved",
+        "review_method": "legacy_model_review_human_review_not_documented",
+        "original_transcription_recovery": "source_snapshot_missing",
+        "difference_type": "legacy_description_requires_facet_review",
+        "difference_impact": "unassessed",
+        "pending_reason": "四庫卷十九影像未核；劑量疑點不得定為版本事實"
+      }
+    },
+    {
+      "source_id": "XJ-BYCY-V5-L1138",
+      "reason": "卷末緊密字行需第二影像覆核",
+      "source_metadata": {
+        "source_id": "XJ-BYCY-V5-L1138",
+        "work_id": "XJ-BYCY",
+        "text_layer": "original_text",
+        "record_kind": "source_line",
+        "volume": "卷五",
+        "folio": "KR3e0070_WYG_005-72a",
+        "source_location": "卷五・KR3e0070_WYG_005-72a・原始行1138",
+        "source_url": "https://github.com/kanripo/KR3e0070/blob/master/KR3e0070_005.txt",
+        "scan_source_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0013_%E4%BF%9D%E5%AC%B0%E7%B2%B9%E8%A6%81.pdf?page=72",
+        "scan_verification_status": "sampled_variants_found",
+        "early_edition_variant": "四庫公開轉錄作“特取以附之庶或可以推廣”；承應三年本可辨作“庶取以附之廣或可以推廣”",
+        "difference_grade": "D_tight_line_requires_second_scan_confirmation",
+        "retrieval_warning": "承應本本行版面緊密；異文已登記但不據此改寫四庫正文，待第二影像源覆核",
+        "rights_status": "CC_BY_SA_version_unspecified",
+        "retrieval_status": "needs_review",
+        "evidence_status": "unresolved",
+        "review_method": "legacy_model_review_human_review_not_documented",
+        "original_transcription_recovery": "source_snapshot_missing",
+        "difference_type": "legacy_description_requires_facet_review",
+        "difference_impact": "unassessed",
+        "pending_reason": "卷末緊密字行需第二影像覆核"
+      }
+    },
+    {
+      "source_id": "XJ-WKSY-V4-P168",
+      "reason": "方名小注讀法差異已登記；差異成因與原刻注文作者未核",
+      "source_metadata": {
+        "source_id": "XJ-WKSY-V4-P168",
+        "work_id": "XJ-WKSY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "卷四",
+        "section": "治瘡瘍各症附方",
+        "source_location": "卷四・治瘡瘍各症附方・正文段落168",
+        "source_url": "https://jicheng.tw/tcm/book/%E5%A4%96%E7%A7%91%E6%A8%9E%E8%A6%81/index.html",
+        "secondary_scan_source_url": "https://archive.wul.waseda.ac.jp/kosho/ya09/ya09_00584/ya09_00584_0037/ya09_00584_0037_p0049.jpg",
+        "scan_verification_status": "sampled_variants_found",
+        "collation_status": "formula_alias_corrected_against_Waseda_scan",
+        "original_public_transcription": "六味丸（一名六味地黃丸）",
+        "preferred_reading": "六味丸（一名地黃丸）",
+        "difference_grade": "B_formula_alias",
+        "retrieval_warning": "公開轉錄在原刻小注『一名地黃丸』中增入『六味』二字；方名檢索須保留兩種讀法並顯示校勘狀態",
+        "rights_status": "CC0_public_transcription",
+        "retrieval_status": "needs_review",
+        "evidence_status": "unresolved",
+        "review_method": "legacy_model_review_human_review_not_documented",
+        "original_transcription_recovery": "source_snapshot_missing",
+        "difference_type": "legacy_description_requires_facet_review",
+        "difference_impact": "content_or_retrieval",
+        "pending_reason": "方名小注讀法差異已登記；差異成因與原刻注文作者未核"
+      }
+    },
+    {
+      "source_id": "XJ-NKZY-V2-P083",
+      "reason": "府癢：官稱用字可疑，尚無影像核對；保留原字",
+      "source_metadata": {
+        "source_id": "XJ-NKZY-V2-P083",
+        "work_id": "XJ-NKZY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "卷下",
+        "section": "九、肝脾腎虧損下部瘡腫等症",
+        "source_location": "卷下・九、肝脾腎虧損下部瘡腫等症・正文段落83",
+        "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
+        "scan_verification_status": "not_started",
+        "rights_status": "CC0_public_transcription",
+        "retrieval_status": "needs_review",
+        "current_source_paragraph_ordinal": "259",
+        "current_source_alignment": "exact",
+        "current_source_snapshot_date": "2026-09-28"
+      }
+    },
+    {
+      "source_id": "XJ-NKZY-V2-P178",
+      "reason": "草果茯苓：藥名分隔待影像核對；不擅自增字",
+      "source_metadata": {
+        "source_id": "XJ-NKZY-V2-P178",
+        "work_id": "XJ-NKZY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "卷下",
+        "section": "十一、各症方藥",
+        "source_location": "卷下・十一、各症方藥・正文段落178",
+        "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
+        "scan_verification_status": "not_started",
+        "rights_status": "CC0_public_transcription",
+        "retrieval_status": "needs_review",
+        "current_source_paragraph_ordinal": "354",
+        "current_source_alignment": "exact",
+        "current_source_snapshot_date": "2026-09-28"
+      }
+    },
+    {
+      "source_id": "XJ-NKZY-V2-P179",
+      "reason": "承應本第86頁圖讀右姜七片，電子轉錄上姜七斤；斤／片涉及用量單位，保留原文待人工審定",
+      "source_metadata": {
+        "source_id": "XJ-NKZY-V2-P179",
+        "work_id": "XJ-NKZY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "卷下",
+        "section": "十一、各症方藥",
+        "source_location": "卷下・十一、各症方藥・正文段落179",
+        "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
+        "scan_verification_status": "sampled_variants_found",
+        "rights_status": "CC0_public_transcription",
+        "retrieval_status": "needs_review",
+        "current_source_paragraph_ordinal": "355",
+        "current_source_alignment": "exact",
+        "current_source_snapshot_date": "2026-09-28",
+        "current_scan_source_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0008_%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81.pdf?page=86",
+        "current_scan_edition": "國家圖書館藏日本承應三年刊本，索書號304.31 06248-0008；PDF第86頁",
+        "current_scan_raw_reading": "右姜七片烏梅一箇水煎服",
+        "current_scan_difference": "上／右：方後指令標記；斤／片：生薑用量單位；個／箇：字形差異",
+        "current_scan_difference_type": "instruction_marker_and_dose_unit_and_glyph",
+        "current_scan_difference_impact": "dose_unit_content_difference_not_equivalent_marker_only",
+        "current_scan_evidence_status": "model_visual_reading_of_target_line_not_human_adjudicated",
+        "current_scan_review_date": "2026-09-28",
+        "current_scan_review_method": "Computer Use單頁高分辨率圖像人工輔助逐字查看；未使用OCR代替原字",
+        "current_scan_scope": "只核對人參養胃湯方後指令一行；不宣稱全頁或全方已校定"
+      }
+    },
+    {
+      "source_id": "XJ-NKZY-V2-P308",
+      "reason": "加減濟生腎氣丸各一錢：多味藥量待影像核對，疑點不是已證實錯誤",
+      "source_metadata": {
+        "source_id": "XJ-NKZY-V2-P308",
+        "work_id": "XJ-NKZY",
+        "text_layer": "original_text",
+        "record_kind": "source_paragraph",
+        "volume": "卷下",
+        "section": "十一、各症方藥",
+        "source_location": "卷下・十一、各症方藥・正文段落308",
+        "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
+        "scan_verification_status": "not_started",
+        "rights_status": "CC0_public_transcription",
+        "retrieval_status": "needs_review",
+        "current_source_paragraph_ordinal": "484",
+        "current_source_alignment": "exact",
+        "current_source_snapshot_date": "2026-09-28"
+      }
+    }
+  ],
+  "current_scan_notes": {
+    "XJ-NKZY-V2-P179": {
+      "current_scan_source_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0008_%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81.pdf?page=86",
+      "current_scan_edition": "國家圖書館藏日本承應三年刊本，索書號304.31 06248-0008；PDF第86頁",
+      "current_scan_raw_reading": "右姜七片烏梅一箇水煎服",
+      "current_scan_difference": "上／右：方後指令標記；斤／片：生薑用量單位；個／箇：字形差異",
+      "current_scan_difference_type": "instruction_marker_and_dose_unit_and_glyph",
+      "current_scan_difference_impact": "dose_unit_content_difference_not_equivalent_marker_only",
+      "current_scan_evidence_status": "model_visual_reading_of_target_line_not_human_adjudicated",
+      "current_scan_review_date": "2026-09-28",
+      "current_scan_review_method": "Computer Use單頁高分辨率圖像人工輔助逐字查看；未使用OCR代替原字",
+      "current_scan_scope": "只核對人參養胃湯方後指令一行；不宣稱全頁或全方已校定",
+      "scan_verification_status": "sampled_variants_found"
+    }
+  },
+  "snapshot_status": {
+    "available": [
+      "work/source-snapshots/nkzy-2026-09-28.html",
+      "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "work/source-snapshots/wksy-index-2026-09-29.html",
+      "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "work/source-snapshots/kcly-index-2026-09-29.html",
+      "work/source-snapshots/ztly-index-2026-09-29.html",
+      "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "work/source-snapshots/bycy-kr3e0070_005-2026-09-29.txt"
+    ],
+    "historical_acquisition_snapshots": "not_found",
+    "all_eight_books_now_have_current_snapshots": true
+  },
+  "original_user_input": {
+    "path": "inputs/SSID-12152874_家居醫錄_內科摘要_卷上.pdf",
+    "bytes": 64149287,
+    "sha256": "0e3ba1cfbc1e4d9c12be8201337d0454d83ea4fef5cb81f53e9384b68ba10e18",
+    "rights": "user_provided_internal_research_input_not_open_license_assertion",
+    "version_and_completeness": "not_reassessed_for_handoff"
+  },
+  "excluded_from_package": [
+    "node_modules",
+    "__pycache__",
+    "software runtimes",
+    "browser state and authentication",
+    "unrelated task files"
+  ],
+  "missing_materials_not_reconstructed": [
+    "historical raw snapshots for eight books (only current 2026-09-29 snapshots exist now)",
+    "local copy of the newly viewed page86 scan"
+  ],
+  "derived_image_status": "archive/derived-images/nkzy-p-05.png is a legacy artifact; exact source-page mapping not re-established",
+  "all_historical_links_live_checked_at_handoff": false,
+  "deployed_qa_system": false,
+  "candidate_repeat_pairs": {
+    "date": "2026-09-30",
+    "pairs": 71,
+    "cases_flagged": 127,
+    "method": "字形归一后5-gram（含BYCY单独3-gram变体归一）机械筛出，字段 possible_repeat_case_refs/metrics/status/basis",
+    "status": "candidate_not_confirmed_same_patient"
+  },
+  "baseline_comparison_layer": {
+    "date": "2026-09-30",
+    "baseline_cards": 46,
+    "comparisons": 83,
+    "comparison_categories": {
+      "貫通": 26,
+      "發展": 17,
+      "張力／差異": 23,
+      "明確反對": 8,
+      "證據不足": 9
+    },
+    "status": "model_drafted_not_human_reviewed",
+    "location": "主稿末尾结构化区，标记 BASELINE_COMPARISON_BEGIN/END",
+    "themes": "脾胃／腎水命門(2卡)／肝血燥生風／誤用風藥／托裡內治／治本先後／攻下砭針條件／脈症虛實(3卡)／小兒(3卡)／婦人肝脾與經血(2卡)／正體(3卡)",
+    "rounds": 2,
+    "round2_scope": "外治針砭灸(7卡)、口齒類要(4卡)、保嬰粹要多行引文(15卡)、跨書同病同案比較(26條)、引文作者比較(32條，18位作者/书)",
+    "multiline_quotes": "p{k}_continued_source_refs 等，续行直接连接不加分隔符，仅用于保嬰粹要"
+  },
+  "wikisource_skqs_comparison": {
+    "date": "2026-09-30",
+    "books_compared": [
+      "XJ-NKZY",
+      "XJ-NKCZ",
+      "XJ-BYCY",
+      "XJ-KCLY",
+      "XJ-ZTLY",
+      "XJ-WKSY",
+      "XJ-LYJY"
+    ],
+    "not_available": "XJ-LZWKFH（四庫本薛氏醫案不收）",
+    "classified_differences": 3159,
+    "content_high": 333,
+    "records_annotated_skqs_variant_note": 278,
+    "status": "mechanical_alignment_plus_model_classification_not_human_reviewed_not_image_verified",
+    "files": "work/edition-compare/（README、edition_diffs_all.json、glyph_variant_pairs_ge5.json、raw_alignment_summary.json）；work/compare_wikisource_skqs.py；work/source-snapshots/wikisource-skqs/",
+    "image_check_sample": {
+      "items": 84,
+      "records": 82,
+      "print_agrees_with_skqs": 57,
+      "print_agrees_with_working": 22,
+      "neither": 5,
+      "unreadable_or_not_located": 0,
+      "note": "抽样自内容·高短替换差异；模型视觉读取，非人工裁定；不可外推为全书错误率"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "work_id": "XJ-KCLY",
+  "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+  "snapshot_sha256": "db74dbe8fdf885cc11a26a2addfa57a4c7561b885305cb4179044abe859e673d",
+  "existing_record_count": 322,
+  "snapshot_paragraph_count": 322,
+  "count_matches": true,
+  "chapter_boundary_mismatches": 0,
+  "text_diffs": 7,
+  "chapter_mismatch_detail": [],
+  "diff_detail": [
+    {
+      "ordinal": 232,
+      "source_id": "XJ-KCLY-H13-P114",
+      "has_legacy_difference_grade": true,
+      "existing_text": "蒼朮（炒）　神麯（炒）　香附子　山查　山梔（炒）　撫芎　麥芽（炒，各等分）　右為末，水調神麯糊丸，桐子大。每服五七十丸，滾湯下。",
+      "snapshot_text": "蒼朮（炒）　神麯（炒）　香附子　山查　山梔（炒）　撫芎　麥芽（炒，各等分）　上為末，水調神麯糊丸，桐子大。每服五七十丸，滾湯下。"
+    },
+    {
+      "ordinal": 235,
+      "source_id": "XJ-KCLY-H13-P117",
+      "has_legacy_difference_grade": true,
+      "existing_text": "當歸　熟地黃（各三錢）　芍藥　川芎（各二錢）　右水煎服。",
+      "snapshot_text": "當歸　熟地黃（各三錢）　芍藥　川藥（各二錢）　上水煎服。"
+    },
+    {
+      "ordinal": 238,
+      "source_id": "XJ-KCLY-H13-P120",
+      "has_legacy_difference_grade": true,
+      "existing_text": "黃耆（炙，一兩）　當歸（酒製，二錢）　右水煎服。",
+      "snapshot_text": "黃耆（炙，一兩）　當歸（酒製，二錢）　上水煎服。"
+    },
+    {
+      "ordinal": 241,
+      "source_id": "XJ-KCLY-H13-P123",
+      "has_legacy_difference_grade": true,
+      "existing_text": "當歸　生地黃　白芍藥　川芎　黃連　胡黃連（各一錢）　右水煎服。",
+      "snapshot_text": "當歸　生地黃　白芍藥　川芎　黃連　胡黃連（各一錢）　上水煎服。"
+    },
+    {
+      "ordinal": 244,
+      "source_id": "XJ-KCLY-H13-P126",
+      "has_legacy_difference_grade": true,
+      "existing_text": "犀角（鎊）　生地黃　白芍藥　黃芩　牡丹皮　黃連（各一錢）　右水煎熟，入犀末服。若因怒而患，加柴胡、山梔。",
+      "snapshot_text": "犀角（鎊）　生地黃　白芍藥　黃芩　牡丹皮　黃連（各一錢）　上水煎熟，入犀末服。若因怒而患，加柴胡、山梔。"
+    },
+    {
+      "ordinal": 247,
+      "source_id": "XJ-KCLY-H13-P129",
+      "has_legacy_difference_grade": true,
+      "existing_text": "當歸　熟地黃（自制）　生地黃　黃耆（炒）　黃連（炒黑）　黃芩（炒黑）　黃柏（炒黑，各一錢）右水煎服。",
+      "snapshot_text": "當歸　熟地黃（自制）　生地黃　黃耆（炒）　黃連（炒黑）　黃芩（炒黑）　黃柏（炒黑，各一錢）上水煎服。"
+    },
+    {
+      "ordinal": 250,
+      "source_id": "XJ-KCLY-H13-P132",
+      "has_legacy_difference_grade": true,
+      "existing_text": "甘草（炙）　當歸　芍藥（炒）　茯苓　白朮（炒）　柴胡（各一錢）　右水煎服。",
+      "snapshot_text": "甘草（炙）　當歸　芍藥（炒）　茯苓　白朮（炒）　柴胡（各一錢）　上水煎服。"
+    }
+  ]
+}

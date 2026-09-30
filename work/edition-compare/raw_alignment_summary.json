@@ -1,0 +1,84 @@
+{
+ "glyph_pair_threshold": 5,
+ "glyph_pairs": 178,
+ "books": {
+  "XJ-NKZY": {
+   "volumes": [
+    1,
+    2
+   ],
+   "working_chars": 27984,
+   "skqs_chars": 28508,
+   "equal_ratio": 0.9324,
+   "raw_diffs": 1734,
+   "residual_after_glyph_pairs": 408
+  },
+  "XJ-NKCZ": {
+   "volumes": [
+    3,
+    4
+   ],
+   "working_chars": 31573,
+   "skqs_chars": 30556,
+   "equal_ratio": 0.8897,
+   "raw_diffs": 2000,
+   "residual_after_glyph_pairs": 483
+  },
+  "XJ-BYCY": {
+   "volumes": [
+    5
+   ],
+   "working_chars": 17765,
+   "skqs_chars": 17767,
+   "equal_ratio": 0.998,
+   "raw_diffs": 32,
+   "residual_after_glyph_pairs": 2
+  },
+  "XJ-KCLY": {
+   "volumes": [
+    10
+   ],
+   "working_chars": 11579,
+   "skqs_chars": 11652,
+   "equal_ratio": 0.9,
+   "raw_diffs": 914,
+   "residual_after_glyph_pairs": 340
+  },
+  "XJ-ZTLY": {
+   "volumes": [
+    11,
+    12
+   ],
+   "working_chars": 16410,
+   "skqs_chars": 16629,
+   "equal_ratio": 0.9029,
+   "raw_diffs": 1137,
+   "residual_after_glyph_pairs": 428
+  },
+  "XJ-WKSY": {
+   "volumes": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "working_chars": 54925,
+   "skqs_chars": 54737,
+   "equal_ratio": 0.9111,
+   "raw_diffs": 3916,
+   "residual_after_glyph_pairs": 1004
+  },
+  "XJ-LYJY": {
+   "volumes": [
+    17,
+    18,
+    19
+   ],
+   "working_chars": 27327,
+   "skqs_chars": 26780,
+   "equal_ratio": 0.892,
+   "raw_diffs": 1985,
+   "residual_after_glyph_pairs": 496
+  }
+ }
+}

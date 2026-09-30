@@ -1,0 +1,62 @@
+{
+  "work_id": "XJ-NKCZ",
+  "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+  "snapshot_sha256": "28921572ccecdf2bb34d1e907b8f7e7616f48f446735dbdcf8f95b9463f59c20",
+  "existing_record_count": 593,
+  "snapshot_paragraph_count": 593,
+  "count_matches": true,
+  "chapter_boundary_mismatches": 0,
+  "text_diffs": 7,
+  "chapter_mismatch_detail": [],
+  "diff_detail": [
+    {
+      "ordinal": 423,
+      "source_id": "XJ-NKCZ-V2-P164",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右每服四錢，竹葉五片，水煎服。",
+      "snapshot_text": "上每服四錢，竹葉五片，水煎服。"
+    },
+    {
+      "ordinal": 427,
+      "source_id": "XJ-NKCZ-V2-P168",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右薑蔥水煎服。",
+      "snapshot_text": "上薑蔥水煎服。"
+    },
+    {
+      "ordinal": 431,
+      "source_id": "XJ-NKCZ-V2-P172",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右二味，以水五升，煮取二升，分三服。",
+      "snapshot_text": "上二味，以水服一錢，取二升，分三服。"
+    },
+    {
+      "ordinal": 434,
+      "source_id": "XJ-NKCZ-V2-P175",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右每服四錢，薑棗水煎。",
+      "snapshot_text": "上每服四錢，薑棗水煎。"
+    },
+    {
+      "ordinal": 436,
+      "source_id": "XJ-NKCZ-V2-P177",
+      "has_legacy_difference_grade": true,
+      "existing_text": "枳殼（炒）　黃芩（炙。各半兩）　白朮（一兩）",
+      "snapshot_text": "枳殼（炒）　黃芩（炙，半兩）　白朮（一兩）"
+    },
+    {
+      "ordinal": 437,
+      "source_id": "XJ-NKCZ-V2-P178",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，每服一錢，白湯調下。",
+      "snapshot_text": "上為末，每服一錢，白湯調下。"
+    },
+    {
+      "ordinal": 440,
+      "source_id": "XJ-NKCZ-V2-P181",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，每服三錢，煎白朮、枳殼湯下。",
+      "snapshot_text": "上為末，每服三錢，煎白朮、枳殼湯下。"
+    }
+  ]
+}

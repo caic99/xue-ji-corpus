@@ -1,0 +1,48 @@
+{
+  "work_id": "XJ-ZTLY",
+  "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+  "snapshot_sha256": "9ecbaaf891a03a2a923b7a078c96f9002a1cea397c64213ebed0653a54e7080f",
+  "existing_record_count": 329,
+  "snapshot_paragraph_count": 329,
+  "count_matches": true,
+  "chapter_boundary_mismatches": 0,
+  "text_diffs": 5,
+  "chapter_mismatch_detail": [],
+  "diff_detail": [
+    {
+      "ordinal": 221,
+      "source_id": "XJ-ZTLY-V2-P107",
+      "has_legacy_difference_grade": true,
+      "existing_text": "神效太乙膏　治癰疽發背杖瘡，及一切瘡疽潰爛。",
+      "snapshot_text": "治癰疽發背杖瘡，及一切瘡疽潰爛。"
+    },
+    {
+      "ordinal": 224,
+      "source_id": "XJ-ZTLY-V2-P110",
+      "has_legacy_difference_grade": true,
+      "existing_text": "乳香定痛散　治杖瘡、金瘡，及一切瘡瘍，潰爛疼痛。",
+      "snapshot_text": "治杖瘡、金瘡，及一切瘡瘍，潰爛疼痛。"
+    },
+    {
+      "ordinal": 226,
+      "source_id": "XJ-ZTLY-V2-P112",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右為末，搽患處，痛即止，甚效。",
+      "snapshot_text": "上為末，搽患處，痛即止，甚效。"
+    },
+    {
+      "ordinal": 227,
+      "source_id": "XJ-ZTLY-V2-P113",
+      "has_legacy_difference_grade": true,
+      "existing_text": "豬蹄湯　治一切癰疽杖瘡潰爛，消腫毒，去惡肉。",
+      "snapshot_text": "治一切癰疽杖瘡潰爛，消腫毒，去惡肉。"
+    },
+    {
+      "ordinal": 229,
+      "source_id": "XJ-ZTLY-V2-P115",
+      "has_legacy_difference_grade": true,
+      "existing_text": "右用豬蹄一隻，水五碗，煮熟取清湯，入前藥，煎數沸去渣，溫洗，隨用膏藥貼之。",
+      "snapshot_text": "用豬蹄一隻，水五碗，煮熟取清湯，入前藥，煎數沸去渣，溫洗，隨用膏藥貼之。"
+    }
+  ]
+}

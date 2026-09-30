@@ -1,0 +1,75 @@
+{
+  "work_id": "XJ-LYJY",
+  "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+  "snapshot_sha256": "f0c0f3a938860d7a2a360350b68407422720142d85c1ee83d78cbadf1a96b6c2",
+  "existing_record_count": 407,
+  "snapshot_paragraph_count": 409,
+  "count_matches": false,
+  "chapter_boundary_mismatches": 0,
+  "text_diffs": 7,
+  "chapter_mismatch_detail": [],
+  "diff_detail": [
+    {
+      "ordinal": 204,
+      "source_id": "XJ-LYJY-V3-P018",
+      "has_legacy_difference_grade": true,
+      "existing_text": "防風　當歸　川芎　芍藥　大黃（煨）　芒硝　連翹　薄荷　麻黃　桔梗　石膏（煨）　黃芩（炒，各一兩）　白朮　山梔　荊芥（各二錢五分）　甘草（二兩）　滑石（三兩）　白芷　蒺藜（炒）　鼠黏子（各五錢）　右為末，每服三五錢，白湯調下。",
+      "snapshot_text": "防風　當歸　川芎　芍藥　大黃（煨）　芒硝　連翹　薄荷　麻黃　桔梗　石膏（煨）　黃芩（炒，各一兩）　白朮　山梔　荊芥（各二錢五分）　甘草（二兩）　滑石（三兩）　白芷　蒺藜（炒）　鼠黏子（各五錢）　上為末，每服三五錢，白湯調下。"
+    },
+    {
+      "ordinal": 206,
+      "source_id": "XJ-LYJY-V3-P020",
+      "has_legacy_difference_grade": true,
+      "existing_text": "穿山甲（三錢，炮）　荊芥　紅花　蘇木　羌活　當歸　防風　蟬殼（去土）　天麻　甘草（各七分）　白芷（一錢）　連翹　川芎（各五分）　右水酒各半煎服。",
+      "snapshot_text": "穿山甲（三錢，炮）　荊芥　紅花　蘇木　羌活　當歸　防風　蟬殼（去土）　天麻　甘草（各七分）　白芷（一錢）　連翹　川芎（各五分）　上水酒各半煎服。"
+    },
+    {
+      "ordinal": 208,
+      "source_id": "XJ-LYJY-V3-P022",
+      "has_legacy_difference_grade": true,
+      "existing_text": "秦艽　生地黃　當歸　川芎　羌活　防風　荊芥　甘草　白芷　升麻　白芍藥　大力子（蒸）　蔓荊子（各一錢）　右水煎服。",
+      "snapshot_text": "秦艽　生地黃　當歸　川芎　羌活　防風　荊芥　甘草　白芷　升麻　白芍藥　大力子（蒸）　蔓荊子（各一錢）　上水煎服。"
+    },
+    {
+      "ordinal": 401,
+      "source_id": "XJ-LYJY-V3-P215",
+      "has_legacy_difference_grade": true,
+      "existing_text": "黃柏（炒）　山梔（等分）　右為末，水調搽，若破而膿水淋漓，用當歸膏或蠋油調搽。",
+      "snapshot_text": "黃柏（炒）　山梔（等分）　上為末，水調搽，若破而膿水淋漓，用當歸膏或蠋油調搽。"
+    },
+    {
+      "ordinal": 403,
+      "source_id": "XJ-LYJY-V3-P217",
+      "has_legacy_difference_grade": true,
+      "existing_text": "滑石　甘草（等分）右為末，挑破去水敷之。",
+      "snapshot_text": "滑石　甘草（等分）上為末，挑破去水敷之。"
+    },
+    {
+      "ordinal": 405,
+      "source_id": "XJ-LYJY-V3-P219",
+      "has_legacy_difference_grade": true,
+      "existing_text": "大黃　黃柏　山梔　寒水石（煨，等分）　右各另為末調搽，當歸膏尤好。",
+      "snapshot_text": "大黃　黃柏　山梔　寒水石（煨，等分）　上各另為末調搽，當歸膏尤好。"
+    },
+    {
+      "ordinal": 407,
+      "source_id": "XJ-LYJY-V3-P221",
+      "has_legacy_difference_grade": true,
+      "existing_text": "附子重一兩三四錢，有蓮花瓣頭底圓平者，先備童便五六碗，將附子先埋熱草灰中半日，乘熱投童便，浸五七日，揭皮切四塊，仍浸二三日，用桑皮數重包之，浸濕埋灰大半月，取出切片，檢視有白星者，乃用瓦上炙熟，至無白星為度，如急用即切火上炙黃，用之亦效。大凡陽氣脫陷，子時至午時，惡寒，未至亥發熱，如用熟附子，不應，必用半生半熟，更不應，急用生附一二劑，然後量症治之。",
+      "snapshot_text": "附子重一兩三四錢，有蓮花瓣頭底圓平者，先備童便五六碗，將附子先埋熱草灰中半日，乘熱投童便，浸五七日，揭皮切四塊，仍浸二三日，用桑皮數重包之，浸濕埋灰大半月，取出切片，檢視有白星者，乃用瓦上炙熟，至無白星為度，如急用即切火上炙黃，用之亦效。大凡陽氣脫陷，子時至午時，惡寒，未至亥發熱，如用熱附子，不應，必用半生半熟，更不應，急用生附一二劑，然後量症治之。"
+    }
+  ],
+  "length_note": "existing=407 snapshot=409; compared only first 407 in alignment order",
+  "extra_snapshot_tail": [
+    {
+      "volume": "下卷",
+      "section": "各症方藥",
+      "text": "當歸川芎散　治手足少陽經血虛風熱，耳內癢痛，或食少頭目不清，日晡熱甚。"
+    },
+    {
+      "volume": "下卷",
+      "section": "各症方藥",
+      "text": "當歸　川芎　柴胡　白朮　芍藥（各一錢）　山梔（炒一錢二分）　牡丹皮　茯苓（各八分）蔓荊子　甘草（各五分）　上水煎服。"
+    }
+  ]
+}

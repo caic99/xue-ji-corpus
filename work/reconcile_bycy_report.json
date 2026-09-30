@@ -1,0 +1,14 @@
+{
+  "work_id": "XJ-BYCY",
+  "snapshot_path": "work/source-snapshots/bycy-kr3e0070_005-2026-09-29.txt",
+  "snapshot_sha256": "b982c9002432898bb4ad7e5c8a145a0147cbc3c5359626b97f2ace05594801ab",
+  "snapshot_physical_line_count": 1302,
+  "snapshot_folio_marker_count": 144,
+  "snapshot_source_line_count": 1139,
+  "existing_record_count": 1139,
+  "count_matches": true,
+  "folio_mismatches": 0,
+  "text_diffs": 0,
+  "folio_mismatch_detail": [],
+  "diff_detail": []
+}

@@ -1,0 +1,89 @@
+# xue-ji-corpus — 薛己直接著作：结构化语料与版本对照 / Structured corpus of Xue Ji's eight books, with edition comparison
+
+**English** · [中文](#中文说明)
+
+A single, machine-checkable Markdown corpus of the eight medical books directly authored by **Xue Ji (薛己, 16th-century Ming physician)**, built for historical **case retrieval, edition tracing and syndrome-differentiation comparison**. Every structured record points back to an exact character span of an immutable source-text layer, and every quotation is verified by script.
+
+> **Status: research draft. Not medical advice.** Almost all annotation was produced by AI agents (Anthropic Claude) under human direction and has **not been human-reviewed**. Doses and drug names are *transcription data with known doubts*, not clinical guidance. Nothing here has been verified against the whole of any scan. See [Limitations](#limitations).
+
+## What is in the repository
+
+| Path | Content |
+|---|---|
+| `outputs/薛己核心医案_结构化样本.md` | **The corpus** (one ~9 MB file). Source text of 8 books (5,357 records) + structured overlay: 1,532 cases, 3,268 non-case text units, 1,240 formula groups, 46 baseline cards, 83 comparisons |
+| `docs/DATA_DICTIONARY.md` | Record types, fields, status values, how to parse |
+| `docs/HANDOFF.md` | Maintainer notes (Chinese): decisions, known risks, tool pitfalls |
+| `work/edition-compare/` | Machine alignment of 7 books against Wikisource's 四庫全書 text; 3,159 classified differences; 84 image spot-checks (README explains method and findings) |
+| `work/source-snapshots/` | Dated snapshots of the electronic sources used (see [NOTICE.md](NOTICE.md)) |
+| `work/*.py` | Parser, validators, reconciliation and comparison scripts (Python ≥ 3.9, standard library only) |
+| `state/` | Machine-readable status, counts, checksums, open tasks |
+
+The eight books: 內科摘要, 女科撮要, 正體類要, 口齒類要, 立齋外科發揮, 外科樞要, 癘瘍機要, 保嬰粹要.
+
+## Quick start
+
+```sh
+git clone https://github.com/caic99/xue-ji-corpus && cd xue-ji-corpus
+python3 work/validate_complete_corpus.py   # expects: works 8, records 5357, errors 0
+python3 work/audit_corpus.py               # source-text digest must stay 20077b83…1abe9
+python3 work/check_retrieval_inheritance.py
+```
+
+```python
+import sys; sys.path.insert(0, 'work')
+from audit_corpus import books, CORPUS
+for book in books(CORPUS.read_text(encoding='utf-8')):
+    print(book['meta']['work_title'], len(book['rows']))        # source records
+    first = book['rows'][0]; print(first['meta']['source_id'], first['body'][:30])
+```
+
+## Design in one paragraph
+
+Source text and interpretation are separate layers. **Source records** (`source_id` such as `XJ-NKZY-V2-P083`) are never renumbered. **Structured records** (`case_id`, `text_unit_id`, `formula_id`, `baseline_id`, `comparison_id`) cite a source record plus `source_start_char`/`source_end_char_exclusive`; the validator rejects any record whose printed text is not exactly that span, any coverage gap or overlap, dangling references, unknown comparison categories, and records that depend on a pending (`needs_review`) source but are not themselves pending. Comparisons use only five conclusions — 貫通, 發展, 張力／差異, 明確反對, 證據不足 — and never infer lineage from similar wording.
+
+## Findings you can reuse
+
+* **The public transcription of the 承應 print has real errors.** In 84 spot-checks of machine-flagged high-importance differences, the 承應 print itself agreed with the 四庫 reading 57 times, with the working text 22 times, and with neither 5 times. This is a subset, not an overall error rate. Examples: 內科摘要 P308 ‘各一兩’ (working text: 各一錢), P178 蒼朮 ‘一錢’ (working: 三分), P083 ‘府庠’ (working: 府癢).
+* **Edition differences are real**: the 承應-based text of 女科撮要 has a preface and several passages that the 四庫 text omits (`work/edition-compare/README.md`).
+* **71 candidate repeated cases** across books (`possible_repeat_case_refs`), flagged mechanically, not confirmed.
+* **保嬰粹要 source lines contain 7 unresolved Kanripo glyph placeholders** (`&KR1792;` …), annotated but not replaced.
+
+## Limitations
+
+1. AI-drafted, not human-reviewed: case boundaries, patient counts, formula names, baseline cards, comparison categories, difference classes.
+2. Image checks are model readings of single spots; small numerals are error-prone. No book has a complete image proofreading.
+3. The working text follows the Japanese 承應 print (via jicheng.tw) for seven books and the 四庫 text (via Kanripo) for 保嬰粹要; they differ.
+4. 立齋外科發揮 has no 四庫 parallel and was not edition-compared.
+5. Source records ≠ cases ≠ patients; repeats and multi-patient paragraphs are handled as evidence, not merged.
+6. No database, vector index or Q&A interface is built; that was deliberately deferred until evidence review.
+
+## Licenses and provenance
+
+Mixed. Code: MIT (`LICENSE-CODE`). Data and annotations: CC BY-SA 4.0 (`LICENSE-DATA`) because one source (Kanripo) is share-alike. Underlying classical texts are public domain; transcriptions carry their own terms. Full attribution in [NOTICE.md](NOTICE.md). Page scans are **not** included; links only.
+
+## Contributing
+
+Corrections are welcome, especially: image-based verification of the differences listed in `work/edition-compare/edition_diffs_all.json`; review of baseline cards and comparisons; identification of the Kanripo glyph placeholders. Keep the validators passing and never edit a source-text record without a migration note (see `docs/HANDOFF.md`).
+
+---
+
+## 中文说明
+
+本仓库是薛己（16 世纪明代医家）**八部直接著作**的结构化 Markdown 语料，服务于历史医案检索、版本溯源和辨证比较。每条结构化记录都指向不可变来源文字层中的精确字符跨度，所有引文由脚本逐字校验。
+
+> **状态：研究草稿，非医疗建议。** 绝大多数标注由 AI（Anthropic Claude）在人类指示下生成，**尚未经人工复核**。方药剂量与药名是带有已知疑点的转录数据，不是诊疗依据。任何一本书都未做完整影像逐字校对。
+
+### 内容
+* `outputs/薛己核心医案_结构化样本.md`：语料主文件。八书 5357 条来源记录；1532 案、3268 个非医案文字单元、1240 个方剂归组、46 张思想基线候选卡、83 条比较记录。
+* `work/edition-compare/`：与 Wikisource 四库全书本的逐字对照（七书），3159 条已分类差异，84 处承应本影像抽核。
+* `docs/DATA_DICTIONARY.md`：字段与状态说明；`docs/HANDOFF.md`：维护说明（含已知风险与工具陷阱）。
+* 校验：`python3 work/validate_complete_corpus.py`、`python3 work/audit_corpus.py`。仅需 Python 标准库。
+
+### 主要发现
+* **承应本的公开转录存在实质误读**：抽核 84 处“高重要差异”，承应本影像与四库读法一致 57 处、与工作稿一致 22 处、两者皆不同 5 处（仅适用于被筛出的子集，不是整体错误率）。
+* **版本差异真实存在**：承应本《女科撮要》比四库本多出序文及若干段落。
+* 机械筛出 71 对跨书候选重出案例（未确认）。
+* 《保婴粹要》有 7 处 Kanripo 缺字占位符，已标注未替换。
+
+### 许可
+代码 MIT；数据与标注 CC BY-SA 4.0（因 Kanripo 来源为相同方式共享）；古籍原文属公有领域，各转录本保留其自身条款；不含影像文件。详见 [NOTICE.md](NOTICE.md)。

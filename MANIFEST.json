@@ -1,0 +1,258 @@
+{
+ ".gitignore": {
+  "bytes": 29,
+  "sha256": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672"
+ },
+ "LICENSE-CODE": {
+  "bytes": 1090,
+  "sha256": "a9b5425bf406e658d782f7887643e97b2b9330e89ac48cfac7528cf1f0605d66"
+ },
+ "LICENSE-DATA": {
+  "bytes": 20138,
+  "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+ },
+ "NOTICE.md": {
+  "bytes": 3288,
+  "sha256": "efbde974cf0f26bdb8e7ae5a4c842e6571b9240b7c1174aeab2c97e73533a9c2"
+ },
+ "README.md": {
+  "bytes": 7645,
+  "sha256": "a95e24072601a29f0f87d8410654ca46861fe106688d8babb051a3d32a9909a9"
+ },
+ "docs/DATA_DICTIONARY.md": {
+  "bytes": 7035,
+  "sha256": "2a9596dc47edb53f5b00938c7e4f84277b714f993812b97c9eba2d3b45602ed2"
+ },
+ "docs/HANDOFF.md": {
+  "bytes": 22704,
+  "sha256": "0134e1b5812f636c78dc7f9a7f78b203447edcb00fac52fc876c436e5b21879c"
+ },
+ "outputs/薛己核心医案_结构化样本.md": {
+  "bytes": 9275035,
+  "sha256": "51b6899e6600c6520dea28cd44c41ebd9855706ec292ee14befe328c939cb111"
+ },
+ "state/baseline_validation.json": {
+  "bytes": 9059,
+  "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
+ },
+ "state/current_state.json": {
+  "bytes": 55127,
+  "sha256": "bed23dbfae3cedca77521411b406aaf8689d81d3880e0ae151a2d87df5676142"
+ },
+ "state/next_tasks.json": {
+  "bytes": 12600,
+  "sha256": "ce5c8212ed2dfa0491a9cb87417b681fc32bf3011880f35e328df5079313b4f6"
+ },
+ "work/apply_reconciliation_metadata.py": {
+  "bytes": 4778,
+  "sha256": "8337ee20873bb358d6871049b8375f44278d0cf79042d01b2963309d0a9f0897"
+ },
+ "work/audit_corpus.py": {
+  "bytes": 33250,
+  "sha256": "311e2c4f2a5058b9fa8577df76db9e3a29a07e933c929216b969ae896c6fceda"
+ },
+ "work/check_retrieval_inheritance.py": {
+  "bytes": 1799,
+  "sha256": "145d8f127526a4b30c7c25aa3fc52e0834e2cd95b3af81b7f4400d0ca0beb846"
+ },
+ "work/compare_wikisource_skqs.py": {
+  "bytes": 3823,
+  "sha256": "562387b80a78d3ce985de482cd1925a4356d3fd1c339cdbc76c8292175764a28"
+ },
+ "work/edition-compare/README.md": {
+  "bytes": 4999,
+  "sha256": "4f5d48a0f52cb60e297ee6c8b8eefd0063b17e8e7b43c153638ec0899696bdc8"
+ },
+ "work/edition-compare/edition_diffs_all.json": {
+  "bytes": 1052109,
+  "sha256": "ac1d4130a48b92c45179fc1722c0e53ba92504c6b649199a87258380eb029c4b"
+ },
+ "work/edition-compare/glyph_variant_pairs_ge5.json": {
+  "bytes": 2609,
+  "sha256": "88e072364bc5c1247bf413f6fbc902ebc82014bf551fdbcf77c6694f5fcc5499"
+ },
+ "work/edition-compare/image_check_sample_results.json": {
+  "bytes": 45799,
+  "sha256": "fb2b3968c78bb535dfdc9ccf92687bfc109092334ad32149bf90d6c4e4009e25"
+ },
+ "work/edition-compare/raw_alignment_summary.json": {
+  "bytes": 1411,
+  "sha256": "6d109ca8f692c1c3262079a6d2cc64753da185667f6137fdcdd82da7c3ac8db9"
+ },
+ "work/rebuild_book_from_cc0.py": {
+  "bytes": 6426,
+  "sha256": "39dbbfc00d5de110e4f3826d5329da404a2b70999751153dcbf94ab544bb03f5"
+ },
+ "work/reconcile_book.py": {
+  "bytes": 3705,
+  "sha256": "44df8955ed6c05e3a97d1fc33ca251774c5cd1900e61de3af3d7cddb7f311cf1"
+ },
+ "work/reconcile_bycy.py": {
+  "bytes": 3601,
+  "sha256": "74e78a430344de50fb4872457c4392ed9bd088d38050e0f88ead56ac1e203cfa"
+ },
+ "work/reconcile_bycy_report.json": {
+  "bytes": 462,
+  "sha256": "c15af798d5f60510d6762cf3d72f82fb86aa079cd3c88f7b84fafa08037ef148"
+ },
+ "work/reconcile_kcly_report.json": {
+  "bytes": 3295,
+  "sha256": "b0b951879db1020c85263bd8504eb302118396bd04205139db76d082a370d19a"
+ },
+ "work/reconcile_lyjy_report.json": {
+  "bytes": 5199,
+  "sha256": "0723114757245653aed515c9f0a6b2e68ead9f6b0a84597ac74c686f16517b2b"
+ },
+ "work/reconcile_lzwkfh_report.json": {
+  "bytes": 2660,
+  "sha256": "1e051c822cf9ef43e1e8b763d756e292c3dbdde28db42c4e53f33762e29a3335"
+ },
+ "work/reconcile_nkcz.py": {
+  "bytes": 3784,
+  "sha256": "ab5ae4bc8aa121cb69c3f47e1c04c74aa90884fb209fa14b3e1878d59f2952c9"
+ },
+ "work/reconcile_nkcz_report.json": {
+  "bytes": 2199,
+  "sha256": "83dc7dc1062405827b4bbbaf374faf53267b9dcfdec7c20a9961de89f5f62a0b"
+ },
+ "work/reconcile_wksy_report.json": {
+  "bytes": 33740,
+  "sha256": "394b6d51e7518a6ddaeee2ef43d1ccaef11ec589dea2b33648c7b6fad1460de7"
+ },
+ "work/reconcile_ztly_report.json": {
+  "bytes": 1903,
+  "sha256": "49aaf8fb3c3f2ab07674e4715d6398d1bbe299c52b7674c9afbea81e181aecf7"
+ },
+ "work/source-snapshots/bycy-kr3e0070_005-2026-09-29.txt": {
+  "bytes": 66568,
+  "sha256": "b982c9002432898bb4ad7e5c8a145a0147cbc3c5359626b97f2ace05594801ab"
+ },
+ "work/source-snapshots/kcly-index-2026-09-29.html": {
+  "bytes": 120239,
+  "sha256": "e741ce5f51fe7edcf05491f2156466f63f9cf628d7dd48f08bf21b076568360c"
+ },
+ "work/source-snapshots/lyjy-index-2026-09-29.html": {
+  "bytes": 261891,
+  "sha256": "3413f07a0affcc64554ee651ac20056e241a9be35d55a8a4e2c12ea0a1f114f0"
+ },
+ "work/source-snapshots/lzwkfh-index-2026-09-29.html": {
+  "bytes": 614215,
+  "sha256": "2692fe24ee59fd9f53d4d399bbc4b63be44764942eb5f527559129039649024b"
+ },
+ "work/source-snapshots/nkcz-index-2026-09-29.html": {
+  "bytes": 319177,
+  "sha256": "1a5902cbc9451a3e67d11edd4fa00fcd898221031916a1c4556b18da14a3efd9"
+ },
+ "work/source-snapshots/nkzy-2026-09-28.html": {
+  "bytes": 294723,
+  "sha256": "e31d056e6da13d4052cf06bb76b0438df80101005f626e9654dfffe1457ec4a3"
+ },
+ "work/source-snapshots/wikisource-skqs/toc.json": {
+  "bytes": 11787,
+  "sha256": "09c4458a7f3bd3c3bc04a1e6f11882e97d3aabc7ae3f7e8f8d1d9055cace7ac6"
+ },
+ "work/source-snapshots/wikisource-skqs/v01.json": {
+  "bytes": 94806,
+  "sha256": "7225a3681d05db5c4f80dbd38a8ad84a426a9b1a3d483329b5ca52b51452565c"
+ },
+ "work/source-snapshots/wikisource-skqs/v02.json": {
+  "bytes": 95494,
+  "sha256": "1825d75a0a411971afe6b4c30b4390007a9b72fa7dfc34a6e994f0653c41a978"
+ },
+ "work/source-snapshots/wikisource-skqs/v03.json": {
+  "bytes": 114539,
+  "sha256": "ddf5fcd92fe4c8a7a2265e060ad540946ca1249aa0faefd4fc134f6d0e4cd7ca"
+ },
+ "work/source-snapshots/wikisource-skqs/v04.json": {
+  "bytes": 88860,
+  "sha256": "6a23081a5e35122d793f040f0fe39fd5f3e561f7c943f70a1e893bfae7eebc38"
+ },
+ "work/source-snapshots/wikisource-skqs/v05.json": {
+  "bytes": 126750,
+  "sha256": "80e15242f31e21c17980829b964ad5ec120d6db08440a0c74cf63e97c1457ea3"
+ },
+ "work/source-snapshots/wikisource-skqs/v06.json": {
+  "bytes": 90300,
+  "sha256": "7c22fc3997713b854425f333cf8c39f08b086762b1ef917224517730a330d1e0"
+ },
+ "work/source-snapshots/wikisource-skqs/v07.json": {
+  "bytes": 46746,
+  "sha256": "8f6d7c17b1abd550bc1b9137fe854d7bb5be5cad414cab2b2bc2acbd27afe78b"
+ },
+ "work/source-snapshots/wikisource-skqs/v08.json": {
+  "bytes": 68291,
+  "sha256": "d152b9dd5d53385a630e392b7a0aa75d98e06261bc9acdc435e93cfa5d4d7614"
+ },
+ "work/source-snapshots/wikisource-skqs/v09.json": {
+  "bytes": 87378,
+  "sha256": "e7735ef04937d16f55504d5f778c680c84e03994962834c7c367df34288f0e87"
+ },
+ "work/source-snapshots/wikisource-skqs/v10.json": {
+  "bytes": 81503,
+  "sha256": "169880b4acc3f45349543b8ef5727614f62d0f3e1ae17961a8d8c793db0d954c"
+ },
+ "work/source-snapshots/wikisource-skqs/v11.json": {
+  "bytes": 68918,
+  "sha256": "f33bcec4d04491aecabbc6743fdc372bd1b1570df2d874142296bf510b8e37ab"
+ },
+ "work/source-snapshots/wikisource-skqs/v12.json": {
+  "bytes": 44888,
+  "sha256": "e88947e831ce0485331ca731dd93b4242209b3baf3092383a167c923bd413660"
+ },
+ "work/source-snapshots/wikisource-skqs/v13.json": {
+  "bytes": 72982,
+  "sha256": "43013e58ca79708363c57fa2f62725bd7a68dc5fb7615bfba80a5074862b6958"
+ },
+ "work/source-snapshots/wikisource-skqs/v14.json": {
+  "bytes": 92466,
+  "sha256": "4dce7b8181215caeaf1dad63fa37674e5929ab07f3a25a612555fcf529415e49"
+ },
+ "work/source-snapshots/wikisource-skqs/v15.json": {
+  "bytes": 102135,
+  "sha256": "ba7d548f342899ce06e833febeac1020fbb117544a7d48268676a8007b7d7244"
+ },
+ "work/source-snapshots/wikisource-skqs/v16.json": {
+  "bytes": 92600,
+  "sha256": "81b864fa3bfd62e503ae3e5b56f25c957bd2fdaf5d6cde4f9467f01a38a4c3c1"
+ },
+ "work/source-snapshots/wikisource-skqs/v17.json": {
+  "bytes": 72989,
+  "sha256": "51d620adf35ad5c59d6a4910f6bb1d64a42c9d7e0552c81f190796e3387efd80"
+ },
+ "work/source-snapshots/wikisource-skqs/v18.json": {
+  "bytes": 44984,
+  "sha256": "6a74e2737131be88dfc83745da6266b1360ac3c111dedeadbf09dd58ba4b2403"
+ },
+ "work/source-snapshots/wikisource-skqs/v19.json": {
+  "bytes": 62371,
+  "sha256": "275400e736804e77d05333803efe2f4b3c185e7f76298c71bb75376c0017ac35"
+ },
+ "work/source-snapshots/wksy-index-2026-09-29.html": {
+  "bytes": 561353,
+  "sha256": "42e0f245fc1344ad6cdbe5294ecf9ace3d47ae7072ef4e78b6444b40fd35ff16"
+ },
+ "work/source-snapshots/ztly-index-2026-09-29.html": {
+  "bytes": 180058,
+  "sha256": "8bd8a94bbe1df0fd0306fd194c8f7ea650121ddd6caa1a0ab6704eb0b0ffde0d"
+ },
+ "work/structure_nkzy_chapter.py": {
+  "bytes": 13591,
+  "sha256": "f59a8d8ee51c1f4957bee9dc07a4d211837e7618feee9fd31c07105ff2cb834f"
+ },
+ "work/structure_nkzy_chapters_two_six.py": {
+  "bytes": 15278,
+  "sha256": "34bf903c229b769018cd861d137c551c0444723d24febcaef72fe9ff642b0565"
+ },
+ "work/structure_nkzy_volume_one_rest.py": {
+  "bytes": 14005,
+  "sha256": "dd60597aa01033a7c38dd9a2bd0d415cabcda1a0175865a4c49eec03900bb7ee"
+ },
+ "work/structure_nkzy_volume_two.py": {
+  "bytes": 19429,
+  "sha256": "f822bf257006209a3d9a30006606fceb3e33d11443848b26ce6ccd3f738bf72d"
+ },
+ "work/validate_complete_corpus.py": {
+  "bytes": 47394,
+  "sha256": "1c4e140edb7192e6d2ba1d0dd6df35fed234804fac1eac0006669838853aab6f"
+ }
+}
