@@ -2,8 +2,8 @@
   "handoff_date": "2026-09-29",
   "last_substantive_corpus_work_date": "2026-09-29",
   "main_document": "outputs/薛己核心医案_结构化样本.md",
-  "main_document_sha256": "3d3641ee98dfffa5a1c6569722c282b1849921412377734e9da90cbc3158f0ca",
-  "source_text_sha256": "20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9",
+  "main_document_sha256": "481b52bf81ed49359e063cb78786bf0401718dd792190f89d4a7eb5c5e8ec238",
+  "source_text_sha256": "df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7",
   "structured_totals": {
     "cases": 1532,
     "non_case_units": 3268
@@ -685,5 +685,43 @@
       "proposed_corrections_file": "work/edition-compare/proposed_corrections.json（187处，未应用）",
       "note": "模型视觉读取，非人工裁定；仅覆盖机械筛出的高重要差异，不可外推为全书错误率"
     }
+  },
+  "source_text_sha256_history": [
+    {
+      "sha256": "20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9",
+      "meaning": "转录原样（jicheng/Kanripo 及历史校订后，未应用本轮影像改正）",
+      "valid_through": "2026-09-30 影像改正应用前"
+    },
+    {
+      "sha256": "df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7",
+      "meaning": "应用承应本影像改正后（136 条来源记录、157 处改动）",
+      "valid_from": "2026-09-30"
+    }
+  ],
+  "text_corrections_2026_09_30": {
+    "records_changed": 136,
+    "edit_operations": 157,
+    "by_book": {
+      "NKZY": 14,
+      "NKCZ": 19,
+      "ZTLY": 15,
+      "KCLY": 20,
+      "WKSY": 44,
+      "LYJY": 24
+    },
+    "proposals": 187,
+    "outcomes": {
+      "applied": 82,
+      "applied_rewritten_for_formula_format": 61,
+      "applied_then_fixed_by_print_reading": 6,
+      "not_applied": 32,
+      "applied_insertion_from_print": 4,
+      "reverted_kept_earlier_Waseda_based_reading": 2
+    },
+    "not_applied_reasons": "passage-level differences kept as annotation (working text has passages absent from the 承應 print, probably from another edition), notation-only, ambiguous",
+    "log": "work/edition-compare/applied_corrections.json",
+    "outcomes_file": "work/edition-compare/correction_outcomes.json",
+    "each_changed_record_has": "text_correction_applied + pre_correction_body_sha256 (or text_correction_note when reverted)",
+    "method_check": "after each group the alignment against the 四庫 text was re-run: resolved differences confirmed, no new content difference"
   }
 }

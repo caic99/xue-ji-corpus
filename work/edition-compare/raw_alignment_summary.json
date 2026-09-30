@@ -7,22 +7,22 @@
     1,
     2
    ],
-   "working_chars": 27984,
+   "working_chars": 28007,
    "skqs_chars": 28508,
-   "equal_ratio": 0.9324,
-   "raw_diffs": 1734,
-   "residual_after_glyph_pairs": 408
+   "equal_ratio": 0.9328,
+   "raw_diffs": 1724,
+   "residual_after_glyph_pairs": 393
   },
   "XJ-NKCZ": {
    "volumes": [
     3,
     4
    ],
-   "working_chars": 31573,
+   "working_chars": 31569,
    "skqs_chars": 30556,
-   "equal_ratio": 0.8897,
-   "raw_diffs": 2000,
-   "residual_after_glyph_pairs": 483
+   "equal_ratio": 0.8905,
+   "raw_diffs": 1985,
+   "residual_after_glyph_pairs": 462
   },
   "XJ-BYCY": {
    "volumes": [
@@ -38,22 +38,22 @@
    "volumes": [
     10
    ],
-   "working_chars": 11579,
+   "working_chars": 11582,
    "skqs_chars": 11652,
-   "equal_ratio": 0.9,
-   "raw_diffs": 914,
-   "residual_after_glyph_pairs": 340
+   "equal_ratio": 0.9019,
+   "raw_diffs": 893,
+   "residual_after_glyph_pairs": 317
   },
   "XJ-ZTLY": {
    "volumes": [
     11,
     12
    ],
-   "working_chars": 16410,
+   "working_chars": 16484,
    "skqs_chars": 16629,
-   "equal_ratio": 0.9029,
-   "raw_diffs": 1137,
-   "residual_after_glyph_pairs": 428
+   "equal_ratio": 0.9034,
+   "raw_diffs": 1129,
+   "residual_after_glyph_pairs": 415
   },
   "XJ-WKSY": {
    "volumes": [
@@ -62,11 +62,11 @@
     15,
     16
    ],
-   "working_chars": 54925,
+   "working_chars": 54932,
    "skqs_chars": 54737,
-   "equal_ratio": 0.9111,
-   "raw_diffs": 3916,
-   "residual_after_glyph_pairs": 1004
+   "equal_ratio": 0.912,
+   "raw_diffs": 3875,
+   "residual_after_glyph_pairs": 953
   },
   "XJ-LYJY": {
    "volumes": [
@@ -74,11 +74,11 @@
     18,
     19
    ],
-   "working_chars": 27327,
+   "working_chars": 27319,
    "skqs_chars": 26780,
-   "equal_ratio": 0.892,
-   "raw_diffs": 1985,
-   "residual_after_glyph_pairs": 496
+   "equal_ratio": 0.8932,
+   "raw_diffs": 1962,
+   "residual_after_glyph_pairs": 468
   }
  }
 }

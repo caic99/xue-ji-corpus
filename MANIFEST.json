@@ -1,7 +1,7 @@
 {
  ".github/workflows/validate.yml": {
   "bytes": 955,
-  "sha256": "f4da347ed50071ca951a635f8919d7f73ee7bd8d3eeac6caa5713371281c2690"
+  "sha256": "b3724a97cbe25e1c93e363ca886bd7ed9817af98188130510b246abf725a47ff"
  },
  ".gitignore": {
   "bytes": 29,
@@ -20,32 +20,32 @@
   "sha256": "43533d7501fd332ad12cd88b219d5ff7cc51581bdd955bffa0cd0a2c8a993f16"
  },
  "README.md": {
-  "bytes": 8644,
-  "sha256": "8a1b3907dd81eacaf256aaf06ada0036d72f9354a893d1954aef0894ec0251b3"
+  "bytes": 9144,
+  "sha256": "d2c947b65b1dbcd1085692b544dceb4fba327dbc11666e44a1ca8c781d323ffc"
  },
  "docs/DATA_DICTIONARY.md": {
-  "bytes": 7035,
-  "sha256": "2a9596dc47edb53f5b00938c7e4f84277b714f993812b97c9eba2d3b45602ed2"
+  "bytes": 7704,
+  "sha256": "54277dd30fb37721f9d1751b8c0e5da83724334a7eec947422f45d5301ec88c6"
  },
  "docs/HANDOFF.md": {
-  "bytes": 22867,
-  "sha256": "fe6f10e27b735b913a8e90ed6570404516f36388b40aac5a65dd032d8b546b2d"
+  "bytes": 24827,
+  "sha256": "66d88949d54e0f27f51aa75ff7fa133aae69cf9ffa65177772f3e01277fd3b01"
  },
  "outputs/薛己核心医案_结构化样本.md": {
-  "bytes": 9379519,
-  "sha256": "159938178f5cec0f442264ad73bc92a3b0198c6a2941db647371a2c91ee63824"
+  "bytes": 9440415,
+  "sha256": "79788876440636959c46e053c3c221de4c866b6c8de3b4a6a724407dcc1f6ddd"
  },
  "state/baseline_validation.json": {
   "bytes": 9059,
   "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
  },
  "state/current_state.json": {
-  "bytes": 55362,
-  "sha256": "f088e107cebd51ccf4c46da2c0685eb88228cec66f83b4a83f7853acd2f521fa"
+  "bytes": 56986,
+  "sha256": "f601bc28fff90250778089b2b1ef4e1f4564e84b515d9730e21a80cb906db61c"
  },
  "state/next_tasks.json": {
-  "bytes": 12951,
-  "sha256": "39f6970333cd8bd7b92c729926a79fb9e51c37f9a2a959eb8402e37101a18b7a"
+  "bytes": 14355,
+  "sha256": "aed539ec23c68af990a99aa358c10892e633fcae519175639df676c8eff3fd2f"
  },
  "work/apply_reconciliation_metadata.py": {
   "bytes": 4778,
@@ -60,16 +60,36 @@
   "sha256": "145d8f127526a4b30c7c25aa3fc52e0834e2cd95b3af81b7f4400d0ca0beb846"
  },
  "work/compare_wikisource_skqs.py": {
-  "bytes": 3823,
-  "sha256": "562387b80a78d3ce985de482cd1925a4356d3fd1c339cdbc76c8292175764a28"
+  "bytes": 4053,
+  "sha256": "ddbba9de89968bc114c7b60235fef0d0aac30be4934e99ade9a68cb9bea1781c"
  },
  "work/edition-compare/README.md": {
-  "bytes": 6176,
-  "sha256": "5e092c15d3ba70c42da3d6c3d5394940af330498d70c2aaf2f6f62053c1c5e5e"
+  "bytes": 7676,
+  "sha256": "73b86676e0c0a8e9996430f54044e8972f0b999080dcbb9c54080a092818bb46"
+ },
+ "work/edition-compare/applied_corrections.json": {
+  "bytes": 74511,
+  "sha256": "be507b4f2461235581d65558074d05c219d73707c6b64c66972ebd479056146d"
+ },
+ "work/edition-compare/apply_edits.py": {
+  "bytes": 15360,
+  "sha256": "3b940ce813166e21563da3b8fb31b7386235fcf290635d81959cb90627a185e9"
+ },
+ "work/edition-compare/build_edit_list.py": {
+  "bytes": 5272,
+  "sha256": "a2553eb26318c309b7d87cad293f6ca5f3052ad06552530f213e56d9fafc7daa"
+ },
+ "work/edition-compare/correction_outcomes.json": {
+  "bytes": 38219,
+  "sha256": "b861921b33115b52dad371b833a0e6738f0d2793bfc21df48deb91a98f4f7df9"
+ },
+ "work/edition-compare/edit_list.json": {
+  "bytes": 76512,
+  "sha256": "ba0326ff010d75d0174d8f12e7520896e17a7c051e42d8a487bde6d2bd2ffdd0"
  },
  "work/edition-compare/edition_diffs_all.json": {
-  "bytes": 1052109,
-  "sha256": "ac1d4130a48b92c45179fc1722c0e53ba92504c6b649199a87258380eb029c4b"
+  "bytes": 1148990,
+  "sha256": "6f1fa6eae14abf72c60a2b2223627de65a089e77269337596aa45ad6b6818aaa"
  },
  "work/edition-compare/glyph_variant_pairs_ge5.json": {
   "bytes": 2609,
@@ -84,12 +104,16 @@
   "sha256": "fb2b3968c78bb535dfdc9ccf92687bfc109092334ad32149bf90d6c4e4009e25"
  },
  "work/edition-compare/proposed_corrections.json": {
-  "bytes": 105806,
-  "sha256": "9ec87dd0e4b9991438957bdfb6db809eea752167cf2cf11ce8a0f924bf0421fa"
+  "bytes": 101576,
+  "sha256": "652c246d45ec04f3f58f320cf57df2376f81be630968b18ede0557d61c100579"
  },
  "work/edition-compare/raw_alignment_summary.json": {
-  "bytes": 1411,
-  "sha256": "6d109ca8f692c1c3262079a6d2cc64753da185667f6137fdcdd82da7c3ac8db9"
+  "bytes": 1413,
+  "sha256": "856a48960423ce394520abe08eeaafd3680970612684ac9e0b2bb2796eee0702"
+ },
+ "work/edition-compare/verify_reversible.py": {
+  "bytes": 1756,
+  "sha256": "199a6c6773b8cf85afd065fa28dcd11dd0557d8a91f89c4cd3b0143d6a537d92"
  },
  "work/rebuild_book_from_cc0.py": {
   "bytes": 6426,

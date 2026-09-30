@@ -1,0 +1,1124 @@
+[
+ {
+  "source_id": "XJ-NKZY-V1-P006",
+  "page": "p6 左葉",
+  "note": "印本作「氣虛」，與四庫同；工作本「氣盛」不合。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKZY-V1-P026",
+  "page": "p12 右葉",
+  "note": "印本無「虛也脈虛浮是氣」一句，「血虛也」後直接「此因胃虛五臟」；工作本多出一句。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKZY-V1-P054",
+  "page": "p20 左葉",
+  "note": "印本作「鹽艾附子」，有「艾」字（鹽字作俗寫）。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P016",
+  "page": "p58 左葉",
+  "note": "印本作「內桂」（冂內入形，非肉字），與四庫「内桂」同；工作本「肉桂」不合印本。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P035",
+  "page": "p64 左葉",
+  "note": "印本無「茯神」，作「加山梔陳皮」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P046",
+  "page": "p66 左葉",
+  "note": "印本有「加減」二字，且有「痛」字（澁痛如淋）；工作本缺「加減」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P087",
+  "page": "p76 左葉",
+  "note": "印本作「兩尺脈洪大而虛」，工作本「脈洪大」缺「兩尺」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P092",
+  "page": "p78 右葉",
+  "note": "印本作「命門火衰」，有「門」字（門字清晰，命字略殘但可辨）。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P144",
+  "page": "p83 左葉",
+  "note": "印本標題與小注均作「香茹」（艹+如），非「薷」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P046",
+  "page": 20,
+  "note": "印本作「枳實丸」，非「枳朮丸」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P096",
+  "page": 35,
+  "note": "印本作「暴怒脇下腫痛」，非「腰腫一塊」，與四庫相合。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P155",
+  "page": 52,
+  "note": "印本作「加味芎歸二藥」，非「加味歸脾」（右葉左列末，「芎」字清楚）。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P183",
+  "page": 55,
+  "note": "印本為「白芷」，無「白朮」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P238",
+  "page": 62,
+  "note": "印本作「右為末蜜丸桐子大」，非「雞子大」；另「每服」後數字連筆，似「一二十丸」，未能確定，與本項無關。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P068",
+  "page": 86,
+  "note": "印本作「苦寒藥」，非「苦參藥」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P084",
+  "page": 91,
+  "note": "印本作「胸脇脹滿」（月+劦），非「胸膈」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H2-P015",
+  "page": 9,
+  "note": "原刻有「炒芩」二字（芩字為今旁，非苓），working 缺此二字；跨頁位置：p9 左葉第3列附近。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-KCLY-H3-P001",
+  "page": 10,
+  "note": "p10 左葉首列，「白芷散」，非「血芷散」。另：其屬風熱者獨活「散」（非skqs之「湯」），該處working正確。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H5-P008",
+  "page": 19,
+  "note": "字為木旁+吉（桔），非糸旁結；p19 左葉。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H10-P001",
+  "page": 27,
+  "note": "p27 左葉首列，字為艹+監（藍），非鹽。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H12-P001",
+  "page": 28,
+  "note": "p28 右葉末列，字為宀+必+虫（蜜），非密；後接「陀」（印作陀，非𨻶）。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P005",
+  "page": 28,
+  "note": "p28 左葉，「加芎芍柴胡」，有「芎」字（艹+弓），working 脫芎。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P068",
+  "page": 35,
+  "note": "p35 右葉，標題作「東垣牢齒散」，字為齒非牙。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P010",
+  "page": 7,
+  "note": "印本為「陽絡」，與四庫同；工作本「經」誤。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P031",
+  "page": 15,
+  "note": "印本有「芎」，且作「歸」而非「歸身」；「芪」為耆之異體。工作本缺芎、多「身」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P035",
+  "page": 17,
+  "note": "印本作「歸朮參耆」，與四庫同；工作本「茯」異。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P064",
+  "page": 27,
+  "note": "印本有「黃栢」，與四庫同；工作本脫黃栢。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P088",
+  "page": 33,
+  "note": "印本有「甘草」，與四庫同；工作本脫。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P095",
+  "page": 34,
+  "note": "印本有「四物」，與四庫同；工作本脫。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-ZTLY-V2-P005",
+  "page": 43,
+  "note": "印本「五分」，且方末作「右」；與四庫同；工作本「三」「上」異。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-ZTLY-V2-P091",
+  "page": 53,
+  "note": "印本骨碎補「八」錢，牛膝為六錢；與四庫同。工作本「六」誤。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V1-P028",
+  "page": 13,
+  "note": "印本作「飲食不入」（否定「不」）；且「吃逆」與四庫同，非「呃逆」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V1-P089",
+  "page": 39,
+  "note": "印本作「按之有力」；工作本「無力」與影像不合。另：同段「先用活命飲」後之數字印本似為「一劑」，工作本/四庫皆作「二」，未細驗，僅供參考。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P095",
+  "page": 73,
+  "note": "印本作「托裏」後直接接「以補其氣」，無「散」字，同四庫；用字為「裏」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P026",
+  "page": 103,
+  "note": "印本作「脾屬至陰」，同四庫「至隂」；工作本「太陰」不合。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P149",
+  "page": 137,
+  "note": "印本作「八珍散」，與四庫合；工作本「八珍湯」不合。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P056",
+  "page": 156,
+  "note": "印本藥序為草烏、白芷、白桂(五錢)、赤芍藥(炒)、南星(煨)：作「白桂」且在赤芍藥之前，與四庫合；工作本「肉桂五錢」置於赤芍藥後不合。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P204",
+  "page": 175,
+  "note": "印本方名「清肺飲」、「治腎經陰虛」，同四庫；工作本「治肺經」「清肺湯」不合。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P356",
+  "page": 192,
+  "note": "人參、防風旁無任何劑量小字，僅牛膝旁「各一錢」、川芎「一錢五分」、甘草「炙各五分」；工作本「各三錢」影像無，同四庫缺。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P001",
+  "page": "p4",
+  "note": "承應本無「風熱愈熾」四字，與四庫同；工作本多出。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P012",
+  "page": "p8",
+  "note": "印本此處為「六君湯」，無「子」；工作本作「四君子湯」（四／六亦異）。前一處為六君子湯。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P020",
+  "page": "p11",
+  "note": "第二處印作「下焦」，工作本誤作「上焦」；第一處「屬上焦實熱用涼隔散」無誤。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P060",
+  "page": "p25",
+  "note": "印本作「角刺」，無「皂」字；欄首確為「角」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P061",
+  "page": "p25",
+  "note": "本案兩處均作「角刺」，無「皂」；工作本兩處皆有「皂」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P112",
+  "page": "p40",
+  "note": "印本為「肝」（月＋干）；工作本「疳」不合。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V2-P069",
+  "page": "p64",
+  "note": "印本為「地黃丸」，非「地黃湯」；「艽」作「芁」形。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P008",
+  "page": "p68",
+  "note": "補氣瀉榮湯中「連翹」下小字為「各六分」；工作本「五」不合。地龍條另為「去土各五」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P059",
+  "page": "p75-76",
+  "note": "陳皮下小字為「五分」，非「炒」；黃耆小字為「炒」在前一葉。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P102",
+  "page": "p82",
+  "note": "小字為「炒各一分」，「分」字清晰；工作本「錢」不合。當歸另為前一行。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P179",
+  "page": "p94",
+  "note": "字形為「枚」（木＋攵），非「杓」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H3-P001",
+  "page": 10,
+  "note": "印本作『脾』；同葉『白芷散』(非『血芷散』)、『獨活散』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H3-P013",
+  "page": 12,
+  "note": "右旁『呈』(口+王)，非『醒』(日+生)；又印本有『用』字(工作本『食前解』缺『用』)",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H5-P003",
+  "page": 18,
+  "note": "印本僅一處『陰毒』後直接『法』：『屬陰毒法可汗之』，無『用陰』；工作本『陰毒用陰毒法』多出『用陰毒』(或作『陰』之複寫)",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-KCLY-H6-P019",
+  "page": 25,
+  "note": "印本『二十餘劑』有『餘』字；『黃茋』字形",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-KCLY-H7-P006",
+  "page": 26,
+  "note": "印本『肥羊脂』，非『牛』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P003",
+  "page": 28,
+  "note": "印本『當歸一錢二分』，非『三錢』；又印本末作『右水煎服』(非『上』)",
+  "outcome": "applied_then_fixed_by_print_reading"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P047",
+  "page": 32,
+  "note": "右旁『呈』(口+王)，非『醒』；同頁『右薑棗水煎服』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P088",
+  "page": 36,
+  "note": "印本『續斷炒各三兩』三畫清晰；其後『茯苓各二兩』為二畫",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P105",
+  "page": 38,
+  "note": "三橫清晰，印本『白芷各三分』，非『二分』；『佛耳草有寒嗽者用之如無不用』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P120",
+  "page": 40,
+  "note": "印本『一錢』，非『一兩』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P140",
+  "page": 42,
+  "note": "印本『連翹(小字)各五錢』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P140",
+  "page": 42,
+  "note": "印本『升麻』下小字『各五分』(有此句)，鉛白霜下僅『五錢』無『各』；即桔梗升麻各五分，鉛白霜五錢",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P178",
+  "page": 46,
+  "note": "印本作『薄苛』(艹+可)，非『荷』",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P184",
+  "page": 46,
+  "note": "印本『荷』字(艹+何)，非『河』；印本次序『粉草四錢｜草紫荷車四錢』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-KCLY-H13-P198",
+  "page": 47,
+  "note": "印本『清咽消毒散』，非『消熱』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P012",
+  "page": "p8 左葉末行",
+  "note": "印本作「六君湯」（無「子」），工作本誤作「四君子湯」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P017",
+  "page": "p10 左葉",
+  "note": "印本作「升陽益胃湯」，工作本「升麻」誤。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P043",
+  "page": "p21 左葉",
+  "note": "印本作「五苓散」（艹+令，與同頁五苓字形一致），工作本「五淋散」誤。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P061",
+  "page": "p25 左葉",
+  "note": "印本作「知母角刺」，無「皂」字；「黑黃栢」僅字形差（栢／柏）。工作本多「皂」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V1-P064",
+  "page": "p26 左葉",
+  "note": "印本作「大黃角刺」，無「皂」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V2-P022",
+  "page": "p49 左葉首行",
+  "note": "「陰虛」後直接接「余用補中益氣湯加茯苓治之…」，印本無工作本之「余用補中益氣湯加五味子麥門冬而愈一儒者遍身發癗誤服攻毒之劑…」一段；且印本後文為「又因調養失宜…用八珍湯加五味子麥門冬五十餘劑而愈」，與工作本/語料所載結句不同。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-LYJY-V2-P071",
+  "page": "p65 右葉",
+  "note": "印本作「柴胡散」，非「胡麻散」；另印本「先用歸脾飲一劑」（語料作二劑，不在清單）。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V2-P071",
+  "page": "p65 右葉",
+  "note": "同上，無「麻」字。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P044",
+  "page": "p74 右葉",
+  "note": "印本作「人乳汁」，且方後用「右」而非「上」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P080",
+  "page": "p78 左葉",
+  "note": "小字「各一／錢半」，方後為「右」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P088",
+  "page": "p79 左葉末至p80 右葉",
+  "note": "印本有當歸川芎散一方（見p79左葉末行標題、p80右葉藥味），工作本缺；方後皆用「右」。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P100",
+  "page": "p82 右葉",
+  "note": "印本次序為防己在膽草前，且作「膽草」，無「龍」；「膽」寫作胆形。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P147",
+  "page": "p89 右葉",
+  "note": "印本作「脾腎虛弱」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P177",
+  "page": "p93 左葉",
+  "note": "印本「粘米炒十粒」列於杏仁前（甘草之後、鼠粘子前），杏仁後即「右水煎服」；作「粘米」非「糯米」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P183",
+  "page": "p94 左葉首行",
+  "note": "該處為「八兩」；另印本數字為「一斤八兩」（單一橫畫），與兩本之「二斤」不同（不在清單）。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P189",
+  "page": "p95 右葉/左葉",
+  "note": "標題作「大麻子膏」；其藥味列「大楓子肉」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P197",
+  "page": "p97 右葉",
+  "note": "印本作「卽肥兒丸」，無「四味」。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P201",
+  "page": 98,
+  "note": "右葉『約半指厚』，『指』字清晰（提手旁＋旨），非『寸』。四庫本正確，工作本『寸』為轉錄誤。",
+  "outcome": "applied_then_fixed_by_print_reading"
+ },
+ {
+  "source_id": "XJ-LYJY-V3-P212",
+  "page": 99,
+  "note": "左葉標題作『加減抱龍丸』（『九』作丸之俗寫），有『加減』二字；工作本脫。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-PRE-P001",
+  "page": 1,
+  "note": "承應本無嘉靖序(約273字)；該本卷首為目錄，序文可能不在此影本",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P029",
+  "page": 14,
+  "note": "印本在「矣」後有低格小標題「經漏不止」，再接「經云」；工作本漏此標題",
+  "outcome": "not_applied:ambiguous"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P059",
+  "page": 24,
+  "note": "印本作「喉中」",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P076",
+  "page": 29,
+  "note": "印本無「佐以四物若兼怒動肝火而寒熱者」一段，直接「久而血虛佐以加味逍遙散」",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P155",
+  "page": 52,
+  "note": "印本作「加味芎歸」無「脾」；另「而痊」(工作本作瘥)，印本形似痊",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P216",
+  "page": 59,
+  "note": "印本作「各五分」，非二分",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V1-P257",
+  "page": 64,
+  "note": "印本卷上終於「右酒水煎服」，無「余方見下卷」；末方為黃瓜蔞子多者一箇",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P001",
+  "page": 67,
+  "note": "印本無「用四君加歸地中氣虛」",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P028",
+  "page": 77,
+  "note": "印本無萆麻子膏及寶慶方一段；保生無憂散後直接「治驗俱詳婦人良方十八卷第四」",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P030",
+  "page": 77,
+  "note": "印本無「家人婦胞衣不出」案",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P030",
+  "page": 77,
+  "note": "印本無工作本多出三案；「良方十八卷第四」為印本所有",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P032",
+  "page": 77,
+  "note": "印本有此段；無「觀諸治驗可見其交骨不開者用芎歸湯」",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P032",
+  "page": 77,
+  "note": "印本無「加發灰龜板」",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P032",
+  "page": 77,
+  "note": "印本作「加味芎歸湯補中益氣湯產門不閉」",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P032",
+  "page": 77,
+  "note": "印本此處「十全大補湯」後即接「治驗」，無「加五味子補而斂之…助以外治之法」一段（工作本另有「三者皆元氣不足，觀諸治驗…」整段，印本亦無）。第77頁左葉末行至第78頁右葉首行。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P034",
+  "page": 78,
+  "note": "印本「治驗」後為小字「餘詳婦人良方十七卷第四」，其後直接「一婦人分娩最易…」，無「地官李孟卿…」案。78頁右葉首列。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P034",
+  "page": 78,
+  "note": "印本作「十七卷第四」（含「七卷第」），無「五歲稚女為繼室…加味芎歸湯四劑備用」一段。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P034",
+  "page": 78,
+  "note": "印本無「劑備用果產門不開…西賓費懷德…」約60字；該案只有另一「一婦人分娩最易至四十」案（產門不開，與前湯…無憂散…）。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P045",
+  "page": 80,
+  "note": "左葉末行「用當歸六黃湯」，次葉右葉首行「內黃芩連栢炒黑」。另：同案末句印本似為「元氣漸復而愈」（第81頁右葉首列，中等把握），工作本作「漸服」，不在清單內。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P095",
+  "page": 93,
+  "note": "93頁左葉末列，「用伸陽益胃湯」首字為亻旁「伸」；「不伸也」亦同。工作本作「升」不合印本。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P097",
+  "page": 94,
+  "note": "94頁右葉逍遙散：「山梔炒各五錢」（錢作銭字形），下列首字「右」；工作本作「五分」「上」與印本不合。柴胡「各一錢」不變。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P105",
+  "page": 94,
+  "note": "補中益氣湯首味「黃耆炙錢五分」，印本「炙」與「錢」之間無「一」。94頁左葉末條（放大400dpi檢視）。",
+  "outcome": "not_applied:notation_only"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P130",
+  "page": 97,
+  "note": "印本作「熟地　八兩　杵膏」，無「黃」字、亦非「半斤」，與四庫「熟地八兩」同（工作本「熟地黃半斤」不合）。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P161",
+  "page": 100,
+  "note": "印本作「宜用六君」，其後直接「若因脾胃虛」，無「子加枳殼」。「若因飲食停滯」在99頁左葉末列，「宜用六君」在100頁右葉首列。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P188",
+  "page": 102,
+  "note": "102頁右葉第5列首字為「全」（入字頭+王），非「金」。",
+  "outcome": "applied_then_fixed_by_print_reading"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P195",
+  "page": 102,
+  "note": "102頁左葉末列「若因脾氣虛弱宜兼六君子」，「氣」字清楚，非「胃」。工作本「脾胃虛弱」不合。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P202",
+  "page": 103,
+  "note": "印本有「錢」：「右每服五錢姜水煎」；「薑」印本作「姜」。開頭亦作「右」非「上」。103頁左葉。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P209",
+  "page": 104,
+  "note": "二陳湯中茯苓下小字右列「各錢」、左列「五分」，「各」與「錢」之間無「一」（放大檢視）；半夏下則有「一錢」。104頁右葉。",
+  "outcome": "not_applied:notation_only"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P219",
+  "page": 105,
+  "note": "105頁右葉第2列「達子散」，字為「子」，非「生」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P309",
+  "page": 113,
+  "note": "113頁右葉生化之源方：第二列「黃芩」，下半為「今」非「耆」。另：印本「五味」後無「子」，作「五味九粒杵炒」，與四庫同、工作本「五味子」不同（清單外）。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKCZ-V2-P324",
+  "page": 114,
+  "note": "附子八物湯「甘草炙各錢半」，「各」與「錢」之間無「一」；肉桂、白朮處則有「一錢」「二錢」。114頁左葉。",
+  "outcome": "not_applied:notation_only"
+ },
+ {
+  "source_id": "XJ-NKZY-V1-P033",
+  "page": 14,
+  "note": "左葉首二行，刻本有「用補中益氣…午後」一句（承上「乃」下「午前」在右葉末）；工作本漏。",
+  "outcome": "applied_insertion_from_print"
+ },
+ {
+  "source_id": "XJ-NKZY-V1-P176",
+  "page": "52-53",
+  "note": "刻本有整段補中益氣湯方文（p52左葉末至p53右葉），其後才是「餘方見下卷」；工作本僅有「余方見下卷」。刻本作「餘」。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P016",
+  "page": 58,
+  "note": "左葉第3行，字為「腹」（月＋复），非「便」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P028",
+  "page": 62,
+  "note": "左葉第3行，字為「茹」（艹＋女＋口），非「薷」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P229",
+  "page": 91,
+  "note": "左葉連翹飲：人參小字「各三／分」，黃耆「五分」；為「分」非「錢」。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P244",
+  "page": 93,
+  "note": "右葉：小字「錢各三」，三畫清楚；非二。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P259",
+  "page": 94,
+  "note": "左葉五淋散：當歸甘草小字「各一錢／五分」，為五分，非二分。另：刻本作「右入燈心」（同skqs）。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-NKZY-V2-P325",
+  "page": 101,
+  "note": "右葉末行標題為「犀角地黃湯」，湯字清楚。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V1-P029",
+  "page": 15,
+  "note": "右葉「反痛氣血虛也八珍散不作膿」，字形為散非湯。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V1-P067",
+  "page": 31,
+  "note": "印本「熱之不熱責其無火」，為不非無。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V1-P079",
+  "page": 35,
+  "note": "印本「凡大便不通者乃直腸乾涸也」，無『不通飲食雖多肚腹不脹切不可通若腹痞脹而』一句，四庫本相符。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P014",
+  "page": 49,
+  "note": "印本「加山梔牡丹皮調補肝脾而全愈」，缺工作本多出之『稍愈用加味逍遙散…』一句；另『痊』印本作『全愈』(四庫側)。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P017",
+  "page": 50,
+  "note": "印本『仲春』(春字明確)。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P026",
+  "page": 53,
+  "note": "印本「日晡頰赤左闗尺脈大而浮」，為左關尺脈（分行處）；非關赤脈。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P033",
+  "page": 55,
+  "note": "印本「熱毒而用寒藥則謬」，有『寒』字。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P043",
+  "page": 57,
+  "note": "印本「氣虧損所致」，行首氣字；非經。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P046",
+  "page": 59,
+  "note": "印本「用托裏散以生肌」，有散字。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P056",
+  "page": 62,
+  "note": "印本「請治右尺洪數」，為右。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P057",
+  "page": 62,
+  "note": "印本「婦人症見婦人良方女科撮要」，為女科。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P060",
+  "page": 63,
+  "note": "印本「此肝經火盛」，為經。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P084",
+  "page": 71,
+  "note": "印本「此肝腎氣虛」，為肝。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P100",
+  "page": 74,
+  "note": "印本「二陳枳實之類」，為實。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P119",
+  "page": 82,
+  "note": "印本作『飲食難化』，非『不化』。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P130",
+  "page": 85,
+  "note": "印本『加羌防』，非『羌活』。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V2-P166",
+  "page": 94,
+  "note": "印本『脾傷不能攝』，非『肺傷』。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P009",
+  "page": 97,
+  "note": "印本『附子五分』有『五分』，工作本缺。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P021",
+  "page": 102,
+  "note": "印本『真陰』，非真陽。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P022",
+  "page": 102,
+  "note": "印本『八珍散』，非湯（同頁下文『八珍湯并十全大補湯』為另處）。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P027",
+  "page": 104,
+  "note": "印本『多屬腎經』，非脾經。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P040",
+  "page": 108,
+  "note": "印本『內熱作渴』，非『不渴』。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P100",
+  "page": 122,
+  "note": "印本有『足』字（爲字下接足三陰）；工作本脫『足』。印本作『爲』。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P120",
+  "page": 128,
+  "note": "印本『十全大補湯』，全字為入+王；非『十餘』。同頁眉批小字『附錄…核凡結核…』非本項。",
+  "outcome": "applied_then_fixed_by_print_reading"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P124",
+  "page": 130,
+  "note": "印本『八味丸』，非七味丸。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V3-P165",
+  "page": 141,
+  "note": "印本『用四君子』，非六君子。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P043",
+  "page": 154,
+  "note": "印本方名『抑陽散』，非抑揚散。",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P056",
+  "page": 156,
+  "note": "印本草烏二兩之後有『白桂五錢』（白桂，非肉桂），順序為草烏、白桂、赤芍藥、南星、白芷；與四庫同，工作本缺此行且作『肉桂』。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P056",
+  "page": 156,
+  "note": "印本赤芍藥後只有小字『炒』，無『一兩』；劑量僅見白芷下小字『各一兩』。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P056",
+  "page": 156,
+  "note": "印本南星後只有小字『煨』，無『一兩』；劑量見白芷下小字『各一兩』。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P059",
+  "page": 156,
+  "note": "印本羌活後有小字『四錢』，工作本缺。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P059",
+  "page": 156,
+  "note": "左葉托裡溫中湯方;四錢在羌活下,附子下無劑量。另:甘草炙下小字似為二錢,與corpus一錢不合,未細核",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P072",
+  "page": 157,
+  "note": "左葉人參理中湯,虛痞後有『飲食不入』四字",
+  "outcome": "not_applied:ambiguous"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P075",
+  "page": 158,
+  "note": "竹葉黃耆湯,生地黃小字為一錢;淡竹葉二錢",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P101",
+  "page": 161,
+  "note": "散腫潰堅湯,『廣术』(术字形),無『香』",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P104",
+  "page": 161,
+  "note": "益氣養榮湯,印本作生地黃,非熟地黃",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P108",
+  "page": 162,
+  "note": "印本『大便出』;另每服『五分』(corpus作半錢)未列入",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P143",
+  "page": 168,
+  "note": "瓜子仁湯,『或作癰患』有(跨行:『作』『癰患』)",
+  "outcome": "not_applied:ambiguous"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P183",
+  "page": 172,
+  "note": "人參養榮湯,『凡大病後最宜用此』後為人參、陳皮、黃耆、白芍藥次序",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P204",
+  "page": 175,
+  "note": "題作『飲』;另同句印本作『治腎經』,工作本為『肺經』(未列入)",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P224",
+  "page": 178,
+  "note": "二神丸,肉豆蔻下有小字二兩;字形為『蔻』(同工作本),與skqs『蔲』僅字形異",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P224",
+  "page": 178,
+  "note": "五味子下小字二兩,非『各一兩』",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P228",
+  "page": 178,
+  "note": "印本『四十枚』,無『九』",
+  "outcome": "reverted_kept_earlier_Waseda_based_reading"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P228",
+  "page": 178,
+  "note": "印本無『切碎同棗用』",
+  "outcome": "reverted_kept_earlier_Waseda_based_reading"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P269",
+  "page": 183,
+  "note": "清燥湯,黃柏小字酒洗一分",
+  "outcome": "applied_then_fixed_by_print_reading"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P283",
+  "page": 184,
+  "note": "右薑棗水煎服後直接接托裏益黃湯,無托裏清中湯一方;印本用『裏』字。前有托裏益中湯、托裏益青湯",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P303",
+  "page": 186,
+  "note": "神効瓜蔞散,沒藥下『各一錢』;當歸五錢、生甘草五錢",
+  "outcome": "applied_then_fixed_by_print_reading"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P342",
+  "page": 190,
+  "note": "雙解散,辣桂、大黃、白芍藥、澤瀉、牽牛、炙草、桃仁、乾薑",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P345",
+  "page": 190,
+  "note": "制甘草法,印本『五寸許』",
+  "outcome": "applied"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P387",
+  "page": 195,
+  "note": "升麻和氣飲,當歸陳皮各一錢半",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P387",
+  "page": 196,
+  "note": "印本有乾葛浸軟切片",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-WKSY-V4-P406",
+  "page": 198,
+  "note": "便血方,首味為『括云』(栝蔞?),非黃連",
+  "outcome": "not_applied:ambiguous"
+ },
+ {
+  "source_id": "XJ-ZTLY-PRE-P001",
+  "page": "p1-3",
+  "note": "承應本全冊67頁：p1-2為目錄(卷之上/卷之下)，p3即卷上首頁「正體主治大法」，卷末p67「正體類要卷之下終」；全冊無陸師道序。working獨有之序文承應本無。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-ZTLY-PRE-P001",
+  "page": "p1-3",
+  "note": "承應本全冊67頁：p1-2為目錄(卷之上/卷之下)，p3即卷上首頁「正體主治大法」，卷末p67「正體類要卷之下終」；全冊無陸師道序。題署為古吳薛己著、後學顧凌霄校（skqs的『明薛已撰』題署亦不見）。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-ZTLY-PRE-P001",
+  "page": "p1-3",
+  "note": "承應本全冊67頁：p1-2為目錄(卷之上/卷之下)，p3即卷上首頁「正體主治大法」，卷末p67「正體類要卷之下終」；全冊無陸師道序。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-ZTLY-PRE-P001",
+  "page": "p3",
+  "note": "承應本全冊67頁：p1-2為目錄(卷之上/卷之下)，p3即卷上首頁「正體主治大法」，卷末p67「正體類要卷之下終」；全冊無陸師道序。「一脇肋脹痛」印本作脇，與skqs同，working作脅為轉錄/字形差。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P002",
+  "page": "p4左葉",
+  "note": "印本無「既下而欲嘔胃氣傷也用六君當歸補之」一句；working多出該句。",
+  "outcome": "not_applied:extra_edition_material"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P013",
+  "page": "p8左葉",
+  "note": "印本有此句(陰虛邪火也用六味地黃丸；四肢困倦精神短少而不生者)，working缺；印本作『地黃丸』。",
+  "outcome": "applied_insertion_from_print"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P017",
+  "page": "p10右葉",
+  "note": "印本有「柴梔丹皮若胸腹脹滿…用六君加柴胡芎歸」。另：印本「若胸脅作痛發熱晡熱肝經血傷也用加味逍遙散」位於桃仁紅花句後、「若胸脅作痛飲食少思」之前（行文內），非working所置文末『以上』括注位置。",
+  "outcome": "applied_insertion_from_print"
+ },
+ {
+  "source_id": "XJ-ZTLY-V1-P097",
+  "page": "p35左葉",
+  "note": "印本有「元氣漸復飲食已進乃去附子服之」，working缺。",
+  "outcome": "applied_insertion_from_print"
+ },
+ {
+  "source_id": "XJ-ZTLY-V2-P120",
+  "page": "p57右葉",
+  "note": "小字「鹽水拌／炒一錢」，錢字清楚；working『一兩』誤。印本人參下小字「一錢氣虛多用之」，白朮『炒七分』、陳皮『七分』，與working『各七分』寫法略異。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-ZTLY-V2-P152",
+  "page": "p60右葉",
+  "note": "印本白芍藥後有『生地黃』，working缺。另：印本劑量小字作『各一兩／五錢』(一兩五錢)，working作『一兩半』（未列入差異表，僅記）。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-ZTLY-V2-P166",
+  "page": "p62右葉",
+  "note": "印本當歸後有『紅花』，working缺。另：印本自然銅『火煅十次』(十字清楚)，working作『火煅七次』，未列入差異表，記備核。",
+  "outcome": "applied_rewritten_for_formula_format"
+ },
+ {
+  "source_id": "XJ-ZTLY-V2-P181",
+  "page": "p63左葉",
+  "note": "印本作地丁香，working『地丁草』與之不同。",
+  "outcome": "applied"
+ }
+]

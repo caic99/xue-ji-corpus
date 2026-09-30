@@ -32,8 +32,8 @@ def norm(s):
     return ''.join(ch for ch in s if CJK.match(ch) or ch == '〓')
 
 
-def main():
-    bodies = {r['meta']['source_id']: r['body'] for b in books(CORPUS.read_text(encoding='utf-8')) for r in b['rows']}
+def compute(bodies):
+    """Return (per-book raw diff rows, glyph-pair set, per-book summary). Row: (op, source_id, working_run, skqs_run)."""
     snap = ROOT / 'work/source-snapshots/wikisource-skqs'
     summary, pairs, all_diffs = {}, collections.Counter(), {}
     for work, vols in BOOKS.items():
@@ -58,6 +58,12 @@ def main():
     for work, diffs in all_diffs.items():
         resid = [d for d in diffs if '〓' not in d[2] + d[3] and not (d[0] == 'replace' and (d[2], d[3]) in table and len(d[2]) == 1 and len(d[3]) == 1)]
         summary[work]['residual_after_glyph_pairs'] = len(resid)
+    return all_diffs, table, summary
+
+
+def main():
+    bodies = {r['meta']['source_id']: r['body'] for b in books(CORPUS.read_text(encoding='utf-8')) for r in b['rows']}
+    all_diffs, table, summary = compute(bodies)
     out = ROOT / 'work/edition-compare/raw_alignment_summary.json'
     out.write_text(json.dumps({'glyph_pair_threshold': 5, 'glyph_pairs': len(table), 'books': summary}, ensure_ascii=False, indent=1), encoding='utf-8')
     for w, s in summary.items():
