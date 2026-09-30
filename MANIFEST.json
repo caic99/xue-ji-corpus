@@ -20,32 +20,32 @@
   "sha256": "43533d7501fd332ad12cd88b219d5ff7cc51581bdd955bffa0cd0a2c8a993f16"
  },
  "README.md": {
-  "bytes": 8282,
-  "sha256": "04d688e62a6f68f89ed41d90808c2768dc80552bb82eff86188da383bfcd7bbe"
+  "bytes": 8644,
+  "sha256": "8a1b3907dd81eacaf256aaf06ada0036d72f9354a893d1954aef0894ec0251b3"
  },
  "docs/DATA_DICTIONARY.md": {
   "bytes": 7035,
   "sha256": "2a9596dc47edb53f5b00938c7e4f84277b714f993812b97c9eba2d3b45602ed2"
  },
  "docs/HANDOFF.md": {
-  "bytes": 22839,
-  "sha256": "379f4df961d53e802bd25a108335035a25ae9505a0e273e87e5027cc1678c628"
+  "bytes": 22867,
+  "sha256": "fe6f10e27b735b913a8e90ed6570404516f36388b40aac5a65dd032d8b546b2d"
  },
  "outputs/薛己核心医案_结构化样本.md": {
-  "bytes": 9342519,
-  "sha256": "306c90209b131e8d26999639ce9f28cd369d3069dbddb9dce42f68f13a6cd8fb"
+  "bytes": 9379519,
+  "sha256": "159938178f5cec0f442264ad73bc92a3b0198c6a2941db647371a2c91ee63824"
  },
  "state/baseline_validation.json": {
   "bytes": 9059,
   "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
  },
  "state/current_state.json": {
-  "bytes": 55214,
-  "sha256": "571e5ae4ab7404173f7455fe31326ba195838699c4b65cf9569608345ebea195"
+  "bytes": 55362,
+  "sha256": "f088e107cebd51ccf4c46da2c0685eb88228cec66f83b4a83f7853acd2f521fa"
  },
  "state/next_tasks.json": {
-  "bytes": 12600,
-  "sha256": "ce5c8212ed2dfa0491a9cb87417b681fc32bf3011880f35e328df5079313b4f6"
+  "bytes": 12951,
+  "sha256": "39f6970333cd8bd7b92c729926a79fb9e51c37f9a2a959eb8402e37101a18b7a"
  },
  "work/apply_reconciliation_metadata.py": {
   "bytes": 4778,
@@ -64,8 +64,8 @@
   "sha256": "562387b80a78d3ce985de482cd1925a4356d3fd1c339cdbc76c8292175764a28"
  },
  "work/edition-compare/README.md": {
-  "bytes": 5761,
-  "sha256": "02269e4b5af9252b4398b1912caae46f4558b31ed8eefb53992e606f0f12fd08"
+  "bytes": 6176,
+  "sha256": "5e092c15d3ba70c42da3d6c3d5394940af330498d70c2aaf2f6f62053c1c5e5e"
  },
  "work/edition-compare/edition_diffs_all.json": {
   "bytes": 1052109,
@@ -76,12 +76,16 @@
   "sha256": "88e072364bc5c1247bf413f6fbc902ebc82014bf551fdbcf77c6694f5fcc5499"
  },
  "work/edition-compare/image_check_results.json": {
-  "bytes": 142801,
-  "sha256": "9f5750806df6b1153da28967f776d1c4bf0e281649bc25bcf3367179f8368b06"
+  "bytes": 192117,
+  "sha256": "d0b7a0eeed42cdd2400397cb0b1a7a3e879ae0de99dbebbdd830063466940109"
  },
  "work/edition-compare/image_check_sample_results.json": {
   "bytes": 45799,
   "sha256": "fb2b3968c78bb535dfdc9ccf92687bfc109092334ad32149bf90d6c4e4009e25"
+ },
+ "work/edition-compare/proposed_corrections.json": {
+  "bytes": 105806,
+  "sha256": "9ec87dd0e4b9991438957bdfb6db809eea752167cf2cf11ce8a0f924bf0421fa"
  },
  "work/edition-compare/raw_alignment_summary.json": {
   "bytes": 1411,
