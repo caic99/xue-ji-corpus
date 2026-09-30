@@ -2,7 +2,7 @@
   "handoff_date": "2026-09-29",
   "last_substantive_corpus_work_date": "2026-09-29",
   "main_document": "outputs/薛己核心医案_结构化样本.md",
-  "main_document_sha256": "367d686f1b0116050ea47a84d5cc678e46b5545af61d5a75345b6631eda4fa28",
+  "main_document_sha256": "77e9ea1e04d8c6b50894c927c9620f1bb6146cb35ca970dd81b398398d6bcfe2",
   "source_text_sha256": "20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9",
   "structured_totals": {
     "cases": 1532,
@@ -675,13 +675,14 @@
     "status": "mechanical_alignment_plus_model_classification_not_human_reviewed_not_image_verified",
     "files": "work/edition-compare/（README、edition_diffs_all.json、glyph_variant_pairs_ge5.json、raw_alignment_summary.json）；work/compare_wikisource_skqs.py；work/source-snapshots/wikisource-skqs/",
     "image_check_sample": {
-      "items": 84,
-      "records": 82,
-      "print_agrees_with_skqs": 57,
-      "print_agrees_with_working": 22,
-      "neither": 5,
+      "items_so_far": 235,
+      "records": 202,
+      "print_agrees_with_skqs": 155,
+      "print_agrees_with_working": 70,
+      "neither": 10,
       "unreadable_or_not_located": 0,
-      "note": "抽样自内容·高短替换差异；模型视觉读取，非人工裁定；不可外推为全书错误率"
+      "remaining_in_progress": "外科樞要2块、癘瘍機要1块（第二轮）",
+      "note": "抽样自内容·高差异；模型视觉读取，非人工裁定；不可外推为全书错误率"
     }
   }
 }

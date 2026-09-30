@@ -1,4 +1,8 @@
 {
+ ".github/workflows/validate.yml": {
+  "bytes": 955,
+  "sha256": "f4da347ed50071ca951a635f8919d7f73ee7bd8d3eeac6caa5713371281c2690"
+ },
  ".gitignore": {
   "bytes": 29,
   "sha256": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672"
@@ -12,32 +16,32 @@
   "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
  },
  "NOTICE.md": {
-  "bytes": 3288,
-  "sha256": "efbde974cf0f26bdb8e7ae5a4c842e6571b9240b7c1174aeab2c97e73533a9c2"
+  "bytes": 3399,
+  "sha256": "43533d7501fd332ad12cd88b219d5ff7cc51581bdd955bffa0cd0a2c8a993f16"
  },
  "README.md": {
-  "bytes": 7645,
-  "sha256": "a95e24072601a29f0f87d8410654ca46861fe106688d8babb051a3d32a9909a9"
+  "bytes": 8282,
+  "sha256": "04d688e62a6f68f89ed41d90808c2768dc80552bb82eff86188da383bfcd7bbe"
  },
  "docs/DATA_DICTIONARY.md": {
   "bytes": 7035,
   "sha256": "2a9596dc47edb53f5b00938c7e4f84277b714f993812b97c9eba2d3b45602ed2"
  },
  "docs/HANDOFF.md": {
-  "bytes": 22704,
-  "sha256": "0134e1b5812f636c78dc7f9a7f78b203447edcb00fac52fc876c436e5b21879c"
+  "bytes": 22839,
+  "sha256": "379f4df961d53e802bd25a108335035a25ae9505a0e273e87e5027cc1678c628"
  },
  "outputs/薛己核心医案_结构化样本.md": {
-  "bytes": 9275035,
-  "sha256": "51b6899e6600c6520dea28cd44c41ebd9855706ec292ee14befe328c939cb111"
+  "bytes": 9342519,
+  "sha256": "306c90209b131e8d26999639ce9f28cd369d3069dbddb9dce42f68f13a6cd8fb"
  },
  "state/baseline_validation.json": {
   "bytes": 9059,
   "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
  },
  "state/current_state.json": {
-  "bytes": 55127,
-  "sha256": "bed23dbfae3cedca77521411b406aaf8689d81d3880e0ae151a2d87df5676142"
+  "bytes": 55214,
+  "sha256": "571e5ae4ab7404173f7455fe31326ba195838699c4b65cf9569608345ebea195"
  },
  "state/next_tasks.json": {
   "bytes": 12600,
@@ -60,8 +64,8 @@
   "sha256": "562387b80a78d3ce985de482cd1925a4356d3fd1c339cdbc76c8292175764a28"
  },
  "work/edition-compare/README.md": {
-  "bytes": 4999,
-  "sha256": "4f5d48a0f52cb60e297ee6c8b8eefd0063b17e8e7b43c153638ec0899696bdc8"
+  "bytes": 5761,
+  "sha256": "02269e4b5af9252b4398b1912caae46f4558b31ed8eefb53992e606f0f12fd08"
  },
  "work/edition-compare/edition_diffs_all.json": {
   "bytes": 1052109,
@@ -70,6 +74,10 @@
  "work/edition-compare/glyph_variant_pairs_ge5.json": {
   "bytes": 2609,
   "sha256": "88e072364bc5c1247bf413f6fbc902ebc82014bf551fdbcf77c6694f5fcc5499"
+ },
+ "work/edition-compare/image_check_results.json": {
+  "bytes": 142801,
+  "sha256": "9f5750806df6b1153da28967f776d1c4bf0e281649bc25bcf3367179f8368b06"
  },
  "work/edition-compare/image_check_sample_results.json": {
   "bytes": 45799,

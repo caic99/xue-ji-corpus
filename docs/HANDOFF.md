@@ -111,7 +111,7 @@ https://commons.wikimedia.org/wiki/File:NCL-06248-0008_%E5%85%A7%E7%A7%91%E6%91%
 - `validate_complete_corpus.py`：当前八书回退保护，预设 5357 等数量。数量是交接基线，不是外部完整性证据。新增作品或恢复漏文时需同时更新验证规则、证据与基线说明，不能为让测试通过单改预期。
 - `structure_nkzy_chapter.py`、`structure_nkzy_chapters_two_six.py`、`structure_nkzy_volume_one_rest.py`、`structure_nkzy_volume_two.py`：包含已读过全文后记录的边界／标签及机械渲染逻辑。以后修改主稿中的这些块，也须同步对应脚本，或停用渲染再明确记录手工维护；直接重跑会覆盖块内后续改动。
 - `compare_wikisource_skqs.py`（2026-09-30 新增）：工作稿与 Wikisource 四库本逐字对齐（快照在 `source-snapshots/wikisource-skqs/`，结果在 `edition-compare/`，README 有方法与主要发现）。模型分类结果只作候选：来源记录上的 `skqs_variant_note`（仅内容·高，≤6条）、`skqs_cross_check_note`（八条待核记录的互证说明）、书级 `wikisource_skqs_comparison`。Wikisource API 有速率限制（HTTP 429），补取卷次须慢速串行。
-- 影像抽核（2026-09-30）：`edition_image_check` 字段（82条来源记录，共84处）为模型在承应本影像上的逐处读取；抽样自高重要差异，印本与四库一致57／与工作稿一致22／皆不同5。结果与解读见 `work/edition-compare/README.md`，逐条见 `image_check_sample_results.json`。承应本各册 PDF 未入库（见暂存区下载记录），页码信息在字段中。
+- 影像抽核（2026-09-30）：`edition_image_check` 字段（202条来源记录，截至目前共235处）为模型在承应本影像上的逐处读取，覆盖高重要差异的大部分（第二轮仍有外科枢要、疠疡机要3块进行中）；印本与四库一致155／与工作稿一致70／皆不同10。**影像还显示工作稿并非纯承应本**（正体类要陆师道序、女科撮要序文及卷下P028/P030增补段承应影像均无）。结果与解读见 `work/edition-compare/README.md`，逐条见 `image_check_results.json`。
 - `check_retrieval_inheritance.py`（2026-09-30 新增，只读）：检查来源记录 `needs_review` 是否传播到依赖它的结构化单元及整个方剂组（组内不得混合状态）；有缺口时退出码为 1。改动任何待核状态后须运行。首次运行发现并补齐 10 个单元的继承缺口（WKSY P168 组、LYJY P017–018、NKZY P171–174、BYCY L1133 附记）。
 - `rebuild_book_from_cc0.py`：`BookParser` 被现行审计器导入。其命令行主体是旧整书重建器，会替换整书区域并重置元资料；保留模块依赖但不要直接用于当前主稿。
 - `archive/tools/append_kanripo_volume.py`：旧导入器，来源行／页标记算法可参考；不得重复追加现有《保婴粹要》。原始 Kanripo 文本未找到本地快照，须以后按许可重新取得并对账。

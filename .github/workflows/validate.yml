@@ -1,0 +1,27 @@
+name: validate-corpus
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Structural validation (records, IDs, spans, coverage, baselines)
+        run: |
+          python3 work/validate_complete_corpus.py > /tmp/validate.json
+          python3 - <<'PY'
+          import json
+          s = json.load(open('/tmp/validate.json'))['summary']
+          print(s)
+          assert s['errors'] == 0 and s['duplicate_source_ids'] == 0 and s['records'] == 5357
+          PY
+      - name: Source-text digest must be unchanged
+        run: |
+          python3 work/audit_corpus.py | tee /tmp/audit.json
+          grep -q '20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9' /tmp/audit.json
+      - name: Pending-status inheritance
+        run: python3 work/check_retrieval_inheritance.py

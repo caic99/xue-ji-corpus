@@ -8,7 +8,7 @@ The eight books are Ming-dynasty classical texts by 薛己 and are in the public
 
 | Component | Where used | Source | Terms |
 |---|---|---|---|
-| Text of 內科摘要, 女科撮要, 正體類要, 口齒類要, 立齋外科發揮, 外科樞要, 癘瘍機要 | source records of the corpus; `work/source-snapshots/*.html` | 中醫笈成 (jicheng.tw), transcribing the Japanese 承應三年 (1654) print held by the National Central Library, Taiwan | CC0 per the site's copyright statement (https://jicheng.tw/tcm/copyright.html) |
+| Text of 內科摘要, 女科撮要, 正體類要, 口齒類要, 立齋外科發揮, 外科樞要, 癘瘍機要 | source records of the corpus; `work/source-snapshots/*.html` | 中醫笈成 (jicheng.tw), which names the Japanese 承應三年 (1654) print held by the National Central Library, Taiwan as its base (and a 嘉靖 print for some books). Image checks show the text is not identical to the 承應 scan | CC0 per the site's copyright statement (https://jicheng.tw/tcm/copyright.html) |
 | Text of 保嬰粹要 | source records; `work/source-snapshots/bycy-kr3e0070_005-*.txt` | Kanseki Repository (漢籍リポジトリ), KR3e0070_005, 文淵閣四庫全書 edition | Labelled CC BY-SA by the repository; the version is not stated upstream. Attribution: *Kanseki Repository, https://www.kanripo.org/ (KR3e0070)*. Share-alike applies to this repository's derivatives |
 | Wikisource 《薛氏醫案（四庫全書本）》 vols 1–19 | `work/source-snapshots/wikisource-skqs/` | https://zh.wikisource.org/wiki/薛氏醫案_(四庫全書本) via the MediaWiki API, fetched 2026-09-30 | CC BY-SA 4.0 (text contributed by Wikisource contributors); attribution required |
 | Page scans (NCL 承應三年 prints; Waseda University Library copy) | **not included**; referenced by URL and page number in the data | National Central Library via Wikimedia Commons; Waseda University Library | Governed by those hosts; not redistributed here |
