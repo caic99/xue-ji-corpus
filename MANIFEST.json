@@ -1,7 +1,7 @@
 {
  ".github/workflows/validate.yml": {
   "bytes": 955,
-  "sha256": "b3724a97cbe25e1c93e363ca886bd7ed9817af98188130510b246abf725a47ff"
+  "sha256": "c48d06508ba543d687eed2d52fda2e67b3758dd77b3c45393ed49b4ace6f0502"
  },
  ".gitignore": {
   "bytes": 29,
@@ -20,40 +20,40 @@
   "sha256": "43533d7501fd332ad12cd88b219d5ff7cc51581bdd955bffa0cd0a2c8a993f16"
  },
  "README.md": {
-  "bytes": 9144,
-  "sha256": "d2c947b65b1dbcd1085692b544dceb4fba327dbc11666e44a1ca8c781d323ffc"
+  "bytes": 9142,
+  "sha256": "fdea1933b3886710be833057924ee455eb0c7142085d16c9513fd5ae09588705"
  },
  "docs/DATA_DICTIONARY.md": {
-  "bytes": 7704,
-  "sha256": "54277dd30fb37721f9d1751b8c0e5da83724334a7eec947422f45d5301ec88c6"
+  "bytes": 7803,
+  "sha256": "757aa3e2f5f32c76de53fb240ec5ae75911ef875b2a1bc8df003e6b106ce5566"
  },
  "docs/HANDOFF.md": {
-  "bytes": 24827,
-  "sha256": "66d88949d54e0f27f51aa75ff7fa133aae69cf9ffa65177772f3e01277fd3b01"
+  "bytes": 25192,
+  "sha256": "07fb9bdea2012f208f24997f9f7137008c085ad6324432b2a9cf7f94a64a34cd"
  },
  "outputs/薛己核心医案_结构化样本.md": {
-  "bytes": 9440415,
-  "sha256": "79788876440636959c46e053c3c221de4c866b6c8de3b4a6a724407dcc1f6ddd"
+  "bytes": 9451796,
+  "sha256": "32b3978dc18bccbf2140d8ca5250443444322a5723918181d71eae67441e2471"
  },
  "state/baseline_validation.json": {
   "bytes": 9059,
   "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
  },
  "state/current_state.json": {
-  "bytes": 56986,
-  "sha256": "f601bc28fff90250778089b2b1ef4e1f4564e84b515d9730e21a80cb906db61c"
+  "bytes": 57343,
+  "sha256": "638980adaa23d1914f93144c84b3ab69ad7c21dd3517adad929eaa9fcac2a9f3"
  },
  "state/next_tasks.json": {
-  "bytes": 14355,
-  "sha256": "aed539ec23c68af990a99aa358c10892e633fcae519175639df676c8eff3fd2f"
+  "bytes": 14642,
+  "sha256": "014dc2f73298acf8ba1ff081818da1684e7310c32fb5eb7344d6cbd4a3244aac"
  },
  "work/apply_reconciliation_metadata.py": {
   "bytes": 4778,
   "sha256": "8337ee20873bb358d6871049b8375f44278d0cf79042d01b2963309d0a9f0897"
  },
  "work/audit_corpus.py": {
-  "bytes": 33250,
-  "sha256": "311e2c4f2a5058b9fa8577df76db9e3a29a07e933c929216b969ae896c6fceda"
+  "bytes": 33412,
+  "sha256": "dcf1569a2a013a0bd6aed961e7441405421eead8f3e6680814402eeeb5c87592"
  },
  "work/check_retrieval_inheritance.py": {
   "bytes": 1799,
@@ -288,7 +288,7 @@
   "sha256": "f822bf257006209a3d9a30006606fceb3e33d11443848b26ce6ccd3f738bf72d"
  },
  "work/validate_complete_corpus.py": {
-  "bytes": 47394,
-  "sha256": "1c4e140edb7192e6d2ba1d0dd6df35fed234804fac1eac0006669838853aab6f"
+  "bytes": 47988,
+  "sha256": "6574cb102457268e6c2af3198b0ded7de64db8fd0973d65e5702d61270860fd5"
  }
 }

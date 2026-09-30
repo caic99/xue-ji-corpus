@@ -10,7 +10,7 @@ A single, machine-checkable Markdown corpus of the eight medical books directly 
 
 | Path | Content |
 |---|---|
-| `outputs/薛己核心医案_结构化样本.md` | **The corpus** (one ~9 MB file). Source text of 8 books (5,357 records) + structured overlay: 1,532 cases, 3,268 non-case text units, 1,240 formula groups, 46 baseline cards, 83 comparisons |
+| `outputs/薛己核心医案_结构化样本.md` | **The corpus** (one ~9 MB file). Source text of 8 books (5,361 records) + structured overlay: 1,532 cases, 3,272 non-case text units, 1,242 formula groups, 46 baseline cards, 83 comparisons |
 | `docs/DATA_DICTIONARY.md` | Record types, fields, status values, how to parse |
 | `docs/HANDOFF.md` | Maintainer notes (Chinese): decisions, known risks, tool pitfalls |
 | `work/edition-compare/` | Machine alignment of 7 books against Wikisource's 四庫全書 text; 3,159 classified differences; 325 image checks (README explains method and findings) |
@@ -24,8 +24,8 @@ The eight books: 內科摘要, 女科撮要, 正體類要, 口齒類要, 立齋�
 
 ```sh
 git clone https://github.com/caic99/xue-ji-corpus && cd xue-ji-corpus
-python3 work/validate_complete_corpus.py   # expects: works 8, records 5357, errors 0
-python3 work/audit_corpus.py               # source-text digest must stay df8fbd10…a347a7
+python3 work/validate_complete_corpus.py   # expects: works 8, records 5361, errors 0
+python3 work/audit_corpus.py               # source-text digest must stay fd06d94f…e2df
 python3 work/check_retrieval_inheritance.py
 ```
 
@@ -74,7 +74,7 @@ Corrections are welcome, especially: image-based verification of the differences
 > **状态：研究草稿，非医疗建议。** 绝大多数标注由 AI（Anthropic Claude）在人类指示下生成，**尚未经人工复核**。方药剂量与药名是带有已知疑点的转录数据，不是诊疗依据。任何一本书都未做完整影像逐字校对。
 
 ### 内容
-* `outputs/薛己核心医案_结构化样本.md`：语料主文件。八书 5357 条来源记录；1532 案、3268 个非医案文字单元、1240 个方剂归组、46 张思想基线候选卡、83 条比较记录。
+* `outputs/薛己核心医案_结构化样本.md`：语料主文件。八书 5361 条来源记录；1532 案、3272 个非医案文字单元、1242 个方剂归组、46 张思想基线候选卡、83 条比较记录。
 * `work/edition-compare/`：与 Wikisource 四库全书本的逐字对照（七书），3159 条已分类差异，逐处承应本影像抽核（现 325 处，见 edition-compare/README）。
 * `docs/DATA_DICTIONARY.md`：字段与状态说明；`docs/HANDOFF.md`：维护说明（含已知风险与工具陷阱）。
 * 校验：`python3 work/validate_complete_corpus.py`、`python3 work/audit_corpus.py`。仅需 Python 标准库。

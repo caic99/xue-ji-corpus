@@ -10,10 +10,12 @@ from audit_corpus import parse_metadata
 
 CORPUS = Path("outputs/薛己核心医案_结构化样本.md")
 
+ADDED_OUT_OF_ORDER = {"XJ-NKZY-V1": [177, 178], "XJ-LYJY-V3": [222, 223]}
+
 EXPECTED = {
     "XJ-NKZY": {
         "title": "內科摘要",
-        "count": 544,
+        "count": 546,
         "headings": ["卷上", "卷下"],
     },
     "XJ-NKCZ": {
@@ -57,7 +59,7 @@ EXPECTED = {
     },
     "XJ-LYJY": {
         "title": "癘瘍機要",
-        "count": 407,
+        "count": 409,
         "headings": ["序", "上卷", "中卷", "下卷"],
     },
     "XJ-BYCY": {
@@ -198,8 +200,11 @@ def main() -> None:
                 folios.append(record_meta.get("folio", ""))
 
         for prefix, numbers in prefix_numbers.items():
+            # Records added after the first release keep new numbers but sit at their print position (see print_position_note).
+            added = ADDED_OUT_OF_ORDER.get(prefix, [])
+            in_order = [n for n in numbers if n not in added]
             expected_numbers = list(range(1, len(numbers) + 1))
-            if numbers != expected_numbers:
+            if sorted(numbers) != expected_numbers or in_order != sorted(in_order):
                 work_errors.append(
                     f"{prefix}: 序号不连续或顺序错误；前后为 {numbers[:3]}…{numbers[-3:]}"
                 )
@@ -1073,10 +1078,13 @@ def main() -> None:
     if "轉錄疑點" not in lyjy_p018_meta.get("retrieval_warning", ""):
         errors.append("XJ-LYJY-V3-P018: 檢索警示未明示為轉錄疑點")
 
-    # The public webpage's final two paragraphs are cross-work contamination, not LYJY records.
+    # 2026-09-30: the two paragraphs once judged cross-work contamination are the 當歸川芎散 formula that the 承應 print
+    # places between 柴胡清肝散 and 小柴胡湯; they are restored as added records P222/P223.
     for source_id in ("XJ-LYJY-V3-P222", "XJ-LYJY-V3-P223"):
-        if source_id in record_index:
-            errors.append(f"{source_id}: 已確認為卷四十八跨書誤接，仍混入《癘瘍機要》正式正文")
+        if source_id not in record_index:
+            errors.append(f"{source_id}: 當歸川芎散補入記錄缺失")
+        elif not record_index[source_id][0].get("record_added_status"):
+            errors.append(f"{source_id}: 缺少 record_added_status")
     for audit_fragment in (
         "跨書誤收審計記錄",
         "四庫《薛氏醫案》卷四十八公開文本",

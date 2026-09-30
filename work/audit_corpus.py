@@ -333,9 +333,11 @@ def load_nkzy_snapshot(items):
             section = value
         else:
             source.append((volume, section, value))
-    if len(source) != len(book['rows']):
+    # Records added later from other sources (record_added_status) are not in the jicheng snapshot.
+    rows = [r for r in book['rows'] if not r['meta'].get('record_added_status')]
+    if len(source) != len(rows):
         raise ValueError('NKZY snapshot count does not align; manual reconciliation required')
-    for ordinal, (row, (volume, section, value)) in enumerate(zip(book['rows'], source), 1):
+    for ordinal, (row, (volume, section, value)) in enumerate(zip(rows, source), 1):
         m = row['meta']
         if (m.get('volume'), m.get('section')) != (volume, section):
             raise ValueError(f"NKZY source chapter mismatch at {m['source_id']}")
@@ -438,7 +440,7 @@ def report(items):
         counts = Counter(r["meta"].get("scan_verification_status") for r in book["rows"])
         pending = sum(r["meta"].get("retrieval_status") == "needs_review" for r in book["rows"])
         lines.append(f"| {book['meta']['work_title']} | {len(book['rows'])} | {counts['sampled_verified']} | {counts['sampled_variants_found']} | {counts['not_started']} | {pending} |")
-    lines += ['', f'當前結構化醫案：{len(cases)} 條（依 case_id 實際盤點）；來源段落／行仍為 5357 條。完整篇章覆蓋狀態見本文件醫案結構化區，不能把醫案數與來源記錄數相加。']
+    lines += ['', f'當前結構化醫案：{len(cases)} 條（依 case_id 實際盤點）；來源段落／行為 5361 條。完整篇章覆蓋狀態見本文件醫案結構化區，不能把醫案數與來源記錄數相加。']
     if '<!-- NKZY_VOLUME_TWO_CASES_BEGIN -->' in current:
         units = re.findall(r'^text_unit_id: "(XJ-NKZY-[^"\n]+)"$', current, re.M)
         formulas = set(re.findall(r'^formula_id: "(XJ-NKZY-[^"\n]+)"$', current, re.M))

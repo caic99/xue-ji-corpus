@@ -17,11 +17,11 @@ jobs:
           import json
           s = json.load(open('/tmp/validate.json'))['summary']
           print(s)
-          assert s['errors'] == 0 and s['duplicate_source_ids'] == 0 and s['records'] == 5357
+          assert s['errors'] == 0 and s['duplicate_source_ids'] == 0 and s['records'] == 5361
           PY
       - name: Source-text digest must be unchanged
         run: |
           python3 work/audit_corpus.py | tee /tmp/audit.json
-          grep -q 'df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7' /tmp/audit.json
+          grep -q 'fd06d94fddaa2eaaf19bfbe78f4424c12cabac0a6e4344cda2ce428f8bb2e2df' /tmp/audit.json
       - name: Pending-status inheritance
         run: python3 work/check_retrieval_inheritance.py

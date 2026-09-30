@@ -14,12 +14,12 @@ The corpus is one Markdown file, `outputs/薛己核心医案_结构化样本.md`
 
 Use `work/audit_corpus.py:books(text)` to get every book and its source rows (`{"meta", "body"}`) and `validate_structured_units` for the checks.
 
-## Source records (5,357)
+## Source records (5,361)
 
 | Field | Meaning |
 |---|---|
 | `source_id` | Fixed ID: `XJ-<BOOK>-<vol>-P<nnn>` for paragraphs, `XJ-BYCY-V5-L<nnnn>` for physical print lines (保嬰粹要 is unpunctuated 四庫 text, one record per printed line) |
-| `record_kind` | `source_paragraph` (4,218) or `source_line` (1,139) |
+| `record_kind` | `source_paragraph` (4,222) or `source_line` (1,139) |
 | `text_layer` | `original_text` — historical field name; the text is a *working transcription with legacy edits*, not a pristine original |
 | `volume`, `section`, `source_location` | Position in the book |
 | `source_url`, `rights_status` | Where the transcription comes from and its terms (`CC0_public_transcription`, `CC_BY_SA_version_unspecified`) |
@@ -28,7 +28,7 @@ Use `work/audit_corpus.py:books(text)` to get every book and its source rows (`{
 | correction fields | `text_correction_applied` (what was changed and on which page evidence), `pre_correction_body_sha256` (digest of the body before the correction; the full change log with offsets is `work/edition-compare/applied_corrections.json`), `text_correction_note` (a proposed change that was reverted or withheld and why) |
 | optional evidence fields | `original_public_transcription` / `preferred_reading` (legacy reading pair), `difference_grade` (old mixed A–D grade), `current_scan_*` (single-spot image readings), `skqs_variant_note`/`skqs_variant_counts` (Wikisource 四庫 comparison), `skqs_cross_check_note`, `edition_image_check` (image spot-check verdicts), `source_gaiji_note`, `pending_reason` |
 
-**Never renumber source IDs; never edit a source body without a migration note.** (`skqs_variant_note` and `edition_image_check` describe the difference *at the time of comparison*; where `text_correction_applied` is present the body was later corrected to the print reading.) The source-text digest printed by `audit_corpus.py` (`text_sha256`, currently `df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7`; it was `20077b83…1abe9` before the 2026-09-30 image-based corrections, see `state/current_state.json` → `source_text_sha256_history`) covers every `(source_id, body)` pair and must not change.
+**Never renumber source IDs; never edit a source body without a migration note.** (`skqs_variant_note` and `edition_image_check` describe the difference *at the time of comparison*; where `text_correction_applied` is present the body was later corrected to the print reading.) The source-text digest printed by `audit_corpus.py` (`text_sha256`, currently `fd06d94fddaa2eaaf19bfbe78f4424c12cabac0a6e4344cda2ce428f8bb2e2df`; it was `df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7` before the 2026-09-30 record additions and `20077b83…1abe9` before the image-based corrections, see `state/current_state.json` → `source_text_sha256_history`) covers every `(source_id, body)` pair and must not change.
 
 Known quirks: the last record of three books (`XJ-NKZY-V2-P368`, `XJ-WKSY-V4-P417`, `XJ-LYJY-V3-P221`) carries a trailing `---` separator in its parsed body; structured units covering them include it in their span with an `editorial_separator_note`. Seven `保嬰粹要` lines contain unresolved Kanripo glyph codes (`&KRnnnn;`).
 
@@ -42,7 +42,7 @@ Cases are neither patients nor source records: one paragraph may hold several pa
 
 ## Text units (`text_unit_id`, 3,268) and formula groups (`formula_id`, 1,240)
 
-Everything that is not an individual case: `unit_kind` ∈ `formula_text` (2,495), `general_claim`, `section_label`, `chapter_scope_note`, `author_commentary`, `conditional_treatment_rules`, `quoted_author_claim`, `formula_use_commentary`, `signed_testimony_colophon`, `cross_work_reference`, `collective_outcome_note`, and a few others. Units of one formula share `formula_id`/`formula_name`; a formula group inherits `needs_review` as a whole if any member is pending. Formula names for unnamed source formulas are model-assigned by ingredient matching or description and are labelled as such in the section prose.
+Everything that is not an individual case: `unit_kind` ∈ `formula_text` (2,499), `general_claim`, `section_label`, `chapter_scope_note`, `author_commentary`, `conditional_treatment_rules`, `quoted_author_claim`, `formula_use_commentary`, `signed_testimony_colophon`, `cross_work_reference`, `collective_outcome_note`, and a few others. Units of one formula share `formula_id`/`formula_name`; a formula group inherits `needs_review` as a whole if any member is pending. Formula names for unnamed source formulas are model-assigned by ingredient matching or description and are labelled as such in the section prose.
 
 ## Baseline cards (`baseline_id`, 46) and comparisons (`comparison_id`, 83)
 

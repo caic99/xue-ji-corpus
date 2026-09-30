@@ -3,10 +3,10 @@
   "last_substantive_corpus_work_date": "2026-09-29",
   "main_document": "outputs/薛己核心医案_结构化样本.md",
   "main_document_sha256": "481b52bf81ed49359e063cb78786bf0401718dd792190f89d4a7eb5c5e8ec238",
-  "source_text_sha256": "df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7",
+  "source_text_sha256": "fd06d94fddaa2eaaf19bfbe78f4424c12cabac0a6e4344cda2ce428f8bb2e2df",
   "structured_totals": {
     "cases": 1532,
-    "non_case_units": 3268
+    "non_case_units": 3272
   },
   "case_retrieval_statuses": {
     "source_research_with_caveats": 1525,
@@ -16,17 +16,17 @@
     "source_research_with_caveats": 3248,
     "needs_review": 20
   },
-  "formula_groups": 1240,
+  "formula_groups": 1242,
   "works": [
     {
       "work_id": "XJ-NKZY",
       "title": "內科摘要",
-      "source_records": 544,
+      "source_records": 546,
       "source_record_kind_counts": {
-        "source_paragraph": 544
+        "source_paragraph": 546
       },
       "volume_record_counts": {
-        "卷上": 176,
+        "卷上": 178,
         "卷下": 368
       },
       "source_url": "https://jicheng.tw/tcm/book/%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81/index.html",
@@ -35,12 +35,12 @@
       "rights_statement_url": "https://jicheng.tw/tcm/copyright.html",
       "edition_view_url": null,
       "scan_status_counts": {
-        "sampled_variants_found": 8,
+        "sampled_variants_found": 10,
         "not_started": 529,
         "sampled_verified": 7
       },
       "retrieval_status_counts": {
-        "source_research_with_caveats": 538,
+        "source_research_with_caveats": 540,
         "needs_review": 6
       },
       "case_count": 216,
@@ -262,15 +262,15 @@
     {
       "work_id": "XJ-LYJY",
       "title": "癘瘍機要",
-      "source_records": 407,
+      "source_records": 409,
       "source_record_kind_counts": {
-        "source_paragraph": 407
+        "source_paragraph": 409
       },
       "volume_record_counts": {
         "序": 2,
         "上卷": 113,
         "中卷": 71,
-        "下卷": 221
+        "下卷": 223
       },
       "source_url": "https://jicheng.tw/tcm/book/%E7%99%98%E7%98%8D%E6%A9%9F%E8%A6%81/index.html",
       "source_edition_claim": "日本承應三年（1654年）刊本；國家圖書館掃描本",
@@ -280,10 +280,10 @@
       "scan_status_counts": {
         "not_started": 395,
         "sampled_verified": 5,
-        "sampled_variants_found": 7
+        "sampled_variants_found": 9
       },
       "retrieval_status_counts": {
-        "source_research_with_caveats": 406,
+        "source_research_with_caveats": 408,
         "needs_review": 1
       },
       "case_count": 125,
@@ -695,6 +695,12 @@
     {
       "sha256": "df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7",
       "meaning": "应用承应本影像改正后（136 条来源记录、157 处改动）",
+      "valid_from": "2026-09-30",
+      "valid_through": "2026-09-30 补入 4 条记录前"
+    },
+    {
+      "sha256": "fd06d94fddaa2eaaf19bfbe78f4424c12cabac0a6e4344cda2ce428f8bb2e2df",
+      "meaning": "补入 NKZY V1-P177/P178（补中益气汤）与 LYJY V3-P222/P223（当归川芎散）4 条记录后；其余 5357 条正文与上一基线相同",
       "valid_from": "2026-09-30"
     }
   ],
