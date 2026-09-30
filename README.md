@@ -25,7 +25,7 @@ The eight books: 內科摘要, 女科撮要, 正體類要, 口齒類要, 立齋�
 ```sh
 git clone https://github.com/caic99/xue-ji-corpus && cd xue-ji-corpus
 python3 work/validate_complete_corpus.py   # expects: works 8, records 5361, errors 0
-python3 work/audit_corpus.py               # source-text digest must stay fd06d94f…e2df
+python3 work/audit_corpus.py               # source-text digest must stay f2fba7d4…d4f4
 python3 work/check_retrieval_inheritance.py
 ```
 
@@ -43,7 +43,7 @@ Source text and interpretation are separate layers. **Source records** (`source_
 
 ## Findings you can reuse
 
-* **The public transcription (jicheng.tw) has real errors relative to the 承應 print.** In 325 page-image checks covering essentially all machine-flagged high-importance differences, the 承應 print agreed with the 四庫 reading 214 times, with the working text 97 times, and with neither 14 times. This covers only the flagged high-importance subset (medium/low-importance differences are not yet image-checked), it is not an overall error rate, and it varies by book. On 2026-09-30, 153 of 187 confident proposals were applied to the source text (136 records changed; every change is logged in `work/edition-compare/applied_corrections.json` with a per-record `text_correction_applied` note and is reversible); 32 were deliberately not applied and 2 reverted (`correction_outcomes.json`). The source-text digest changed on purpose (history in `state/current_state.json`). Examples: 內科摘要 P308 ‘各一兩’ (working text: 各一錢), P178 蒼朮 ‘一錢’ (working: 三分), P083 ‘府庠’ (working: 府癢).
+* **The public transcription (jicheng.tw) has real errors relative to the 承應 print.** In 325 page-image checks covering essentially all machine-flagged high-importance differences, the 承應 print agreed with the 四庫 reading 214 times, with the working text 97 times, and with neither 14 times; a second batch of 467 medium-importance differences gave 329 / 119 / 18 (+1 illegible). Low-importance differences (388) are not yet image-checked; these are not overall error rates, and they vary by book. On 2026-09-30, 153 of 187 confident proposals were applied to the source text (136 records changed; every change is logged in `work/edition-compare/applied_corrections.json` with a per-record `text_correction_applied` note and is reversible); 32 were deliberately not applied and 2 reverted (`correction_outcomes.json`). On 2026-10-01 a further 258 edits (224 records) from the medium-importance batch were applied the same way. The source-text digest changed on purpose (history in `state/current_state.json`). Examples: 內科摘要 P308 ‘各一兩’ (working text: 各一錢), P178 蒼朮 ‘一錢’ (working: 三分), P083 ‘府庠’ (working: 府癢).
 * **The working text is not a pure 承應 transcription.** Page-image checks show that some passages present in it (the 陸師道 preface of 正體類要; the preface and two later passages of 女科撮要) do not appear in the 承應 scan at all, and one 409-character passage of 女科撮要 appears in the 承應 print but not in the 四庫 text (`work/edition-compare/README.md`).
 * **71 candidate repeated cases** across books (`possible_repeat_case_refs`), flagged mechanically, not confirmed.
 * **保嬰粹要 source lines contain 7 unresolved Kanripo glyph placeholders** (`&KR1792;` …), annotated but not replaced.
@@ -80,7 +80,7 @@ Corrections are welcome, especially: image-based verification of the differences
 * 校验：`python3 work/validate_complete_corpus.py`、`python3 work/audit_corpus.py`。仅需 Python 标准库。
 
 ### 主要发现
-* **工作稿（公开转录）相对承应本存在实质误读**：对机械筛出的“高重要差异”共核影像 325 处，承应本与四库读法一致 214 处、与工作稿一致 97 处、两者皆不同 14 处（仅覆盖高重要差异，各书不均，不是整体错误率）；2026-09-30 已依影像对 187 条高确定度提案中的 153 条改正文字（136 条记录，逐处有日志、可还原），32 条有意未应用、2 条撤回，见 `work/edition-compare/correction_outcomes.json`；来源文字层校验值随之有意更新。
+* **工作稿（公开转录）相对承应本存在实质误读**：对机械筛出的“高重要差异”共核影像 325 处（2026-10-01 又核内容·中差异 467 处：同四库 329、同工作稿 119、皆不同 18、无法辨认 1，并应用其中 258 处改正），承应本与四库读法一致 214 处、与工作稿一致 97 处、两者皆不同 14 处（仅覆盖高重要差异，各书不均，不是整体错误率）；2026-09-30 已依影像对 187 条高确定度提案中的 153 条改正文字（136 条记录，逐处有日志、可还原），32 条有意未应用、2 条撤回，见 `work/edition-compare/correction_outcomes.json`；来源文字层校验值随之有意更新。
 * **工作稿不是纯承应本**：影像核查发现《正体类要》陆师道序、《女科撮要》序文等处在承应影像中并不存在（来源待考）；《女科撮要》卷下一段409字承应本有而四库本无。
 * 机械筛出 71 对跨书候选重出案例（未确认）。
 * 《保婴粹要》有 7 处 Kanripo 缺字占位符，已标注未替换。

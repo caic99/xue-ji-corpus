@@ -24,6 +24,8 @@ for batch in sorted({e['batch'] for e in log}, reverse=True):
 for b in items:
     for r in b['rows']:
         r['body'] = bodies[r['meta']['source_id']]
+for b in items:  # records added later (record_added_status) are not part of the pre-correction baseline
+    b['rows'] = [r for r in b['rows'] if not r['meta'].get('record_added_status')]
 digest = ac.text_digest(items)
 print(f'log entries {len(log)}, unmatched {bad}, recovered digest {digest}')
 ok = bad == 0 and digest == ORIGINAL

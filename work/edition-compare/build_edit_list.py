@@ -5,7 +5,7 @@ uniquely in the record and expressible as a plain substitution/insert/delete; ot
 Glyph forms: the 四庫 reading uses 四庫 variant glyphs (隂, 术, 茋 ...); new text is converted back to the working text's own forms
 with the pooled glyph-pair table so corrections do not import variant glyphs.
 """
-import json, re, sys, collections
+import json, re, sys, os, collections
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'work'))
@@ -59,6 +59,8 @@ edits, manual = [], []
 for x in res:
     if not (x['verdict'] == 'skqs' and x['confidence'] == 'high'):
         continue
+    if os.environ.get('ROUND') and x['round'] != os.environ['ROUND']:
+        continue
     sid = x['source_id']; body = bodies[sid]
     L, w, R = ctx(x['working_ctx']); _, s, _ = ctx(x['skqs_ctx'])
     base = {'source_id': sid, 'page': x['page'], 'note': x['note'], 'working_run': w, 'skqs_run': s, 'print_reading': x['image_reading']}
@@ -104,6 +106,6 @@ for sid, lst in by.items():
         if b['start'] < a['end']:
             a['tier'] = b['tier'] = 'manual'
 out = {'edits': [e for e in edits if e['tier'] == 'auto'], 'manual': manual + [dict(e, reason='overlapping edits') for e in edits if e['tier'] == 'manual']}
-(ROOT / 'work/edition-compare/edit_list.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+(ROOT / 'work/edition-compare' / os.environ.get('OUT', 'edit_list.json')).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
 print('auto edits', len(out['edits']), 'records', len({e['source_id'] for e in out['edits']}), 'manual', len(out['manual']))
 print(collections.Counter(m['reason'].split(' [')[0][:40] for m in out['manual']))
