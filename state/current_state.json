@@ -3,7 +3,7 @@
   "last_substantive_corpus_work_date": "2026-09-29",
   "main_document": "outputs/薛己核心医案_结构化样本.md",
   "main_document_sha256": "481b52bf81ed49359e063cb78786bf0401718dd792190f89d4a7eb5c5e8ec238",
-  "source_text_sha256": "f2fba7d485b6d1a0ce229282d0606b6e5fa15f5d003a2560df113e5cfd7bd4f4",
+  "source_text_sha256": "bfe3989e4c4fc239922d22d07bddac0414da81ad4c1de5c9e8fbf5b2150a0715",
   "structured_totals": {
     "cases": 1532,
     "non_case_units": 3272
@@ -707,6 +707,11 @@
       "sha256": "f2fba7d485b6d1a0ce229282d0606b6e5fa15f5d003a2560df113e5cfd7bd4f4",
       "meaning": "应用内容·中差异 258 处承应本影像改正后（224 条来源记录）；此前基线 fd06d94fddaa2eaaf19bfbe78f4424c12cabac0a6e4344cda2ce428f8bb2e2df",
       "valid_from": "2026-10-01"
+    },
+    {
+      "sha256": "bfe3989e4c4fc239922d22d07bddac0414da81ad4c1de5c9e8fbf5b2150a0715",
+      "meaning": "应用内容·低差异 257 处承应本影像改正后（224 条来源记录）；此前基线 f2fba7d485b6d1a0ce229282d0606b6e5fa15f5d003a2560df113e5cfd7bd4f4",
+      "valid_from": "2026-10-08"
     }
   ],
   "text_corrections_2026_09_30": {

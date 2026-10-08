@@ -23,7 +23,13 @@
   "class": "content",
   "importance": "low",
   "note": "駕馭／駕驅",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 5,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "許駕驅其邪而補助真氣（右葉第1行）"
+  }
  },
  {
   "book": "nkzy",
@@ -81,7 +87,13 @@
   "class": "content",
   "importance": "low",
   "note": "徹用／輒用",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 6,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "以為風疾徹用發散而促其危者（左葉第2行）"
+  }
  },
  {
   "book": "nkzy",
@@ -209,7 +221,13 @@
   "class": "content",
   "importance": "low",
   "note": "八味丸／八味九 形近誤字",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 8,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "補中益氣湯加減八味九三月餘而痊（左葉第4行）"
+  }
  },
  {
   "book": "nkzy",
@@ -319,7 +337,13 @@
   "class": "content",
   "importance": "low",
   "note": "用瀉火／為瀉火",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 12,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "口乾發熱六脈浮數欲用瀉火之藥（右葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -423,7 +447,13 @@
   "class": "content",
   "importance": "low",
   "note": "痊愈／全痊",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 13,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "又用補中益氣全痊（左葉第6行，短行）"
+  }
  },
  {
   "book": "nkzy",
@@ -436,7 +466,13 @@
   "class": "content",
   "importance": "low",
   "note": "痊愈／全痊",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 13,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "補中益氣全痊（行末）下接秀才劉貫卿"
+  }
  },
  {
   "book": "nkzy",
@@ -462,7 +498,13 @@
   "class": "content",
   "importance": "low",
   "note": "所吶／所咂",
-  "correction_status": "open"
+  "correction_status": "image_checked_neither_medium_not_applied",
+  "image_check": {
+   "page": 13,
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "胸間發癍如蚊所蚋（左葉最末行，字作虫旁+內）"
+  }
  },
  {
   "book": "nkzy",
@@ -675,7 +717,13 @@
   "class": "content",
   "importance": "low",
   "note": "一劑而愈／一劑即愈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 17,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "製黃連一劑卽愈（右葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -798,7 +846,13 @@
   "class": "content",
   "importance": "low",
   "note": "wiki多「更」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 19,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "稍為失宜諸疾仍作用前藥更加附子錢許（右葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -849,7 +903,13 @@
   "class": "content",
   "importance": "low",
   "note": "自用／嘗服",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 19,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "發熱吐痰時欲作嘔自用清氣化痰及二陳枳實之類（左葉第2行）"
+  }
  },
  {
   "book": "nkzy",
@@ -953,7 +1013,13 @@
   "class": "content",
   "importance": "low",
   "note": "兩月／兩月餘",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 22,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "用益氣湯八味九兩月餘諸症悉愈（右葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1011,7 +1077,13 @@
   "class": "content",
   "importance": "low",
   "note": "故序／姑序",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 22,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "家貧不能報德姑序此以記治驗（左葉第1行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1244,7 +1316,13 @@
   "class": "content",
   "importance": "low",
   "note": "wiki多「更」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 28,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "用六君加炮姜木香漸愈更兼用四神九（左葉第2行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1302,7 +1380,13 @@
   "class": "content",
   "importance": "low",
   "note": "wiki多「飲」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 30,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "始進清米飲半盞漸進薄粥飲調理得痊（右葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1457,7 +1541,13 @@
   "class": "content",
   "importance": "low",
   "note": "侵晨／清晨",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 33,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "一男子侵晨或五更吐痰或有酸味（右葉末行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1515,7 +1605,13 @@
   "class": "content",
   "importance": "low",
   "note": "求於／求治于",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 34,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "乃求治于立齋先生先生曰（右葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1567,7 +1663,13 @@
   "class": "content",
   "importance": "low",
   "note": "而歿／而死",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 35,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "肢體腫脹而死者不可枚舉（右葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1723,7 +1825,13 @@
   "class": "content",
   "importance": "low",
   "note": "乃屬／乃至",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 39,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "大凡久瘧乃屬元氣虛寒蓋氣虛則寒（左葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1755,7 +1863,13 @@
   "class": "content",
   "importance": "low",
   "note": "時吐痰／時唾痰",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 41,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "大參李北泉時唾痰涎內熱作渴（右葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1794,7 +1908,13 @@
   "class": "content",
   "importance": "low",
   "note": "待御／侍御 形近",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 42,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "侍御譚希曾咳嗽吐痰手足時冷（右葉第5行起）"
+  }
  },
  {
   "book": "nkzy",
@@ -1820,7 +1940,13 @@
   "class": "content",
   "importance": "low",
   "note": "職坊／職方",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 42,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "職方王用之喘嗽作渴面赤鼻乾（右葉第6行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1969,7 +2095,13 @@
   "class": "content",
   "importance": "low",
   "note": "working多「而」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 46,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "因怒氣勞役前症仍作又（右葉第7行）"
+  }
  },
  {
   "book": "nkzy",
@@ -1982,7 +2114,13 @@
   "class": "content",
   "importance": "low",
   "note": "間服而愈／間服全愈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 46,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "加芎歸桔梗間服全愈（左葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2345,7 +2483,13 @@
   "class": "content",
   "importance": "low",
   "note": "周上舍節問／第問",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 56,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "會飲於周上舍第問余曰向孟有涯（右葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2493,7 +2637,13 @@
   "class": "content",
   "importance": "low",
   "note": "不甘／不廿 形近",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 59,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "後胸腹不利飲食不甘口乾體倦發熱吐痰（右葉第2行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2538,7 +2688,13 @@
   "class": "content",
   "importance": "low",
   "note": "working多「之」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 60,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "專服破氣之藥余曰此血虛病也血生於脾土（左葉右起第2行至第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2577,7 +2733,13 @@
   "class": "content",
   "importance": "low",
   "note": "陟然／陡然",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_low_not_applied",
+  "image_check": {
+   "page": 61,
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "夕而胸次漸舒陟(?)然思食不三日而病去（右葉第9行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2622,7 +2784,13 @@
   "class": "content",
   "importance": "low",
   "note": "愈／全愈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 61,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "吳茱五味數劑而全愈大方自分寒素（左葉第2行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2648,7 +2816,13 @@
   "class": "content",
   "importance": "low",
   "note": "不消／不肖",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 61,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "亦不肖全家之感也斯言也（左葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2661,7 +2835,13 @@
   "class": "content",
   "importance": "low",
   "note": "嘗待／嘗侍 形近",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 61,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "不肖嘗侍先生之側檢閱醫案（左葉第6行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2700,7 +2880,13 @@
   "class": "content",
   "importance": "low",
   "note": "公案也／公案先",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 62,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "執余手而笑曰醫方猶公案也設君避毀譽（右葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2765,7 +2951,13 @@
   "class": "content",
   "importance": "low",
   "note": "太盛／太甚",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 63,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "心火太甚百脈沸騰邪害孔竅（左葉第7行）"
+  }
  },
  {
   "book": "nkzy",
@@ -2946,7 +3138,13 @@
   "class": "content",
   "importance": "low",
   "note": "無治法／無冶法",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 66,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "褚氏遺書精血篇但無冶法耳（左葉小字雙行末）"
+  }
  },
  {
   "book": "nkzy",
@@ -2978,7 +3176,13 @@
   "class": "content",
   "importance": "low",
   "note": "登厠／登厮",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 67,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "每登厠小便澀痛大便牽痛（左葉第3行）"
+  }
  },
  {
   "book": "nkzy",
@@ -3069,7 +3273,13 @@
   "class": "content",
   "importance": "low",
   "note": "wiki多「心」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 69,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "與郭患同心甚恐余曰此小瘡也（右葉第6行）"
+  }
  },
  {
   "book": "nkzy",
@@ -3437,7 +3647,13 @@
   "class": "content",
   "importance": "low",
   "note": "府癢／府庠",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 75,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "府庠鍾之英兩腿生瘡（左葉第1行）"
+  }
  },
  {
   "book": "nkzy",
@@ -3450,7 +3666,13 @@
   "class": "content",
   "importance": "low",
   "note": "足跟／脚跟",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 75,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一男子素遺精脚跟作痛口乾作渴（左葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -3540,7 +3762,13 @@
   "class": "content",
   "importance": "low",
   "note": "wiki多「欲」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 77,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "大便秘結胸脅作痛欲兼服脾約丸（右葉第4行）"
+  }
  },
  {
   "book": "nkzy",
@@ -3592,7 +3820,13 @@
   "class": "content",
   "importance": "low",
   "note": "職坊／職方",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": 78,
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "職坊陳莪齋年逾六旬（右葉第3行首）"
+  }
  },
  {
   "book": "nkzy",
@@ -4027,7 +4261,13 @@
   "class": "content",
   "importance": "low",
   "note": "五更瀉／五更作瀉",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 84,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "五味子散治腎泄在侵晨五更作瀉飲食不進（右葉小字雙行）"
+  }
  },
  {
   "book": "nkzy",
@@ -4390,7 +4630,13 @@
   "class": "content",
   "importance": "low",
   "note": "內障／內瘴 形近",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 89,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "脾胃不足得內瘴耳鳴之患（右葉第3行末）"
+  }
  },
  {
   "book": "nkzy",
@@ -4403,7 +4649,13 @@
   "class": "content",
   "importance": "low",
   "note": "內障／內瘴 形近",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 89,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "久服無內瘴外瘴耳鳴耳聾等症（右葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -4416,7 +4668,13 @@
   "class": "content",
   "importance": "low",
   "note": "外障／外瘴 形近",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 89,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "無內瘴外瘴耳鳴耳聾等症（右葉第5行）"
+  }
  },
  {
   "book": "nkzy",
@@ -4771,7 +5029,13 @@
   "class": "content",
   "importance": "low",
   "note": "乃去渣／仍去渣",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 93,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "入髮煎髮化仍去查徐下黃丹（右葉第3-4行）"
+  }
  },
  {
   "book": "nkzy",
@@ -5023,7 +5287,13 @@
   "class": "content",
   "importance": "low",
   "note": "working多「以」（以上二方）",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_low_not_applied",
+  "image_check": {
+   "page": 96,
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "右如前服加法同已二方太陽經藥也（左葉第2欄末）"
+  }
  },
  {
   "book": "nkzy",
@@ -5036,7 +5306,13 @@
   "class": "content",
   "importance": "low",
   "note": "此藥／此湯",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 97,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "餘熱不盡當服此湯（右葉第1行末）"
+  }
  },
  {
   "book": "nkzy",
@@ -5133,7 +5409,13 @@
   "class": "content",
   "importance": "low",
   "note": "燉／頓",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 98,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "磁器內置熱湯頓一日同炒至黃連紫（左葉第3欄）"
+  }
  },
  {
   "book": "nkzy",
@@ -5274,7 +5556,13 @@
   "class": "content",
   "importance": "low",
   "note": "working多「服」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 99,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "每服七八十丸空心／白湯下（左葉第1欄末至第2欄首）"
+  }
  },
  {
   "book": "nkzy",
@@ -5428,7 +5716,13 @@
   "class": "content",
   "importance": "low",
   "note": "咽嗌／咽喉",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 101,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "胸膈痞滿咽嗌不利（左葉第2欄末）"
+  }
  },
  {
   "book": "nkzy",
@@ -5525,7 +5819,13 @@
   "class": "content",
   "importance": "low",
   "note": "working多「即」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 102,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "加味清胃散即前方加犀角連翹甘草（右葉第6欄）"
+  }
  },
  {
   "book": "nkzy",
@@ -5596,7 +5896,13 @@
   "class": "content",
   "importance": "low",
   "note": "白滾湯／百滾湯",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 103,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "每服二百丸空心百／滾湯下（右葉第4-5欄）"
+  }
  },
  {
   "book": "nkzy",
@@ -5609,7 +5915,13 @@
   "class": "content",
   "importance": "low",
   "note": "wiki多「治」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 103,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "夜安晝熱或治口舌生瘡咽乾煩躁（左葉第2欄）"
+  }
  },
  {
   "book": "nkzy",
@@ -5732,7 +6044,13 @@
   "class": "content",
   "importance": "low",
   "note": "前症／前病",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "6 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "而痊前症若脾腎虛寒腿足"
+  }
  },
  {
   "book": "nkcz",
@@ -5745,7 +6063,13 @@
   "class": "content",
   "importance": "low",
   "note": "八味丸／八味",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "6 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "足膝枯細用八味若飲食過多"
+  }
  },
  {
   "book": "nkcz",
@@ -5790,7 +6114,13 @@
   "class": "content",
   "importance": "low",
   "note": "恪／却",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "6 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "月經不調恪服伐肝之劑"
+  }
  },
  {
   "book": "nkcz",
@@ -5886,7 +6216,13 @@
   "class": "content",
   "importance": "low",
   "note": "喜怒／善怒",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "7 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "太陽面青善怒余作膽經"
+  }
  },
  {
   "book": "nkcz",
@@ -5970,7 +6306,13 @@
   "class": "content",
   "importance": "low",
   "note": "八味丸／八味",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "9 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "加姜桂及八味兼服兩月餘"
+  }
  },
  {
   "book": "nkcz",
@@ -6228,7 +6570,13 @@
   "class": "content",
   "importance": "low",
   "note": "後因怒／復因怒",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "15 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "吳茱二分頓愈復因怒吐赤血甚多躁渴"
+  }
  },
  {
   "book": "nkcz",
@@ -6299,7 +6647,13 @@
   "class": "content",
   "importance": "low",
   "note": "以益／兼益",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "17 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "又用歸脾補中二湯以益脾氣生肝血而瘥"
+  }
  },
  {
   "book": "nkcz",
@@ -6377,7 +6731,13 @@
   "class": "content",
   "importance": "low",
   "note": "懷恩／懷思",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "18 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "無出此野人懷思姑俟後日玉環之報"
+  }
  },
  {
   "book": "nkcz",
@@ -6461,7 +6821,13 @@
   "class": "content",
   "importance": "low",
   "note": "經自行／經至",
-  "correction_status": "open"
+  "correction_status": "image_checked_neither_high_not_applied",
+  "image_check": {
+   "page": "20 右葉",
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "又二十餘劑而經行(行字後即段尾，換左葉「前症若脾虛…」)"
+  }
  },
  {
   "book": "nkcz",
@@ -6558,7 +6924,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「而」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "21 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "各百餘劑瘧愈而經自行"
+  }
  },
  {
   "book": "nkcz",
@@ -6616,7 +6988,13 @@
   "class": "content",
   "importance": "low",
   "note": "兼用六味／兼六味",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "22 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "加蔓荊子而痛止又兼六味地黃丸而經行"
+  }
  },
  {
   "book": "nkcz",
@@ -6687,7 +7065,13 @@
   "class": "content",
   "importance": "low",
   "note": "乃用／仍用",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "24 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "再發稍可乃用補中益氣加茯苓半夏"
+  }
  },
  {
   "book": "nkcz",
@@ -6765,7 +7149,13 @@
   "class": "content",
   "importance": "low",
   "note": "之劑／之藥",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "26 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或用清熱分利之藥小便不利"
+  }
  },
  {
   "book": "nkcz",
@@ -6791,7 +7181,13 @@
   "class": "content",
   "importance": "low",
   "note": "惟頭痛／但頭痛",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "27 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "逍遙諸症稍愈惟頭痛此陽氣虛"
+  }
  },
  {
   "book": "nkcz",
@@ -6888,7 +7284,13 @@
   "class": "content",
   "importance": "low",
   "note": "悉痊／悉退",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "30 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "既嫁而諸症悉痊"
+  }
  },
  {
   "book": "nkcz",
@@ -6998,7 +7400,13 @@
   "class": "content",
   "importance": "low",
   "note": "俱不治／皆不治",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "35 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "起居不戒七情或用寒涼剋伐皆不治"
+  }
  },
  {
   "book": "nkcz",
@@ -7069,7 +7477,13 @@
   "class": "content",
   "importance": "low",
   "note": "小柴胡湯／小柴胡",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "35 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "更以小柴胡對四物二十餘劑而"
+  }
  },
  {
   "book": "nkcz",
@@ -7159,7 +7573,13 @@
   "class": "content",
   "importance": "low",
   "note": "大凡／火凡",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "38 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "補脾土生腎水大凡風木之病"
+  }
  },
  {
   "book": "nkcz",
@@ -7172,7 +7592,13 @@
   "class": "content",
   "importance": "low",
   "note": "一婦人／一婦",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "38 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一婦患之恐不起致少寐"
+  }
  },
  {
   "book": "nkcz",
@@ -7230,7 +7656,13 @@
   "class": "content",
   "importance": "low",
   "note": "引冷／飲冷",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "39 左葉",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "頭痛煩渴引冷用人參敗毒"
+  }
  },
  {
   "book": "nkcz",
@@ -7269,7 +7701,13 @@
   "class": "content",
   "importance": "low",
   "note": "日月漸大／日漸大",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "40 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若荏苒日漸大巖色赤出水腐潰"
+  }
  },
  {
   "book": "nkcz",
@@ -7314,7 +7752,13 @@
   "class": "content",
   "importance": "low",
   "note": "審之世以／審之若以",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": "40 左葉",
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "治者審之(小字)若以孕婦患此名曰內吹"
+  }
  },
  {
   "book": "nkcz",
@@ -7469,7 +7913,13 @@
   "class": "content",
   "importance": "low",
   "note": "夜熱勢甚時／無「時」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "43 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "夜熱勢甚時治者皆以攻毒為言"
+  }
  },
  {
   "book": "nkcz",
@@ -7663,7 +8113,13 @@
   "class": "content",
   "importance": "low",
   "note": "若膿水／或膿水",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "46 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "用補中益氣或八珍湯若膿水淋灕體倦少食"
+  }
  },
  {
   "book": "nkcz",
@@ -7689,7 +8145,13 @@
   "class": "content",
   "importance": "low",
   "note": "大抵／火抵",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "47 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "屬脾腎虛寒用八味丸大抵色赤屬熱毒易治"
+  }
  },
  {
   "book": "nkcz",
@@ -7741,7 +8203,13 @@
   "class": "content",
   "importance": "low",
   "note": "諸症悉愈／悉退",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "48 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "活命飲二劑諸症悉愈又用八珍湯而痊"
+  }
  },
  {
   "book": "nkcz",
@@ -7838,7 +8306,13 @@
   "class": "content",
   "importance": "low",
   "note": "陰中／陰內",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "50 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一婦人素性急陰內或痛小便赤澀怒則益甚"
+  }
  },
  {
   "book": "nkcz",
@@ -7877,7 +8351,13 @@
   "class": "content",
   "importance": "low",
   "note": "而瘥／而痊",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "51 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "丹皮茯苓治之而痊若陰中有蟲癢痛"
+  }
  },
  {
   "book": "nkcz",
@@ -7890,7 +8370,13 @@
   "class": "content",
   "importance": "low",
   "note": "寒涼之劑／之藥",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "51 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "誤服寒涼之藥前症益甚"
+  }
  },
  {
   "book": "nkcz",
@@ -7929,7 +8415,13 @@
   "class": "content",
   "importance": "low",
   "note": "而瘥／而痊",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "52 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "加味逍遙加味芎歸二藥調理而痊"
+  }
  },
  {
   "book": "nkcz",
@@ -7942,7 +8434,13 @@
   "class": "content",
   "importance": "low",
   "note": "若失／如失",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "52 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "加炮姜二劑重墜如失再用前"
+  }
  },
  {
   "book": "nkcz",
@@ -8020,7 +8518,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「如」桐子大",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "53 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "水調炒麴麵糊為丸桐子大每服五七十丸"
+  }
  },
  {
   "book": "nkcz",
@@ -8298,7 +8802,13 @@
   "class": "content",
   "importance": "low",
   "note": "睡眠不寧／睡卧不寧",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "55 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "治血虛心煩睡臥不寧或五心煩熱"
+  }
  },
  {
   "book": "nkcz",
@@ -8376,7 +8886,13 @@
   "class": "content",
   "importance": "low",
   "note": "甘草各五分／甘草五分",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "56 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "何首烏 / 甘草(小字)五分，下接「右水煎服」"
+  }
  },
  {
   "book": "nkcz",
@@ -8506,7 +9022,13 @@
   "class": "content",
   "importance": "low",
   "note": "消耗／硝耗",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "58 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "熨良久如硝耗再加熨之熨二時許方貼"
+  }
  },
  {
   "book": "nkcz",
@@ -8636,7 +9158,13 @@
   "class": "content",
   "importance": "low",
   "note": "瘡頭上／瘡頭頭",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "60 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "切三文錢厚安瘡頭上用艾壯於蒜上灸之"
+  }
  },
  {
   "book": "nkcz",
@@ -8792,7 +9320,13 @@
   "class": "content",
   "importance": "low",
   "note": "他病／他症",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "61 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "多服之不變他症"
+  }
  },
  {
   "book": "nkcz",
@@ -8805,7 +9339,13 @@
   "class": "content",
   "importance": "low",
   "note": "白芍藥／白芍",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "61 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "白芍 一錢五分(小字)人參 陳皮"
+  }
  },
  {
   "book": "nkcz",
@@ -9006,7 +9546,13 @@
   "class": "content",
   "importance": "low",
   "note": "濾去粗／濾去柤",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": "64 右葉",
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "煎焦黑濾去柤(?)徐徐入黃丹"
+  }
  },
  {
   "book": "nkcz",
@@ -9110,7 +9656,13 @@
   "class": "content",
   "importance": "low",
   "note": "未已已受／未已受",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "69 右葉末行至左葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "每月經行旬餘／未已受胎三月因怒前"
+  }
  },
  {
   "book": "nkcz",
@@ -9155,7 +9707,13 @@
   "class": "content",
   "importance": "low",
   "note": "逍遙／逍遥散",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "70 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "又用加味逍遙散加紫蘇枳殼二劑"
+  }
  },
  {
   "book": "nkcz",
@@ -9187,7 +9745,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫重出「小産」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "71 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "其子多不育也／(另行標題)小產／小產重於大產"
+  }
  },
  {
   "book": "nkcz",
@@ -9226,7 +9790,13 @@
   "class": "content",
   "importance": "low",
   "note": "斷自根蒂／斷其根蒂",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "71 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "破其皮殼斷其根蒂豈不重於大產"
+  }
  },
  {
   "book": "nkcz",
@@ -9284,7 +9854,13 @@
   "class": "content",
   "importance": "low",
   "note": "發熱煩躁／燥躁",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "71 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "急用獨參湯發熱燥躁肉瞤筋惕"
+  }
  },
  {
   "book": "nkcz",
@@ -9362,7 +9938,13 @@
   "class": "content",
   "importance": "low",
   "note": "先與／先興",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "72 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "藥損益甚先與補中益氣加茯苓半夏"
+  }
  },
  {
   "book": "nkcz",
@@ -9375,7 +9957,13 @@
   "class": "content",
   "importance": "low",
   "note": "莫能／不能",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "73 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "思非附子不能救非立翁不能投迎翁至診"
+  }
  },
  {
   "book": "nkcz",
@@ -9485,7 +10073,13 @@
   "class": "content",
   "importance": "low",
   "note": "或見頭／或兒頭",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "74 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "徐正其頭即生或兒頭後骨偏在谷道傍"
+  }
  },
  {
   "book": "nkcz",
@@ -9537,7 +10131,13 @@
   "class": "content",
   "importance": "low",
   "note": "面皆驚／面背驚",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "74 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "俗以水噀母面／背驚而腸亦收之"
+  }
  },
  {
   "book": "nkcz",
@@ -9576,7 +10176,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「兒」身轉順",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "75 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "手腳即縮上待兒身轉順即生"
+  }
  },
  {
   "book": "nkcz",
@@ -9589,7 +10195,13 @@
   "class": "content",
   "importance": "low",
   "note": "而生／即生",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "75 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "待兒身轉順即生○若以蜀葵子"
+  }
  },
  {
   "book": "nkcz",
@@ -9653,7 +10265,13 @@
   "class": "content",
   "importance": "low",
   "note": "切不可／切勿",
-  "correction_status": "open"
+  "correction_status": "image_checked_neither_high_not_applied",
+  "image_check": {
+   "page": "75 左葉",
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "多得復生切不用刀斷之"
+  }
  },
  {
   "book": "nkcz",
@@ -9679,7 +10297,13 @@
   "class": "content",
   "importance": "low",
   "note": "威顏／威言",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "76 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "後見侍御更以威言分付迨視產母胎"
+  }
  },
  {
   "book": "nkcz",
@@ -9692,7 +10316,13 @@
   "class": "content",
   "importance": "low",
   "note": "因畏／已畏",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "76 右葉末行／左葉首行",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "可保順生因／畏其威不敢施手"
+  }
  },
  {
   "book": "nkcz",
@@ -10081,7 +10711,13 @@
   "class": "content",
   "importance": "low",
   "note": "元氣漸服／漸復",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "81 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "八珍散兼服元氣漸復而愈"
+  }
  },
  {
   "book": "nkcz",
@@ -10094,7 +10730,13 @@
   "class": "content",
   "importance": "low",
   "note": "小腹疼痛／疼",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "81 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一產婦小腹疼小便不利用薏苡仁湯"
+  }
  },
  {
   "book": "nkcz",
@@ -10146,7 +10788,13 @@
   "class": "content",
   "importance": "low",
   "note": "若因勞心力／若勞心力",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "82 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "有痰加二陳湯若勞心力而致者宜補中益氣"
+  }
  },
  {
   "book": "nkcz",
@@ -10172,7 +10820,13 @@
   "class": "content",
   "importance": "low",
   "note": "進以／灌以",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": "83 右葉",
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "忽牙關緊急灌以失笑散良久而甦"
+  }
  },
  {
   "book": "nkcz",
@@ -10185,7 +10839,13 @@
   "class": "content",
   "importance": "low",
   "note": "肌肉／肌膚",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "83 右葉末行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一產婦筋攣臂軟肌膚掣動此氣血俱虛"
+  }
  },
  {
   "book": "nkcz",
@@ -10224,7 +10884,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「屋」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "83 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "用逍遙散而痊／產後發痓(小字)痓當作痙"
+  }
  },
  {
   "book": "nkcz",
@@ -10308,7 +10974,13 @@
   "class": "content",
   "importance": "low",
   "note": "六君／六君子",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "85 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若因腸胃虛弱六君子加升麻柴胡"
+  }
  },
  {
   "book": "nkcz",
@@ -10386,7 +11058,13 @@
   "class": "content",
   "importance": "low",
   "note": "目欲去／自欲去",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": "86 左葉",
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "必待腹滿覺脹自欲去而不能者乃結在直腸"
+  }
  },
  {
   "book": "nkcz",
@@ -10567,7 +11245,13 @@
   "class": "content",
   "importance": "low",
   "note": "只陰火／其隂火",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "89 右葉末柱",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "腠理不密外邪所感其陰火上炎亦壯土金生腎水"
+  }
  },
  {
   "book": "nkcz",
@@ -10593,7 +11277,13 @@
   "class": "content",
   "importance": "low",
   "note": "則誤矣／則誤",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "89 左葉首柱",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若逕治其病則誤(下接治驗)"
+  }
  },
  {
   "book": "nkcz",
@@ -10800,7 +11490,13 @@
   "class": "content",
   "importance": "low",
   "note": "小腹墜痛／墮痛",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": "93 左葉",
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "無度小腹墮(隓)痛發熱惡寒"
+  }
  },
  {
   "book": "nkcz",
@@ -10917,7 +11613,13 @@
   "class": "content",
   "importance": "low",
   "note": "熟地黃／熟地",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "95 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "熟地(小字)酒洗蒸焙 / 白芍藥(小字)炒各一錢"
+  }
  },
  {
   "book": "nkcz",
@@ -10943,7 +11645,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「各」五分",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 95,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "肉桂／甘草 炙各／五分（小字雙行：炙各、五分）"
+  }
  },
  {
   "book": "nkcz",
@@ -11105,7 +11813,13 @@
   "class": "content",
   "importance": "low",
   "note": "桂心／桂",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 97,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "川牛膝　桂（澤瀉　車前子　山茱萸　山藥）"
+  }
  },
  {
   "book": "nkcz",
@@ -11131,7 +11845,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「寒」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 98,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "治脾土虛寒寒水反來侮土而嘔吐"
+  }
  },
  {
   "book": "nkcz",
@@ -11209,7 +11929,13 @@
   "class": "content",
   "importance": "low",
   "note": "膠／阿膠",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 100,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "腹痛／膠 一兩 炙／艾葉 數莖（藥列首字為「膠」）"
+  }
  },
  {
   "book": "nkcz",
@@ -11248,7 +11974,13 @@
   "class": "content",
   "importance": "low",
   "note": "甘草炙各半兩／炙半兩",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 101,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "枳殼 炒／黃芩 炙半／兩（小字：炙半、兩）／白朮 一兩"
+  }
  },
  {
   "book": "nkcz",
@@ -11397,7 +12129,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「若因」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 104,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右姜水煎服（葉末）／次葉首行：若因脾胃虛弱用六君子"
+  }
  },
  {
   "book": "nkcz",
@@ -11410,7 +12148,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「若因」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 104,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若因脾胃虛弱用六君子若因氣滯用紫蘇飲"
+  }
  },
  {
   "book": "nkcz",
@@ -11436,7 +12180,13 @@
   "class": "content",
   "importance": "low",
   "note": "每藥四錢／藥四錢",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 105,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "右細剉用鯉魚一頭煮取汁每藥四錢入汁一盞半"
+  }
  },
  {
   "book": "nkcz",
@@ -11501,7 +12251,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫多「者」",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 105,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "飲盡再製亦有／得生者（次欄）"
+  }
  },
  {
   "book": "nkcz",
@@ -11592,7 +12348,13 @@
   "class": "content",
   "importance": "low",
   "note": "宜用六君子／宜六君子",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 107,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "此是脾虛宜六君子送二神丸（前兩句為「宜用六君子」）"
+  }
  },
  {
   "book": "nkcz",
@@ -11605,7 +12367,13 @@
   "class": "content",
   "importance": "low",
   "note": "熟地黃／熟地",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 107,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "當歸／熟地 各三／兩；芍藥炒 三錢"
+  }
  },
  {
   "book": "nkcz",
@@ -11696,7 +12464,13 @@
   "class": "content",
   "importance": "low",
   "note": "既愈而／既愈更",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 109,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "若既愈而當用六君子以補脾胃"
+  }
  },
  {
   "book": "nkcz",
@@ -11761,7 +12535,13 @@
   "class": "content",
   "importance": "low",
   "note": "搗細末／搗為末",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 110,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "硫黃 上色明淨者／四兩 搗為末；花蘂石 一兩搗為細末"
+  }
  },
  {
   "book": "nkcz",
@@ -11845,7 +12625,13 @@
   "class": "content",
   "importance": "low",
   "note": "酥炙／酥矣（疑訛）",
-  "correction_status": "open"
+  "correction_status": "image_checked_neither_medium_not_applied",
+  "image_check": {
+   "page": 111,
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "自死龜殼一個如無占過者亦可酥炙｜（次葉首）右為末每一兩水煎服"
+  }
  },
  {
   "book": "nkcz",
@@ -11871,7 +12657,13 @@
   "class": "content",
   "importance": "low",
   "note": "頭眩／頭暈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 111,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若腹疼加桂腹痛自汗頭暈少氣加羊肉"
+  }
  },
  {
   "book": "nkcz",
@@ -11897,7 +12689,13 @@
   "class": "content",
   "importance": "low",
   "note": "酒芩／酒黃芩",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 112,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "酒黃芩 冬去之 熱甚用"
+  }
  },
  {
   "book": "nkcz",
@@ -11949,7 +12747,13 @@
   "class": "content",
   "importance": "low",
   "note": "五味子／五味",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 113,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "黃芩 一錢五分／五味 九粒 杵炒"
+  }
  },
  {
   "book": "nkcz",
@@ -12066,7 +12870,13 @@
   "class": "content",
   "importance": "low",
   "note": "白芍藥／白芍",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 113,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "當歸 酒拌 二錢／白芍 炒 二錢"
+  }
  },
  {
   "book": "nkcz",
@@ -12079,7 +12889,13 @@
   "class": "content",
   "importance": "low",
   "note": "熟地／熟地黃",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 113,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "杜仲 薑製 二錢／熟地黃 生者 自製"
+  }
  },
  {
   "book": "nkcz",
@@ -12105,7 +12921,13 @@
   "class": "content",
   "importance": "low",
   "note": "桑寄生／寄生",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 114,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "芎藭（行末）／次行：桑寄生"
+  }
  },
  {
   "book": "nkcz",
@@ -12118,7 +12940,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫作「寄生草」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 114,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "桑寄生／甘草 炙二兩／獨活 三兩"
+  }
  },
  {
   "book": "nkcz",
@@ -12176,7 +13004,13 @@
   "class": "content",
   "importance": "low",
   "note": "擗開／批開",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 115,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右各等分為末每服二錢用豬腰子批開入藥"
+  }
  },
  {
   "book": "nkcz",
@@ -12544,7 +13378,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「用」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 7,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "輕則用補中益氣湯重則六君子湯（重則後無「用」）"
+  }
  },
  {
   "book": "kcly",
@@ -12641,7 +13481,13 @@
   "class": "content",
   "importance": "low",
   "note": "痊／愈",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 8,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "用黃栢知母治之而痊"
+  }
  },
  {
   "book": "kcly",
@@ -12822,7 +13668,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「而」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 11,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "而齒固繼用六味丸以補腎水"
+  }
  },
  {
   "book": "kcly",
@@ -12835,7 +13687,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「為」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 11,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "欲嘔彼以為火盛余曰"
+  }
  },
  {
   "book": "kcly",
@@ -12848,7 +13706,13 @@
   "class": "content",
   "importance": "low",
   "note": "甚／其",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 11,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "午後有熱遇勞遺精其齒即痛"
+  }
  },
  {
   "book": "kcly",
@@ -12874,7 +13738,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「用」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 12,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "食後用清胃散食前用解醒湯而愈"
+  }
  },
  {
   "book": "kcly",
@@ -13094,7 +13964,13 @@
   "class": "content",
   "importance": "low",
   "note": "若／如",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 14,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或發熱作渴為中氣虛熱若眼如煙觸體倦"
+  }
  },
  {
   "book": "kcly",
@@ -13222,7 +14098,13 @@
   "class": "content",
   "importance": "low",
   "note": "倍加／倍用",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 16,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "與補中益氣倍用參茋歸朮四劑而安"
+  }
  },
  {
   "book": "kcly",
@@ -13339,7 +14221,13 @@
   "class": "content",
   "importance": "low",
   "note": "頃間／頓間",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 17,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "舌稍愈頓間舌益甚"
+  }
  },
  {
   "book": "kcly",
@@ -13551,7 +14439,13 @@
   "class": "content",
   "importance": "low",
   "note": "有／與",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 19,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "而有土與水得金氣而成"
+  }
  },
  {
   "book": "kcly",
@@ -13577,7 +14471,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「云」",
-  "correction_status": "open"
+  "correction_status": "image_checked_neither_medium_not_applied",
+  "image_check": {
+   "page": 19,
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "含之勿嚥 云 云（嚥下小字二「云」）"
+  }
  },
  {
   "book": "kcly",
@@ -13590,7 +14490,13 @@
   "class": "content",
   "importance": "low",
   "note": "為方／其方",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 19,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "為末既授其方不受所贈"
+  }
  },
  {
   "book": "kcly",
@@ -13842,7 +14748,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「云云」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 21,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "等症一二于後 云 云（小字二「云」）"
+  }
  },
  {
   "book": "kcly",
@@ -13939,7 +14851,13 @@
   "class": "content",
   "importance": "low",
   "note": "謂／為",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 22,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "勞則愈甚余為脾肺氣虛"
+  }
  },
  {
   "book": "kcly",
@@ -14101,7 +15019,13 @@
   "class": "content",
   "importance": "low",
   "note": "針出血／針去血",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 24,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "咽喉腫痛或針去血神思雖清"
+  }
  },
  {
   "book": "kcly",
@@ -14140,7 +15064,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「其」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 24,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "今反傷陰血必死"
+  }
  },
  {
   "book": "kcly",
@@ -14307,7 +15237,13 @@
   "class": "content",
   "importance": "low",
   "note": "如／若",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 25,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "先生之神妙類多若此惜乎不肖"
+  }
  },
  {
   "book": "kcly",
@@ -14404,7 +15340,13 @@
   "class": "content",
   "importance": "low",
   "note": "復／後",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 25,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "一男子先患喉痛後發楊梅瘡"
+  }
  },
  {
   "book": "kcly",
@@ -14521,7 +15463,13 @@
   "class": "content",
   "importance": "low",
   "note": "調下／調服",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 26,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一方吞錢燒炭末白湯調服數匙即出"
+  }
  },
  {
   "book": "kcly",
@@ -15115,7 +16063,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢半／錢五分（同量異寫）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 30,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "補中益氣湯：人參 黃茋炒 甘草（小字）各錢 / 五分"
+  }
  },
  {
   "book": "kcly",
@@ -15128,7 +16082,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢半／錢五分（同量異寫）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 30,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "甘草 各錢 五分（小字）"
+  }
  },
  {
   "book": "kcly",
@@ -15569,7 +16529,13 @@
   "class": "content",
   "importance": "low",
   "note": "牙齦／齒齦",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 35,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "獨活散 治風毒牙痛或齒齦腫痛"
+  }
  },
  {
   "book": "kcly",
@@ -15847,7 +16813,13 @@
   "class": "content",
   "importance": "low",
   "note": "作膏／杵膏",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 37,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "熟地 八兩 杵膏（小字）"
+  }
  },
  {
   "book": "kcly",
@@ -16202,7 +17174,13 @@
   "class": "content",
   "importance": "low",
   "note": "煎熟／煎熱",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_low_not_applied",
+  "image_check": {
+   "page": 41,
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "右水煎熟入犀末服若因怒而患加柴胡山梔"
+  }
  },
  {
   "book": "kcly",
@@ -16299,7 +17277,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「鎊」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 42,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "犀角（鎊）／羚羊角（其後無小字）"
+  }
  },
  {
   "book": "kcly",
@@ -16545,7 +17529,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢二分／錢二分",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 44,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "黃連 各錢 二分（小字）"
+  }
  },
  {
   "book": "kcly",
@@ -16649,7 +17639,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「每」",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 45,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "滑石 三兩（小字）／右每服五七錢水煎"
+  }
  },
  {
   "book": "kcly",
@@ -16675,7 +17671,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢五分／錢半（同量異寫）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 46,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "黃連炒各 錢半（小字：右「炒各」左「錢半」）"
+  }
  },
  {
   "book": "kcly",
@@ -16688,7 +17690,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢五分／錢半（同量異寫）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 46,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "黃連炒各 錢半"
+  }
  },
  {
   "book": "kcly",
@@ -16766,7 +17774,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「涎」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 46,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "痰涎即出如痰雖出咽喉不利急針"
+  }
  },
  {
   "book": "kcly",
@@ -16805,7 +17819,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「一」（一名）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 46,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "破棺丹 小字「一名通／關散」"
+  }
  },
  {
   "book": "kcly",
@@ -16850,7 +17870,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「一」（一名）",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 47,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "萆薢散 小字「一名換肌／消毒散」"
+  }
  },
  {
   "book": "kcly",
@@ -17077,7 +18103,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「此」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 4,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "大便不通按之痛甚瘀血在內也（無「此」）"
+  }
  },
  {
   "book": "ztly",
@@ -17193,7 +18225,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「因」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 7,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "用八珍湯若胃熱傷津液（若後無「因」）"
+  }
  },
  {
   "book": "ztly",
@@ -17219,7 +18257,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「用」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 7,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "胃火熾盛竹葉石膏湯（無「用」）"
+  }
  },
  {
   "book": "ztly",
@@ -17329,7 +18373,13 @@
   "class": "content",
   "importance": "low",
   "note": "緋紅／緋赤",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 8,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "患處緋赤陰血虛也"
+  }
  },
  {
   "book": "ztly",
@@ -17342,7 +18392,13 @@
   "class": "content",
   "importance": "low",
   "note": "少「者」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 8,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "寒熱而不生肝火動也（生後無「者」）"
+  }
  },
  {
   "book": "ztly",
@@ -17420,7 +18476,13 @@
   "class": "content",
   "importance": "low",
   "note": "熟酒／熱酒",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 9,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "木香肉桂末（二三？）錢以熱酒調灌服"
+  }
  },
  {
   "book": "ztly",
@@ -17433,7 +18495,13 @@
   "class": "content",
   "importance": "low",
   "note": "者／若",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 9,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "良肉不無傷壞若受刑輕"
+  }
  },
  {
   "book": "ztly",
@@ -17848,7 +18916,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「又」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 16,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "飲食少思死肉不潰又用托裏之藥"
+  }
  },
  {
   "book": "ztly",
@@ -17945,7 +19019,13 @@
   "class": "content",
   "importance": "low",
   "note": "哉／耶",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 17,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "重損氣血耶遂用前藥治之而愈"
+  }
  },
  {
   "book": "ztly",
@@ -18153,7 +19233,13 @@
   "class": "content",
   "importance": "low",
   "note": "多致／多至",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 20,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若用前劑戕賊元氣多至不救"
+  }
  },
  {
   "book": "ztly",
@@ -18488,7 +19574,13 @@
   "class": "content",
   "importance": "low",
   "note": "及用／乃用",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 23,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "元氣復而諸症愈乃用十全大補湯調理而安"
+  }
  },
  {
   "book": "ztly",
@@ -18527,7 +19619,13 @@
   "class": "content",
   "importance": "low",
   "note": "發痙／發痓",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 24,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "因怒發痓瘡口出血"
+  }
  },
  {
   "book": "ztly",
@@ -18728,7 +19826,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「再」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 27,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "以前藥再加歸尾赤芍桔梗治之"
+  }
  },
  {
   "book": "ztly",
@@ -18767,7 +19871,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「更」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 27,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "患處少愈更用二陳羌活桔梗蒼朮"
+  }
  },
  {
   "book": "ztly",
@@ -18858,7 +19968,13 @@
   "class": "content",
   "importance": "low",
   "note": "痊／瘥",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 28,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "服地黃丸三月餘而瘥"
+  }
  },
  {
   "book": "ztly",
@@ -18923,7 +20039,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「用」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 29,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "此陽氣虛極須用調補不從"
+  }
  },
  {
   "book": "ztly",
@@ -19362,7 +20484,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「此」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 34,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "用敗毒等藥愈甚此亡血過多氣無所附"
+  }
  },
  {
   "book": "ztly",
@@ -19433,7 +20561,13 @@
   "class": "content",
   "importance": "low",
   "note": "藥／劑",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 35,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "有一醫用滲利之劑保其必生"
+  }
  },
  {
   "book": "ztly",
@@ -19664,7 +20798,13 @@
   "class": "content",
   "importance": "low",
   "note": "暖暖／煖（重出）",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 37,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "當以煖處良久或熱手熨之無恙"
+  }
  },
  {
   "book": "ztly",
@@ -20176,7 +21316,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「至」（煎至一鍾）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 45,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "用酒水各一鍾煎至一鍾服仍量虛實加減"
+  }
  },
  {
   "book": "ztly",
@@ -20345,7 +21491,13 @@
   "class": "content",
   "importance": "low",
   "note": "誤用／悞服",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 46,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "此病多得於飢渴勞役者若悞服白虎湯必死"
+  }
  },
  {
   "book": "ztly",
@@ -20423,7 +21575,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「欲」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 47,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或口乾作渴而欲飲湯者尤宜服之"
+  }
  },
  {
   "book": "ztly",
@@ -21058,7 +22216,13 @@
   "class": "content",
   "importance": "low",
   "note": "夜安靜／夜安寧",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 52,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "治發熱口渴白濁夜安靜而晝發熱"
+  }
  },
  {
   "book": "ztly",
@@ -21071,7 +22235,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢五分／一錢半（同量異寫）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 52,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "甘草 各一錢半（小字雙行：各/一錢/半）"
+  }
  },
  {
   "book": "ztly",
@@ -21220,7 +22390,13 @@
   "class": "content",
   "importance": "low",
   "note": "勿服／不可服",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 53,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "鹽湯溫酒送下孕婦不可服"
+  }
  },
  {
   "book": "ztly",
@@ -21395,7 +22571,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「症」",
-  "correction_status": "open"
+  "correction_status": "image_checked_neither_high_not_applied",
+  "image_check": {
+   "page": 54,
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "血氣凝結者當審前之｜（換頁）大法用溫補氣血為善"
+  }
  },
  {
   "book": "ztly",
@@ -21447,7 +22629,13 @@
   "class": "content",
   "importance": "low",
   "note": "煮熟／煑熱",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": 55,
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "右用豬蹄一隻水五碗煮熟取清湯入前藥"
+  }
  },
  {
   "book": "ztly",
@@ -21564,7 +22752,13 @@
   "class": "content",
   "importance": "low",
   "note": "尤效／尤妙，附方名",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 56,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "即成膏矣白蠟尤妙（下換行另起標題「托裏散」）"
+  }
  },
  {
   "book": "ztly",
@@ -21764,7 +22958,13 @@
   "class": "content",
   "importance": "low",
   "note": "尤妙／尤好，附方名",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 58,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "更用當歸膏敷之尤好｜藥蛆方｜治杖瘡潰爛生蛆"
+  }
  },
  {
   "book": "ztly",
@@ -21932,7 +23132,13 @@
   "class": "content",
   "importance": "low",
   "note": "一兩半／一兩五錢",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 60,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "川烏去毛臍炮 川芎 各一兩五錢（小字：各/一兩/五錢）"
+  }
  },
  {
   "book": "ztly",
@@ -22191,7 +23397,13 @@
   "class": "content",
   "importance": "low",
   "note": "多「驗」（俱效驗）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 62,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "愚按前三方俱効驗者倘錄之以便修用"
+  }
  },
  {
   "book": "ztly",
@@ -22353,7 +23565,13 @@
   "class": "content",
   "importance": "low",
   "note": "半表半裡／半表裏",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 63,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "地榆防風散 治風在半表裏頭微汗身無汗不可發汗兼治表裏"
+  }
  },
  {
   "book": "ztly",
@@ -22392,7 +23610,13 @@
   "class": "content",
   "importance": "low",
   "note": "通利／通和",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 64,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右五七錢水煎溫服臟腑通和為度"
+  }
  },
  {
   "book": "ztly",
@@ -22600,7 +23824,13 @@
   "class": "content",
   "importance": "low",
   "note": "三錢半／三錢五分",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 66,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "瓜蔞子九錢 滑石 三錢/五分（小字雙行）南星"
+  }
  },
  {
   "book": "ztly",
@@ -22678,7 +23908,13 @@
   "class": "content",
   "importance": "low",
   "note": "調糊／調和",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 66,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右為末用生薑汁調和丸桐子大"
+  }
  },
  {
   "book": "ztly",
@@ -23032,7 +24268,13 @@
   "class": "content",
   "importance": "low",
   "note": "工作本多出「也」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 9,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "瘡腫得之潰後自痊（句末無「也」，next column 緩脈之診）"
+  }
  },
  {
   "book": "wksy",
@@ -23168,7 +24410,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「之」(夫人之受氣)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 11,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "夫人之受氣於穀乃傳於藏府（小字雙行「夫人之受／氣於穀乃」）"
+  }
  },
  {
   "book": "wksy",
@@ -23304,7 +24552,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「也」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 13,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "之惡症也急用托裏溫中湯後用六君子湯"
+  }
  },
  {
   "book": "wksy",
@@ -23349,7 +24603,13 @@
   "class": "content",
   "importance": "low",
   "note": "工作本多出「者」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 13,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "溫補此七惡／之治法也此外更有潰後發熱"
+  }
  },
  {
   "book": "wksy",
@@ -23472,7 +24732,13 @@
   "class": "content",
   "importance": "low",
   "note": "工作本多出「於」(先於治本／先治其本)",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 14,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "必先於治本而兼以治標"
+  }
  },
  {
   "book": "wksy",
@@ -23485,7 +24751,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「其」(先治其本)",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 14,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "必先於治本（「治」與「本」之間無「其」）"
+  }
  },
  {
   "book": "wksy",
@@ -23620,7 +24892,13 @@
   "class": "content",
   "importance": "low",
   "note": "仍痛者皆／仍痛此皆",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 16,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "膿水雖出而仍痛此皆未通於內"
+  }
  },
  {
   "book": "wksy",
@@ -24006,7 +25284,13 @@
   "class": "content",
   "importance": "low",
   "note": "未婚得痊／未婚而痊",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 20,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "年幼未婚得痊"
+  }
  },
  {
   "book": "wksy",
@@ -24218,7 +25502,13 @@
   "class": "content",
   "importance": "low",
   "note": "須以逍遙散／當以逍遙散",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 23,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "少思須以逍遙散為主"
+  }
  },
  {
   "book": "wksy",
@@ -24270,7 +25560,13 @@
   "class": "content",
   "importance": "low",
   "note": "可不慎歟／可不慎哉",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 24,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "誠哉是言也可不慎歟"
+  }
  },
  {
   "book": "wksy",
@@ -24309,7 +25605,13 @@
   "class": "content",
   "importance": "low",
   "note": "未成自散已成／己成(已/己形近)",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": 25,
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "其脾胃則未成自散／已成自潰又何死肉之有"
+  }
  },
  {
   "book": "wksy",
@@ -24361,7 +25663,13 @@
   "class": "content",
   "importance": "low",
   "note": "膿成而不潰／膿成不潰",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 26,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或不作膿或膿／成不潰者氣血虛甚也"
+  }
  },
  {
   "book": "wksy",
@@ -24774,7 +26082,13 @@
   "class": "content",
   "importance": "low",
   "note": "布在方策／布在方冊",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 30,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "德澤普濟…布在方冊（「在方冊德澤普濟」）"
+  }
  },
  {
   "book": "wksy",
@@ -24884,7 +26198,13 @@
   "class": "content",
   "importance": "low",
   "note": "一劑即愈／一劑而愈",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 32,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "六君子加附子／一劑即愈"
+  }
  },
  {
   "book": "wksy",
@@ -25542,7 +26862,13 @@
   "class": "content",
   "importance": "low",
   "note": "六味丸及十全大補／六味丸十全大補",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 40,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "又以六味丸／十全大補而斂"
+  }
  },
  {
   "book": "wksy",
@@ -25607,7 +26933,13 @@
   "class": "content",
   "importance": "low",
   "note": "可免後患／可免是患",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 41,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "滋化源可／免是患"
+  }
  },
  {
   "book": "wksy",
@@ -25812,7 +27144,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「與」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 43,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "有一小瘡耳余與視之果疽也"
+  }
  },
  {
   "book": "wksy",
@@ -25825,7 +27163,13 @@
   "class": "content",
   "importance": "low",
   "note": "脈細欲說／脈細欲脫(通假)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 43,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "脈細欲脫氣息奄奄"
+  }
  },
  {
   "book": "wksy",
@@ -26114,7 +27458,13 @@
   "class": "content",
   "importance": "low",
   "note": "靜調養／靜調理",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 50,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "宜靜調理滋化源"
+  }
  },
  {
   "book": "wksy",
@@ -26166,7 +27516,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「而」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 50,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或血燥或水而不能生木者"
+  }
  },
  {
   "book": "wksy",
@@ -26276,7 +27632,13 @@
   "class": "content",
   "importance": "low",
   "note": "瘰癧之病／瘰癧之症",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 51,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "夫瘰癧之症屬三焦肝膽二經"
+  }
  },
  {
   "book": "wksy",
@@ -26308,7 +27670,13 @@
   "class": "content",
   "importance": "low",
   "note": "肌體羸瘦／肌膚羸痩",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": 52,
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "濟肌體羸瘦者必純補之劑"
+  }
  },
  {
   "book": "wksy",
@@ -26321,7 +27689,13 @@
   "class": "content",
   "importance": "low",
   "note": "變為九瘻／變成九瘻",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 52,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "否則變成九瘻"
+  }
  },
  {
   "book": "wksy",
@@ -26767,7 +28141,13 @@
   "class": "content",
   "importance": "low",
   "note": "歷驗者／厯驗(工作本多「者」)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 59,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "余嘗治而歷驗（句末直接結束，下接「治驗」標題）"
+  }
  },
  {
   "book": "wksy",
@@ -26999,7 +28379,13 @@
   "class": "content",
   "importance": "low",
   "note": "尺余／尺許",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 62,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "瘡潰尺許色黯敗臭"
+  }
  },
  {
   "book": "wksy",
@@ -27412,7 +28798,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「用」(仍用前湯)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 69,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "又朝仍用前湯夕用十全大補湯"
+  }
  },
  {
   "book": "wksy",
@@ -27490,7 +28882,13 @@
   "class": "content",
   "importance": "low",
   "note": "少飲薄粥乃服／及服",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 71,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "少飲薄粥及服八珍湯固其元氣"
+  }
  },
  {
   "book": "wksy",
@@ -27503,7 +28901,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「也」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 72,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "此邪氣去而中氣虛也余用托裏散"
+  }
  },
  {
   "book": "wksy",
@@ -27516,7 +28920,13 @@
   "class": "content",
   "importance": "low",
   "note": "工作本多出「而」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 72,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "兼益氣湯／徐徐呷之（跨行）"
+  }
  },
  {
   "book": "wksy",
@@ -27593,7 +29003,13 @@
   "class": "content",
   "importance": "low",
   "note": "若以克伐／若用尅伐",
-  "correction_status": "open"
+  "correction_status": "image_checked_neither_medium_not_applied",
+  "image_check": {
+   "page": 73,
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "若用克伐之劑欲其消散則腫者不能潰"
+  }
  },
  {
   "book": "wksy",
@@ -27709,7 +29125,13 @@
   "class": "content",
   "importance": "low",
   "note": "以十全大補／用十全大補",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 74,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "脈洪大按之如無用十全大補倍用參耆"
+  }
  },
  {
   "book": "wksy",
@@ -27722,7 +29144,13 @@
   "class": "content",
   "importance": "low",
   "note": "黃柏／黄蘗(同藥異寫)",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 74,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "服四物黃蘗知母之類食少作瀉"
+  }
  },
  {
   "book": "wksy",
@@ -27864,7 +29292,13 @@
   "class": "content",
   "importance": "low",
   "note": "請視／請治",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 75,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "不信又月餘請治但針得一孔"
+  }
  },
  {
   "book": "wksy",
@@ -27947,7 +29381,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「者」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 76,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "經曰拘於鬼神者不可與言至德"
+  }
  },
  {
   "book": "wksy",
@@ -28173,7 +29613,13 @@
   "class": "content",
   "importance": "low",
   "note": "須以蔥熨／須用葱熨",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 79,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "初起須用蔥熨可以內消"
+  }
  },
  {
   "book": "wksy",
@@ -28231,7 +29677,13 @@
   "class": "content",
   "importance": "low",
   "note": "飲食少進／飲食少思",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 80,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "諸症頓退飲食少思用補中益氣加蔓荊子"
+  }
  },
  {
   "book": "wksy",
@@ -28283,7 +29735,13 @@
   "class": "content",
   "importance": "low",
   "note": "不能營運／不能榮運",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 81,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "脾胃衰而不能榮運也"
+  }
  },
  {
   "book": "wksy",
@@ -28522,7 +29980,13 @@
   "class": "content",
   "importance": "low",
   "note": "一人患此／一患者",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 83,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一患者服攻毒等藥（一／患／者／服）"
+  }
  },
  {
   "book": "wksy",
@@ -28535,7 +29999,13 @@
   "class": "content",
   "importance": "low",
   "note": "一人患此／一患者",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 83,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一患者服攻毒等藥"
+  }
  },
  {
   "book": "wksy",
@@ -28638,7 +30108,13 @@
   "class": "content",
   "importance": "low",
   "note": "而痊／而瘥",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": 84,
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "佐以六味丸而瘥（疒+差）"
+  }
  },
  {
   "book": "wksy",
@@ -28721,7 +30197,13 @@
   "class": "content",
   "importance": "low",
   "note": "內用補陰／内服補隂",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": 84,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "外敷當歸膏內服補陰八珍"
+  }
  },
  {
   "book": "wksy",
@@ -28870,7 +30352,13 @@
   "class": "content",
   "importance": "low",
   "note": "外邪所搏／外邪所乘",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 87,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "外邪所乘也"
+  }
  },
  {
   "book": "wksy",
@@ -28902,7 +30390,13 @@
   "class": "content",
   "importance": "low",
   "note": "仍用前藥／仍用前湯",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 87,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "仍用前湯倍加參耆"
+  }
  },
  {
   "book": "wksy",
@@ -29006,7 +30500,13 @@
   "class": "content",
   "importance": "low",
   "note": "寒熱作渴／寒熱發渴",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 88,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "寒熱發渴飲食如常"
+  }
  },
  {
   "book": "wksy",
@@ -29135,7 +30635,13 @@
   "class": "content",
   "importance": "low",
   "note": "藥傷胃氣／藥損胃氣",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 90,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "此勞傷元氣藥損胃氣而然耳"
+  }
  },
  {
   "book": "wksy",
@@ -29148,7 +30654,13 @@
   "class": "content",
   "importance": "low",
   "note": "工作本多出「得」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 90,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "數劑喜／其年少而愈（末行）"
+  }
  },
  {
   "book": "wksy",
@@ -29174,7 +30686,13 @@
   "class": "content",
   "importance": "low",
   "note": "瘡自斂也／瘡自斂矣",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 90,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "瘡自斂矣夫腎主骨"
+  }
  },
  {
   "book": "wksy",
@@ -29534,7 +31052,13 @@
   "class": "content",
   "importance": "low",
   "note": "攻伐之劑／攻伐之藥",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 97,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "誤用攻伐之藥頓加惡寒發熱"
+  }
  },
  {
   "book": "wksy",
@@ -29747,7 +31271,13 @@
   "class": "content",
   "importance": "low",
   "note": "溫補之藥／温補之劑",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 99,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "服溫補之／劑瘇痛上攻小便不利"
+  }
  },
  {
   "book": "wksy",
@@ -29870,7 +31400,13 @@
   "class": "content",
   "importance": "low",
   "note": "五十餘帖／五十餘劑",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 101,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "萆薢五十餘劑諸症頓退"
+  }
  },
  {
   "book": "wksy",
@@ -29954,7 +31490,13 @@
   "class": "content",
   "importance": "low",
   "note": "若其生肌／欲其生肌",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 102,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "急針之欲／其生肌收斂"
+  }
  },
  {
   "book": "wksy",
@@ -29967,7 +31509,13 @@
   "class": "content",
   "importance": "low",
   "note": "四庫本多出「者」(腎虛者)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 102,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "其生肌收斂腎虛者／六味地黃丸"
+  }
  },
  {
   "book": "wksy",
@@ -30076,7 +31624,13 @@
   "class": "content",
   "importance": "low",
   "note": "又用／仍用",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 103,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "脅痛發熱仍用前藥賴其稟慎疾"
+  }
  },
  {
   "book": "wksy",
@@ -30102,7 +31656,13 @@
   "class": "content",
   "importance": "low",
   "note": "稟實／禀",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 103,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "賴其禀慎疾而愈"
+  }
  },
  {
   "book": "wksy",
@@ -30147,7 +31707,13 @@
   "class": "content",
   "importance": "low",
   "note": "余遂用／也遂用",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 103,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "前藥復傷而然也遂用補中益氣"
+  }
  },
  {
   "book": "wksy",
@@ -30160,7 +31726,13 @@
   "class": "content",
   "importance": "low",
   "note": "前症／諸症",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 103,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "飲食漸進諸症漸愈更加麥門"
+  }
  },
  {
   "book": "wksy",
@@ -30303,7 +31875,13 @@
   "class": "content",
   "importance": "low",
   "note": "補中益氣／補中益氣湯",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 104,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "須用補／中益氣湯升補陽氣使陽生而陰長"
+  }
  },
  {
   "book": "wksy",
@@ -30355,7 +31933,13 @@
   "class": "content",
   "importance": "low",
   "note": "八珍／八珍湯",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 105,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "遂用／八珍湯加麥門山藥"
+  }
  },
  {
   "book": "wksy",
@@ -30394,7 +31978,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「痃」(疑重字)",
-  "correction_status": "open"
+  "correction_status": "image_checked_illegible_low_not_applied",
+  "image_check": {
+   "page": 106,
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "便癰 小字「一名便毒／一名＋兩字」"
+  }
  },
  {
   "book": "wksy",
@@ -30420,7 +32010,13 @@
   "class": "content",
   "importance": "low",
   "note": "令膿隨便下／從便下",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 106,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或令膿從便下損其氣血"
+  }
  },
  {
   "book": "wksy",
@@ -30705,7 +32301,13 @@
   "class": "content",
   "importance": "low",
   "note": "恪用／仍用",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": 111,
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "患處焮痛恪用四物黃柏知母"
+  }
  },
  {
   "book": "wksy",
@@ -30744,7 +32346,13 @@
   "class": "content",
   "importance": "low",
   "note": "或因醉飽／此因醉飽",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 112,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "亦成漏症此因醉飽入房筋脈橫解"
+  }
  },
  {
   "book": "wksy",
@@ -30848,7 +32456,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「在」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 113,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "腸澼為痔其屬肝脾腎也"
+  }
  },
  {
   "book": "wksy",
@@ -30861,7 +32475,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「與」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 113,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "其屬肝脾腎也（肝與脾之間只有訓點，無「與」字）"
+  }
  },
  {
   "book": "wksy",
@@ -30971,7 +32591,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「而」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": 115,
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "皆因飲食失節起居不時七情"
+  }
  },
  {
   "book": "wksy",
@@ -31055,7 +32681,13 @@
   "class": "content",
   "importance": "low",
   "note": "中氣下陷也／者",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "117R(PDF p117 右葉)",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "中/氣下陷者用補中益氣湯"
+  }
  },
  {
   "book": "wksy",
@@ -31068,7 +32700,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「即」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "117R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "十餘劑中氣復而愈後復脫"
+  }
  },
  {
   "book": "wksy",
@@ -31250,7 +32888,13 @@
   "class": "content",
   "importance": "low",
   "note": "但大便結燥／若",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "120L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "托裏而潰大補而斂若大便結燥"
+  }
  },
  {
   "book": "wksy",
@@ -31302,7 +32946,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「或」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "121R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若痰涎上升或口舌生瘡屬腎水乾涸"
+  }
  },
  {
   "book": "wksy",
@@ -31450,7 +33100,13 @@
   "class": "content",
   "importance": "low",
   "note": "煎湯送下／煎送下",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "122L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "柴胡煎送下而愈"
+  }
  },
  {
   "book": "wksy",
@@ -31721,7 +33377,13 @@
   "class": "content",
   "importance": "low",
   "note": "毒則泄／毒得泄",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "126L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "筋隨骨出而毒得泄"
+  }
  },
  {
   "book": "wksy",
@@ -31753,7 +33415,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「而」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "127R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "又二劑痛止又與十宣散"
+  }
  },
  {
   "book": "wksy",
@@ -31779,7 +33447,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「以」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "128R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "余爲此足三陰虛當滋化源"
+  }
  },
  {
   "book": "wksy",
@@ -31805,7 +33479,13 @@
   "class": "content",
   "importance": "low",
   "note": "因服／固服",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "128R",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "爲主因服除濕敗毒等劑"
+  }
  },
  {
   "book": "wksy",
@@ -31863,7 +33543,13 @@
   "class": "content",
   "importance": "low",
   "note": "補中益氣／補中益氣湯",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "129R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "氣瘤用補中益氣湯之類"
+  }
  },
  {
   "book": "wksy",
@@ -31953,7 +33639,13 @@
   "class": "content",
   "importance": "low",
   "note": "諸症痊／諸症即愈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "130L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "加附子一錢服之諸症即/愈二日不服"
+  }
  },
  {
   "book": "wksy",
@@ -32158,7 +33850,13 @@
   "class": "content",
   "importance": "low",
   "note": "正與齧爪／此與囓爪",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "133R",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "膽行人身之側正與齧爪生㾋"
+  }
  },
  {
   "book": "wksy",
@@ -32210,7 +33908,13 @@
   "class": "content",
   "importance": "low",
   "note": "一側多出「脉」(左尺洪數關脉)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "133L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "左尺洪數闗脉洪數弦"
+  }
  },
  {
   "book": "wksy",
@@ -32306,7 +34010,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「可」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "134L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "各經俱病也先用補中益氣湯"
+  }
  },
  {
   "book": "wksy",
@@ -32338,7 +34048,13 @@
   "class": "content",
   "importance": "low",
   "note": "他症自愈／諸症自愈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "134L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "使陰血生而諸症自愈"
+  }
  },
  {
   "book": "wksy",
@@ -32377,7 +34093,13 @@
   "class": "content",
   "importance": "low",
   "note": "加味逍遙散／加味逍遥(無「散」)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "135L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "用加味逍遙加味歸脾二藥兼服"
+  }
  },
  {
   "book": "wksy",
@@ -32724,7 +34446,13 @@
   "class": "content",
   "importance": "low",
   "note": "肝木乘脾士／土(形近訛)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "140R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "此肝木乘脾土也用六君加柴胡升麻"
+  }
  },
  {
   "book": "wksy",
@@ -32827,7 +34555,13 @@
   "class": "content",
   "importance": "low",
   "note": "未痊斂以／未痊乃以",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "141L",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "背瘡未痊斂以膏藥剪孔貼之"
+  }
  },
  {
   "book": "wksy",
@@ -32859,7 +34593,13 @@
   "class": "content",
   "importance": "low",
   "note": "大凡／故凡",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "142R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "幸矣故凡前症須用托裏"
+  }
  },
  {
   "book": "wksy",
@@ -33111,7 +34851,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「服」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "147R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "加味四物湯若誤尅/伐或膿血大泄"
+  }
  },
  {
   "book": "wksy",
@@ -33214,7 +34960,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢半＝一錢五分(等量異寫)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "150L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "生地黃(小字)各一錢/五分"
+  }
  },
  {
   "book": "wksy",
@@ -33699,7 +35451,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「或」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "156L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "飲食不入或腸鳴腹痛嘔逆吐瀉"
+  }
  },
  {
   "book": "wksy",
@@ -34021,7 +35779,13 @@
   "class": "content",
   "importance": "low",
   "note": "白湯送下／化下",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "160L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "白湯化下"
+  }
  },
  {
   "book": "wksy",
@@ -34203,7 +35967,13 @@
   "class": "content",
   "importance": "low",
   "note": "半錢＝五分(等量異寫)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "162R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "虛者每服五分實者一錢"
+  }
  },
  {
   "book": "wksy",
@@ -34261,7 +36031,13 @@
   "class": "content",
   "importance": "low",
   "note": "先以隔蒜灸／先已",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "163R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或先已隔蒜灸而餘腫未消"
+  }
  },
  {
   "book": "wksy",
@@ -34274,7 +36050,13 @@
   "class": "content",
   "importance": "low",
   "note": "日三五灸／日三五次",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "163R末列→163L首列",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "日三五次以助腫潰"
+  }
  },
  {
   "book": "wksy",
@@ -34519,7 +36301,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢半＝一錢五分(等量異寫)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "166L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "熟地自製一錢五分"
+  }
  },
  {
   "book": "wksy",
@@ -34759,7 +36547,13 @@
   "class": "content",
   "importance": "low",
   "note": "急以大芎黃湯／急服",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "170R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若臟腑秘小便赤而自汗者急服大芎黃湯"
+  }
  },
  {
   "book": "wksy",
@@ -34785,7 +36579,13 @@
   "class": "content",
   "importance": "low",
   "note": "小便短小／短少",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "170L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "小便短/少眼花耳聾"
+  }
  },
  {
   "book": "wksy",
@@ -34972,7 +36772,13 @@
   "class": "content",
   "importance": "low",
   "note": "凡氣血俱虛／若",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "173R",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "蓋氣能攝血故也凡氣血俱虛之症"
+  }
  },
  {
   "book": "wksy",
@@ -35477,7 +37283,13 @@
   "class": "content",
   "importance": "low",
   "note": "不消不潰／不散不潰",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "180R",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "漸如連珠不消不潰或潰而膿水"
+  }
  },
  {
   "book": "wksy",
@@ -35529,7 +37341,13 @@
   "class": "content",
   "importance": "low",
   "note": "濾去粗／濾去柤",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": "180L",
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "煎黑濾去柤徐徐入黃丹"
+  }
  },
  {
   "book": "wksy",
@@ -35879,7 +37697,13 @@
   "class": "content",
   "importance": "low",
   "note": "研極細／研令極細",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": "185L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右為細末研令極細用紙花子"
+  }
  },
  {
   "book": "wksy",
@@ -36014,7 +37838,13 @@
   "class": "content",
   "importance": "low",
   "note": "徐徐嚥之／嚥下",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": "187L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "冷酒調搽徐徐嚥下輕者三五服"
+  }
  },
  {
   "book": "wksy",
@@ -36376,7 +38206,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢半＝一錢五分(等量異寫)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "193R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "炙甘草各一錢/五分(小字)"
+  }
  },
  {
   "book": "wksy",
@@ -36415,7 +38251,13 @@
   "class": "content",
   "importance": "low",
   "note": "錢半／一錢五分(等量,另見各二錢/一錢)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "193R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "赤茯苓 一錢/五分"
+  }
  },
  {
   "book": "wksy",
@@ -36428,7 +38270,13 @@
   "class": "content",
   "importance": "low",
   "note": "錢半／一錢五分(等量異寫)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "193R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "赤茯苓 一錢/五分"
+  }
  },
  {
   "book": "wksy",
@@ -36473,7 +38321,13 @@
   "class": "content",
   "importance": "low",
   "note": "一處多出「即」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "194R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "症之聖藥也 六味丸方見前"
+  }
  },
  {
   "book": "wksy",
@@ -36628,7 +38482,13 @@
   "class": "content",
   "importance": "low",
   "note": "各錢半／各一錢半(等量異寫)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "196L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "蒼朮各一/錢半(小字)"
+  }
  },
  {
   "book": "wksy",
@@ -36686,7 +38546,13 @@
   "class": "content",
   "importance": "low",
   "note": "若流注膝風／苦流注",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "197R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "作痛苦流注膝風初結服之"
+  }
  },
  {
   "book": "wksy",
@@ -36867,7 +38733,13 @@
   "class": "content",
   "importance": "low",
   "note": "炒將焦／炒焦",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "198L",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "藥氣相和炒焦各揀出聽用"
+  }
  },
  {
   "book": "wksy",
@@ -36945,7 +38817,13 @@
   "class": "content",
   "importance": "low",
   "note": "用之自愈／用之即愈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "199R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "連好肉作痛用之即愈亦不結痂"
+  }
  },
  {
   "book": "wksy",
@@ -36984,7 +38862,13 @@
   "class": "content",
   "importance": "low",
   "note": "一錢五分＝一錢半(等量異寫)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "200R",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "當歸各一/錢半(小字)赤芍藥一錢"
+  }
  },
  {
   "book": "wksy",
@@ -37139,7 +39023,13 @@
   "class": "content",
   "importance": "low",
   "note": "客於脈／客有脈",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "4 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "風寒客於脈而不去"
+  }
  },
  {
   "book": "lyjy",
@@ -37171,7 +39061,13 @@
   "class": "content",
   "importance": "low",
   "note": "眉毛先落者／缺「者」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "4 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若〔髟眉〕毛先落毒在肺（落字後無「者」）"
+  }
  },
  {
   "book": "lyjy",
@@ -37332,7 +39228,13 @@
   "class": "content",
   "importance": "low",
   "note": "症見於外／症見外，缺「於」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "6 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "而症見外也宜用升麻湯"
+  }
  },
  {
   "book": "lyjy",
@@ -37810,7 +39712,13 @@
   "class": "content",
   "importance": "low",
   "note": "咽喉作痛／咽喉疼痛",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "13 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "或咽喉作痛若飲食喜冷"
+  }
  },
  {
   "book": "lyjy",
@@ -38004,7 +39912,13 @@
   "class": "content",
   "importance": "low",
   "note": "內障黑花屬血虛／或血虛",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "17 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或內障黑花或血虛神勞用滋陰"
+  }
  },
  {
   "book": "lyjy",
@@ -38114,7 +40028,13 @@
   "class": "content",
   "importance": "low",
   "note": "喜冷飲食者／缺「者」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "18 左葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "喜冷飲食者胃氣實熱也用瀉黃散"
+  }
  },
  {
   "book": "lyjy",
@@ -38140,7 +40060,13 @@
   "class": "content",
   "importance": "low",
   "note": "為害不淺／為患不淺",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "19 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "反傷脾胃為患不淺"
+  }
  },
  {
   "book": "lyjy",
@@ -38237,7 +40163,13 @@
   "class": "content",
   "importance": "low",
   "note": "缺句末「矣」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "21 右葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "自息風自定痒自止（句末無「矣」）"
+  }
  },
  {
   "book": "lyjy",
@@ -38360,7 +40292,13 @@
   "class": "content",
   "importance": "low",
   "note": "俱可／亦可",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "24 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "生菉豆末芝麻油亦可"
+  }
  },
  {
   "book": "lyjy",
@@ -38405,7 +40343,13 @@
   "class": "content",
   "importance": "low",
   "note": "毒入肉／毒入內",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "24 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若毒入內吐瀉等症"
+  }
  },
  {
   "book": "lyjy",
@@ -38618,7 +40562,13 @@
   "class": "content",
   "importance": "low",
   "note": "補中益氣湯／補中益氣，缺「湯」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "28 右葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "並用補中益氣年餘雖勞而不發（無「湯」）"
+  }
  },
  {
   "book": "lyjy",
@@ -38779,7 +40729,13 @@
   "class": "content",
   "importance": "low",
   "note": "六味地黃丸料加五味／缺「加」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "29 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "用六味地黃丸料加五味柴胡五十餘劑"
+  }
  },
  {
   "book": "lyjy",
@@ -38811,7 +40767,13 @@
   "class": "content",
   "importance": "low",
   "note": "攻內毒外敷／攻內毒更敷",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "29 左葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "恪服蛇酒以攻內毒更敷砒霜等藥"
+  }
  },
  {
   "book": "lyjy",
@@ -38953,7 +40915,13 @@
   "class": "content",
   "importance": "low",
   "note": "炙爆等物／炙等物，缺「爆」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "31 右葉",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "愈後食炙煿等物痰盛作渴（爆字位置印作「煿」火+尃）"
+  }
  },
  {
   "book": "lyjy",
@@ -38979,7 +40947,13 @@
   "class": "content",
   "importance": "low",
   "note": "五味麥冬／五味麥門，同藥異稱",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "31 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "補中益氣湯加五味麥門益甚更兼口噤"
+  }
  },
  {
   "book": "lyjy",
@@ -39076,7 +41050,13 @@
   "class": "content",
   "importance": "low",
   "note": "半載乃元氣復／缺「乃」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "33 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "兼換肌散半載元氣復而諸症退"
+  }
  },
  {
   "book": "lyjy",
@@ -39167,7 +41147,13 @@
   "class": "content",
   "importance": "low",
   "note": "眉毛頓脫／頓落",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "35 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "服換肌散之類眉毛頓落遍身作癢"
+  }
  },
  {
   "book": "lyjy",
@@ -39258,7 +41244,13 @@
   "class": "content",
   "importance": "low",
   "note": "頭眩／頭暈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "36 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "膿水淋漓熱渴頭暈日晡益甚"
+  }
  },
  {
   "book": "lyjy",
@@ -39484,7 +41476,13 @@
   "class": "content",
   "importance": "low",
   "note": "作渴而常患／作渴面常患",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "43 左葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一男子面赤作渴面常患有瘡作癢"
+  }
  },
  {
   "book": "lyjy",
@@ -39516,7 +41514,13 @@
   "class": "content",
   "importance": "low",
   "note": "一男子／一男，缺「子」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "43 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一男子面生粉刺或生小癗"
+  }
  },
  {
   "book": "lyjy",
@@ -39542,7 +41546,13 @@
   "class": "content",
   "importance": "low",
   "note": "又八珍／又用八珍，缺「用」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "44 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "膿水漸少又八珍牡丹皮之類"
+  }
  },
  {
   "book": "lyjy",
@@ -39555,7 +41565,13 @@
   "class": "content",
   "importance": "low",
   "note": "炙爆醇酒／炙醇酒，缺「爆」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "44 左葉",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "嗜膏粱炙煿醇酒辛辣之物（爆位印作「煿」）"
+  }
  },
  {
   "book": "lyjy",
@@ -39633,7 +41649,13 @@
   "class": "content",
   "importance": "low",
   "note": "肢體亦然／肢體益然",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "45 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "祛風之藥肢體益然作渴引飲"
+  }
  },
  {
   "book": "lyjy",
@@ -39697,7 +41719,13 @@
   "class": "content",
   "importance": "low",
   "note": "遍身皆癢／遍身作痒",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "46 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "頓起赤暈遍身作痒砭出血"
+  }
  },
  {
   "book": "lyjy",
@@ -39723,7 +41751,13 @@
   "class": "content",
   "importance": "low",
   "note": "乃瘥／乃安",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "46 左葉",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "加味四物湯乃瘥（行末）"
+  }
  },
  {
   "book": "lyjy",
@@ -39736,7 +41770,13 @@
   "class": "content",
   "importance": "low",
   "note": "二便便利／二便通利",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "46 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "防風通聖散二便通利但口乾"
+  }
  },
  {
   "book": "lyjy",
@@ -39865,7 +41905,13 @@
   "class": "content",
   "importance": "low",
   "note": "余以謂／余以為",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "49 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "善嚏患疥余以爲腠理不密"
+  }
  },
  {
   "book": "lyjy",
@@ -39891,7 +41937,13 @@
   "class": "content",
   "importance": "low",
   "note": "調理失宜／調養失宜",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "49 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "其瘡頓愈又因調養失宜日晡益甚"
+  }
  },
  {
   "book": "lyjy",
@@ -39982,7 +42034,13 @@
   "class": "content",
   "importance": "low",
   "note": "六味地黃丸加五味子／如五味子",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "50 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "夕用六味地黃丸如五味子煎服而愈"
+  }
  },
  {
   "book": "lyjy",
@@ -39995,7 +42053,13 @@
   "class": "content",
   "importance": "low",
   "note": "寒熱搔癢／寒熱作痒",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "51 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "勞役或氣惱則寒熱作痒服祛"
+  }
  },
  {
   "book": "lyjy",
@@ -40008,7 +42072,13 @@
   "class": "content",
   "importance": "low",
   "note": "清氣之藥／清氣之劑",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "51 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "服化痰清氣之劑形氣倦怠"
+  }
  },
  {
   "book": "lyjy",
@@ -40053,7 +42123,13 @@
   "class": "content",
   "importance": "low",
   "note": "炒黑／炒焦",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "52 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "少用川芎芍藥炒焦間佐以補中"
+  }
  },
  {
   "book": "lyjy",
@@ -40079,7 +42155,13 @@
   "class": "content",
   "importance": "low",
   "note": "遍身／變身（疑訛）",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "53 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "一婦人遍身搔癢膿水淋漓"
+  }
  },
  {
   "book": "lyjy",
@@ -40131,7 +42213,13 @@
   "class": "content",
   "importance": "low",
   "note": "遍身／變身（疑訛）",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "53 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "則發寒熱變身作痒起疙瘩"
+  }
  },
  {
   "book": "lyjy",
@@ -40215,7 +42303,13 @@
   "class": "content",
   "importance": "low",
   "note": "而痊／而瘥",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "54 左葉",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "又服月餘而痊（行末）"
+  }
  },
  {
   "book": "lyjy",
@@ -40228,7 +42322,13 @@
   "class": "content",
   "importance": "low",
   "note": "瘡靨脫／瘡靨脫落",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "55 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "將兩月瘡靨脫落又月餘而愈"
+  }
  },
  {
   "book": "lyjy",
@@ -40254,7 +42354,13 @@
   "class": "content",
   "importance": "low",
   "note": "遍身患疙瘩／遍身發疙瘩",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "57 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "因鬱怒患前症遍身發疙瘩晡熱"
+  }
  },
  {
   "book": "lyjy",
@@ -40429,7 +42535,13 @@
   "class": "content",
   "importance": "low",
   "note": "祛風之藥／祛風之劑",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "59 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "服祛風之劑患處更腫砭出紫血"
+  }
  },
  {
   "book": "lyjy",
@@ -40474,7 +42586,13 @@
   "class": "content",
   "importance": "low",
   "note": "癢甚／痒其",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "60 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "變為疙瘩臖腫痒甚余用梔子清肝散"
+  }
  },
  {
   "book": "lyjy",
@@ -40487,7 +42605,13 @@
   "class": "content",
   "importance": "low",
   "note": "津淫余先用／缺「余」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "60 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "膿水津淫先用五味異攻散加柴胡"
+  }
  },
  {
   "book": "lyjy",
@@ -40545,7 +42669,13 @@
   "class": "content",
   "importance": "low",
   "note": "諸症稍愈／諸症少愈",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "62 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "又用蝦蟇丸前：丸諸症少愈又用"
+  }
  },
  {
   "book": "lyjy",
@@ -40597,7 +42727,13 @@
   "class": "content",
   "importance": "low",
   "note": "半年後變疙瘩／遍疙瘩",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "62 右葉末行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "半年後遍疙瘩色紫"
+  }
  },
  {
   "book": "lyjy",
@@ -40610,7 +42746,13 @@
   "class": "content",
   "importance": "low",
   "note": "敷巴豆等藥／敷巴豆之藥",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "62 左葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "作痒敷巴豆之藥皮破出水"
+  }
  },
  {
   "book": "lyjy",
@@ -40662,7 +42804,13 @@
   "class": "content",
   "importance": "low",
   "note": "如大風余用／缺「余」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "63 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "患瘡疥如大風余用大蘆薈丸"
+  }
  },
  {
   "book": "lyjy",
@@ -40675,7 +42823,13 @@
   "class": "content",
   "importance": "low",
   "note": "飲食如前／飲食如常",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "64 右葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "次用異攻散飲食如常又用大蕪荑湯"
+  }
  },
  {
   "book": "lyjy",
@@ -40688,7 +42842,13 @@
   "class": "content",
   "importance": "low",
   "note": "一女子／一女，缺「子」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "64 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一女子性急多怒月經先期"
+  }
  },
  {
   "book": "lyjy",
@@ -40843,7 +43003,13 @@
   "class": "content",
   "importance": "low",
   "note": "炙爆厚味／炙厚味，缺「爆」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "67 右葉",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "忌一切炙煿厚味止可食淡粥（爆位印作「煿」）"
+  }
  },
  {
   "book": "lyjy",
@@ -41128,7 +43294,13 @@
   "class": "content",
   "importance": "low",
   "note": "並皆主之／並皆治之",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "68 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "皮膚燥痒搔破成瘡並皆主之"
+  }
  },
  {
   "book": "lyjy",
@@ -41180,7 +43352,13 @@
   "class": "content",
   "importance": "low",
   "note": "搗成汁／挼成汁",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_medium_not_applied",
+  "image_check": {
+   "page": "68 左葉小字",
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "以水一碗挼成汁去柤"
+  }
  },
  {
   "book": "lyjy",
@@ -41193,7 +43371,13 @@
   "class": "content",
   "importance": "low",
   "note": "大風症用之／治之",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "68 左葉小字",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "取淨肉曬乾為末大風症治之"
+  }
  },
  {
   "book": "lyjy",
@@ -41232,7 +43416,13 @@
   "class": "content",
   "importance": "low",
   "note": "入前二味和丸／為丸",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "69 右葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右為末入前二味為丸桐子大"
+  }
  },
  {
   "book": "lyjy",
@@ -41724,7 +43914,13 @@
   "class": "content",
   "importance": "low",
   "note": "熟地黃／熟地",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "76 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "四物湯：當歸 熟地錢各二（無「黃」）"
+  }
  },
  {
   "book": "lyjy",
@@ -41776,7 +43972,13 @@
   "class": "content",
   "importance": "low",
   "note": "熟地黃／熟地",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "77 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "聖愈湯：熟地 生者自製 生地黃 當歸"
+  }
  },
  {
   "book": "lyjy",
@@ -41815,7 +44017,13 @@
   "class": "content",
   "importance": "low",
   "note": "生地黃／生地",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "78 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "竹葉黃耆湯：淡竹葉 生地錢各二（無「黃」）"
+  }
  },
  {
   "book": "lyjy",
@@ -42041,7 +44249,13 @@
   "class": "content",
   "importance": "low",
   "note": "黃芩酒拌各五分／缺「各」",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "81 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "黃芩酒拌各五分（小字：酒拌各／五分）"
+  }
  },
  {
   "book": "lyjy",
@@ -42112,7 +44326,13 @@
   "class": "content",
   "importance": "low",
   "note": "白芍藥／白芍，缺「藥」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "82 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "四物二連湯：當歸 生地黃 白芍(炒各一分)"
+  }
  },
  {
   "book": "lyjy",
@@ -42138,7 +44358,13 @@
   "class": "content",
   "importance": "low",
   "note": "生地黃／生地",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "82 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "地芝丸：生地 焙乾 四兩 天門冬"
+  }
  },
  {
   "book": "lyjy",
@@ -42281,7 +44507,13 @@
   "class": "content",
   "importance": "low",
   "note": "麻子／麻子仁",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "84 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "潤腸丸：羌活 當歸尾 麻子仁 桃仁去皮尖另研"
+  }
  },
  {
   "book": "lyjy",
@@ -42385,7 +44617,13 @@
   "class": "content",
   "importance": "low",
   "note": "水煎／水煎服",
-  "correction_status": "open"
+  "correction_status": "image_checked_skqs_high_not_applied",
+  "image_check": {
+   "page": "86 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右用燈心二十莖水煎服"
+  }
  },
  {
   "book": "lyjy",
@@ -42424,7 +44662,13 @@
   "class": "content",
   "importance": "low",
   "note": "病愈加是不宜／缺「是」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "86 左葉末行→87 右葉首行",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "小便愈數而／病愈加不宜分利小便"
+  }
  },
  {
   "book": "lyjy",
@@ -42437,7 +44681,13 @@
   "class": "content",
   "importance": "low",
   "note": "氣血衰弱／氣血虛弱",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "87 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "清燥飲 治氣血虛弱濕熱乘之"
+  }
  },
  {
   "book": "lyjy",
@@ -42534,7 +44784,13 @@
   "class": "content",
   "importance": "low",
   "note": "五味子／五味，缺「子」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "89 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "四神丸：肉豆蔻 五味 兩各二 補骨脂"
+  }
  },
  {
   "book": "lyjy",
@@ -42592,7 +44848,13 @@
   "class": "content",
   "importance": "low",
   "note": "痰涎壅塞／痰涎壅盛",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "90 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "牛黃清心丸 治諸風手足不隨痰涎壅盛言語"
+  }
  },
  {
   "book": "lyjy",
@@ -42773,7 +45035,13 @@
   "class": "content",
   "importance": "low",
   "note": "五味子杵炒／五味杵炒",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "91 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "人參平肺散：五味 四分 杵炒"
+  }
  },
  {
   "book": "lyjy",
@@ -42825,7 +45093,13 @@
   "class": "content",
   "importance": "low",
   "note": "連肝食之／連肝服之",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "91 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "臨睡連肝服之人參益氣湯"
+  }
  },
  {
   "book": "lyjy",
@@ -42851,7 +45125,13 @@
   "class": "content",
   "importance": "low",
   "note": "五味子／五味，缺「子」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "92 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "白芍藥錢三 五味 一百四十粒 右作四劑"
+  }
  },
  {
   "book": "lyjy",
@@ -42877,7 +45157,13 @@
   "class": "content",
   "importance": "low",
   "note": "生地黃／生地",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "92 左葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "當歸 黃蠟 生地 兩各一 麻油兩六"
+  }
  },
  {
   "book": "lyjy",
@@ -42916,7 +45202,13 @@
   "class": "content",
   "importance": "low",
   "note": "有鋒芒者／有鋒甚者",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_medium_not_applied",
+  "image_check": {
+   "page": "92 左葉末行",
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "取有鋒芒者一塊以筯一根"
+  }
  },
  {
   "book": "lyjy",
@@ -43039,7 +45331,13 @@
   "class": "content",
   "importance": "low",
   "note": "維基多「口」字（杏口仁）",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "93 左葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "杏仁 皮尖七枚去 粘米炒十粒"
+  }
  },
  {
   "book": "lyjy",
@@ -43065,7 +45363,13 @@
   "class": "content",
   "importance": "low",
   "note": "夏季／夏月",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "94 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "蟾蜍 一枚夏月蒲渠中取腹大不跳不鳴"
+  }
  },
  {
   "book": "lyjy",
@@ -43155,7 +45459,13 @@
   "class": "content",
   "importance": "low",
   "note": "濾去渣／濾去，缺「渣」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "94 左葉末",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "煎至黑濾去徐入淨黃丹"
+  }
  },
  {
   "book": "lyjy",
@@ -43278,7 +45588,13 @@
   "class": "content",
   "importance": "low",
   "note": "白癜方／白癜風方",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "96 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "白癜風方（標題）"
+  }
  },
  {
   "book": "lyjy",
@@ -43388,7 +45704,13 @@
   "class": "content",
   "importance": "low",
   "note": "項間結核／項問結核",
-  "correction_status": "open"
+  "correction_status": "image_checked_working_high_not_applied",
+  "image_check": {
+   "page": "97 右葉",
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "發稀成穗項間結核發熱作渴"
+  }
  },
  {
   "book": "lyjy",
@@ -43853,7 +46175,13 @@
   "class": "content",
   "importance": "low",
   "note": "更不應急用生附／缺「用」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-08",
+  "image_check": {
+   "page": "101 右葉",
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "必用半生半熟更不應急生附一二劑"
+  }
  },
  {
   "book": "lyjy",

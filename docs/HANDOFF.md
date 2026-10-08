@@ -35,7 +35,7 @@
 
 来源文字层的基线 SHA-256（按每条 source_id 和全文生成）**自 2026-09-30 为**：
 
-`f2fba7d485b6d1a0ce229282d0606b6e5fa15f5d003a2560df113e5cfd7bd4f4`（2026-10-01 应用内容·中差异 258 处影像改正后；此前 `fd06d94fddaa2eaaf19bfbe78f4424c12cabac0a6e4344cda2ce428f8bb2e2df` 为补入 4 条记录后；补入 4 条记录前为 `df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7`，其前为 `20077b83…`）
+`bfe3989e4c4fc239922d22d07bddac0414da81ad4c1de5c9e8fbf5b2150a0715`（2026-10-08 应用内容·低差异 257 处影像改正后；此前 `f2fba7d485b6d1a0ce229282d0606b6e5fa15f5d003a2560df113e5cfd7bd4f4` 为 2026-10-01 内容·中差异 258 处改正后；此前 `fd06d94fddaa2eaaf19bfbe78f4424c12cabac0a6e4344cda2ce428f8bb2e2df` 为补入 4 条记录后；补入 4 条记录前为 `df8fbd10ebbd097995485a55fcef34741c9f54d90dc0624db797f0fa10a347a7`，其前为 `20077b83…`）
 
 此前基线（转录原样，未应用影像改正）为 `20077b83bcb6a1e8a437a43ad5141ad8274cb8656135dbd8a6934d112ad1abe9`。2026-09-30 依承应本影像与四库本对照，对 136 条来源记录做了 157 处文字改正（逐条见 `work/edition-compare/applied_corrections.json`，每条记录有 `text_correction_applied` 和改正前正文摘要 `pre_correction_body_sha256`）；改正前的文件可由该日志逆向还原。因此校验值有意改变，之后新的改动仍须保持它不变。
 
