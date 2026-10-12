@@ -25,7 +25,7 @@ The eight books: 內科摘要, 女科撮要, 正體類要, 口齒類要, 立齋�
 ```sh
 git clone https://github.com/caic99/xue-ji-corpus && cd xue-ji-corpus
 python3 work/validate_complete_corpus.py   # expects: works 8, records 5361, errors 0
-python3 work/audit_corpus.py               # source-text digest must stay bfe3989e…0715
+python3 work/audit_corpus.py               # source-text digest must stay c815c23f…6c27
 python3 work/check_retrieval_inheritance.py
 ```
 

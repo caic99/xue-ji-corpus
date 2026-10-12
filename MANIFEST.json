@@ -1,7 +1,7 @@
 {
  ".github/workflows/validate.yml": {
   "bytes": 955,
-  "sha256": "6ea44e2001070b093c5fc656cb4054d0a1fd6445c8ba733d89242ca5b97c496b"
+  "sha256": "94e19cc8e07a0bd5d813190684889c23496ab24a62d0bd62d9dd5c8b72e1e700"
  },
  ".gitignore": {
   "bytes": 29,
@@ -21,27 +21,27 @@
  },
  "README.md": {
   "bytes": 9767,
-  "sha256": "d43d96992a107eb164a0ccf5b9b225294ff5c2c4bcf4e2eab4df110e6a377ee3"
+  "sha256": "83370968fceca8defa92007976a45d1b3b4666936fcf5a09e6c34ca652d82622"
  },
  "docs/DATA_DICTIONARY.md": {
-  "bytes": 7928,
-  "sha256": "40de47b8cf1dc8c52b2d74585f9cfbf170651f0f7d58ebe89e96222fb0e7ddd2"
+  "bytes": 7991,
+  "sha256": "4639692564daceda02ec180ecac73eb50a4e1c3a7b5fedc45a9fc544539fc06d"
  },
  "docs/HANDOFF.md": {
-  "bytes": 25479,
-  "sha256": "26e763df42feaa78232bd46edb963d3206fffdca0833e4665ede49f504e370c1"
+  "bytes": 25608,
+  "sha256": "8046696fa78942d0d3e0f66612064f79672e20dbdde301e8772c0374d8a8d092"
  },
  "outputs/薛己核心医案_结构化样本.md": {
-  "bytes": 9620386,
-  "sha256": "b93bfee5d7b53bb9641249b2fb463ab6a19c39504d32c071d474c52764e91f57"
+  "bytes": 9620774,
+  "sha256": "c5e9603b78cfa351a8abaa690595161fef621a753ac2171e7daffeb5a4d1a8db"
  },
  "state/baseline_validation.json": {
   "bytes": 9059,
   "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
  },
  "state/current_state.json": {
-  "bytes": 57965,
-  "sha256": "d7c4b88aae60d79fe607e12a7f297c97d388d0ec746dbc33feeb2815d71fcb2c"
+  "bytes": 58282,
+  "sha256": "14ad7e32420a6f616404768046b079b6ad0226abd755050af104bb6df921dd6d"
  },
  "state/next_tasks.json": {
   "bytes": 14642,
@@ -64,12 +64,12 @@
   "sha256": "ddbba9de89968bc114c7b60235fef0d0aac30be4934e99ade9a68cb9bea1781c"
  },
  "work/edition-compare/README.md": {
-  "bytes": 9078,
-  "sha256": "0d1ef06166c1973fe6d6ca6aaab7c31fc1c45df5d72bdf16de27f3b35914aeed"
+  "bytes": 9747,
+  "sha256": "7795b5da2f1226231d9754c8822310909c366f2f8b71e9ff29586abb55521ff3"
  },
  "work/edition-compare/applied_corrections.json": {
-  "bytes": 288683,
-  "sha256": "20f9a6dc776b2af4963ec4c19d34dfb23382f12024092819a07d6164019ef86c"
+  "bytes": 289829,
+  "sha256": "b9fc49c7360c978fafd3c2f2552bc1c2c8d7352ca1523cbfe37954f7a183f915"
  },
  "work/edition-compare/apply_edits.py": {
   "bytes": 15360,
@@ -102,6 +102,10 @@
  "work/edition-compare/glyph_variant_pairs_ge5.json": {
   "bytes": 2609,
   "sha256": "88e072364bc5c1247bf413f6fbc902ebc82014bf551fdbcf77c6694f5fcc5499"
+ },
+ "work/edition-compare/haiku_eval_2026-10-12.json": {
+  "bytes": 37432,
+  "sha256": "25b61a60f36226109f2f9a90ba82d462b90e70943205fb3effa5b91637464799"
  },
  "work/edition-compare/image_check_results.json": {
   "bytes": 635465,

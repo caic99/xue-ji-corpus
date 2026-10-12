@@ -9495,6 +9495,34 @@
    "note": "白丸子條左葉；原刻「調和丸」，且句首為「右為末」（working作「上為末」，skqs作「右」，上/右差異在此處亦相符skqs）",
    "evidence": "承應本影像（模型視覺，高確定度）與四庫本一致（低重要差異批次）",
    "date": "2026-10-08"
+  },
+  {
+   "source_id": "XJ-WKSY-V3-P120",
+   "start": 45,
+   "end": 49,
+   "new_start": 45,
+   "old": "主。因服",
+   "new": "主。固服",
+   "batch": 8,
+   "batch_name": "haiku_eval_adjudication_2026-10-12",
+   "page": "p128 右葉",
+   "note": "印本作「固服除濕敗毒等劑」（囗內為古），與四庫同；工作稿「因」誤。先前影像核讀判為「因」，2026-10-12 複核更正。",
+   "evidence": "承應本影像（Haiku 試讀與主持模型放大複核一致）與四庫本一致",
+   "date": "2026-10-12"
+  },
+  {
+   "source_id": "XJ-WKSY-V2-P095",
+   "start": 174,
+   "end": 178,
+   "new_start": 174,
+   "old": "若以克伐",
+   "new": "若用克伐",
+   "batch": 8,
+   "batch_name": "haiku_eval_adjudication_2026-10-12",
+   "page": "p73 左葉",
+   "note": "印本作「若用尅伐之劑」，與四庫同（「尅」為「克」之異體，沿用工作稿字形）；工作稿「以」誤。先前影像核讀判為「用克」兩者皆不同，2026-10-12 複核更正。",
+   "evidence": "承應本影像（Haiku 試讀與主持模型放大複核一致）與四庫本一致",
+   "date": "2026-10-12"
   }
  ],
  "note": "start/end are offsets in the record body BEFORE the batch (old coordinates); new_start is the offset of the new text AFTER the whole batch. To undo: process batches in reverse order; within a batch process edits in reverse of (source_id, start, end) and replace body[new_start:new_start+len(new)] by old. work/edition-compare/verify_reversible.py does this and checks the recovered digest."
