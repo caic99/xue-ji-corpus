@@ -22,6 +22,6 @@ jobs:
       - name: Source-text digest must be unchanged
         run: |
           python3 work/audit_corpus.py | tee /tmp/audit.json
-          grep -q 'c815c23f20be1b082d8a40909beaa803c459b38ae9af3067fc6aed1ece006c27' /tmp/audit.json
+          grep -q 'a719e844641d9b610848a923e108f663d0fc1620d4f28c26f1925bfc9d5d27aa' /tmp/audit.json
       - name: Pending-status inheritance
         run: python3 work/check_retrieval_inheritance.py

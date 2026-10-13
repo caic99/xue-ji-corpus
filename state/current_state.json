@@ -3,7 +3,7 @@
   "last_substantive_corpus_work_date": "2026-09-29",
   "main_document": "outputs/薛己核心医案_结构化样本.md",
   "main_document_sha256": "481b52bf81ed49359e063cb78786bf0401718dd792190f89d4a7eb5c5e8ec238",
-  "source_text_sha256": "c815c23f20be1b082d8a40909beaa803c459b38ae9af3067fc6aed1ece006c27",
+  "source_text_sha256": "a719e844641d9b610848a923e108f663d0fc1620d4f28c26f1925bfc9d5d27aa",
   "structured_totals": {
     "cases": 1532,
     "non_case_units": 3272
@@ -717,6 +717,11 @@
       "sha256": "c815c23f20be1b082d8a40909beaa803c459b38ae9af3067fc6aed1ece006c27",
       "meaning": "Haiku 读图试验复核后改正外科枢要 V3-P120（固）、V2-P095（用）2 处；此前基线 bfe3989e4c4fc239922d22d07bddac0414da81ad4c1de5c9e8fbf5b2150a0715",
       "valid_from": "2026-10-12"
+    },
+    {
+      "sha256": "a719e844641d9b610848a923e108f663d0fc1620d4f28c26f1925bfc9d5d27aa",
+      "meaning": "Haiku 复读 232 处未定点后改正 18 处（18 条记录）；此前基线 c815c23f20be1b082d8a40909beaa803c459b38ae9af3067fc6aed1ece006c27",
+      "valid_from": "2026-10-13"
     }
   ],
   "text_corrections_2026_09_30": {

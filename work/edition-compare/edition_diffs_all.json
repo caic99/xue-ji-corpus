@@ -29,6 +29,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "許駕驅其邪而補助真氣（右葉第1行）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "許駕[驅-form]其邪而補助真氣 (right component is 區, not 又)"
   }
  },
  {
@@ -182,6 +187,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "左半身并手不遂"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "左半身 並 手 不遂 (run reads 並 then 手)"
   }
  },
  {
@@ -221,12 +231,17 @@
   "class": "content",
   "importance": "low",
   "note": "八味丸／八味九 形近誤字",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 8,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "補中益氣湯加減八味九三月餘而痊（左葉第4行）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "中益氣湯加減八味九二十月餘而痊 (九 at the spot)"
   }
  },
  {
@@ -266,7 +281,12 @@
   "class": "content",
   "importance": "high",
   "note": "秦艽／秦芃 形近",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "用逍遙散加槐角秦[艽]治之 (艹 + 九-type body)"
+  }
  },
  {
   "book": "nkzy",
@@ -504,6 +524,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "胸間發癍如蚊所蚋（左葉最末行，字作虫旁+內）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "足胸間發癍如蚊所[吶]余用補中益氣加薑 (口 + 內-type right part)"
   }
  },
  {
@@ -755,6 +780,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "熱水拌濕罨二三日同炒焦"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "制黃連即黃連吳萸等分用熱水拌濕[罨]二三日同炒焦取連用后做此 (small-print note, 罨 printed)"
   }
  },
  {
@@ -1109,12 +1139,17 @@
   "class": "content",
   "importance": "medium",
   "note": "wiki多「若粥」",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 23,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "生薑甌許若粥離火食"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "兼食生薑甌許[若粥]離火食腹內即冷"
   }
  },
  {
@@ -1367,6 +1402,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "加梹榔蓬朮泄瀉腹痛"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "皮小便不利加梹榔[蓬]术泄瀉腹痛悉屬虛寒 (蓬 + 术)"
   }
  },
  {
@@ -2405,6 +2445,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "腎氣丸即六味也"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "夭枉腎氣丸即六味也都憲孟 (六味 directly followed by 也)"
   }
  },
  {
@@ -2508,6 +2553,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "有涯專於益火補益故耳後余應杭"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "專於益火補[益]故耳後 (八 over 皿-type glyph)"
   }
  },
  {
@@ -2739,6 +2789,11 @@
    "verdict": "working",
    "confidence": "low",
    "reading": "夕而胸次漸舒陟(?)然思食不三日而病去（右葉第9行）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "未竟夕而胸次漸舒[陡]然思食 (阝 on the left of the glyph)"
   }
  },
  {
@@ -2758,6 +2813,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "間服逾日而起至秋初復患痢"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "服逾[日]而起至秋初 (box with a middle bar = 日)"
   }
  },
  {
@@ -3144,6 +3204,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "褚氏遺書精血篇但無冶法耳（左葉小字雙行末）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "但無[治]法耳 (氵 + 台 structure, three water dots)"
   }
  },
  {
@@ -3595,7 +3660,12 @@
   "class": "content",
   "importance": "high",
   "note": "公一匕／公一（少匕）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "余得公一[匕]吐血頓止神思如故 (匕 printed after 一)"
+  }
  },
  {
   "book": "nkzy",
@@ -3781,7 +3851,12 @@
   "class": "content",
   "importance": "high",
   "note": "潤腸／潤腸丸（方名）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "潤腸丸[今-or-令-like glyph]滋其化源 (丸 printed before the spot)"
+  }
  },
  {
   "book": "nkzy",
@@ -3826,6 +3901,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "職坊陳莪齋年逾六旬（右葉第3行首）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "職[坊-form]陳莪齋 (土 left component plus 方 right component)"
   }
  },
  {
@@ -4267,6 +4347,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "五味子散治腎泄在侵晨五更作瀉飲食不進（右葉小字雙行）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "治腎泄在侵晨五更[作瀉]飲食不進 (作 printed before the standard 瀉 form)"
   }
  },
  {
@@ -4364,7 +4449,12 @@
   "class": "content",
   "importance": "high",
   "note": "訶子／阿子",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "等症陳皮一兩青皮[呵]子肉甘草炙丁香各 (口 + 可 structure)"
+  }
  },
  {
   "book": "nkzy",
@@ -4636,6 +4726,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "脾胃不足得內瘴耳鳴之患（右葉第3行末）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "役形體脾胃不足得內[障]耳鳴之患 (內 then a 章-based glyph with 阝-like left part)"
   }
  },
  {
@@ -4655,6 +4750,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "久服無內瘴外瘴耳鳴耳聾等症（右葉第5行）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "令廣大聰明久服無內[瘴]外瘴耳鳴耳聾等症 (疒-type left part)"
   }
  },
  {
@@ -4674,6 +4774,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "無內瘴外瘴耳鳴耳聾等症（右葉第5行）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "聰明久服無內障外[瘴]耳鳴耳聾等症黃耆 (疒-type left part)"
   }
  },
  {
@@ -4706,6 +4811,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "黃耆 甘草炙 人參各五錢"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "耳聾等症黃耆甘草[炙]人參各五錢 (a 夕-type glyph between 草 and 人參)"
   }
  },
  {
@@ -4868,7 +4978,12 @@
   "class": "content",
   "importance": "high",
   "note": "日三服／日二三服",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "茶湯下日[二]三服 (small two-bar 二 printed beside 日)"
+  }
  },
  {
   "book": "nkzy",
@@ -4926,6 +5041,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "大蘆薈丸 小字一名九味蘆薈（無末尾丸）"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "大蘆薈丸一名九[?]朱蘆薈治大人小兒下疳 (no clear big 丸 between 薈 and 治)"
   }
  },
  {
@@ -5222,7 +5342,12 @@
   "class": "content",
   "importance": "high",
   "note": "各一錢／各錢（無數字）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "柴胡 錢 各 [一] 牡丹皮 (big 一 printed between the dose and 牡丹皮)"
+  }
  },
  {
   "book": "nkzy",
@@ -5293,6 +5418,11 @@
    "verdict": "working",
    "confidence": "low",
    "reading": "右如前服加法同已二方太陽經藥也（左葉第2欄末）"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "右如前服加法同[?]上二方太陽經藥也 (an extra glyph, like 巳 or 以, between 同 and 上)"
   }
  },
  {
@@ -5383,6 +5513,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "故夜發此湯發散血中風寒"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "而入血故夜[發]此湯散血中風寒 (發 printed after 夜)"
   }
  },
  {
@@ -5632,6 +5767,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "寒增風善太息"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "寒[增]風善太息 (土-type left part with 曾 right part)"
   }
  },
  {
@@ -5838,7 +5978,12 @@
   "class": "content",
   "importance": "high",
   "note": "秦艽／秦芃 形近",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "尾大黃煨皁角仁秦[?]各五錢 (second glyph unresolved)"
+  }
  },
  {
   "book": "nkzy",
@@ -5902,6 +6047,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "每服二百丸空心百／滾湯下（右葉第4-5欄）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "大每服二百丸空心[百]滾湯下 (horizontal top bar, not diagonal 丿 as in 白)"
   }
  },
  {
@@ -6293,6 +6443,11 @@
    "verdict": "illegible",
    "confidence": "low",
    "reading": "余曰此未/末傳寒中故噯氣吞酸"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "余曰此[未/末]傳寒中故噯氣吞酸（右葉首列，此字在“余曰此”下第四字）"
   }
  },
  {
@@ -6808,7 +6963,12 @@
   "class": "content",
   "importance": "high",
   "note": "脾胃／胃",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "有因[脾]胃損而血少者（左葉，同列“有因脾虛”同字形）"
+  }
  },
  {
   "book": "nkcz",
@@ -6827,6 +6987,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "又二十餘劑而經行(行字後即段尾，換左葉「前症若脾虛…」)"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "而經行前症若脾虛（右葉末列底部“而經行”，接左葉首列“前症”）"
   }
  },
  {
@@ -7265,12 +7430,17 @@
   "class": "content",
   "importance": "medium",
   "note": "旬日／旬餘",
-  "correction_status": "image_checked_skqs_high_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 30,
    "verdict": "skqs",
    "confidence": "high",
    "reading": "月經旬餘方止"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一婦人因夫經商久不歸發寒熱月經旬餘方止（右葉首列）"
   }
  },
  {
@@ -7502,6 +7672,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "因閃肭肩患腫（閃下為月旁加內）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "一婦人因閃[胸]肩患腫遍身痛（右葉首列）"
   }
  },
  {
@@ -7560,7 +7735,12 @@
   "class": "content",
   "importance": "high",
   "note": "風不旺／風木旺",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-13",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若風[木]旺而自病宜用瀉青（左葉第三列）"
+  }
  },
  {
   "book": "nkcz",
@@ -7662,6 +7842,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "頭痛煩渴引冷用人參敗毒"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "熱或憎寒頭痛煩渴[引]冷用人參敗毒散（左葉）"
   }
  },
  {
@@ -7752,12 +7937,17 @@
   "class": "content",
   "importance": "low",
   "note": "審之世以／審之若以",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": "40 左葉",
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "治者審之(小字)若以孕婦患此名曰內吹"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "虧損肝脾治者審之[若]以孕婦患此（左葉）"
   }
  },
  {
@@ -8164,7 +8354,12 @@
   "class": "content",
   "importance": "high",
   "note": "胸膈不利／胸脇不利",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "重墜膿水淋漓胸[膈]不利飲食少思（右葉末列）"
+  }
  },
  {
   "book": "nkcz",
@@ -8293,7 +8488,12 @@
   "class": "content",
   "importance": "high",
   "note": "胸脅／胸膈",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "肢體倦怠胸[膈]不利飲食少思（左葉首列次列首字）"
+  }
  },
  {
   "book": "nkcz",
@@ -8918,7 +9118,12 @@
   "class": "content",
   "importance": "high",
   "note": "四庫多「各五錢」（車前子木通）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "車前子炒木通[各五錢]澤瀉[一錢]生地黃（左葉，木通旁小字雙行）"
+  }
  },
  {
   "book": "nkcz",
@@ -9475,7 +9680,12 @@
   "class": "content",
   "importance": "high",
   "note": "麝香五分／五錢",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-13",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "麝香[五錢]巴豆五粒去殼心膜（左葉，小字雙行）"
+  }
  },
  {
   "book": "nkcz",
@@ -9552,6 +9762,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "煎焦黑濾去柤(?)徐徐入黃丹"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "入油內煎焦黑濾去[柤]徐徐入黃丹（右葉末列）"
   }
  },
  {
@@ -10028,7 +10243,12 @@
   "class": "content",
   "importance": "high",
   "note": "本節／末節（指節）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "產母手中指中節或[末]節跳動（左葉）"
+  }
  },
  {
   "book": "nkcz",
@@ -10271,6 +10491,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "多得復生切不用刀斷之"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "氣入腹多得復生切[不]用刀斷之（左葉，“不”與“用”之間無字）"
   }
  },
  {
@@ -10322,6 +10547,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "可保順生因／畏其威不敢施手"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "手入推正可保順生[因]畏其威（右葉末列底部，續左葉首列）"
   }
  },
  {
@@ -10367,6 +10597,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "投朴硝半兩 即熟（小字）皮硝服"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "卻投朴硝半兩即[熟]皮硝服（左葉首列）"
   }
  },
  {
@@ -10471,7 +10706,12 @@
   "class": "content",
   "importance": "high",
   "note": "四庫多「加味」芎歸湯",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-13",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "陰氣虛也用[加味]芎歸湯補中益氣湯産門不閉（左葉）"
+  }
  },
  {
   "book": "nkcz",
@@ -10510,7 +10750,12 @@
   "class": "content",
   "importance": "high",
   "note": "陰門不閉者／子宮不收氣血虛也",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "産門不閉[子宮不收氣血虛也]用十全大補湯（左葉）"
+  }
  },
  {
   "book": "nkcz",
@@ -10826,6 +11071,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "忽牙關緊急灌以失笑散良久而甦"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "忽牙關緊急[灌]以失笑散良久而甦（右葉）"
   }
  },
  {
@@ -11064,6 +11314,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "必待腹滿覺脹自欲去而不能者乃結在直腸"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "潤之必待腹滿覺脹[自]欲去而不能者（左葉）"
   }
  },
  {
@@ -11232,6 +11487,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "肺屬辛金生于巳土亦因土虛"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "殊不知肺屬辛金生[于巳]土亦因土虛（右葉）"
   }
  },
  {
@@ -11477,7 +11737,12 @@
   "class": "content",
   "importance": "high",
   "note": "脾胃瀉／脾腎瀉",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-13",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "余以為脾[腎]瀉朝用二神丸（左葉）"
+  }
  },
  {
   "book": "nkcz",
@@ -11496,6 +11761,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "無度小腹墮(隓)痛發熱惡寒"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "患痢日夜無度小腹[墜]痛（左葉）"
   }
  },
  {
@@ -11980,6 +12250,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "枳殼 炒／黃芩 炙半／兩（小字：炙半、兩）／白朮 一兩"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "枳殼炒黃芩炙[各]半兩白朮一兩（右葉，雙行小字）"
   }
  },
  {
@@ -12257,6 +12532,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "飲盡再製亦有／得生者（次欄）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "飲盡再製亦有得生[者]芎歸補中湯（左葉）"
   }
  },
  {
@@ -12631,6 +12911,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "自死龜殼一個如無占過者亦可酥炙｜（次葉首）右為末每一兩水煎服"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "如無佔過者亦可酥[炙]（右葉末列小字），續左葉首列“右為末每一兩水煎服”"
   }
  },
  {
@@ -13281,6 +13566,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "月經不調兩足發熱年餘"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "兩足發熱年餘 (發 = 癶 over 殳)"
   }
  },
  {
@@ -13970,6 +14260,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "或發熱作渴為中氣虛熱若眼如煙觸體倦"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "渴為中氣虛熱若眼 / 如烟 (如 + 烟 at column bottom)"
   }
  },
  {
@@ -14156,7 +14451,12 @@
   "class": "content",
   "importance": "high",
   "note": "槐角／棿角（疑訛）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "逍遙散加槐角 (槐 = 木 + 鬼)"
+  }
  },
  {
   "book": "kcly",
@@ -14227,6 +14527,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "舌稍愈頓間舌益甚"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "舌稍愈 [glyph] 間舌益甚 (頃 vs 頓 unresolved)"
   }
  },
  {
@@ -14477,6 +14782,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "含之勿嚥 云 云（嚥下小字二「云」）"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "含之勿 [glyph 口-based] 云"
   }
  },
  {
@@ -14786,6 +15096,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "地官黃北盤喉痛作渴"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "地官黃北盤喉痛"
   }
  },
  {
@@ -15346,6 +15661,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "一男子先患喉痛後發楊梅瘡"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "一男子先患喉痛 後發楊梅瘡 (後, no 日 box)"
   }
  },
  {
@@ -15385,7 +15705,12 @@
   "class": "content",
   "importance": "high",
   "note": "苧麻根／葶麻根",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "用 [glyph] 麻根杵爛 (艹 + box-like part)"
+  }
  },
  {
   "book": "kcly",
@@ -15914,7 +16239,12 @@
   "class": "content",
   "importance": "high",
   "note": "甘草「三分」一處缺",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "甘草三分 (small dose) then column-top 右水煎服"
+  }
  },
  {
   "book": "kcly",
@@ -15992,7 +16322,12 @@
   "class": "content",
   "importance": "high",
   "note": "甘州菊花／甘艸菊花",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "甘州菊花 (州, no 艹 top)"
+  }
  },
  {
   "book": "kcly",
@@ -16166,7 +16501,12 @@
   "class": "content",
   "importance": "high",
   "note": "茯苓白芍各二錢／三錢",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "白芍藥各二錢 / 附子 人參各二錢 (small dose)"
+  }
  },
  {
   "book": "kcly",
@@ -16315,7 +16655,12 @@
   "class": "content",
   "importance": "high",
   "note": "茯苓／茯芩（疑訛）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "陳皮 茯苓 豬/猪苓 人參: 苓 then 猪 (犭 form)"
+  }
  },
  {
   "book": "kcly",
@@ -16658,7 +17003,12 @@
   "class": "content",
   "importance": "high",
   "note": "三黃丸／二黃丸",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "heading column: two short strokes above 黃 (二黃丸?)"
+  }
  },
  {
   "book": "kcly",
@@ -16736,7 +17086,12 @@
   "class": "content",
   "importance": "high",
   "note": "五十丸／五十九",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "每服五十丸空心鹽湯下 (丸 with dot)"
+  }
  },
  {
   "book": "kcly",
@@ -16768,6 +17123,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "諸血失瘖水泛為痰之聖藥"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "便血諸血失 + glyph (疒 frame + 音)"
   }
  },
  {
@@ -16981,6 +17341,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "白殭蠶 炒 黃柏 白芷各三分（炒後無去絲二字）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "白殭蠶炒 / 黃柏 (no 去絲 printed)"
   }
  },
  {
@@ -17013,6 +17378,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "佛耳草 有寒嗽者 用之如無不用"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "佛耳草 有寒 嗽者用之"
   }
  },
  {
@@ -17180,6 +17550,11 @@
    "verdict": "working",
    "confidence": "low",
    "reading": "右水煎熟入犀末服若因怒而患加柴胡山梔"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "右水煎熟 入犀末"
   }
  },
  {
@@ -17264,6 +17639,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "吐頑痰立甦未吐再服（甦：更+生；未：上短下長）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "立甦未吐再服 (2-part glyph, no 艹 bar)"
   }
  },
  {
@@ -17490,6 +17870,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "或目濇 當歸拌酒 川芎 芍藥錢各一 熟地黃 酒拌一錢"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "或目澀 then column 當歸酒拌川芎芍藥各一錢; no 熱痛"
   }
  },
  {
@@ -17645,6 +18030,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "滑石 三兩（小字）／右每服五七錢水煎"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "滑石 三兩 / 右每服五七錢 (no 上 marker)"
   }
  },
  {
@@ -17793,7 +18183,12 @@
   "class": "content",
   "importance": "high",
   "note": "桔梗一兩五錢／二两五錢",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "桔梗 (small dose) 一兩 五錢"
+  }
  },
  {
   "book": "kcly",
@@ -17857,6 +18252,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "碙砂 各等分（頁末小字）／次葉首行「右為末吹患處」"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "碙砂 各等 分 (page 46 left) / 右為末吹患處 (page 47 right, top column)"
   }
  },
  {
@@ -17876,6 +18276,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "萆薢散 小字「一名換肌／消毒散」"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "萆薢散 + small single stroke (一?) + 名換肌消毒散"
   }
  },
  {
@@ -17915,7 +18320,12 @@
   "class": "content",
   "importance": "high",
   "note": "甘草五分缺「分」，萆薢句位移",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "甘草五分 / 萆薢一名土茯苓又名冷飯團五錢 / 右水煎服"
+  }
  },
  {
   "book": "kcly",
@@ -18193,12 +18603,17 @@
   "class": "content",
   "importance": "medium",
   "note": "參朮湯／參术如",
-  "correction_status": "image_checked_neither_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 6,
    "verdict": "neither",
    "confidence": "medium",
    "reading": "用四物參朮加不應用人參"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "用四物參朮如不應用人參 (spot: 朮 then 如, no 湯)"
   }
  },
  {
@@ -18360,6 +18775,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "大凡膿瘀內焮者即針之"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "大凡膿瘀肉焮者即針之 (spot: 膿瘀 + glyph 肉/內)"
   }
  },
  {
@@ -18482,6 +18902,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "木香肉桂末（二三？）錢以熱酒調灌服"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "木香肉桂末三二錢以熱酒調灌服 (spot: 熱)"
   }
  },
  {
@@ -18676,6 +19101,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "飲食頓加但不能多寐"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "食頓加但不能多寐 (spot: 頓)"
   }
  },
  {
@@ -19555,12 +19985,17 @@
   "class": "content",
   "importance": "medium",
   "note": "入乳汁／人乳汁",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 23,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "並獨參湯人乳汁元氣復"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "芎歸白朮並獨參湯人乳汁 (spot: 人)"
   }
  },
  {
@@ -19974,6 +20409,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "服地黃丸三月餘而瘥"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "服地黃丸三月餘而瘥 (spot: 瘥/痊 glyph, 疒 left)"
   }
  },
  {
@@ -20071,7 +20511,12 @@
   "class": "content",
   "importance": "high",
   "note": "生地黃三錢／二錢",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "以小柴胡湯加生地黃一錢 (spot: numeral after 黃)"
+  }
  },
  {
   "book": "ztly",
@@ -20090,6 +20535,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "半載諸症悉退體臂如常"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "消半載諸症悉退體臂如常 (spot: 臂)"
   }
  },
  {
@@ -20651,7 +21101,12 @@
   "class": "content",
   "importance": "high",
   "note": "一二三歲／一三歲",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "食遠服不月而瘥一三歲兒 (spot: 二)"
+  }
  },
  {
   "book": "ztly",
@@ -20728,6 +21183,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "用湯泡潰至春十指"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "足受凍不仁用湯泡漬至春 (spot: 漬/潰)"
   }
  },
  {
@@ -20747,6 +21207,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "牽連未落用托裡之劑"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "至春十指俱爛牽連未落 (spot: 未/末)"
   }
  },
  {
@@ -20804,6 +21269,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "當以煖處良久或熱手熨之無恙"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "觸之其耳即落當以煖處良久 (spot: 煖, one char)"
   }
  },
  {
@@ -21497,6 +21967,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "此病多得於飢渴勞役者若悞服白虎湯必死"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "得於飢渴勞役者若悞服白虎湯 (spot: 悞服)"
   }
  },
  {
@@ -21808,7 +22283,12 @@
   "class": "content",
   "importance": "high",
   "note": "少「各五分」",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-13",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "粒人參白茯苓升麻 麥門冬 (spot: 各五分 absent)"
+  }
  },
  {
   "book": "ztly",
@@ -21872,6 +22352,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "肢體痿軟脚欹眼黑並宜服"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "寒水化源肢體痿軟腳欹眼黑 (spot: 腳欹)"
   }
  },
  {
@@ -22577,6 +23062,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "血氣凝結者當審前之｜（換頁）大法用溫補氣血為善"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "血氣凝結者當審前之 (spot: 症 position)"
   }
  },
  {
@@ -22635,6 +23125,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "右用豬蹄一隻水五碗煮熟取清湯入前藥"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "用豬蹄一隻水五碗煮熟取清湯 (spot: 2nd glyph unresolved)"
   }
  },
  {
@@ -23022,6 +23517,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "若被刀箭蟲傷成瘡並用薑汁"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "若被刀箭蟲傷成瘡 (spot: 箭)"
   }
  },
  {
@@ -23054,6 +23554,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "穿山甲六兩炒黃或煉存性"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "或煉存性 (spot: 煉)"
   }
  },
  {
@@ -23358,6 +23863,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "接骨木半兩 即蒴雚也"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "即蒴藋也 (spot: 藋)"
   }
  },
  {
@@ -24017,6 +24527,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "救累效累效治打撲傷損"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "急灌之亦可救累效累効治打撲 (spot: 効 where 驗 would be)"
   }
  },
  {
@@ -24217,6 +24732,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "細而微其主亡陽衰也"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "細而微其[主]亡陽衰也 (glyph shape matches the 主 in 其主虛也 on the same page)"
   }
  },
  {
@@ -24236,6 +24756,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "真氣復者生"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "極微其主虛也真氣[復]者生邪氣勝者危 (彳 radical plus 复 component)"
   }
  },
  {
@@ -24365,12 +24890,17 @@
   "class": "content",
   "importance": "medium",
   "note": "人身之造化／人生之造化",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 11,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "謹按脈者人生之造化"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "謹按脈者人[生]之造化病機之外見"
   }
  },
  {
@@ -24693,6 +25223,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "醇酒炙煿房勞過度"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "醇酒炙[X]房勞過度 (a character is printed between 炙 and 房, with 火 radical at left)"
   }
  },
  {
@@ -24930,6 +25465,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "患於背胛之間"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "患於背[?]之間肉腐膿出 (left component 月; right component unresolved)"
   }
  },
  {
@@ -25001,7 +25541,12 @@
   "class": "content",
   "importance": "high",
   "note": "托裡抑青湯／托裏益清湯",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "托裏[益][青]湯 (益 with 八 over 皿; 青 without 氵; 裏 printed)"
+  }
  },
  {
   "book": "wksy",
@@ -25174,6 +25719,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "抑遏而為癰 / 元戍云"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "先托其裏以汗之元[戎]云榮衛 (horizontal top crossed by a central vertical)"
   }
  },
  {
@@ -25258,6 +25808,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "形體甚勸(?)飲食益少"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "形體甚[勘]飲食益少 (甘-like left component, 力-like right component)"
   }
  },
  {
@@ -25348,12 +25903,17 @@
   "class": "content",
   "importance": "medium",
   "note": "患處亦軟／患處赤軟",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 21,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "患處赤軟"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "脾胃升發陽氣患處[赤]軟針出瘀膿 (土 with central vertical over 小)"
   }
  },
  {
@@ -25611,6 +26171,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "其脾胃則未成自散／已成自潰又何死肉之有"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "其脾胃則未成自散[?]成自潰 (closed top with hook)"
   }
  },
  {
@@ -25624,7 +26189,12 @@
   "class": "content",
   "importance": "high",
   "note": "或不痛／或木痛(不/木)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "肉之有若不大痛或[木]痛或不赤 (horizontal crossed by a vertical, diagonals below)"
+  }
  },
  {
   "book": "wksy",
@@ -25753,6 +26323,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "馬進伯母左胛連脅作痛"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "馬進伯母左[胛]連脅作痛 (月 left component with box lines, 甲-like right component)"
   }
  },
  {
@@ -26031,6 +26606,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "惡寒戰慄頂陷膿清"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "寒戰慄[頂]陷膿清 (left component one horizontal over one vertical)"
   }
  },
  {
@@ -26050,6 +26630,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "腫高膿稠兼絍烏金膏"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "膿稠兼[衽]烏金膏 (left radical with diagonal dots and bars; right part 壬)"
   }
  },
  {
@@ -26088,6 +26673,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "德澤普濟…布在方冊（「在方冊德澤普濟」）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "奇布在方[冊]德澤普濟 (box top with inner horizontal lines)"
   }
  },
  {
@@ -26223,6 +26813,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "春元沈霓川之內"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "春元沈[霓]川之內 (雨-like top over closed 兒 box with 儿 legs)"
   }
  },
  {
@@ -26268,6 +26863,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "此屬二經榮氣不從"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "榮氣不[從]風邪乘虛 (彳 radical with 從 component)"
   }
  },
  {
@@ -26313,6 +26913,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "潰膿碗許餘塊漸平"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "脅腿二處潰膿碗許[餘][?]漸平 (first glyph has 食 radical, so 餘)"
   }
  },
  {
@@ -26345,6 +26950,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "人身氣血有虛實"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "人[身][氣]血有虛實 (column reads 身 then 氣 then 血)"
   }
  },
  {
@@ -26449,7 +27059,12 @@
   "class": "content",
   "importance": "high",
   "note": "歸朮／歸木(藥名形近)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "用參茋歸[朮]芍藥防風 (vertical with horizontal bar and a short tick at upper right)"
+  }
  },
  {
   "book": "wksy",
@@ -26740,6 +27355,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "職坊王的塘背疽潰後"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "職[坊]王的塘背疽潰後 (土-like left component with 方-like right component)"
   }
  },
  {
@@ -26785,7 +27405,12 @@
   "class": "content",
   "importance": "high",
   "note": "歸術／歸木(藥名形近)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "其毒午前以參耆歸[術]之類壯氣血 (horizontal bar, vertical, diagonals, tick at upper right)"
+  }
  },
  {
   "book": "wksy",
@@ -26804,6 +27429,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "每自喜壯實哂余衣綿"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "渴飲冷每自喜壯實[曬]余衣綿 (closed box left component with 西-like top)"
   }
  },
  {
@@ -26836,6 +27466,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "三月間果背熱便秘脉濇"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "三月間果背熱便秘[脈濇]用四物 (脈 then 氵 with 嗇 component)"
   }
  },
  {
@@ -26984,7 +27619,12 @@
   "class": "content",
   "importance": "high",
   "note": "芩術／苓术(黃芩?茯苓)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "四物炒連丹皮[芩][朮]脾虛熱 (first glyph 艹-less lower part; second glyph dotted 朮)"
+  }
  },
  {
   "book": "wksy",
@@ -27188,6 +27828,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "乃以鵝翎管絍內"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "曰必無乃以鵝翎管[衽內]果如余言 (left component of diagonal dots and vertical; right component 壬)"
   }
  },
  {
@@ -27316,7 +27961,12 @@
   "class": "content",
   "importance": "high",
   "note": "薑桂各二錢／各三錢",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "薑桂各[二]錢一劑頓然潰 (two horizontal bars in one character cell, then 錢)"
+  }
  },
  {
   "book": "wksy",
@@ -27432,6 +28082,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "昏憒不語頤耳之分已有膿矣（頤字左旁為臣形，非川）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "日復請治昏憒不語[頤]耳之分已有膿矣 (頁 base with a 臣-like box above)"
   }
  },
  {
@@ -27503,7 +28158,12 @@
   "class": "content",
   "importance": "high",
   "note": "腎虛者六味丸／脾虚者六味丸",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "之若欲其生肌收斂[腎]虛者六味丸 (月 left component; right component a box with inner vertical and hook at lower right)"
+  }
  },
  {
   "book": "wksy",
@@ -27619,7 +28279,12 @@
   "class": "content",
   "importance": "high",
   "note": "保嬰粹要／小兒撮要(書名)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "婦人症見婦人良方小兒症見[小兒粹]要夫瘰癧 (note text: 症見 then 小 兒 then 粹 then 要)"
+  }
  },
  {
   "book": "wksy",
@@ -27657,6 +28322,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "咽項強痛若寒熱（若字艹下為ナ+口的右）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "憎寒惡熱咽項強痛[若]寒熱焮痛者此肝火風熱"
   }
  },
  {
@@ -27676,6 +28346,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "濟肌體羸瘦者必純補之劑"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "而復發膿水淋漓肌[體]羸瘦者必純補之劑"
   }
  },
  {
@@ -27708,7 +28383,12 @@
   "class": "content",
   "importance": "high",
   "note": "致肝火燥／致膽火燥",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "水不能生肝木以致[肌]火燥而筋攣須用前藥 (glyph after 致 is 月 plus a 几-type right part)"
+  }
  },
  {
   "book": "wksy",
@@ -27863,6 +28543,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "十日外自消若㗜藥不嚏者（若字後一字左旁為口，右為亠+幺形）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "其毒十日外自消若[口-radical 嚏-type glyph]藥不嚏者不可治之"
   }
  },
  {
@@ -28256,6 +28941,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "儒者周兩峯懷抱久鬱"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "儒者周[兩]峯[懷]抱久鬱背脊患疽"
   }
  },
  {
@@ -28282,7 +28972,12 @@
   "class": "content",
   "importance": "high",
   "note": "見忌羊肉／見有羊肉",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "母一日與其同宴見[忌]羊肉余曰補可以去"
+  }
  },
  {
   "book": "wksy",
@@ -28353,6 +29048,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "手足逆冷右闗脉澁兩尺微細（門內為癸／關之俗體）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "腹陰實手足逆冷右[闗脉澁]兩尺微細"
   }
  },
  {
@@ -28502,7 +29202,12 @@
   "class": "content",
   "importance": "high",
   "note": "龍膽草五分並／五味并(劑量)",
-  "correction_status": "open"
+  "correction_status": "resolved_by_text_correction_2026-10-13",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "龍膽草五 / [味并]六味地黃九而愈 (next column top)"
+  }
  },
  {
   "book": "wksy",
@@ -28644,6 +29349,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "或醇酒炙煿辛辣厚味（炙後一字為火+尃）"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "low",
+   "reading": "虛火上炎或醇酒炙[煿]辛辣厚味薰蒸於肺"
   }
  },
  {
@@ -28695,6 +29405,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "不可治也其嘔膿而自止者自愈（其後字為口+區）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "止者亦不可活也其[嘔]膿而自止者自愈其"
   }
  },
  {
@@ -28772,6 +29487,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "復耗津液必患肺癰矣（必字有貫穿撇畫，非心）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "若更利之復耗津液[必]患肺癰矣 (glyph after 液, column continues)"
   }
  },
  {
@@ -29009,6 +29729,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "若用克伐之劑欲其消散則腫者不能潰"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "活血之藥佐之若[用尅]伐之劑"
   }
  },
  {
@@ -29150,6 +29875,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "服四物黃蘗知母之類食少作瀉"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "稀朝寒暮熱服四物[黃蘗]知母之類"
   }
  },
  {
@@ -29413,7 +30143,12 @@
   "class": "content",
   "importance": "high",
   "note": "保嬰粹要／小兒撮要(書名)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "女科撮要 症見[小兒粹]要 (column reads 症見小兒粹要)"
+  }
  },
  {
   "book": "wksy",
@@ -30114,6 +30849,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "佐以六味丸而瘥（疒+差）"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "口乾佐以六味丸而[痊/瘥] (glyph shape 疒 plus inner 王/工-type bars)"
   }
  },
  {
@@ -30203,6 +30943,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "外敷當歸膏內服補陰八珍"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "外敷當歸膏[內用]補陰八珍加萆薢"
   }
  },
  {
@@ -30852,7 +31597,12 @@
   "class": "content",
   "importance": "high",
   "note": "漸腫一年後／漸瘇二年後(數字)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "左手背漸[腫]一年後潰出清膿"
+  }
  },
  {
   "book": "wksy",
@@ -30910,6 +31660,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "蝕藥灸矣其勢益甚"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "若誤用刀針蝕藥灸[法]其勢益甚"
   }
  },
  {
@@ -30955,6 +31710,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "用消蝕割繫（法）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "用消蝕割[繫]法屢去屢大此肝經"
   }
  },
  {
@@ -31084,7 +31844,12 @@
   "class": "content",
   "importance": "high",
   "note": "腫硬色赤／腫硬七天",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "脈如屋漏雀啄腫硬[色赤]膿水清稀"
+  }
  },
  {
   "book": "wksy",
@@ -31180,6 +31945,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "少壯者多成涸疾"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "不能斂少壯者多成[涸]疾老弱者多致不起"
   }
  },
  {
@@ -31309,7 +32079,12 @@
   "class": "content",
   "importance": "high",
   "note": "歸術／歸木(藥名形近)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "仍以前藥加參耆歸[木]四劑腐肉盡脫"
+  }
  },
  {
   "book": "wksy",
@@ -31984,6 +32759,11 @@
    "verdict": "illegible",
    "confidence": "low",
    "reading": "便癰 小字「一名便毒／一名＋兩字」"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "一名便毒 一名痃[痃]便癰屬厥陰 (small-print note: 一名痃痃)"
   }
  },
  {
@@ -32087,6 +32867,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "一婦人兩拘瘇痛腹內一塊"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "一婦人兩[拗腫/拘攣]痛腹內一塊 (two-char glyph run with 扌 radical)"
   }
  },
  {
@@ -32849,7 +33634,12 @@
   "class": "content",
   "importance": "high",
   "note": "六味丸一月／不月",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "經虛火也用六味丸[一]月諸症悉退"
+  }
  },
  {
   "book": "wksy",
@@ -33023,6 +33813,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "飲食漸少覺少面發疽"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "飲食漸少[覺足]面部見發疽 (print column: 覺 then 足-type glyph then 面)"
   }
  },
  {
@@ -33138,6 +33933,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "陰敗末傳惡症也為不治"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "陰敗[未傳/末傅]惡症 (glyphs 末/未 and 傳/傅 unresolved)"
   }
  },
  {
@@ -33364,6 +34164,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "轉解周骼輕洩去之"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "脚刀轉解周骨界輕[拽/洩]去之則筋隨骨出 (glyph not separable)"
   }
  },
  {
@@ -33485,6 +34290,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "爲主因服除濕敗毒等劑"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "陰虛當滋化源為主[固]服除濕敗毒等劑 (right leaf)"
   }
  },
  {
@@ -33530,6 +34340,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "心裏血而主脈"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "內經云肝統筋而藏血心、裏血而主 (spot 心【裏】血, print glyph 裏 with 衣 radical)"
   }
  },
  {
@@ -33562,7 +34377,12 @@
   "class": "content",
   "importance": "high",
   "note": "四物生地／四物二地",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "須[生]血涼血用四物 (top bar visible, lower part under red stamp) 地丹皮酒炒黑膽草"
+  }
  },
  {
   "book": "wksy",
@@ -33709,6 +34529,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "內服海藻蓬术之類"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "藥內服海藻 [column-final glyph on p131 left leaf, end of column] | 术之類至秋金旺之際 (top of p132 right leaf)"
   }
  },
  {
@@ -33933,6 +34758,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "攻上攻下作痛口乾小便秘澀"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "一塊攻上攻下作痛口乾小便秘澀服消 (口乾 printed between 作痛 and 小便)"
   }
  },
  {
@@ -34163,6 +34993,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "吳給事贍之墜馬傷首"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "吳給事贍之墜馬傷首出血過多 (glyph after 事 has 貝-type left component with open bottom)"
   }
  },
  {
@@ -34279,6 +35114,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "忽然昏憒瘈瘲抽搐"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "一婦人素有肝火兩拗間或腫痛或寒熱忽然昏憒瘛瘲抽搐 (spot first glyph 憒 with 忄 radical; second glyph 疒-type)"
   }
  },
  {
@@ -34356,6 +35196,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "痰湧搐搦瞳子上視"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "一婦人經行遇怒其經即止甚則口噤筋攣鼻衄頭痛痰湧搐【搦】瞳子上視此 (扌 radical)"
   }
  },
  {
@@ -34612,7 +35457,12 @@
   "class": "content",
   "importance": "high",
   "note": "大段對齊；實異「去二味／去五味」",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "頭痛惡寒表【虛】也去二 (bottom of right leaf); 味加參芪發熱 top of left leaf"
+  }
  },
  {
   "book": "wksy",
@@ -34728,6 +35578,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "加升麻柴胡午後而小便黃短"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "加升麻柴胡【午】後而小便黃短腎虛 (left leaf)"
   }
  },
  {
@@ -34741,12 +35596,17 @@
   "class": "content",
   "importance": "medium",
   "note": "五味子／五味",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 145,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "去三味加五味山茱山藥熟地"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "便頻數腎水虧也去三味加五味 山茱山藥熟地 (right leaf, column)"
   }
  },
  {
@@ -34838,7 +35698,12 @@
   "class": "content",
   "importance": "high",
   "note": "歸術／歸木(疑术之訛)",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "肝脾氣滯也去三味加參耆歸【术】如不應暫用補中益 (col. left leaf)"
+  }
  },
  {
   "book": "wksy",
@@ -34928,6 +35793,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "當歸/熟地黃/茯苓(熟地黃旁無小注)"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "白朮炒陳皮當歸熟地黃 茯苓芍藥酒炒各一錢半 (left leaf, 熟地黃 with no note after 黃)"
   }
  },
  {
@@ -35179,6 +36049,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "寒水石 煅(小字)"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "五分枯白礬寒水石 [small double-line note] 銅綠乳香沒藥麝香 (right leaf)"
   }
  },
  {
@@ -35592,6 +36467,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "半夏/石膏煅各一錢/生地黃一錢"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "芍藥人參半夏石膏 [small note 煨] 各一錢生地黃 (right leaf)"
   }
  },
  {
@@ -35624,6 +36504,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "竹葉石膏湯 淡竹葉/石膏煅"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "淡竹葉石膏 [small note 煨] 桔梗木通 (right leaf)"
   }
  },
  {
@@ -36617,12 +37502,17 @@
   "class": "content",
   "importance": "medium",
   "note": "山茱萸去核酒浸蒸／山茱萸肉",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 170,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "山茱萸 肉(小字)/山藥各四兩"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "熟地黃 [用生者自製八兩] 山茱黃 [small note 肉] 山藥各四兩 (left leaf bottom)"
   }
  },
  {
@@ -36797,6 +37687,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "但加當歸脾胃既旺飲食自進"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "脾胃既旺飲食自進 (right leaf, column after 脾胃)"
   }
  },
  {
@@ -37063,7 +37958,12 @@
   "class": "content",
   "importance": "high",
   "note": "每服一二錢／三二錢",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "右為細末每服 [一 + small mark] 二錢熱湯調下 (left leaf)"
+  }
  },
  {
   "book": "wksy",
@@ -37095,6 +37995,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "煎熟入犀(角?)末服"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "右水煎熟入犀【角】末服 (left leaf)"
   }
  },
  {
@@ -37238,7 +38143,12 @@
   "class": "content",
   "importance": "high",
   "note": "熟地黃／二地黃",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "各另為末等分右將【熟】地黃搗碎 (right leaf)"
+  }
  },
  {
   "book": "wksy",
@@ -37270,6 +38180,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "治頸項瘰癧及脇下初如梅子"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "珀膏治頸項瘰癧及【脇】下初如梅子 (right leaf)"
   }
  },
  {
@@ -37289,6 +38204,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "漸如連珠不消不潰或潰而膿水"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "結硬強漸如連珠不【消】不潰或潰而膿水不絕 (right leaf)"
   }
  },
  {
@@ -37347,6 +38267,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "煎黑濾去柤徐徐入黃丹"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "藥入油內煎黑濾去【柤】徐徐入黃丹 (left leaf)"
   }
  },
  {
@@ -37645,6 +38570,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "乳香止痛散 治瘡瘇痛不止"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "治瘡 [X] 痛不止 (right leaf; X is a 疒/重-type glyph, 瘇 or 腫)"
   }
  },
  {
@@ -37703,6 +38633,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "右為細末研令極細用紙花子"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右為細末研令極細用紙花子貼瘡 (left leaf)"
   }
  },
  {
@@ -37793,6 +38728,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "猪厭肉子生於豚猪項下/橘紅四兩/珍珠四十九粒砂鍋內泥封口煅過絲?一枚如棗大取四十九"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "肉子生於豬項下 [橘紅四兩 珍珠四十九粒砂鍋內泥封口煅過絲] 一枚如棗大取四十 (left leaf)"
   }
  },
  {
@@ -37825,6 +38765,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "冷酒調搽徐徐嚥下"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "服一錢臨臥冷酒調【搽】徐徐嚥 (left leaf)"
   }
  },
  {
@@ -37844,6 +38789,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "冷酒調搽徐徐嚥下輕者三五服"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "徐徐嚥【下】輕者三五服 (left leaf)"
   }
  },
  {
@@ -38302,12 +39252,17 @@
   "class": "content",
   "importance": "medium",
   "note": "腎氣虛熱於／熱干於",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 194,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "或腎氣虛熱干於厥陰之絡"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "腎氣虛熱干於厥陰之絡陰挺痿 (right leaf)"
   }
  },
  {
@@ -38359,7 +39314,12 @@
   "class": "content",
   "importance": "high",
   "note": "楮實子／猪實子",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "杜仲五味子白茯苓楮實子山茱萸 (left leaf)"
+  }
  },
  {
   "book": "wksy",
@@ -38694,6 +39654,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "吳茱四兩連一同鍋炒不同研"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "括云四兩吳茱四兩連一同鍋炒不同研糞 (right leaf)"
   }
  },
  {
@@ -38965,6 +39930,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "憤䐜 (忄+賁) 肌肉憤膹"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "其道不利故使肌肉[?]䐜而有瘍: glyph's left radical reads as 忄 (single long stroke with hook), not the 氵 of 潰; right part 賁-like"
   }
  },
  {
@@ -38984,6 +39954,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "胕 (月+付) 榮衛熱胕其氣不清"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "有榮衛熱[胕]其氣不清故使鼻柱: 肉 radical plus 付; no 广 cap as in 腑"
   }
  },
  {
@@ -39376,7 +40351,12 @@
   "class": "content",
   "importance": "high",
   "note": "參朮／參木（疑朮訛木）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "加參[朮]麥門五味子: 朮 with top tick above 木"
+  }
  },
  {
   "book": "lyjy",
@@ -39673,6 +40653,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "調補胃氣為善 + 標題變症治法"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "其因而調補胃氣為[善]: 善 at the column foot; 變症治法 is printed as a section heading in the next column"
   }
  },
  {
@@ -40523,6 +41508,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "肝脉少退"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "煎下瀉青丸肝[脉]少退 (top of next column): 月/肉 radical structure"
   }
  },
  {
@@ -40716,6 +41706,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "同上 臂腿脘"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "乃砭刺臂腿[脘]及手足指縫: 脘 (月 + 完) printed between 腿 and 及"
   }
  },
  {
@@ -40921,6 +41916,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "愈後食炙煿等物痰盛作渴（爆字位置印作「煿」火+尃）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "八味丸尋愈後食炙[爆]等物痰盛作渴: 爆 (火 + 暴) printed after 炙"
   }
  },
  {
@@ -41024,6 +42024,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "時或發腫臂手亦然"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "low",
+   "reading": "面起赤暈時或發腫[臂]手亦然: left radical reads as 月/肉 (臂), not 扌 (擘)"
   }
  },
  {
@@ -41308,7 +42313,12 @@
   "class": "content",
   "importance": "high",
   "note": "參苓耆朮／參芩茋术（苓／芩）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "medium",
+   "reading": "加參[苓][茋][朮]: 1st 苓 (令 form, working-type); 2nd glyph has 艹 + 耆 (茋, skqs-type); 3rd 朮"
+  }
  },
  {
   "book": "lyjy",
@@ -41463,6 +42473,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "愈加發熱作渴"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "益甚服遇仙丹愈加[發]熱作渴: 癶 + 殳 glyph printed above 熱"
   }
  },
  {
@@ -41571,6 +42586,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "嗜膏粱炙煿醇酒辛辣之物（爆位印作「煿」）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "一男子嗜膏粱炙[?]醇酒辛辣: an extra glyph is printed between 炙 and 醇; identity not resolved (expected 爆)"
   }
  },
  {
@@ -41738,7 +42758,12 @@
   "class": "content",
   "importance": "high",
   "note": "九味羌活湯／加味羌活湯",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "high",
+   "reading": "余先用九味蘆薈丸[九]味羌活湯: 九 printed"
+  }
  },
  {
   "book": "lyjy",
@@ -41757,6 +42782,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "加味四物湯乃瘥（行末）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "遙散加味四物湯乃[瘥]一男子: 瘥 (疒 + 差) printed at column end"
   }
  },
  {
@@ -41892,6 +42922,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "稽勳李龍岡（右葉第1行）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "藥三百餘劑而愈稽[勳][季]龍岡: 勳 with 力 at right; 季 at foot"
   }
  },
  {
@@ -41995,7 +43030,12 @@
   "class": "content",
   "importance": "high",
   "note": "歸朮／歸木（疑朮訛木）",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "益氣湯倍加參耆歸[朮]半夏茯苓: 朮 with top tick"
+  }
  },
  {
   "book": "lyjy",
@@ -42277,7 +43317,12 @@
   "class": "content",
   "importance": "high",
   "note": "更加肺熱／更加晡熱",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "之類前症益甚更加[肺]熱煩渴: left 月-type radical with lower hook, right 市-type; not the closed 日 box of 晡"
+  }
  },
  {
   "book": "lyjy",
@@ -42309,6 +43354,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "又服月餘而痊（行末）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "能步履又服月餘而[痊]一婦人患白癜風: 疒 + 全-type"
   }
  },
  {
@@ -42573,6 +43623,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "搔痒作渴熱為風症恪服"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "藥赤暈不退搔癢作[渴執]為風症恪服: 渴 + 執 printed"
   }
  },
  {
@@ -42880,6 +43935,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "服祛風之藥搔痒出水"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "起赤暈作癢服祛風之藥搔[痒]出水唇目搐動: 疒 + 羊 glyph, same form as 作痒 in the column above"
   }
  },
  {
@@ -43009,6 +44069,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "忌一切炙煿厚味止可食淡粥（爆位印作「煿」）"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "方用此藥忌一切炙[爆]厚味止可食淡粥: 爆-type glyph printed after 炙"
   }
  },
  {
@@ -43067,6 +44132,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "白蒺黎(藜)　草烏頭炮去皮臍　不灰木"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "參沙參木賊草白蒺[藜]炒: 藜 printed, followed by 不灰木 column; no 草烏頭 at this spot"
   }
  },
  {
@@ -43138,6 +44208,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "每服五錢溫酒調下日後酒多尤妙"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "每服五錢溫酒調下[日]後酒多尤妙: 日 printed (box with inner line)"
   }
  },
  {
@@ -43229,7 +44304,12 @@
   "class": "content",
   "importance": "high",
   "note": "工作本多「白蔻仁二分」，維基該處為〓",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "蠓蟲去翅足炒三[箇]: 箇 (竹 + 固) printed as dose; 白蔻仁二分 appears in a different column above 蠓蟲, not between 箇 and 水蛭"
+  }
  },
  {
   "book": "lyjy",
@@ -43358,6 +44438,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "以水一碗挼成汁去柤"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "low",
+   "reading": "酒浸一宿以水一碗[搗]成汁去渣: 扌 + 壽-type right part"
   }
  },
  {
@@ -43668,6 +44753,11 @@
    "verdict": "neither",
    "confidence": "medium",
    "reading": "枳殼四兩去穰　燒煆有性"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "枳殼四兩去穰[燒煆有]性杏仁: 燒 (traditional form) and 有 printed; 焼 and 存 absent"
   }
  },
  {
@@ -43700,6 +44790,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "荊芥穗八錢首烏（不見鐵器八錢）"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "荊芥[穗]八錢首烏不見鐵器: 穗 then small 八錢 then 首烏 with no 何"
   }
  },
  {
@@ -43823,6 +44918,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "白芷　雄黃　牙皂角　羊蹄根"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "狗脊各七錢白芷雄黃[ blank ]牙皂角: 雄黃 followed by an empty space and then 牙皂角"
   }
  },
  {
@@ -44623,6 +45723,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "右用燈心二十莖水煎服"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右用燈心二十莖水煎[服]: 服 printed at column foot"
   }
  },
  {
@@ -44873,6 +45978,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "言語蹇濇心忡健忘"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "隨痰涎壅塞言語蹇[濇]心忡健忘: 氵 + 嗇 structure (濇)"
   }
  },
  {
@@ -45208,6 +46318,11 @@
    "verdict": "working",
    "confidence": "medium",
    "reading": "取有鋒芒者一塊以筯一根"
+  },
+  "haiku_recheck": {
+   "verdict": "working",
+   "confidence": "medium",
+   "reading": "細磁器擊碎取有鋒[芒]者一塊: 艹 + 亡 structure (芒)"
   }
  },
  {
@@ -45414,6 +46529,11 @@
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "往來寒熱嘔噦痰實中暑"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "右頁小柴胡湯條：寒熱嘔[噦?]痰實中暑 — the glyph after 嘔 has a 口 box on the left and a 歲-type right part (print reads 噦-type, not 禾-type 穢)"
   }
  },
  {
@@ -45427,12 +46547,17 @@
   "class": "content",
   "importance": "medium",
   "note": "吐酸苦水／吐酸若水",
-  "correction_status": "image_checked_skqs_medium_not_applied",
+  "correction_status": "resolved_by_text_correction_2026-10-13",
   "image_check": {
    "page": 94,
    "verdict": "skqs",
    "confidence": "medium",
    "reading": "或泄瀉吐酸若水"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "左頁：便不利或泄瀉吐酸[若]水或肢體搐動唇目"
   }
  },
  {
@@ -45562,6 +46687,11 @@
    "verdict": "neither",
    "confidence": "high",
    "reading": "右為末將白油溶化和勻用之"
+  },
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "左頁：右為末將[白]油溶化和勻用之 (print 右為末, 將, 白, 油)"
   }
  },
  {
@@ -45678,7 +46808,12 @@
   "class": "content",
   "importance": "high",
   "note": "每服二三十丸／一二十丸",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "左頁：蕪荑…豬膽浸膽成糕丸如麻子大每服[一][二]十丸食後並臨臥 (dose column: a single bar, then a double bar, then 十)"
+  }
  },
  {
   "book": "lyjy",
@@ -45691,7 +46826,12 @@
   "class": "content",
   "importance": "high",
   "note": "每服二三十丸／一二十丸",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "medium",
+   "reading": "左頁 次列：每服一二[ ]十丸食後並臨臥 (no 三 cell between 二 and 十)"
+  }
  },
  {
   "book": "lyjy",
@@ -45729,6 +46869,11 @@
    "verdict": "skqs",
    "confidence": "high",
    "reading": "或口鼻頭瘡或吐見素筋齧齒"
+  },
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "右頁：泥土或口鼻頭瘡或[吐]見素筋齧齒下利便白五疳"
   }
  },
  {
@@ -45852,7 +46997,12 @@
   "class": "content",
   "importance": "high",
   "note": "阿魏四錢／三錢",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "neither",
+   "confidence": "high",
+   "reading": "右頁：方入芒硝四錢阿魏[空白]錢蘇合油麝香沒藥各五錢 (no numeral printed)"
+  }
  },
  {
   "book": "lyjy",
@@ -46104,6 +47254,11 @@
    "verdict": "skqs",
    "confidence": "low",
    "reading": "寒水石(小字)煅　分等"
+  },
+  "haiku_recheck": {
+   "verdict": "illegible",
+   "confidence": "low",
+   "reading": "左頁：寒水石（[煨?/煅?]等分）small double-line print beside 寒水石 at the column foot"
   }
  },
  {
@@ -46162,7 +47317,12 @@
   "class": "content",
   "importance": "high",
   "note": "大半月取出／大半日取出",
-  "correction_status": "open"
+  "correction_status": "open",
+  "haiku_recheck": {
+   "verdict": "skqs",
+   "confidence": "high",
+   "reading": "左頁：附子…用粗紙數重包之浸濕埋灰[?]半[日]取出切片 (box glyph with three full-width bars)"
+  }
  },
  {
   "book": "lyjy",

@@ -1,7 +1,7 @@
 {
  ".github/workflows/validate.yml": {
   "bytes": 955,
-  "sha256": "94e19cc8e07a0bd5d813190684889c23496ab24a62d0bd62d9dd5c8b72e1e700"
+  "sha256": "a447eb08983a2f5704cc50387e60968e3dc8961217de4813c010cba0722da0cb"
  },
  ".gitignore": {
   "bytes": 29,
@@ -21,27 +21,27 @@
  },
  "README.md": {
   "bytes": 9767,
-  "sha256": "83370968fceca8defa92007976a45d1b3b4666936fcf5a09e6c34ca652d82622"
+  "sha256": "767da0d3256c064eee3c84ab7dd61d45a381bb282742a94f6d3e6030e2f7bed0"
  },
  "docs/DATA_DICTIONARY.md": {
-  "bytes": 7991,
-  "sha256": "4639692564daceda02ec180ecac73eb50a4e1c3a7b5fedc45a9fc544539fc06d"
+  "bytes": 8063,
+  "sha256": "3379c841c966138e7071a4b662a707a527dbc7102c27461261b1585736ac7a59"
  },
  "docs/HANDOFF.md": {
-  "bytes": 25608,
-  "sha256": "8046696fa78942d0d3e0f66612064f79672e20dbdde301e8772c0374d8a8d092"
+  "bytes": 25728,
+  "sha256": "1aae06e4199f0ce9da233182f581b350c6545bcfcb30b4b4cd4a130fb2421904"
  },
  "outputs/薛己核心医案_结构化样本.md": {
-  "bytes": 9620774,
-  "sha256": "c5e9603b78cfa351a8abaa690595161fef621a753ac2171e7daffeb5a4d1a8db"
+  "bytes": 9625825,
+  "sha256": "0172370f82183a48c0b69d304d3b5e745206f172b1cfe0a28946ffbe34eb2ed7"
  },
  "state/baseline_validation.json": {
   "bytes": 9059,
   "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
  },
  "state/current_state.json": {
-  "bytes": 58282,
-  "sha256": "14ad7e32420a6f616404768046b079b6ad0226abd755050af104bb6df921dd6d"
+  "bytes": 58576,
+  "sha256": "874166d3a1b2458c5dedc3f1a529bb9c204411c5af8a3f3b89054ceeac837a97"
  },
  "state/next_tasks.json": {
   "bytes": 14642,
@@ -64,12 +64,12 @@
   "sha256": "ddbba9de89968bc114c7b60235fef0d0aac30be4934e99ade9a68cb9bea1781c"
  },
  "work/edition-compare/README.md": {
-  "bytes": 9747,
-  "sha256": "7795b5da2f1226231d9754c8822310909c366f2f8b71e9ff29586abb55521ff3"
+  "bytes": 10544,
+  "sha256": "d803c1d8167f3e8a942968388021d9bc61cac905db72c5433acc0d6810e31050"
  },
  "work/edition-compare/applied_corrections.json": {
-  "bytes": 289829,
-  "sha256": "b9fc49c7360c978fafd3c2f2552bc1c2c8d7352ca1523cbfe37954f7a183f915"
+  "bytes": 297743,
+  "sha256": "89053c24b206255d6e3a68ef87a1e5c4e6abb2f1a459353c9f93ffdf6af0a54e"
  },
  "work/edition-compare/apply_edits.py": {
   "bytes": 15360,
@@ -87,6 +87,10 @@
   "bytes": 76512,
   "sha256": "ba0326ff010d75d0174d8f12e7520896e17a7c051e42d8a487bde6d2bd2ffdd0"
  },
+ "work/edition-compare/edit_list_haiku.json": {
+  "bytes": 17722,
+  "sha256": "8f3836d78c9e2de2a082dfdff7cd51b74821ae4a3caa3d577b93eddedab2f646"
+ },
  "work/edition-compare/edit_list_low.json": {
   "bytes": 97463,
   "sha256": "08e63260860512b3b3dd79fdaaa71fb13a92450371b9b7eae326f33ddd00d8cf"
@@ -96,8 +100,8 @@
   "sha256": "32dee2fe8c0ee4f4635877ffcb895813d45ac2a3523f3ddacd90dfb82db30207"
  },
  "work/edition-compare/edition_diffs_all.json": {
-  "bytes": 1383346,
-  "sha256": "2df85378ff3f690de6a5bcd19ff03c792464c354013d85ddc94f8caff5b63f18"
+  "bytes": 1421424,
+  "sha256": "6f877505adbcee63d5dca5c3a542303ae02853c904c1aed0ec9c60387a105347"
  },
  "work/edition-compare/glyph_variant_pairs_ge5.json": {
   "bytes": 2609,
@@ -108,8 +112,8 @@
   "sha256": "25b61a60f36226109f2f9a90ba82d462b90e70943205fb3effa5b91637464799"
  },
  "work/edition-compare/image_check_results.json": {
-  "bytes": 635465,
-  "sha256": "220c11614bff7b6d2ac4be56deff47eec7ea48d1d96b72340471f11e61560b0f"
+  "bytes": 824620,
+  "sha256": "c99d78629417d690c009e0b88848cfb6c629059b8cfdb96cce680edfc4017fc7"
  },
  "work/edition-compare/image_check_sample_results.json": {
   "bytes": 45799,
