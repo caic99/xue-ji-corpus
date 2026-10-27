@@ -1,9 +1,11 @@
 # 薛己医案检索研究：下一轮工作合同与验收清单
 
-更新：2026-10-26。
+更新：2026-10-27。
+
+**第二遍自审增补**：保婴20案全文复审完成，逐案意见见 `review_inputs/BYCY_second_pass.json`；其余140案待第二遍。修订后642条观察、656个源文片段，缓存对账640一致、16差异。历次下方数量均为当时状态。自审记录见 `samples/SELF_REVIEW_2026-10-27.md`，每次创建PR之前执行 `REVIEW_POLICY.md`。
 
 **本轮状态增补：160案均已完成一次模型全文复读，新增655个逐字证据片段；下面“其余144案”和“36案批次”为旧任务清单；模型初读已更新，独立专家审校仍待。全部160案仍待独立专家审校与原刻核验。当前接点见 `CONTINUATION_HANDOFF_2026-10-26.md`、`CLOSE_READ_SCHEMA_V0_2.md`、`samples/QA_REPORT_CLOSE_READ_160.md`。**
-工作分支：`research/case-retrieval-v1`。GitHub Issues 当前对本 Fork 返回 HTTP 410（disabled），因此暂以此文档保存任务，未来启用 Issues 后可以逐项迁移。
+后续工作分支：`research/evidence-audit-v2`，起于合并后的上游基线。GitHub Issues 当前对本 Fork 返回 HTTP 410（disabled），因此暂以此文档保存任务，未来启用 Issues 后可以逐项迁移。
 
 ## 已完成（研究资料，不是最终学术验收）
 

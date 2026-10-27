@@ -5,6 +5,7 @@ import datetime
 import hashlib
 import json
 import platform
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -22,7 +23,10 @@ commands=[
 def main():
  parser=argparse.ArgumentParser()
  parser.add_argument("--report-date",default=datetime.date.today().isoformat())
+ parser.add_argument("--label",default="")
  args=parser.parse_args()
+ if args.label and not re.fullmatch(r"[a-z0-9-]+",args.label):
+  parser.error("label must contain lowercase letters, digits or hyphens")
  datetime.date.fromisoformat(args.report_date)
  results=[]
  for command in commands:
@@ -47,10 +51,10 @@ def main():
          'files_sha256':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in tracked},
          'structural_summary':structural,'source_summary':audit,
          'commands':results,'remote_ci_status':'not_established_by_this_local_run'}
- out=ROOT/'research/validation'/f'{args.report_date}-local.json';out.parent.mkdir(exist_ok=True)
+ out=ROOT/'research/validation'/f'{args.report_date}{"-"+args.label if args.label else ""}-local.json';out.parent.mkdir(exist_ok=True)
  out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  print(f'PASS: {len(commands)} real commands; corpus errors=0; warnings='+str(structural['warnings']))
- print(f'Evidence log: research/validation/{args.report_date}-local.json')
+ print('Evidence log: '+str(out.relative_to(ROOT)))
 
 
 if __name__=='__main__':main()

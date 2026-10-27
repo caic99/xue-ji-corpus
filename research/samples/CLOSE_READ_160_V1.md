@@ -1,6 +1,6 @@
 # 160案逐案模型复读：五领域精选证据（V1）
 
-2026-10-26。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。未选到证据保留不确定，不解释为患者没有。
+2026-10-26初读；保婴20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。未选到证据保留不确定，不解释为患者没有。
 
 initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。
 
@@ -112,7 +112,6 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：項患五核時常寒熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-BYCY-V5-L0061[6:14)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：時常寒熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-BYCY-V5-L0061[10:14)`
 - **病程**：時常寒熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-BYCY-V5-L0061[10:14)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此血盛無偶之症也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-BYCY-V5-L0062[1:9)`
@@ -577,10 +576,12 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 子加柴胡山梔芎歸而愈
 
 - **症状**：小便澁滯腫痛寒熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-BYCY-V5-L0521[7:15)`
+- **症状**：内熱倦怠（later_narrator_window；case_narrator；narrated_observation；present） `XJ-BYCY-V5-L0522[8:12)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：本次复读未选定证据；未载/归属不明待专家确认。
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此肝經濕熱（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-BYCY-V5-L0521[15:20)`
+- **病机解释**：此兼脾氣虚弱（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-BYCY-V5-L0522[12:18)`
 
 复读意见：内热倦怠和兼脾气虚弱是治疗后阶段。
 

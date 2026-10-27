@@ -37,3 +37,7 @@ python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
 6. 版本影像和专业语义仍需独立专家复核。详见samples/QA_REPORT_CLOSE_READ_160.md及samples/SOURCE_EVIDENCE_REVIEW_QUEUE.md。
 
 本指南可供维护者或Claude Code开展只读审查。是否安装或启用自动审核服务，由仓库维护者管理；本PR不新增外部服务、凭据、付费调用或自动合并。
+
+## 提交前自审
+
+每次创建PR之前须完成 `REVIEW_POLICY.md`。2026-10-27增量及明确未决事项见 `samples/SELF_REVIEW_2026-10-27.md`；初读阶段历史报告不代表最新观察数量。

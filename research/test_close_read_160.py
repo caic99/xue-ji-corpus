@@ -63,6 +63,50 @@ class ReviewContractTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'ambiguous'):
             review.evidence_for(case, '甲', {'A':'甲甲'})
 
+    def test_wrong_source_blob_rejected(self):
+        rows = copy.deepcopy(self.records)
+        rows[0]['source_git_blob'] = '0' * 40
+        with self.assertRaisesRegex(ValueError, 'provenance drift'):
+            review.validate_records(rows, self.sample, self.index)
+
+    def test_duplicate_domain_observation_rejected(self):
+        rows = copy.deepcopy(self.records)
+        obs = rows[0]['fields']['symptoms']['observations']
+        obs.append(copy.deepcopy(obs[0]))
+        with self.assertRaisesRegex(ValueError, 'Duplicate observation'):
+            review.validate_records(rows, self.sample, self.index)
+
+    def test_snapshot_search_includes_overlapping_occurrences(self):
+        from check_sample_snapshots import literal_locations
+        self.assertEqual(literal_locations('甲甲甲', '甲甲'),
+                         [{'start_char': 0, 'end_char_exclusive': 2},
+                          {'start_char': 1, 'end_char_exclusive': 3}])
+        with self.assertRaisesRegex(ValueError, 'Empty evidence'):
+            literal_locations('甲', '')
+
+    def test_snapshot_alignment_preserves_second_occurrence(self):
+        from check_sample_snapshots import quote_alignment
+        ev = {'raw_quote': '甲', 'source_start_char': 2, 'source_end_char_exclusive': 3}
+        aligned = quote_alignment('甲乙甲', '甲乙甲', ev)
+        self.assertEqual(aligned['snapshot_start_char'], 2)
+        self.assertEqual(aligned['snapshot_occurrence_count'], 2)
+        ambiguous = quote_alignment('甲丙甲', '甲乙甲', ev)
+        self.assertNotIn('snapshot_start_char', ambiguous)
+        self.assertEqual(len(ambiguous['snapshot_candidate_spans']), 2)
+        self.assertIsNone(quote_alignment('乙', '甲乙甲', ev))
+        with self.assertRaisesRegex(ValueError, 'lost evidence offset'):
+            quote_alignment('甲乙甲', '甲乙甲', dict(ev, source_start_char=1))
+
+    def test_second_pass_preserves_later_episode(self):
+        by_id = {r['case_id']: r for r in self.records}
+        row = by_id['XJ-BYCY-C-V5-L0521']
+        for field in ('symptoms', 'mechanism'):
+            self.assertEqual(row['fields'][field]['observations'][-1]['time_phase'],
+                             'later_narrator_window')
+        course = by_id['XJ-BYCY-C-V5-L0052']['fields']['course']['observations'][0]
+        self.assertEqual(course['narrative_role'],
+                         'after_earlier_treatment_before_narrator_assessment')
+
     def test_time_and_speaker_regressions(self):
         by_id = {r['case_id']:r for r in self.records}
         patient = by_id['XJ-NKZY-C-V2-P007-1']['fields']['mechanism']['observations'][0]
