@@ -45,3 +45,5 @@ python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
 口齿增量、独立维度及影像点核：见 `samples/SELF_REVIEW_KCLY_2026-10-27.md`。追加执行 `python3 research/build_extended_kcly.py` 和 `python3 research/check_scan_spots.py`；后者不自动确认视觉读字。
 
 正体增量、逐观察角色及事件分段见 `samples/SELF_REVIEW_ZTLY_2026-10-27.md`。追加执行 `python3 research/build_extended_kcly.py --work ZTLY`、`python3 research/build_event_pilot.py`；影像检查默认汇总多文件，但不自动裁定读字。
+
+女科增量、先前解释者不明及处置意向见 `samples/SELF_REVIEW_NKCZ_2026-10-27.md`。追加执行 `python3 research/build_extended_kcly.py --work NKCZ`、`python3 research/build_event_pilot.py --work NKCZ`；意向和建议均不作为已实施治疗。

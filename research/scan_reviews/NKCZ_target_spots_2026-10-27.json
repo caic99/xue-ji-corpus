@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "edition": "日本承應三年（1654）刊本，國家圖書館藏本，NCL-06248-0009",
+  "bibliographic_metadata_origin": "existing_corpus_metadata_not_new_titlepage_audit",
+  "file_page_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0009_%E5%A5%B3%E7%A7%91%E6%92%AE%E8%A6%81.pdf",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/NCL-06248-0009_%E5%A5%B3%E7%A7%91%E6%92%AE%E8%A6%81.pdf",
+  "pdf_bytes": 28822686,
+  "pdf_sha256": "658b94353204ca6fc3654b52598c338e1e2a4efd0208b95a50e50ddc00a2ec4d",
+  "pdf_pages": 116,
+  "page_numbering": "1-based PDF pages, not printed folio numbers",
+  "method": "model_visual_read_of_rendered_target_spots_after_actual_pdf_download",
+  "render_command_template": "pdftoppm -f PAGE -l PAGE -scale-to 2500 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_version": "pdftoppm version 26.05.0",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "spots": [
+    {
+      "spot_id": "NKCZ-35-P096-CASE",
+      "source_ref": "XJ-NKCZ-V1-P096",
+      "working_evidence": {
+        "source_start_char": 6,
+        "source_end_char_exclusive": 10,
+        "raw_quote": "脇下腫痛"
+      },
+      "pdf_page": 35,
+      "page_half": "left",
+      "page_location": "左半葉中部，起「一婦人暴怒」之案；接「與方脈流氣飲」之前一列。",
+      "image_target_reading_without_added_punctuation": "一婦人暴怒脇下腫痛胸膈不利時或氣走作痛",
+      "comparison_unit": "multi_character_phrase",
+      "disputed_working_glyph": "脇下腫痛",
+      "cached_transcription_glyph": "腰腫一塊",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "98159d2bae99d46724bf9de772f2a1441bcd31a7e4681c06f27c54126cc02943"
+    }
+  ]
+}

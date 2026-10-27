@@ -13,10 +13,13 @@ OUT=ROOT/'research/samples/event_pilot_ztly_v1.json'
 READABLE=ROOT/'research/samples/EVENT_PILOT_ZTLY_V1.md'
 
 
-def build():
+def build(work="ZTLY"):
+    if work not in {"ZTLY","NKCZ"}:raise ValueError("Unsupported event pilot work")
     _,sample,index=review.build()
-    record=json.loads(INPUT.read_text())
+    record=json.loads((ROOT/f'research/review_inputs/{work}_event_pilot.json').read_text())
     case=next(c for c in sample if c['case_id']==record['case_id'])
+    if case['work_ref']!='XJ-'+work:raise ValueError('Event pilot work mismatch')
+    record['work_ref']=case['work_ref']
     record['source_git_blob']=review.base.BLOB_SHA_AT_FREEZE
     record['case_text_sha256']=hashlib.sha256(case['body'].encode()).hexdigest()
     for i,event in enumerate(record['events'],1):
@@ -30,6 +33,8 @@ def build():
 
 
 def validate(record,case,index):
+    if record['case_id']!=case['case_id'] or record['work_ref']!=case['work_ref']:
+        raise ValueError('Event pilot case/work identity drift')
     if record['source_git_blob']!=review.base.BLOB_SHA_AT_FREEZE or record['case_text_sha256']!=hashlib.sha256(case['body'].encode()).hexdigest():
         raise ValueError('Event pilot provenance drift')
     if record['human_adjudication']!='pending' or record['initial_query_export']!='disabled_pending_expert_temporal_role_review':
@@ -38,7 +43,13 @@ def validate(record,case,index):
     if len(ids)!=len(set(ids)) or record['first_recorded_care_decision_event'] not in ids:
         raise ValueError('Event IDs or care anchor invalid')
     anchor=ids.index(record['first_recorded_care_decision_event'])
-    if events[anchor]['event_type']!='care_recommendation':raise ValueError('Care anchor must remain a recommendation')
+    expected_anchor_types={
+        'first_explicit_narrator_advice_in_this_window_not_first_performed_treatment':'care_recommendation',
+        'first_recorded_narrator_care_intent_in_this_window_not_first_performed_treatment':'care_intent',
+    }
+    expected_anchor=expected_anchor_types.get(record['anchor_scope'])
+    if expected_anchor is None or events[anchor]['event_type']!=expected_anchor:
+        raise ValueError('Care anchor type differs from documented intent/advice scope')
     joined=''
     for i,e in enumerate(events,1):
         reading=''.join(x['raw_quote'] for x in e['evidence'])
@@ -51,6 +62,8 @@ def validate(record,case,index):
         if e['calendar_date'] is not None:raise ValueError('Unsupported event calendar date')
         if e['event_type']=='care_recommendation' and e['intervention_status']!='recommendation_only_no_performance_claim':
             raise ValueError('Recommendation cannot be promoted to performed treatment')
+        if e['event_type']=='care_intent' and e['intervention_status']!='intended_only_no_performance_claim':
+            raise ValueError('Intention cannot be promoted to performed treatment or issued recommendation')
         if e['time_expression_raw'] and e['time_expression_raw'] not in reading:
             raise ValueError('Time expression must be literal evidence')
     if joined!=''.join(case['parts']):raise ValueError('Event segmentation must cover entire case window in source order')
@@ -59,9 +72,10 @@ def validate(record,case,index):
 
 
 def render(r):
-    out=['# 正体事件轴试点：完整案文叙事分段（1案）\n\n',
-         '模型按来源顺序逐段选择，非专家裁定，也不代表160案完整事件轴已完成。首次医者建议与实际治疗严格分开；次日、数日后不换算日历日期。相邻关系只指叙事顺序，不证明因果。全部查询导出禁用。\n\n',
-         f"案例：`{r['case_id']}`。首次明确医者建议：`{r['first_recorded_care_decision_event']}`，未据此认定建议已实施。\n\n"]
+    title={'XJ-ZTLY':'正体','XJ-NKCZ':'女科'}[r['work_ref']]
+    out=[f'# {title}事件轴试点：完整案文叙事分段（1案）\n\n',
+         '模型按来源顺序逐段选择，非专家裁定，也不代表160案完整事件轴已完成。医者建议、处置意向与实际治疗严格分开；次日、数日后不换算日历日期。相邻关系只指叙事顺序，不证明因果。全部查询导出禁用。\n\n',
+         f"案例：`{r['case_id']}`。首次记录医者决策：`{r['first_recorded_care_decision_event']}`，未据此认定建议或意向已实施。\n\n"]
     for e in r['events']:
         quote=' ／ '.join(x['raw_quote'] for x in e['evidence'])
         refs='; '.join(f"{x['source_ref']}[{x['source_start_char']}:{x['source_end_char_exclusive']})" for x in e['evidence'])
@@ -70,13 +84,15 @@ def render(r):
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');a=p.parse_args()
-    record,case,index=build();validate(record,case,index)
-    results={OUT:json.dumps(record,ensure_ascii=False,indent=2)+'\n',READABLE:render(record)}
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['ZTLY','NKCZ'],default='ZTLY');a=p.parse_args()
+    record,case,index=build(a.work);validate(record,case,index)
+    out=ROOT/f'research/samples/event_pilot_{a.work.lower()}_v1.json'
+    readable=ROOT/f'research/samples/EVENT_PILOT_{a.work}_V1.md'
+    results={out:json.dumps(record,ensure_ascii=False,indent=2)+'\n',readable:render(record)}
     for path,text in results.items():
         if a.write:path.write_text(text)
         if path.read_text()!=text:raise ValueError('Event pilot artifact drift')
-    validate(json.loads(OUT.read_text()),case,index)
+    validate(json.loads(out.read_text()),case,index)
     print(json.dumps({'cases':1,'narrative_segments':len(record['events']),'complete_case_window_coverage':True,'human_adjudication':'pending','initial_query_exported':0}))
     print('PASS: exact full-window segmentation; care recommendation not counted as performed treatment')
 

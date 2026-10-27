@@ -7,5 +7,14 @@
         "narrative_role": "patient_causal_belief_not_narrator_endorsement"
       }
     }
+  },
+  "XJ-NKCZ-C-V1-P103-1": {
+    "mechanism": {
+      "或以為木旺之症": {
+        "speaker_role": "uncertain_prior_interpreter",
+        "assertion_type": "reported_prior_interpretation_actor_uncertain",
+        "narrative_role": "prior_explanation_not_narrator_endorsement"
+      }
+    }
   }
 }

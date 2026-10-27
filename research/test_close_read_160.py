@@ -257,5 +257,55 @@ class ZtlyEventTests(unittest.TestCase):
             self.events.validate(row,self.case,self.index)
 
 
+class NkczIntentTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as events
+        cls.events=events
+        cls.row,cls.case,cls.index=events.build('NKCZ')
+
+    def test_prior_interpreter_is_not_assumed_to_be_narrator(self):
+        rows,_,_=review.build()
+        row=next(r for r in rows if r['case_id']=='XJ-NKCZ-C-V1-P103-1')
+        obs=row['fields']['mechanism']['observations']
+        self.assertEqual(obs[0]['speaker_role'],'uncertain_prior_interpreter')
+        self.assertEqual(obs[0]['assertion_type'],'reported_prior_interpretation_actor_uncertain')
+        self.assertEqual(obs[1]['assertion_type'],'physician_interpretation')
+        self.assertEqual(row['fields']['symptoms']['observations'][0]['narrative_role'],
+                         'after_earlier_treatment_before_narrator_assessment')
+
+    def test_retrospective_mechanism_remains_later(self):
+        rows,_,_=review.build()
+        row=next(r for r in rows if r['case_id']=='XJ-NKCZ-C-V1-P022-1')
+        self.assertTrue(all(o['time_phase']=='later_narrator_window'
+                            for o in row['fields']['mechanism']['observations']))
+
+    def test_habitual_affect_does_not_invent_episode_trigger(self):
+        import build_extended_kcly as extended
+        ext,_,_=extended.build('NKCZ')
+        rows,_,_=review.build()
+        cid='XJ-NKCZ-C-V1-P026-1'
+        self.assertTrue(next(r for r in ext if r['case_id']==cid)['fields']['habits']['observations'])
+        self.assertFalse(next(r for r in rows if r['case_id']==cid)['fields']['trigger']['observations'])
+
+    def test_care_intent_cannot_be_claimed_performed(self):
+        row=copy.deepcopy(self.row)
+        row['events'][2]['intervention_status']='narrated_as_performed'
+        with self.assertRaisesRegex(ValueError,'Intention cannot be promoted'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_care_intent_cannot_be_claimed_issued_recommendation(self):
+        row=copy.deepcopy(self.row)
+        row['events'][2]['event_type']='care_recommendation'
+        row['events'][2]['intervention_status']='recommendation_only_no_performance_claim'
+        with self.assertRaisesRegex(ValueError,'anchor type differs'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_event_identity_cannot_be_relabelled(self):
+        row=copy.deepcopy(self.row);row['case_id']='XJ-ZTLY-C-V1-P108-1'
+        with self.assertRaisesRegex(ValueError,'identity drift'):
+            self.events.validate(row,self.case,self.index)
+
+
 if __name__ == '__main__':
     unittest.main()

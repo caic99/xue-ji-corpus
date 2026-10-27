@@ -1,6 +1,6 @@
 # 160案逐案模型复读：五领域精选证据（V1）
 
-2026-10-26初读；保婴、口齿及正体各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿及正体指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
+2026-10-26初读；保婴、口齿、正体及女科各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿、正体及女科指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
 
 initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。
 
@@ -1786,10 +1786,12 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：唇脹出血（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P026[19:23)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：年餘矣（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P026[24:27)`
+- **病程**：狀如翻花瘤而死（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P026[53:60)`
 - **干预前史/后续插入干预**：服消毒藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-NKCZ-V1-P026[14:18)`
+- **干预前史/后续插入干预**：仍服前藥及追蝕（later_narrator_window；uncertain；treatment_given；present） `XJ-NKCZ-V1-P026[45:52)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：善怒为背景；培养脾胃滋化源是治疗原则，非完整明确病机；后追蚀是拒绝建议后的干预。
+复读意见：善怒为背景；补入不信之后仍服前药及追蚀、翻花瘤样结局。形如不升级为现代病名。
 
 ## 082 · XJ-NKCZ-C-V1-P106-1
 
@@ -1807,7 +1809,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：症屬肝火血虛（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P106[27:33)`
 
-复读意见：未据结核作现代疾病编码。
+复读意见：肝火血虚为医家解释；项结核不转换现代疾病编码。
 
 ## 083 · XJ-NKCZ-C-V1-P010-1
 
@@ -1820,12 +1822,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人兩眉稜痛，後及太陽，面青善怒，余作膽經風熱，用選奇湯合逍遙散，加山梔、天麻、黃耆、半夏、黃芩而愈。
 
 - **症状**：兩眉稜痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P010[3:7)`
+- **症状**：面青（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P010[13:15)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：後及太陽（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P010[8:12)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：余作膽經風熱（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P010[18:24)`
 
-复读意见：面青善怒属于面色与情志，未明示怒引发此次疼痛。
+复读意见：补入明载面青；善怒另记平素性情，不据此认定该次疼痛由怒触发。
 
 ## 084 · XJ-NKCZ-C-V1-P022-1
 
@@ -1844,7 +1847,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此症先因怒動肝火，血熱妄行，後乃脾氣下陷（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P022[92:112)`
 
-复读意见：多怒为背景；治疗后总结病机为回顾性解释，不据以生成患者报告的诱因。
+复读意见：先因怒动肝火、后脾气下陷为获痊后的回顾总结，保留later；多怒及倦瘦另记独立维度。
 
 ## 085 · XJ-NKCZ-C-V1-P037-1
 
@@ -1862,7 +1865,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：素郁结为背景，不径作明确发作诱因。
+复读意见：素郁结为持续背景，不转换为确定发病诱因或现代精神疾病诊断。
 
 ## 086 · XJ-NKCZ-C-V1-P119-1
 
@@ -1880,7 +1883,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：流气饮用方本身不足反推病机。
+复读意见：因怒明载；不由流气饮反推作者未明述的病机。
 
 ## 087 · XJ-NKCZ-C-V1-P105-1
 
@@ -1899,11 +1902,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：溃后阶段无明确以前疗法；三十余剂及收敛为本次过程。
+复读意见：脉大而虚另为脉象；溃后未记具体前法，三十余剂而敛为本次历时。
 
 ## 088 · XJ-NKCZ-C-V1-P096-1
 
-来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -1918,7 +1921,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：暴怒在前，为叙述相接的情志事件，因果确定程度需专业审阅。
+复读意见：暴怒与脇下肿痛为相接叙述，不声称已证明现代因果；本轮指定原刻句另有模型影像复核。
 
 ## 089 · XJ-NKCZ-C-V1-P111-1
 
@@ -1936,7 +1939,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此帶脈為患（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P111[34:39)`
 
-复读意见：臥而起急为明确触发动作，与平素体质分开。
+复读意见：卧而起急则脐下牵痛是动作关联，非平素习惯；带脉为患为医家解释。
 
 ## 090 · XJ-NKCZ-C-V2-P048-1
 
@@ -1954,7 +1957,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：产妇属生命阶段，不能自动生成生产直接诱发因果。
+复读意见：产妇只是生命阶段，未据此补生产直接致病；芤涩另为脉象。
 
 ## 091 · XJ-NKCZ-C-V1-P113-1
 
@@ -1972,7 +1975,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：久郁为背景，不能断言独立病因；两月余为治疗历时。
+复读意见：久郁是既有背景；隔蒜灸和八珍等是本次案内处置，不标既往他医前史。
 
 ## 092 · XJ-NKCZ-C-V1-P147-1
 
@@ -1989,8 +1992,9 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **病程**：晡熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P147[22:24)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此肝脾鬱結之症（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P147[35:42)`
+- **病机解释**：肝火濕熱而腫痛，脾虛下陷而重墜也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P147[44:60)`
 
-复读意见：后文分别解释肝火湿热与脾虚下陷；先用为本次处置。
+复读意见：补入肝火湿热、脾虚下陷对两组表现的解释，保留医家归因性质，不当作客观事实。
 
 ## 093 · XJ-NKCZ-C-V1-P103-1
 
@@ -2005,10 +2009,12 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：腫硬益甚（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P103[25:29)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：久而不愈（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P103[3:7)`
+- **病程**：至春而愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P103[58:62)`
 - **干预前史/后续插入干预**：用散腫潰堅湯伐之（initial_narrator_window；uncertain；treatment_given；present） `XJ-NKCZ-V1-P103[16:24)`
+- **病机解释**：或以為木旺之症（initial_narrator_window；uncertain_prior_interpreter；reported_prior_interpretation_actor_uncertain；present） `XJ-NKCZ-V1-P103[8:15)`
 - **病机解释**：余以為肝經氣血虧損（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P103[30:39)`
 
-复读意见：木旺属他医判断，与余以为分列；患何症依赖上文。
+复读意见：腫硬益甚在散肿溃坚汤之后，补prior_response；或以为木旺的解释者不明，与余以为肝经气血亏损分开。
 
 ## 094 · XJ-NKCZ-C-V1-P033-1
 
@@ -2021,12 +2027,14 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人年六十有四，久鬱怒，頭痛寒熱，春間乳內時痛，服流氣飲之類益甚，不時有血如經行。又大驚恐，飲食不進，夜寐不寧，乳腫及兩脅焮痛如炙，午後色赤，余以為肝脾鬱火血燥，先以逍遙散加酒炒黑龍膽一錢、山梔一錢五分，二劑腫痛頓退，又二劑而全消。再用歸脾加炒梔、貝母，諸症悉愈。
 
 - **症状**：頭痛寒熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P033[13:17)`
+- **症状**：不時有血如經行（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P033[34:41)`
+- **症状**：飲食不進，夜寐不寧，乳腫及兩脅焮痛如炙，午後色赤（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P033[47:71)`
 - **诱发/缓解关联**：又大驚恐（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P033[42:46)`
 - **病程**：春間乳內時痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P033[18:24)`
 - **干预前史/后续插入干预**：服流氣飲之類益甚（initial_narrator_window；uncertain；treatment_given；present） `XJ-NKCZ-V1-P033[25:33)`
 - **病机解释**：余以為肝脾鬱火血燥（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P033[72:81)`
 
-复读意见：久郁怒属平素背景；大惊恐与饮食寐况在前药后叙述相接，未证明现代因果。
+复读意见：补入前药后不时血如经行、惊恐后食寐及乳胁变化；这些是叙述先后，不证明药物或惊恐导致所有变化。
 
 ## 095 · XJ-NKCZ-C-V1-P125-1
 
@@ -2039,13 +2047,15 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人乳內結核年餘，晡熱少食，余欲用益氣養榮湯治之，彼以為緩，乃服行氣之劑，其勢愈甚，潰而日出清膿而歿。
 
 - **症状**：乳內結核（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P125[3:7)`
+- **症状**：晡熱少食（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P125[10:14)`
+- **症状**：其勢愈甚（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P125[38:42)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：年餘（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P125[7:9)`
 - **病程**：潰而日出清膿而歿（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P125[43:51)`
 - **干预前史/后续插入干预**：乃服行氣之劑（later_narrator_window；uncertain；treatment_given；present） `XJ-NKCZ-V1-P125[31:37)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：余欲用为未执行方案，乃服行气在拒绝后；不得记为首诊前已服。
+复读意见：补入初段晡热少食及行气剂后的其势愈甚；余欲用为医者意向而非已实施，另有全窗口事件分段。
 
 ## 096 · XJ-NKCZ-C-V1-P155-1
 
@@ -2063,7 +2073,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：先用等为本次序列，不自动推疾病机制。
+复读意见：多轮案内处置按顺序叙述；未由先用、又用方药补病机或他医前史。
 
 ## 097 · XJ-NKCZ-C-V1-P038-1
 
@@ -2076,12 +2086,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人面黃或赤，時覺腰間或臍下作痛，四肢困倦，煩熱不安，其經若行，先發寒熱，兩肋如束，其血如崩，此脾胃虧損，元氣下陷，與相火濕熱所致，用補中益氣加防風、芍藥、炒黑黃柏，間以歸脾湯，調補化源，血自歸經矣。
 
 - **症状**：面黃或赤，時覺腰間或臍下作痛，四肢困倦，煩熱不安（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P038[3:27)`
+- **症状**：兩肋如束，其血如崩（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P038[38:47)`
 - **诱发/缓解关联**：其經若行，先發寒熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P038[28:37)`
 - **病程**：先發寒熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P038[33:37)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此脾胃虧損，元氣下陷，與相火濕熱所致（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P038[48:66)`
 
-复读意见：经行前关联是时间/触发关系，不等同病因；其血如崩为原字比拟。
+复读意见：补入两肋如束、其血如崩；保留如字比拟，不补实测出血量。经行前寒热为时间关联。
 
 ## 098 · XJ-NKCZ-C-V1-P024-1
 
@@ -2100,7 +2111,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：或用清脾飲（later_narrator_window；uncertain；treatment_given；present） `XJ-NKCZ-V1-P024[53:58)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：气血素虚为既有描述；次年秋寒热和清脾饮在后续阶段。
+复读意见：次年秋寒热及清脾饮均在首次案内处置后；气血素虚为叙述者医学描述，不当客观体形。
 
 ## 099 · XJ-NKCZ-C-V1-P146-1
 
@@ -2113,13 +2124,16 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人胸膈不利，內熱作渴，飲食不甘，肢體倦怠，陰中悶癢，小便赤澀，此鬱怒所致，用歸脾加山梔而愈。後因怒，患處並小腹脹痛，用小柴胡加山梔、芎、歸、芍藥而愈。但內熱晡熱，用逍遙散加山梔而愈。後因勞役發熱，患處腫脹，小便仍澀，用補中益氣加山梔、茯苓、丹皮而愈。
 
 - **症状**：胸膈不利，內熱作渴，飲食不甘，肢體倦怠，陰中悶癢，小便赤澀（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P146[3:32)`
+- **症状**：患處並小腹脹痛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P146[52:59)`
+- **症状**：內熱晡熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P146[78:82)`
+- **症状**：患處腫脹，小便仍澀（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P146[100:109)`
 - **诱发/缓解关联**：後因怒（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P146[48:51)`
 - **诱发/缓解关联**：後因勞役發熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P146[93:99)`
 - **病程**：後因勞役發熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-NKCZ-V1-P146[93:99)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此鬱怒所致（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P146[33:38)`
 
-复读意见：首次郁怒是作者病因判断；后因怒与后因劳役才是后续明确事件链。
+复读意见：补入因怒后局部少腹胀痛、后续内热晡热、劳役后肿胀尿涩；初始郁怒为医者归因，后段因怒事件另列。
 
 ## 100 · XJ-NKCZ-C-V1-P011-1
 
@@ -2137,7 +2151,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：余以為肝脾虛熱（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-NKCZ-V1-P011[23:30)`
 
-复读意见：直接引用医者解释，未临床验证。
+复读意见：直接保留医者肝脾虚热解释；未由方药补未载症状。
 
 ## 101 · XJ-NKZY-C-V1-P002-1
 

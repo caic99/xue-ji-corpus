@@ -1,0 +1,186 @@
+{
+  "case_id": "XJ-NKCZ-C-V1-P125-1",
+  "review_date": "2026-10-27",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E03",
+  "anchor_scope": "first_recorded_narrator_care_intent_in_this_window_not_first_performed_treatment",
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "patient_state",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": "年餘",
+      "calendar_date": null,
+      "relative_time_anchor": "predecision_duration_no_calendar_date_assigned",
+      "narrative_order": 1,
+      "evidence": [
+        {
+          "source_ref": "XJ-NKCZ-V1-P125",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 10,
+          "raw_quote": "一婦人乳內結核年餘，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E02",
+      "event_type": "patient_state",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 2,
+      "evidence": [
+        {
+          "source_ref": "XJ-NKCZ-V1-P125",
+          "source_start_char": 10,
+          "source_end_char_exclusive": 15,
+          "raw_quote": "晡熱少食，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E03",
+      "event_type": "care_intent",
+      "actor_role": "case_narrator",
+      "intervention_status": "intended_only_no_performance_claim",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 3,
+      "evidence": [
+        {
+          "source_ref": "XJ-NKCZ-V1-P125",
+          "source_start_char": 15,
+          "source_end_char_exclusive": 26,
+          "raw_quote": "余欲用益氣養榮湯治之，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E04",
+      "event_type": "patient_assessment_of_plan",
+      "actor_role": "patient_or_family",
+      "intervention_status": "no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 4,
+      "evidence": [
+        {
+          "source_ref": "XJ-NKCZ-V1-P125",
+          "source_start_char": 26,
+          "source_end_char_exclusive": 31,
+          "raw_quote": "彼以為緩，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E05",
+      "event_type": "intervention",
+      "actor_role": "patient_medication_use_prescriber_unknown",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 5,
+      "evidence": [
+        {
+          "source_ref": "XJ-NKCZ-V1-P125",
+          "source_start_char": 31,
+          "source_end_char_exclusive": 38,
+          "raw_quote": "乃服行氣之劑，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E06",
+      "event_type": "patient_state",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 6,
+      "evidence": [
+        {
+          "source_ref": "XJ-NKCZ-V1-P125",
+          "source_start_char": 38,
+          "source_end_char_exclusive": 43,
+          "raw_quote": "其勢愈甚，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E07",
+      "event_type": "narrated_outcome",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 7,
+      "evidence": [
+        {
+          "source_ref": "XJ-NKCZ-V1-P125",
+          "source_start_char": 43,
+          "source_end_char_exclusive": 52,
+          "raw_quote": "潰而日出清膿而歿。"
+        }
+      ],
+      "initial_query_eligible": false
+    }
+  ],
+  "work_ref": "XJ-NKCZ",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "7f605315e1b6cafbbcb3fd79cf4801e8a7dfed8db248a5c61fde7cc7db2b7a49",
+  "relations": [
+    {
+      "from": "E01",
+      "to": "E02",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E02",
+      "to": "E03",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E03",
+      "to": "E04",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E04",
+      "to": "E05",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E05",
+      "to": "E06",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E06",
+      "to": "E07",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    }
+  ]
+}

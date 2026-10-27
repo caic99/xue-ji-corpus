@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce manually selected independent dimensions for 20 KCLY or ZTLY cases.
+"""Reproduce manually selected independent dimensions for 20 cases in KCLY, ZTLY or NKCZ.
 No inference from prescriptions, disease names, or empty fields.
 """
 import argparse
@@ -18,7 +18,7 @@ READABLE=ROOT/'research/samples/EXTENDED_KCLY_20_V1.md'
 
 
 def build(work="KCLY"):
-    if work not in {"KCLY", "ZTLY"}:raise ValueError("Unsupported extended work")
+    if work not in {"KCLY", "ZTLY", "NKCZ"}:raise ValueError("Unsupported extended work")
     _,sample,index=review.build()
     cases={c['case_id']:c for c in sample if c['work_ref']=='XJ-'+work}
     choices={}
@@ -42,6 +42,7 @@ def build(work="KCLY"):
                 elif field=='habitus' and reading=='稟實年壯':kind='narrator_constitution_and_age_assessment_not_objective_measurement'
                 elif field=='habitus':kind='contemporaneous_body_description_not_premorbid_constitution'
                 elif '怒' in reading:kind='habitual_affect_description_not_episode_trigger'
+                elif any(x in reading for x in ('郁','鬱')):kind='persistent_affective_description_not_proven_episode_cause_or_modern_psychiatric_diagnosis'
                 elif '膏粱' in reading:kind='narrator_dietary_social_descriptor_not_measured_intake'
                 else:kind='reported_drinking_habit_no_quantity_or_dependency_inferred'
                 obs['interpretation_type']=kind
@@ -96,7 +97,7 @@ def summary(rows):
 
 
 def render(rows):
-    title='口齿' if rows[0]['work_ref']=='XJ-KCLY' else '正体'
+    title={'XJ-KCLY':'口齿','XJ-ZTLY':'正体','XJ-NKCZ':'女科'}[rows[0]['work_ref']]
     out=[f'# {title}20案：独立脉象、舌部观察、体形与习惯维度\n\n',
          '2026-10-27模型精选证据，非专家审校或穷尽标注。空字段保留未载/不明，不解释为患者没有。全部初诊查询导出禁用。\n\n',
          '舌肿是明载局部形态变化，不等同舌苔、舌色等正式舌诊；口舌生疮、舌痛不自动生成舌诊字段。骨立/瘦倦记录当时状态，不推断发病前体质。膏粱仅保留叙述者类别词，未量化饮食。善怒另标平素性情，不直接变成诱因。\n\n']
@@ -110,11 +111,13 @@ def render(rows):
         out.append('\n')
     if rows[0]['work_ref']=='XJ-ZTLY':
         out[2]='本批未选到独立舌部观察或习惯证据，不等于患者没有。稟實年壯是叙述者的体质及年龄概括，不生成精确年龄、现代体格数值或客观体质诊断。脉象保留前药及后续阶段。\n\n'
+    if rows[0]['work_ref']=='XJ-NKCZ':
+        out[2]='脉象保留原字；倦瘦为当时状态，不反推发病前体质。善怒、多怒、久郁等属于性情或持续情志描述，不自动成为当次诱因，也不转换现代精神疾病诊断。未选定舌部观察不等于明确没有。\n\n'
     return ''.join(out).rstrip()+'\n'
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['KCLY','ZTLY'],default='KCLY');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['KCLY','ZTLY','NKCZ'],default='KCLY');a=p.parse_args()
     rows,cases,index=build(a.work);validate(rows,cases,index)
     stem=a.work.lower()
     out=ROOT/f'research/samples/extended_{stem}_20_v1.jsonl'

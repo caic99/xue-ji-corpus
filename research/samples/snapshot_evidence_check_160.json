@@ -52,10 +52,10 @@
     }
   ],
   "summary": {
-    "exact_quote_present_in_mapped_snapshot_record": 665,
+    "exact_quote_present_in_mapped_snapshot_record": 679,
     "quote_differs_from_cached_transcription": 16
   },
-  "evidence_segments": 681,
+  "evidence_segments": 695,
   "original_print_images_checked": 0,
   "details": [
     {
@@ -9002,6 +9002,32 @@
     },
     {
       "case_id": "XJ-NKCZ-C-V1-P026-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P026",
+      "raw_quote": "狀如翻花瘤而死",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 28,
+        "volume": "卷上",
+        "section": "經候不調"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 53,
+          "end_char_exclusive": 60
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 53,
+      "snapshot_end_char_exclusive": 60,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P026-1",
       "field": "prior_treatment",
       "observation_index": 0,
       "segment_index": 0,
@@ -9024,6 +9050,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 14,
       "snapshot_end_char_exclusive": 18,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P026-1",
+      "field": "prior_treatment",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P026",
+      "raw_quote": "仍服前藥及追蝕",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 28,
+        "volume": "卷上",
+        "section": "經候不調"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 45,
+          "end_char_exclusive": 52
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 45,
+      "snapshot_end_char_exclusive": 52,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -9102,6 +9154,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 7,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P010-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P010",
+      "raw_quote": "面青",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 12,
+        "volume": "卷上",
+        "section": "經候不調"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 13,
+          "end_char_exclusive": 15
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 13,
+      "snapshot_end_char_exclusive": 15,
       "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
     },
     {
@@ -9778,6 +9856,32 @@
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
+      "case_id": "XJ-NKCZ-C-V1-P147-1",
+      "field": "mechanism",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P147",
+      "raw_quote": "肝火濕熱而腫痛，脾虛下陷而重墜也",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 149,
+        "volume": "卷上",
+        "section": "陰瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 44,
+          "end_char_exclusive": 60
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 44,
+      "snapshot_end_char_exclusive": 60,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
       "case_id": "XJ-NKCZ-C-V1-P103-1",
       "field": "symptoms",
       "observation_index": 0,
@@ -9831,6 +9935,32 @@
     },
     {
       "case_id": "XJ-NKCZ-C-V1-P103-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P103",
+      "raw_quote": "至春而愈",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 105,
+        "volume": "卷上",
+        "section": "瘰癧"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 58,
+          "end_char_exclusive": 62
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 58,
+      "snapshot_end_char_exclusive": 62,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P103-1",
       "field": "prior_treatment",
       "observation_index": 0,
       "segment_index": 0,
@@ -9859,6 +9989,32 @@
       "case_id": "XJ-NKCZ-C-V1-P103-1",
       "field": "mechanism",
       "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P103",
+      "raw_quote": "或以為木旺之症",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 105,
+        "volume": "卷上",
+        "section": "瘰癧"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 8,
+          "end_char_exclusive": 15
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 8,
+      "snapshot_end_char_exclusive": 15,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P103-1",
+      "field": "mechanism",
+      "observation_index": 1,
       "segment_index": 0,
       "source_ref": "XJ-NKCZ-V1-P103",
       "raw_quote": "余以為肝經氣血虧損",
@@ -9905,6 +10061,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 13,
       "snapshot_end_char_exclusive": 17,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P033-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P033",
+      "raw_quote": "不時有血如經行",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 35,
+        "volume": "卷上",
+        "section": "經漏不止"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 34,
+          "end_char_exclusive": 41
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 34,
+      "snapshot_end_char_exclusive": 41,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P033-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P033",
+      "raw_quote": "飲食不進，夜寐不寧，乳腫及兩脅焮痛如炙，午後色赤",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 35,
+        "volume": "卷上",
+        "section": "經漏不止"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 47,
+          "end_char_exclusive": 71
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 47,
+      "snapshot_end_char_exclusive": 71,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -10035,6 +10243,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 7,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P125-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P125",
+      "raw_quote": "晡熱少食",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 127,
+        "volume": "卷上",
+        "section": "乳癰乳岩"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 10,
+          "end_char_exclusive": 14
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 10,
+      "snapshot_end_char_exclusive": 14,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P125-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P125",
+      "raw_quote": "其勢愈甚",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 127,
+        "volume": "卷上",
+        "section": "乳癰乳岩"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 38,
+          "end_char_exclusive": 42
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 38,
+      "snapshot_end_char_exclusive": 42,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -10191,6 +10451,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 27,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P038-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P038",
+      "raw_quote": "兩肋如束，其血如崩",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 40,
+        "volume": "卷上",
+        "section": "經漏不止"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 38,
+          "end_char_exclusive": 47
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 38,
+      "snapshot_end_char_exclusive": 47,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -10399,6 +10685,84 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 32,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P146-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P146",
+      "raw_quote": "患處並小腹脹痛",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 148,
+        "volume": "卷上",
+        "section": "陰瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 52,
+          "end_char_exclusive": 59
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 52,
+      "snapshot_end_char_exclusive": 59,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P146-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P146",
+      "raw_quote": "內熱晡熱",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 148,
+        "volume": "卷上",
+        "section": "陰瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 78,
+          "end_char_exclusive": 82
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 78,
+      "snapshot_end_char_exclusive": 82,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P146-1",
+      "field": "symptoms",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-NKCZ-V1-P146",
+      "raw_quote": "患處腫脹，小便仍澀",
+      "snapshot_path": "work/source-snapshots/nkcz-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 148,
+        "volume": "卷上",
+        "section": "陰瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 100,
+          "end_char_exclusive": 109
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 100,
+      "snapshot_end_char_exclusive": 109,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {

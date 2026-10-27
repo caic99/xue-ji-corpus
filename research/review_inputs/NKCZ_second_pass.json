@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-27",
+  "work_ref": "XJ-NKCZ",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 NKCZ full case windows; selected five domains, temporal order and speaker attribution; not exhaustive clinical annotation",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "separate_targeted_scan_record": "research/scan_reviews/NKCZ_target_spots_2026-10-27.json",
+  "cases": [
+    {
+      "case_id": "XJ-NKCZ-C-V1-P026-1",
+      "case_text_sha256": "f1d524e358646dfe05ef06262a3a62c55a1965e5f0c0829ca93b9b8845c7fb88",
+      "finding": "善怒为背景；补入不信之后仍服前药及追蚀、翻花瘤样结局。形如不升级为现代病名。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P106-1",
+      "case_text_sha256": "c2a7a1425b64368e9b947d1be7d18bf6342408bef2526ea92b07e84376e22259",
+      "finding": "肝火血虚为医家解释；项结核不转换现代疾病编码。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P010-1",
+      "case_text_sha256": "0294747c15dde09a3cd1f454a1c674c17ae54a3409aed07045a384546ea6a486",
+      "finding": "补入明载面青；善怒另记平素性情，不据此认定该次疼痛由怒触发。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P022-1",
+      "case_text_sha256": "06dc673053a5e2a5914531a915f92dea725cef42fd857e1fe1ff3e1f8889aadd",
+      "finding": "先因怒动肝火、后脾气下陷为获痊后的回顾总结，保留later；多怒及倦瘦另记独立维度。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P037-1",
+      "case_text_sha256": "7ef48b7da87aa8f64518d6e93af2660fe97afe9133e47697c0336a3f1304446c",
+      "finding": "素郁结为持续背景，不转换为确定发病诱因或现代精神疾病诊断。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P119-1",
+      "case_text_sha256": "4020065742d58a195f3c8bae219b77ec93d50f4bd8992369bd2012b4fa31eed3",
+      "finding": "因怒明载；不由流气饮反推作者未明述的病机。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P105-1",
+      "case_text_sha256": "c0a0127f4c48c619cbfbbf1a17122ed3b7aa8d2586e3c16c0b574dbc9c7594b3",
+      "finding": "脉大而虚另为脉象；溃后未记具体前法，三十余剂而敛为本次历时。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P096-1",
+      "case_text_sha256": "1206c4f2c16173acbda437f9ba0003117ac07c477ecc5ab0e53a0d78941e50b3",
+      "finding": "暴怒与脇下肿痛为相接叙述，不声称已证明现代因果；本轮指定原刻句另有模型影像复核。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P111-1",
+      "case_text_sha256": "bdfb50831935c94e116f856d561bcd337836388bf11549ba5a398451172d6e9b",
+      "finding": "卧而起急则脐下牵痛是动作关联，非平素习惯；带脉为患为医家解释。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V2-P048-1",
+      "case_text_sha256": "1269d75d5fa0df6334fd0ba679bed5f1696b6fbcb87d063cdd580ffa0d3425f4",
+      "finding": "产妇只是生命阶段，未据此补生产直接致病；芤涩另为脉象。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P113-1",
+      "case_text_sha256": "c1f43fb31968337e48542331792ede16b5c250b637e0dec43290668561b25e8a",
+      "finding": "久郁是既有背景；隔蒜灸和八珍等是本次案内处置，不标既往他医前史。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P147-1",
+      "case_text_sha256": "5a1ca1684c2fde14f7e80a851005cd959bc01e64ea9632354f704ce87f5b3944",
+      "finding": "补入肝火湿热、脾虚下陷对两组表现的解释，保留医家归因性质，不当作客观事实。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P103-1",
+      "case_text_sha256": "34c1a8c4854ef92c85ebae21c24cadd292a322625cf70960edab57385e69cc7c",
+      "finding": "腫硬益甚在散肿溃坚汤之后，补prior_response；或以为木旺的解释者不明，与余以为肝经气血亏损分开。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P033-1",
+      "case_text_sha256": "ea638101c718693fec4cfe3e4c4680fd7bd5e330ed3890c91e4cf0e274d4bfdb",
+      "finding": "补入前药后不时血如经行、惊恐后食寐及乳胁变化；这些是叙述先后，不证明药物或惊恐导致所有变化。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P125-1",
+      "case_text_sha256": "7f605315e1b6cafbbcb3fd79cf4801e8a7dfed8db248a5c61fde7cc7db2b7a49",
+      "finding": "补入初段晡热少食及行气剂后的其势愈甚；余欲用为医者意向而非已实施，另有全窗口事件分段。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P155-1",
+      "case_text_sha256": "bb8d92649083894415ffbf8b3a9410f903a0900987d47f146e0cab5f6b78db4f",
+      "finding": "多轮案内处置按顺序叙述；未由先用、又用方药补病机或他医前史。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P038-1",
+      "case_text_sha256": "8fe9cedd4830c8f571a440ef5dc68d7df0c90aea519139988dbf866646c4ce1b",
+      "finding": "补入两肋如束、其血如崩；保留如字比拟，不补实测出血量。经行前寒热为时间关联。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P024-1",
+      "case_text_sha256": "d33a5b6e91536fdd74cab10e43241a14e8a5f6c7cb00031927f2272d92dd0c1d",
+      "finding": "次年秋寒热及清脾饮均在首次案内处置后；气血素虚为叙述者医学描述，不当客观体形。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P146-1",
+      "case_text_sha256": "0223e0171202ca6add65a446c406234eb72b0d78ac13ea0ee9717690299e056c",
+      "finding": "补入因怒后局部少腹胀痛、后续内热晡热、劳役后肿胀尿涩；初始郁怒为医者归因，后段因怒事件另列。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P011-1",
+      "case_text_sha256": "0aaf78f97110bfc3775eb344a4f7881aa37b384ab46a8b5f4ecbe274f13f5bac",
+      "finding": "直接保留医者肝脾虚热解释；未由方药补未载症状。",
+      "outcome": "retained_selected_observations"
+    }
+  ]
+}
