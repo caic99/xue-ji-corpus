@@ -2,7 +2,7 @@
   "handoff_date": "2026-09-29",
   "last_substantive_corpus_work_date": "2026-09-29",
   "main_document": "outputs/薛己核心医案_结构化样本.md",
-  "main_document_sha256": "481b52bf81ed49359e063cb78786bf0401718dd792190f89d4a7eb5c5e8ec238",
+  "main_document_sha256": "65b0b26472c54ae394bfd99f92a2d36b750a7cd5704c6adaadd829983b1ffe27",
   "source_text_sha256": "a719e844641d9b610848a923e108f663d0fc1620d4f28c26f1925bfc9d5d27aa",
   "structured_totals": {
     "cases": 1532,
@@ -610,13 +610,6 @@
     ],
     "historical_acquisition_snapshots": "not_found",
     "all_eight_books_now_have_current_snapshots": true
-  },
-  "original_user_input": {
-    "path": "inputs/SSID-12152874_家居醫錄_內科摘要_卷上.pdf",
-    "bytes": 64149287,
-    "sha256": "0e3ba1cfbc1e4d9c12be8201337d0454d83ea4fef5cb81f53e9384b68ba10e18",
-    "rights": "user_provided_internal_research_input_not_open_license_assertion",
-    "version_and_completeness": "not_reassessed_for_handoff"
   },
   "excluded_from_package": [
     "node_modules",

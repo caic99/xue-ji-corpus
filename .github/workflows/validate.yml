@@ -25,3 +25,15 @@ jobs:
           grep -q 'a719e844641d9b610848a923e108f663d0fc1620d4f28c26f1925bfc9d5d27aa' /tmp/audit.json
       - name: Pending-status inheritance
         run: python3 work/check_retrieval_inheritance.py
+
+      - name: Reproduce frozen research roster and exact candidate spans
+        run: python3 research/reproduce_sample.py
+      - name: Reproduce model-selected observations and dated snapshot reconciliation
+        run: |
+          python3 research/build_close_read_160.py
+          python3 research/check_sample_snapshots.py
+      - name: Reject invalid provenance, spans, verification and query claims
+        run: python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
+
+      - name: Publication metadata boundary
+        run: python3 research/check_publication.py

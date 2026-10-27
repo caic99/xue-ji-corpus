@@ -1,7 +1,7 @@
 {
  ".github/workflows/validate.yml": {
-  "bytes": 955,
-  "sha256": "a447eb08983a2f5704cc50387e60968e3dc8961217de4813c010cba0722da0cb"
+  "bytes": 1543,
+  "sha256": "70cd95614865b0763e00f8675e7f28046b62b99a987439166aef1a6801c50a86"
  },
  ".gitignore": {
   "bytes": 29,
@@ -28,24 +28,24 @@
   "sha256": "3379c841c966138e7071a4b662a707a527dbc7102c27461261b1585736ac7a59"
  },
  "docs/HANDOFF.md": {
-  "bytes": 25728,
-  "sha256": "1aae06e4199f0ce9da233182f581b350c6545bcfcb30b4b4cd4a130fb2421904"
+  "bytes": 3316,
+  "sha256": "8dbaa2e5d0334cb3bba2599df8fa1662d34597308d8fef25838a9c386cf4f612"
  },
  "outputs/薛己核心医案_结构化样本.md": {
-  "bytes": 9625825,
-  "sha256": "0172370f82183a48c0b69d304d3b5e745206f172b1cfe0a28946ffbe34eb2ed7"
+  "bytes": 9625810,
+  "sha256": "65b0b26472c54ae394bfd99f92a2d36b750a7cd5704c6adaadd829983b1ffe27"
  },
  "state/baseline_validation.json": {
   "bytes": 9059,
   "sha256": "83e50288c93d6e1930a82346827d1019d0bc492ff01aa8f478848d0e52b4da44"
  },
  "state/current_state.json": {
-  "bytes": 58576,
-  "sha256": "874166d3a1b2458c5dedc3f1a529bb9c204411c5af8a3f3b89054ceeac837a97"
+  "bytes": 58224,
+  "sha256": "14e88f046369464aff0d364237666574451ad17f932ba16cda8002175e3dd17c"
  },
  "state/next_tasks.json": {
-  "bytes": 14642,
-  "sha256": "014dc2f73298acf8ba1ff081818da1684e7310c32fb5eb7344d6cbd4a3244aac"
+  "bytes": 14612,
+  "sha256": "bce5a7ce0e87370a8e08e9f8367c38edd91a549a150d95dfbef7bbb91b46be7f"
  },
  "work/apply_reconciliation_metadata.py": {
   "bytes": 4778,
