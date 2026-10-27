@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-26",
+  "cases": 160,
+  "domains": 800,
+  "cases_per_work": {
+    "XJ-BYCY": 20,
+    "XJ-KCLY": 20,
+    "XJ-LYJY": 20,
+    "XJ-LZWKFH": 20,
+    "XJ-NKCZ": 20,
+    "XJ-NKZY": 20,
+    "XJ-WKSY": 20,
+    "XJ-ZTLY": 20
+  },
+  "domains_with_evidence": {
+    "symptoms": 160,
+    "trigger": 55,
+    "course": 117,
+    "prior_treatment": 72,
+    "mechanism": 121
+  },
+  "observations": 641,
+  "literal_source_spans": 655,
+  "multi_segment_observations": 14,
+  "phases": {
+    "initial_narrator_window": 473,
+    "later_narrator_window": 163,
+    "unknown": 5
+  },
+  "default_retrieval_excluded": 3,
+  "human_adjudicated_cases": 0,
+  "print_images_checked_this_pass": 0,
+  "initial_query_exported": 0,
+  "interpretation_scope": "one_model_read_selected_observations_not_exhaustive",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26"
+}

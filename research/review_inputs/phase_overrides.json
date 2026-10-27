@@ -1,0 +1,46 @@
+{
+  "XJ-NKCZ-C-V1-P022-1": {
+    "mechanism": {
+      "time_phase": "later_narrator_window",
+      "narrative_role": "retrospective_explanation"
+    }
+  },
+  "XJ-NKZY-C-V2-P007-1": {
+    "mechanism": {
+      "speaker_role": "patient_or_family",
+      "assertion_type": "patient_interpretation"
+    }
+  },
+  "XJ-KCLY-C-H6-P018-1": {
+    "mechanism": {
+      "speaker_role": "named_physician_in_signed_testimony"
+    },
+    "trigger": {
+      "relation_type": "narrated_action_before_onset_not_emotional_cause"
+    }
+  },
+  "XJ-ZTLY-C-V1-P022-1": {
+    "prior_treatment": {
+      "time_phase": "unknown",
+      "speaker_role": "uncertain",
+      "narrative_role": "intervention_before_later_prescription_actor_unresolved"
+    }
+  },
+  "XJ-LYJY-C-V1-P095": {
+    "prior_treatment": {
+      "time_phase": "unknown",
+      "narrative_role": "retrospective_interventions_no_narrator_encounter_recorded"
+    }
+  },
+  "XJ-LZWKFH-C-V5-P183-1": {
+    "trigger": {
+      "assertion_type": "physician_interpretation",
+      "relation_type": "narrator_attributed_cause_not_independent_exposure"
+    }
+  },
+  "XJ-LZWKFH-C-V3-P091-1": {
+    "trigger": {
+      "relation_type": "symptom_association_pain_precedes_phlegm"
+    }
+  }
+}
