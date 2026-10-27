@@ -15,5 +15,6 @@
   },
   "human_adjudicated": 0,
   "initial_query_exported": 0,
+  "default_retrieval_excluded": 0,
   "scope": "independent_dimensions_separate_from_five_domain_totals"
 }

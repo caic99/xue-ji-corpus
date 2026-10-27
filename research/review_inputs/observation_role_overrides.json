@@ -16,5 +16,14 @@
         "narrative_role": "prior_explanation_not_narrator_endorsement"
       }
     }
+  },
+  "XJ-NKZY-C-V1-P126-1": {
+    "mechanism": {
+      "彼疑為膈氣，痰飲內傷": {
+        "speaker_role": "patient_or_family",
+        "assertion_type": "patient_interpretation",
+        "narrative_role": "patient_suspicion_not_narrator_endorsement"
+      }
+    }
   }
 }

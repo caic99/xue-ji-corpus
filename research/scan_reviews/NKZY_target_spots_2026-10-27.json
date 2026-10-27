@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "edition": "日本承應三年（1654）刊本，國家圖書館藏本，NCL-06248-0008",
+  "bibliographic_metadata_origin": "existing_corpus_metadata_not_new_titlepage_audit",
+  "file_page_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0008_%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81.pdf",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/NCL-06248-0008_%E5%85%A7%E7%A7%91%E6%91%98%E8%A6%81.pdf",
+  "pdf_bytes": 26304363,
+  "pdf_sha256": "31242d851036ad788b187f52f606dcc130b83606da845232fd91549b4f54106c",
+  "pdf_pages": 106,
+  "page_numbering": "1-based PDF pages, not printed folio numbers",
+  "method": "model_visual_read_of_rendered_target_spots_after_actual_pdf_download",
+  "render_command_template": "pdftoppm -f PAGE -l PAGE -scale-to 2500 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_version": "pdftoppm version 26.05.0",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "spots": [
+    {
+      "spot_id": "NKZY-78-P092-CASE",
+      "source_ref": "XJ-NKZY-V2-P092",
+      "working_evidence": {
+        "source_start_char": 69,
+        "source_end_char_exclusive": 73,
+        "raw_quote": "命門火衰"
+      },
+      "pdf_page": 78,
+      "page_half": "right",
+      "page_location": "右半葉陳莪齋案，列末「余意乃」接下一列頂部「命門火衰不能生脾土」。",
+      "image_target_reading_without_added_punctuation": "命門火衰不能生脾土",
+      "comparison_unit": "phrase_with_missing_character_in_cached_transcription",
+      "disputed_working_glyph": "命門火衰",
+      "cached_transcription_glyph": "命火衰",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "befa42c216d4f3b205f5ee8b271daa55291f8598cac55f18ed49f98b473edb68"
+    }
+  ]
+}

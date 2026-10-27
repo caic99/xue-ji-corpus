@@ -307,5 +307,67 @@ class NkczIntentTests(unittest.TestCase):
             self.events.validate(row,self.case,self.index)
 
 
+class NkzyClaimAndExclusionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as events
+        import build_extended_kcly as extended
+        cls.events=events;cls.extended=extended
+        cls.event,cls.case,cls.index=events.build('NKZY')
+        cls.rows,cls.cases,cls.index=extended.build('NKZY')
+        cls.core,_,_=review.build()
+
+    def test_three_pending_cases_stay_excluded_in_extended_dimensions(self):
+        self.assertEqual(sum(r['default_retrieval_excluded'] for r in self.rows),3)
+        rows=copy.deepcopy(self.rows)
+        row=next(r for r in rows if r['default_retrieval_excluded'])
+        row['default_retrieval_excluded']=False
+        with self.assertRaisesRegex(ValueError,'pending-source exclusion lost'):
+            self.extended.validate(rows,self.cases,self.index)
+
+    def test_claimed_huanglian_is_not_performed_treatment(self):
+        row=copy.deepcopy(self.event)
+        event=next(e for e in row['events'] if e['event_id']=='E12')
+        event['intervention_status']='narrated_as_performed'
+        with self.assertRaisesRegex(ValueError,'claim cannot become performed'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_claim_cannot_be_retyped_to_intervention(self):
+        row=copy.deepcopy(self.event)
+        event=next(e for e in row['events'] if e['event_id']=='E12')
+        event['event_type']='intervention'
+        with self.assertRaisesRegex(ValueError,'claim cannot become performed'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_theory_does_not_generate_sexual_exposure(self):
+        row=next(r for r in self.core if r['case_id']=='XJ-NKZY-C-V2-P078-1')
+        self.assertFalse(row['fields']['trigger']['observations'])
+        self.assertTrue(all(o['assertion_type']=='quoted_theory'
+                            for o in row['fields']['mechanism']['observations']))
+
+    def test_book_prediction_is_not_patient_three_year_course(self):
+        row=next(r for r in self.core if r['case_id']=='XJ-NKZY-C-V1-P002-1')
+        self.assertTrue(all('三年' not in o['reading_joined_source_segments']
+                            for o in row['fields']['course']['observations']))
+
+    def test_patient_suspicion_is_separate_from_later_narrator_judgment(self):
+        row=next(r for r in self.core if r['case_id']=='XJ-NKZY-C-V1-P126-1')
+        obs=row['fields']['mechanism']['observations']
+        self.assertEqual(obs[0]['assertion_type'],'patient_interpretation')
+        self.assertEqual(obs[1]['assertion_type'],'physician_interpretation')
+        self.assertEqual(obs[2]['time_phase'],'later_narrator_window')
+
+    def test_ice_water_is_episode_behavior_not_premorbid_habit(self):
+        row=next(r for r in self.rows if r['case_id']=='XJ-NKZY-C-V1-P063-1')
+        self.assertEqual(row['fields']['habits']['observations'][0]['interpretation_type'],
+                         'episode_drinking_behavior_not_premorbid_habit')
+
+    def test_pulse_prognosis_is_explicitly_marked_interpretive(self):
+        row=next(r for r in self.rows if r['case_id']=='XJ-NKZY-C-V1-P075-1')
+        obs=row['fields']['pulse']['observations'][0]
+        self.assertEqual(obs['interpretation_type'],'narrated_pulse_with_narrator_prognostic_interpretation')
+        self.assertEqual(obs['time_phase'],'later_narrator_window')
+
+
 if __name__ == '__main__':
     unittest.main()
