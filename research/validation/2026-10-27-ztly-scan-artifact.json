@@ -1,0 +1,15 @@
+{
+  "execution": "actual_local_subprocess_execution",
+  "command": [
+    "python3",
+    "research/check_scan_spots.py",
+    "--record",
+    "research/scan_reviews/ZTLY_target_spots_2026-10-27.json",
+    "--pdf",
+    "../scan-audit/ztly-ncl-0011.pdf"
+  ],
+  "returncode": 0,
+  "stdout": "{\"recorded_model_visual_spots\": 3, \"recorded_pdf_pages_viewed\": 2, \"pdf_artifact_hash_checked_this_command\": true, \"full_case_print_collations\": 0, \"human_adjudication\": \"pending\"}\nPASS: recorded provenance and source links valid; visual glyph judgments are not automatically verified\n",
+  "stderr": "",
+  "downloaded_pdf_not_redistributed": true
+}

@@ -1,6 +1,6 @@
 # 160案逐案模型复读：五领域精选证据（V1）
 
-2026-10-26初读；保婴及口齿各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿三处指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
+2026-10-26初读；保婴、口齿及正体各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿及正体指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
 
 initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。
 
@@ -2897,12 +2897,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子孟秋墜梯，腹停瘀血。用大黃等藥，其血不下，反加胸膈脹痛，喘促短氣。余用肉桂、木香末各三錢，熱酒調服，即下黑血，及前所服之藥而蘇。
 
 - **症状**：腹停瘀血（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P057[8:12)`
+- **症状**：胸膈脹痛，喘促短氣（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P057[26:35)`
 - **诱发/缓解关联**：墜梯（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P057[5:7)`
 - **病程**：孟秋（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P057[3:5)`
 - **干预前史/后续插入干预**：用大黃等藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P057[13:18)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：胸胀喘促为前药之后；并非见下黑血即反推初始病机。
+复读意见：补入大黄等药后胸膈胀痛、喘促短气；下黑血不反推最初病机。
 
 ## 142 · XJ-ZTLY-C-V1-P022-1
 
@@ -2915,12 +2916,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 有一患者，頭額出汗，熱渴氣短，煩躁骨痛，瘀肉不潰，遂割去之，出鮮血，服芩、連之藥益甚，其脈洪大而微，此氣血俱虛，邪火熾盛所致，以四物加參、耆、朮、炙草，少用柴胡、炒芩，二劑頭汗頓止；又加麥門、五味、肉桂，二劑諸症悉退。後用參、耆、歸、朮、炒芍、熟地、麥門、五味，十餘劑瘀血潰而膿水稠矣。但新肉不生，以前藥倍用白朮而斂。
 
 - **症状**：頭額出汗，熱渴氣短，煩躁骨痛，瘀肉不潰（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P022[5:24)`
+- **症状**：新肉不生（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P022[144:148)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：本次复读未选定证据；未载/归属不明待专家确认。
 - **干预前史/后续插入干预**：遂割去之，出鮮血，服芩、連之藥益甚（unknown；uncertain；treatment_given；present） `XJ-ZTLY-V1-P022[25:42)`
 - **病机解释**：此氣血俱虛，邪火熾盛所致（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P022[50:62)`
 
-复读意见：割除及用药者未明，可能为叙述医者；既往相对后续以四物治疗，需标时间归属不确定。
+复读意见：割除和芩连用药者不明，保留阶段不确定；补入后续新肉不生。脉象属于前药之后。
 
 ## 143 · XJ-ZTLY-C-V1-P028-1
 
@@ -2938,7 +2940,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此肝火熾盛，脾土受制（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P028[33:43)`
 
-复读意见：禀实年壮为作者记录的体质与年龄概括，不做现代年龄数值。
+复读意见：禀实年壮为叙述者体质及年龄概括，不能生成精确年龄或现代体格测量。
 
 ## 144 · XJ-ZTLY-C-V1-P034-1
 
@@ -2952,12 +2954,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：外皮傷破，瘀血如注，內肉糜爛黯腫（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P034[10:26)`
 - **症状**：始言遍身強痛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P034[79:85)`
+- **症状**：昏憒不食（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P034[37:41)`
 - **诱发/缓解关联**：受刑太重（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P034[5:9)`
 - **病程**：時仲冬瘀血凝結，不能潰膿（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P034[102:114)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：瘀血凝結，不能潰膿（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P034[105:114)`
 
-复读意见：后仲冬瘀血凝结及不能溃脓为治疗中机制；遍身强痛在神思稍苏后才述。
+复读意见：补入初段昏愦不食；始言遍身强痛在神思稍苏后。仲冬瘀血凝结是治疗过程。
 
 ## 145 · XJ-ZTLY-C-V1-P039-1
 
@@ -2970,17 +2973,18 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 有一患者，瘀血失砭，脹痛煩渴。縱飲涼童便，渴脹頓止，以蘿蔔細搗塗之，瘀血漸散。已而患處作癢，仍塗之癢止。後口乾作渴，小腹引陰莖作痛，小便如淋，時出白津，此肝經鬱火也，遂以小柴胡湯加大黃、黃連、山梔飲之，諸症悉退；再用養血等藥而安。
 
 - **症状**：脹痛煩渴（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P039[10:14)`
+- **症状**：口乾作渴，小腹引陰莖作痛，小便如淋，時出白津（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P039[53:75)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：已而患處作癢（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P039[39:45)`
 - **病程**：後口乾作渴（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P039[52:57)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此肝經鬱火也（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P039[76:82)`
 
-复读意见：失砭为未执行处置，不属于已实施既往干预；肝经郁火是后口干尿症阶段。
+复读意见：补入后段口干、少腹引阴茎痛、小便如淋、白津；失砭不是已实施处置。
 
 ## 146 · XJ-ZTLY-C-V1-P102-1
 
-来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -2992,9 +2996,10 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **诱发/缓解关联**：傷指（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P102[3:5)`
 - **病程**：月餘而瘡愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P102[74:79)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病机解释**：彼以為毒氣內攻（initial_narrator_window；patient_or_family；patient_interpretation；present） `XJ-ZTLY-V1-P102[16:23)`
 - **病机解释**：此痛傷胃氣所致也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P102[30:38)`
 
-复读意见：彼以为毒气内攻是患者解释，不当医者采纳结论。
+复读意见：彼以为毒气内攻是患者判断；痛伤胃气是医者判断，逐条分角色。手背另有本轮影像点核。
 
 ## 147 · XJ-ZTLY-C-V1-P112-1
 
@@ -3007,12 +3012,14 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人湯傷胸大潰，兩月不斂，脈洪大而無力，口乾發熱，日晡益甚，此陰血虛火，毒乘之而為患耳。用四物湯加柴胡、丹皮，熱退身涼。更用逍遙散加陳皮以養陰血、壯脾胃，腐肉去而新肉生。
 
 - **症状**：胸大潰（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P112[5:8)`
+- **症状**：口乾發熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P112[21:25)`
 - **诱发/缓解关联**：湯傷胸（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P112[3:6)`
 - **病程**：兩月不斂（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P112[9:13)`
+- **病程**：日晡益甚（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P112[26:30)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此陰血虛火，毒乘之而為患耳（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P112[31:44)`
 
-复读意见：口干发热日晡益甚为未愈阶段；汤伤为烫伤文字不可同现代饮汤误混。
+复读意见：补入口干发热、日晡加重；两月不敛为本次处置前病程。汤伤不误作饮汤。
 
 ## 148 · XJ-ZTLY-C-V1-P086-1
 
@@ -3031,7 +3038,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：乃雜用瀉肝火等藥（later_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P086[85:93)`
 - **病机解释**：乃肝火盛而制金也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P086[35:43)`
 
-复读意见：泻肝火杂药在余曰之后；仲春死亡属后续，不用于首诊。
+复读意见：泻肝火等杂药在余曰之后；仲春死亡为后续结局。
 
 ## 149 · XJ-ZTLY-C-V1-P021-1
 
@@ -3049,7 +3056,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此血虛發躁也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P021[27:33)`
 
-复读意见：后日晡发热是治疗后；勿与初次阶段混同。
+复读意见：洪大按之如无另为脉象；日晡发热在当归补血汤后。
 
 ## 150 · XJ-ZTLY-C-V1-P091-1
 
@@ -3065,12 +3072,12 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：發熱盜汗、自汗（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P091[17:24)`
 - **症状**：時或譫語（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P091[51:55)`
 - **诱发/缓解关联**：墜馬（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P091[3:5)`
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：投以十全大補湯益甚（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P091[41:50)`
 - **干预前史/后续插入干预**：服藥下之（initial_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P091[11:15)`
 - **病机解释**：余以為重劑過傷氣血所致（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P091[29:40)`
 - **病机解释**：此藥力未及而然也（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P091[56:64)`
 
-复读意见：发热盗汗自汗在下药之后，十全后益甚另为本次过程。
+复读意见：下药后发热汗出及浮涩脉分阶段；补入十全大补汤后益甚，不标为首次前史。
 
 ## 151 · XJ-ZTLY-C-V1-P108-1
 
@@ -3083,6 +3090,8 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 州守王廷用傷指，即用帛裹之，瘀血內潰，焮腫至手。余謂：宜解患處，以出瘀血，更用推陳致新之劑。不信。乃敷涼藥，痛雖少止，次日復作，又敷之，數日後手心背俱潰出瘀穢膿水，尚服敗毒之劑，氣血益虛，色黯膿清，飲食少思。仍請余治，投以壯脾胃、生氣血之劑，由是膿水漸稠而愈。
 
 - **症状**：傷指（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P108[5:7)`
+- **症状**：瘀血內潰，焮腫至手（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P108[14:23)`
+- **症状**：色黯膿清，飲食少思（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P108[94:103)`
 - **诱发/缓解关联**：傷指（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P108[5:7)`
 - **病程**：次日復作（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P108[59:63)`
 - **病程**：數日後手心背俱潰出瘀穢膿水（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P108[68:81)`
@@ -3091,7 +3100,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：尚服敗毒之劑（later_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P108[82:88)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：初次解患处为建议；凉药败毒在不信之后；壯脾胃为治疗原则非完整明确病机。
+复读意见：解患处为未被采纳建议，不是已实施治疗；另以完整案文事件分段试点记录拒治、敷药、变化、再请及结局。
 
 ## 152 · XJ-ZTLY-C-V1-P109-1
 
@@ -3111,7 +3120,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **病机解释**：此火毒刑肺金之症（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P109[16:24)`
 - **病机解释**：此氣血虛也（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P109[47:52)`
 
-复读意见：因劳又恶寒热和气血虚属后续事件。
+复读意见：火伤为起病背景；因劳再发及气血虚判断为后段。
 
 ## 153 · XJ-ZTLY-C-V1-P090-1
 
@@ -3124,17 +3133,18 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 楊進士傷手指，焮痛發熱，服寒涼之藥，致飲食頓減，患處不潰。余用托裡養血之藥，食進瘡潰，後因勞每日晡發熱，此陰虛而內熱也。以四物、軟柴胡、地骨皮乃退、更用養血氣之藥而瘡斂。
 
 - **症状**：焮痛發熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P090[7:11)`
+- **症状**：飲食頓減，患處不潰（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P090[19:28)`
 - **诱发/缓解关联**：傷手指（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P090[3:6)`
 - **诱发/缓解关联**：後因勞每日晡發熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P090[43:51)`
 - **病程**：後因勞每日晡發熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P090[43:51)`
 - **干预前史/后续插入干预**：服寒涼之藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P090[12:17)`
 - **病机解释**：此陰虛而內熱也（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P090[52:59)`
 
-复读意见：阴虚而内热是治疗后因劳新发热的解释，非首诊明示机制。
+复读意见：补入寒凉药后饮食顿减、患处不溃；因劳日晡热为本次治疗后。
 
 ## 154 · XJ-ZTLY-C-V1-P054-1
 
-来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -3148,7 +3158,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此怒動肝火而為患耳（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P054[25:34)`
 
-复读意见：痓保留原字，不擅改现代病名。
+复读意见：痓字原样保留，原刻指定字句另点核；同来源末尾刘宗厚通论及平木不属于本案观察。
 
 ## 155 · XJ-ZTLY-C-V1-P060-1
 
@@ -3166,7 +3176,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此血虛火動所致（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P060[34:41)`
 
-复读意见：或欲投是未执行建议，不能写为已服破伤风药。
+复读意见：或欲投破伤风药是未执行建议，不增加既往已服药记录。
 
 ## 156 · XJ-ZTLY-C-V1-P036-1
 
@@ -3179,12 +3189,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 有一患者，腹脹嘔吐眩暈，用柴胡、黃芩、山梔、紫蘇、杏仁、枳殼、桔梗、川芎、當歸、赤芍、紅花、桃仁，四劑而定。後又出血過多，昏憒目黑，用十全大補等藥而蘇。時肌肉潰爛，膿水淋漓，筋攣骨痛，餘切其脈浮而澀，沉而弱。此因氣血耗損，不能養筋，筋虛不能束骨，遂用養氣血之藥，治之而愈。
 
 - **症状**：腹脹嘔吐眩暈（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P036[5:11)`
+- **症状**：肌肉潰爛，膿水淋漓，筋攣骨痛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P036[77:91)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：後又出血過多，昏憒目黑（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P036[54:65)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此因氣血耗損，不能養筋，筋虛不能束骨（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P036[104:122)`
 
-复读意见：首句方药是案内处置；后出血过多及不能养筋机制均为后续。
+复读意见：补入后段肌肉溃烂、脓水淋漓、筋挛骨痛；浮涩沉弱脉同属后段。
 
 ## 157 · XJ-ZTLY-C-V1-P068-1
 
@@ -3202,7 +3213,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：服辛熱破血之藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P068[13:20)`
 - **病机解释**：此熱劑激動痰火為患耳（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P068[36:46)`
 
-复读意见：素有湿痰为背景；药名未载不补药。
+复读意见：遍身作痛、发热口干在辛热破血药之后，补prior_response；素有湿痰不混为体形或习惯。
 
 ## 158 · XJ-ZTLY-C-V1-P040-1
 
@@ -3215,12 +3226,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 有一患者，痛甚發熱，嘔吐少食，胸膈痞滿。用行氣破血之劑益甚，口乾作渴，大便不調，患處色黯。余曰：此痛傷胃氣所致。遂以四君、當歸、炒芩、軟柴、藿香，二劑諸症漸愈；又用大補之劑，潰之而瘳。
 
 - **症状**：痛甚發熱，嘔吐少食，胸膈痞滿（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P040[5:19)`
+- **症状**：口乾作渴，大便不調，患處色黯（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P040[30:44)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：本次复读未选定证据；未载/归属不明待专家确认。
 - **干预前史/后续插入干预**：用行氣破血之劑益甚（initial_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P040[20:29)`
 - **病机解释**：此痛傷胃氣所致（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P040[48:55)`
 
-复读意见：口干便不调色黯在前药后。
+复读意见：补入行气破血后口干便不调、患处色黯；不据痛伤胃气解释倒补其他症状。
 
 ## 159 · XJ-ZTLY-C-V1-P038-1
 
@@ -3238,7 +3250,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：膿血過多，瘡雖愈，肝經血氣尚未充實，而濕熱乘虛也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P038[13:37)`
 
-复读意见：前次治疗未载，愈后不等于已知具体处置。
+复读意见：愈后腿痛，前次治疗未载；余意为医家判断，不假定病前体质或具体旧方。
 
 ## 160 · XJ-ZTLY-C-V1-P037-1
 
@@ -3251,6 +3263,9 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 有一患者，杖瘡愈後，失於調理，頭目不清，服祛風化痰等藥，反眩暈；服牛黃清心丸，又肚腹疼痛，杖痕腫癢，發熱作渴，飲食不思，痰氣上升，以為杖瘡餘毒復作，診左尺脈洪大，按之如無。余曰：此腎經不足，不能攝氣歸源。遂用人參、黃耆、茯苓、陳皮、當歸、川芎、熟地、山藥、山茱萸、五味、麥門、炙草，服之而尋愈。後因勞，熱渴頭痛，倦怠少食，用補中益氣湯加麥門、五味而痊。
 
 - **症状**：頭目不清（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P037[15:19)`
+- **症状**：反眩暈（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P037[28:31)`
+- **症状**：又肚腹疼痛，杖痕腫癢，發熱作渴，飲食不思，痰氣上升（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P037[39:64)`
+- **症状**：熱渴頭痛，倦怠少食（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P037[151:160)`
 - **诱发/缓解关联**：後因勞（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P037[147:150)`
 - **病程**：杖瘡愈後（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P037[5:9)`
 - **病程**：後因勞，熱渴頭痛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-ZTLY-V1-P037[147:155)`
@@ -3258,5 +3273,5 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：服牛黃清心丸（initial_narrator_window；uncertain；treatment_given；present） `XJ-ZTLY-V1-P037[32:38)`
 - **病机解释**：此腎經不足，不能攝氣歸源（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-ZTLY-V1-P037[89:101)`
 
-复读意见：牛黄清心后症状是前史反应；后因劳另为再发。
+复读意见：补入祛风化痰后眩晕、牛黄清心丸后多症，以及后因劳再发；余毒复作之以为未明说话者，不强行归给医者。
 

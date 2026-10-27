@@ -1,0 +1,11 @@
+{
+  "XJ-ZTLY-C-V1-P102-1": {
+    "mechanism": {
+      "彼以為毒氣內攻": {
+        "speaker_role": "patient_or_family",
+        "assertion_type": "patient_interpretation",
+        "narrative_role": "patient_causal_belief_not_narrator_endorsement"
+      }
+    }
+  }
+}

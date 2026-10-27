@@ -193,5 +193,69 @@ class ExtendedAndScanTests(unittest.TestCase):
             review.validate_records(rows,sample,index)
 
 
+class ZtlyEventTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as events
+        cls.events=events
+        cls.record,cls.case,cls.index=events.build()
+
+    def test_patient_explanation_is_not_physician_endorsement(self):
+        records,_,_=review.build()
+        row=next(r for r in records if r['case_id']=='XJ-ZTLY-C-V1-P102-1')
+        obs=row['fields']['mechanism']['observations']
+        self.assertEqual([o['assertion_type'] for o in obs],
+                         ['patient_interpretation','physician_interpretation'])
+        self.assertEqual(obs[0]['speaker_role'],'patient_or_family')
+
+    def test_role_override_cannot_rewrite_evidence(self):
+        case={'case_id':'synthetic','parts':['甲'],
+              'segments':[{'source_ref':'A','start':0,'end':1}]}
+        overrides={'synthetic':{'mechanism':{'甲':{'evidence':[]}}}}
+        with self.assertRaisesRegex(ValueError,'may not alter evidence'):
+            review.make_observation(case,'mechanism','甲',{'A':'甲'},{},overrides)
+
+    def test_general_theory_scan_does_not_attach_to_case(self):
+        _,sample,_=review.build()
+        case=next(c for c in sample if c['case_id']=='XJ-ZTLY-C-V1-P054-1')
+        refs=review.case_scan_refs(case,review.scan_spots())
+        self.assertIn('ZTLY-24-P054-CASE',refs)
+        self.assertNotIn('ZTLY-24-P054-THEORY',refs)
+
+    def test_medicinal_wine_does_not_generate_drinking_habit(self):
+        import build_extended_kcly as extended
+        rows,_,_=extended.build('ZTLY')
+        row=next(r for r in rows if r['case_id']=='XJ-ZTLY-C-V1-P057-1')
+        self.assertEqual(row['fields']['habits']['observations'],[])
+        self.assertEqual(row['fields']['habits']['missingness'],
+                         'unrecorded_or_unresolved_not_explicit_absence')
+
+    def test_full_event_window_cannot_drop_outcome(self):
+        row=copy.deepcopy(self.record);row['events'].pop();row['relations'].pop()
+        with self.assertRaisesRegex(ValueError,'cover entire case window'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_advice_is_not_performed_treatment(self):
+        row=copy.deepcopy(self.record)
+        row['events'][2]['intervention_status']='narrated_as_performed'
+        with self.assertRaisesRegex(ValueError,'Recommendation cannot be promoted'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_narrative_adjacency_is_not_causality(self):
+        row=copy.deepcopy(self.record);row['relations'][0]['relation']='causes'
+        with self.assertRaisesRegex(ValueError,'must not invent causality'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_relative_day_cannot_invent_calendar_date(self):
+        row=copy.deepcopy(self.record);row['events'][5]['calendar_date']='1528-01-02'
+        with self.assertRaisesRegex(ValueError,'Unsupported event calendar date'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_refusal_after_advice_is_not_initial_window(self):
+        row=copy.deepcopy(self.record);row['events'][3]['time_phase']='initial_narrator_window'
+        with self.assertRaisesRegex(ValueError,'phase crosses care-advice anchor'):
+            self.events.validate(row,self.case,self.index)
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-27",
+  "edition": "日本承應三年（1654）刊本，國家圖書館藏本，NCL-06248-0011",
+  "file_page_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0011_%E6%AD%A3%E9%AB%94%E9%A1%9E%E8%A6%81.pdf",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/NCL-06248-0011_%E6%AD%A3%E9%AB%94%E9%A1%9E%E8%A6%81.pdf",
+  "pdf_bytes": 16189110,
+  "pdf_sha256": "9856a213a331da98be8c2d16c4968a804893ad917fdd63229c70ec420045fb28",
+  "pdf_pages": 67,
+  "page_numbering": "1-based PDF pages, not printed folio numbers",
+  "method": "model_visual_read_of_rendered_target_spots_after_actual_pdf_download",
+  "render_command_template": "pdftoppm -f PAGE -l PAGE -scale-to 2500 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_version": "pdftoppm version 26.05.0",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "spots": [
+    {
+      "spot_id": "ZTLY-24-P054-CASE",
+      "source_ref": "XJ-ZTLY-V1-P054",
+      "working_evidence": {
+        "source_start_char": 15,
+        "source_end_char_exclusive": 19,
+        "raw_quote": "因怒發痓"
+      },
+      "pdf_page": 24,
+      "page_half": "right",
+      "page_location": "右半葉中部「有一患者兩月餘矣」案，「因怒發痓」字位。",
+      "image_target_reading_without_added_punctuation": "兩月餘矣瘡口未完因怒發痓瘡口出血",
+      "disputed_working_glyph": "痓",
+      "cached_transcription_glyph": "痙",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "c588d5ec022a617cd33fa3b7d31e4bfd8245ce274cc6a3ef35ae4bfc0699202b"
+    },
+    {
+      "spot_id": "ZTLY-24-P054-THEORY",
+      "source_ref": "XJ-ZTLY-V1-P054",
+      "working_evidence": {
+        "source_start_char": 119,
+        "source_end_char_exclusive": 123,
+        "raw_quote": "敦土平木"
+      },
+      "pdf_page": 24,
+      "page_half": "left",
+      "page_location": "左半葉最右正文列，「降火敦土平木清痰去濕」，屬前葉劉宗厚通論的接續，非患者個別事實。",
+      "image_target_reading_without_added_punctuation": "降火敦土平木清痰去濕",
+      "disputed_working_glyph": "木",
+      "cached_transcription_glyph": "木",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "c588d5ec022a617cd33fa3b7d31e4bfd8245ce274cc6a3ef35ae4bfc0699202b",
+      "target_context": "quoted_general_theory_outside_selected_case_window",
+      "legacy_parallel_reading_not_rechecked": "四庫電子比較舊記錄為平水；本輪未新看四庫影像，不據此裁定另一版本。"
+    },
+    {
+      "spot_id": "ZTLY-36-P102-CASE",
+      "source_ref": "XJ-ZTLY-V1-P102",
+      "working_evidence": {
+        "source_start_char": 6,
+        "source_end_char_exclusive": 10,
+        "raw_quote": "手背俱腫"
+      },
+      "pdf_page": 36,
+      "page_half": "left",
+      "page_location": "左半葉「一婦人傷指」案首列，「手背俱腫」字位。",
+      "image_target_reading_without_added_punctuation": "一婦人傷指手背俱腫微嘔少食",
+      "disputed_working_glyph": "背",
+      "cached_transcription_glyph": "臂",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "7f8d609978a21a5e644a01f6093cc3b0a1592c7bbc81fd7c316e93fe429a37d2"
+    }
+  ]
+}

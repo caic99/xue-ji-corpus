@@ -52,10 +52,10 @@
     }
   ],
   "summary": {
-    "exact_quote_present_in_mapped_snapshot_record": 649,
+    "exact_quote_present_in_mapped_snapshot_record": 665,
     "quote_differs_from_cached_transcription": 16
   },
-  "evidence_segments": 665,
+  "evidence_segments": 681,
   "original_print_images_checked": 0,
   "details": [
     {
@@ -14910,6 +14910,32 @@
     },
     {
       "case_id": "XJ-ZTLY-C-V1-P057-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P057",
+      "raw_quote": "胸膈脹痛，喘促短氣",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 59,
+        "volume": "上卷",
+        "section": "墜跌金傷治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 26,
+          "end_char_exclusive": 35
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 26,
+      "snapshot_end_char_exclusive": 35,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P057-1",
       "field": "trigger",
       "observation_index": 0,
       "segment_index": 0,
@@ -15010,6 +15036,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 5,
       "snapshot_end_char_exclusive": 24,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P022-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P022",
+      "raw_quote": "新肉不生",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 24,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 144,
+          "end_char_exclusive": 148
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 144,
+      "snapshot_end_char_exclusive": 148,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -15170,6 +15222,32 @@
     },
     {
       "case_id": "XJ-ZTLY-C-V1-P034-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P034",
+      "raw_quote": "昏憒不食",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 36,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 37,
+          "end_char_exclusive": 41
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 37,
+      "snapshot_end_char_exclusive": 41,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P034-1",
       "field": "trigger",
       "observation_index": 0,
       "segment_index": 0,
@@ -15270,6 +15348,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 10,
       "snapshot_end_char_exclusive": 14,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P039-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P039",
+      "raw_quote": "口乾作渴，小腹引陰莖作痛，小便如淋，時出白津",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 41,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 53,
+          "end_char_exclusive": 75
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 53,
+      "snapshot_end_char_exclusive": 75,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -15430,6 +15534,32 @@
       "observation_index": 0,
       "segment_index": 0,
       "source_ref": "XJ-ZTLY-V1-P102",
+      "raw_quote": "彼以為毒氣內攻",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 104,
+        "volume": "上卷",
+        "section": "墜跌金傷治驗"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 16,
+          "end_char_exclusive": 23
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 16,
+      "snapshot_end_char_exclusive": 23,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P102-1",
+      "field": "mechanism",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P102",
       "raw_quote": "此痛傷胃氣所致也",
       "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
       "snapshot_location": {
@@ -15474,6 +15604,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 5,
       "snapshot_end_char_exclusive": 8,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P112-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P112",
+      "raw_quote": "口乾發熱",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 114,
+        "volume": "上卷",
+        "section": "湯火所傷治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 21,
+          "end_char_exclusive": 25
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 21,
+      "snapshot_end_char_exclusive": 25,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -15526,6 +15682,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 9,
       "snapshot_end_char_exclusive": 13,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P112-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P112",
+      "raw_quote": "日晡益甚",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 114,
+        "volume": "上卷",
+        "section": "湯火所傷治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 26,
+          "end_char_exclusive": 30
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 26,
+      "snapshot_end_char_exclusive": 30,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -15898,6 +16080,32 @@
     },
     {
       "case_id": "XJ-ZTLY-C-V1-P091-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P091",
+      "raw_quote": "投以十全大補湯益甚",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 93,
+        "volume": "上卷",
+        "section": "墜跌金傷治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 41,
+          "end_char_exclusive": 50
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 41,
+      "snapshot_end_char_exclusive": 50,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P091-1",
       "field": "prior_treatment",
       "observation_index": 0,
       "segment_index": 0,
@@ -15998,6 +16206,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 5,
       "snapshot_end_char_exclusive": 7,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P108-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P108",
+      "raw_quote": "瘀血內潰，焮腫至手",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 110,
+        "volume": "上卷",
+        "section": "墜跌金傷治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 14,
+          "end_char_exclusive": 23
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 14,
+      "snapshot_end_char_exclusive": 23,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P108-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P108",
+      "raw_quote": "色黯膿清，飲食少思",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 110,
+        "volume": "上卷",
+        "section": "墜跌金傷治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 94,
+          "end_char_exclusive": 103
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 94,
+      "snapshot_end_char_exclusive": 103,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -16340,6 +16600,32 @@
     },
     {
       "case_id": "XJ-ZTLY-C-V1-P090-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P090",
+      "raw_quote": "飲食頓減，患處不潰",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 92,
+        "volume": "上卷",
+        "section": "墜跌金傷治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 19,
+          "end_char_exclusive": 28
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 19,
+      "snapshot_end_char_exclusive": 28,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P090-1",
       "field": "trigger",
       "observation_index": 0,
       "segment_index": 0,
@@ -16672,6 +16958,32 @@
     },
     {
       "case_id": "XJ-ZTLY-C-V1-P036-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P036",
+      "raw_quote": "肌肉潰爛，膿水淋漓，筋攣骨痛",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 38,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 77,
+          "end_char_exclusive": 91
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 77,
+      "snapshot_end_char_exclusive": 91,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P036-1",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -16880,6 +17192,32 @@
     },
     {
       "case_id": "XJ-ZTLY-C-V1-P040-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P040",
+      "raw_quote": "口乾作渴，大便不調，患處色黯",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 42,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 30,
+          "end_char_exclusive": 44
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 30,
+      "snapshot_end_char_exclusive": 44,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P040-1",
       "field": "prior_treatment",
       "observation_index": 0,
       "segment_index": 0,
@@ -17032,6 +17370,84 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 15,
       "snapshot_end_char_exclusive": 19,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P037-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P037",
+      "raw_quote": "反眩暈",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 39,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 28,
+          "end_char_exclusive": 31
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 28,
+      "snapshot_end_char_exclusive": 31,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P037-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P037",
+      "raw_quote": "又肚腹疼痛，杖痕腫癢，發熱作渴，飲食不思，痰氣上升",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 39,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 39,
+          "end_char_exclusive": 64
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 39,
+      "snapshot_end_char_exclusive": 64,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P037-1",
+      "field": "symptoms",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-ZTLY-V1-P037",
+      "raw_quote": "熱渴頭痛，倦怠少食",
+      "snapshot_path": "work/source-snapshots/ztly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 39,
+        "volume": "上卷",
+        "section": "撲傷之症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 151,
+          "end_char_exclusive": 160
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 151,
+      "snapshot_end_char_exclusive": 160,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {

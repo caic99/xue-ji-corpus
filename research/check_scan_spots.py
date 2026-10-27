@@ -35,11 +35,24 @@ def validate(record,index,pdf=None):
             raise ValueError('Downloaded PDF differs from recorded scan')
     return record
 
+def load_records(index):
+    records=[]
+    for path in sorted(PATH.parent.glob('*_target_spots_*.json')):
+        records.append((path,validate(json.loads(path.read_text()),index)))
+    ids=[s['spot_id'] for _,r in records for s in r['spots']]
+    if len(ids)!=len(set(ids)):raise ValueError('Duplicate scan spot across records')
+    return records
+
+
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--pdf');a=p.parse_args()
-    index,_=base.load();record=validate(json.loads(PATH.read_text()),index,a.pdf)
-    print(json.dumps({'recorded_model_visual_spots':len(record['spots']),
-        'recorded_pdf_pages_viewed':len({s['pdf_page'] for s in record['spots']}),
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--pdf');p.add_argument('--record');a=p.parse_args()
+    index,_=base.load()
+    if a.record or a.pdf:
+        path=Path(a.record) if a.record else PATH
+        records=[(path,validate(json.loads(path.read_text()),index,a.pdf))]
+    else:records=load_records(index)
+    print(json.dumps({'recorded_model_visual_spots':sum(len(r['spots']) for _,r in records),
+        'recorded_pdf_pages_viewed':len({(r['pdf_sha256'],s['pdf_page']) for _,r in records for s in r['spots']}),
         'pdf_artifact_hash_checked_this_command':a.pdf is not None,
         'full_case_print_collations':0,'human_adjudication':'pending'},ensure_ascii=False))
     print('PASS: recorded provenance and source links valid; visual glyph judgments are not automatically verified')

@@ -1,0 +1,165 @@
+{
+  "case_id": "XJ-ZTLY-C-V1-P108-1",
+  "review_date": "2026-10-27",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E03",
+  "anchor_scope": "first_explicit_narrator_advice_in_this_window_not_first_performed_treatment",
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "injury_and_intervention",
+      "quote": "州守王廷用傷指，即用帛裹之，",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E02",
+      "event_type": "patient_state",
+      "quote": "瘀血內潰，焮腫至手。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E03",
+      "event_type": "care_recommendation",
+      "quote": "余謂：宜解患處，以出瘀血，更用推陳致新之劑。",
+      "actor_role": "case_narrator",
+      "intervention_status": "recommendation_only_no_performance_claim",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E04",
+      "event_type": "refusal",
+      "quote": "不信。",
+      "actor_role": "patient_inferred_from_context",
+      "intervention_status": "no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E05",
+      "event_type": "intervention",
+      "quote": "乃敷涼藥，",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E06",
+      "event_type": "response_and_recurrence",
+      "quote": "痛雖少止，次日復作，",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "次日",
+      "calendar_date": null,
+      "relative_time_anchor": "unresolved_no_absolute_date_assigned"
+    },
+    {
+      "event_id": "E07",
+      "event_type": "intervention",
+      "quote": "又敷之，",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E08",
+      "event_type": "patient_state",
+      "quote": "數日後手心背俱潰出瘀穢膿水，",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "數日後",
+      "calendar_date": null,
+      "relative_time_anchor": "unresolved_no_absolute_date_assigned"
+    },
+    {
+      "event_id": "E09",
+      "event_type": "intervention",
+      "quote": "尚服敗毒之劑，",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E10",
+      "event_type": "narrator_interpretation",
+      "quote": "氣血益虛，",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E11",
+      "event_type": "patient_state",
+      "quote": "色黯膿清，飲食少思。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E12",
+      "event_type": "care_request",
+      "quote": "仍請余治，",
+      "actor_role": "patient_inferred_from_context",
+      "intervention_status": "no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E13",
+      "event_type": "intervention",
+      "quote": "投以壯脾胃、生氣血之劑，",
+      "actor_role": "case_narrator_inferred_from_request_context",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E14",
+      "event_type": "narrated_outcome",
+      "quote": "由是膿水漸稠而愈。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    }
+  ]
+}

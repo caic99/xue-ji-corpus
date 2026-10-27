@@ -1,0 +1,360 @@
+{
+  "case_id": "XJ-ZTLY-C-V1-P108-1",
+  "review_date": "2026-10-27",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E03",
+  "anchor_scope": "first_explicit_narrator_advice_in_this_window_not_first_performed_treatment",
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "injury_and_intervention",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 1,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 14,
+          "raw_quote": "州守王廷用傷指，即用帛裹之，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E02",
+      "event_type": "patient_state",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 2,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 14,
+          "source_end_char_exclusive": 24,
+          "raw_quote": "瘀血內潰，焮腫至手。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E03",
+      "event_type": "care_recommendation",
+      "actor_role": "case_narrator",
+      "intervention_status": "recommendation_only_no_performance_claim",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 3,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 24,
+          "source_end_char_exclusive": 46,
+          "raw_quote": "余謂：宜解患處，以出瘀血，更用推陳致新之劑。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E04",
+      "event_type": "refusal",
+      "actor_role": "patient_inferred_from_context",
+      "intervention_status": "no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 4,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 46,
+          "source_end_char_exclusive": 49,
+          "raw_quote": "不信。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E05",
+      "event_type": "intervention",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 5,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 49,
+          "source_end_char_exclusive": 54,
+          "raw_quote": "乃敷涼藥，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E06",
+      "event_type": "response_and_recurrence",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "次日",
+      "calendar_date": null,
+      "relative_time_anchor": "unresolved_no_absolute_date_assigned",
+      "narrative_order": 6,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 54,
+          "source_end_char_exclusive": 64,
+          "raw_quote": "痛雖少止，次日復作，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E07",
+      "event_type": "intervention",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 7,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 64,
+          "source_end_char_exclusive": 68,
+          "raw_quote": "又敷之，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E08",
+      "event_type": "patient_state",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "數日後",
+      "calendar_date": null,
+      "relative_time_anchor": "unresolved_no_absolute_date_assigned",
+      "narrative_order": 8,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 68,
+          "source_end_char_exclusive": 82,
+          "raw_quote": "數日後手心背俱潰出瘀穢膿水，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E09",
+      "event_type": "intervention",
+      "actor_role": "uncertain",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 9,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 82,
+          "source_end_char_exclusive": 89,
+          "raw_quote": "尚服敗毒之劑，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E10",
+      "event_type": "narrator_interpretation",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 10,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 89,
+          "source_end_char_exclusive": 94,
+          "raw_quote": "氣血益虛，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E11",
+      "event_type": "patient_state",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 11,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 94,
+          "source_end_char_exclusive": 104,
+          "raw_quote": "色黯膿清，飲食少思。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E12",
+      "event_type": "care_request",
+      "actor_role": "patient_inferred_from_context",
+      "intervention_status": "no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 12,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 104,
+          "source_end_char_exclusive": 109,
+          "raw_quote": "仍請余治，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E13",
+      "event_type": "intervention",
+      "actor_role": "case_narrator_inferred_from_request_context",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 13,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 109,
+          "source_end_char_exclusive": 121,
+          "raw_quote": "投以壯脾胃、生氣血之劑，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E14",
+      "event_type": "narrated_outcome",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 14,
+      "evidence": [
+        {
+          "source_ref": "XJ-ZTLY-V1-P108",
+          "source_start_char": 121,
+          "source_end_char_exclusive": 130,
+          "raw_quote": "由是膿水漸稠而愈。"
+        }
+      ],
+      "initial_query_eligible": false
+    }
+  ],
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "1c0b8302dd4796f6a5b3a0b30625e97f2313c056eadafd17df5960973d84fe89",
+  "relations": [
+    {
+      "from": "E01",
+      "to": "E02",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E02",
+      "to": "E03",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E03",
+      "to": "E04",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E04",
+      "to": "E05",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E05",
+      "to": "E06",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E06",
+      "to": "E07",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E07",
+      "to": "E08",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E08",
+      "to": "E09",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E09",
+      "to": "E10",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E10",
+      "to": "E11",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E11",
+      "to": "E12",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E12",
+      "to": "E13",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E13",
+      "to": "E14",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    }
+  ]
+}

@@ -16,25 +16,29 @@
   "domains_with_evidence": {
     "symptoms": 160,
     "trigger": 55,
-    "course": 117,
+    "course": 118,
     "prior_treatment": 72,
     "mechanism": 121
   },
-  "observations": 651,
-  "literal_source_spans": 665,
+  "observations": 667,
+  "literal_source_spans": 681,
   "multi_segment_observations": 14,
   "phases": {
-    "initial_narrator_window": 480,
-    "later_narrator_window": 166,
+    "initial_narrator_window": 490,
+    "later_narrator_window": 172,
     "unknown": 5
   },
   "default_retrieval_excluded": 3,
   "human_adjudicated_cases": 0,
-  "print_images_checked_this_pass": 3,
+  "print_images_checked_this_pass": 5,
   "full_case_print_collations_this_pass": 0,
-  "targeted_print_spot_review_ref": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "targeted_print_spot_review_refs": [
+    "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+    "research/scan_reviews/ZTLY_target_spots_2026-10-27.json"
+  ],
+  "targeted_print_spots_recorded": 6,
   "initial_query_exported": 0,
-  "cases_with_second_model_pass": 40,
+  "cases_with_second_model_pass": 60,
   "interpretation_scope": "initial_model_read_all_cases_followup_scope_in_per_case_records_not_exhaustive",
   "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26"
 }

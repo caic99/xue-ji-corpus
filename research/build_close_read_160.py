@@ -63,7 +63,7 @@ def evidence_for(case, reading, index):
     return evidence
 
 
-def make_observation(case, field, token, index, overrides):
+def make_observation(case, field, token, index, overrides, role_overrides=None):
     phase = 'initial_narrator_window'
     role = 'case_narrator'
     assertion = 'narrated_observation'
@@ -105,6 +105,10 @@ def make_observation(case, field, token, index, overrides):
     if field == 'trigger':
         obj['relation_type'] = 'narrated_trigger_relief_or_association_not_proven_causality'
     obj.update(overrides.get(case['case_id'], {}).get(field, {}) if not token.startswith('@') else {})
+    selected = (role_overrides or {}).get(case['case_id'], {}).get(field, {}).get(reading, {})
+    if not set(selected) <= {'speaker_role', 'assertion_type', 'narrative_role'}:
+        raise ValueError('Role override may not alter evidence, phase or query status')
+    obj.update(selected)
     return obj
 
 
@@ -127,9 +131,11 @@ def load_choices():
 
 
 def scan_spots():
-    from check_scan_spots import PATH, validate
+    from check_scan_spots import load_records
     index, _ = base.load()
-    return validate(json.loads(PATH.read_text()), index)['spots']
+    return [dict(spot, scan_record_ref=str(path.relative_to(ROOT)), scan_pdf_sha256=record['pdf_sha256'])
+            for path, record in load_records(index) for spot in record['spots']]
+
 
 
 def case_scan_refs(case, spots):
@@ -151,6 +157,17 @@ def build():
     overrides = json.loads((INPUTS / 'phase_overrides.json').read_text())
     if not set(overrides) <= set(choices):
         raise ValueError('Unknown case in phase overrides')
+    role_overrides = json.loads((INPUTS / 'observation_role_overrides.json').read_text())
+    for cid, fields in role_overrides.items():
+        if cid not in choices:
+            raise ValueError('Unknown case in role overrides')
+        for field, readings in fields.items():
+            if field not in FIELDS:
+                raise ValueError('Unknown field in role overrides')
+            selected = choices[cid][0][field].split('¦')
+            selected = [t.split(':', 1)[1] if t.startswith('@') else t for t in selected]
+            if not set(readings) <= set(selected):
+                raise ValueError('Unused reading in role overrides')
     source_meta = {row['meta']['source_id']: row['meta']
                    for book in base.books(base.CORPUS.read_text(encoding='utf-8'))
                    for row in book['rows']}
@@ -176,7 +193,7 @@ def build():
         fields = {}
         for name, text in selected.items():
             tokens = text.split('¦') if text else []
-            observations = [make_observation(c, name, token, index, overrides) for token in tokens]
+            observations = [make_observation(c, name, token, index, overrides, role_overrides) for token in tokens]
             fields[name] = {
                 'status': ('model_selected_evidence' if observations else
                            'not_identified_in_model_case_read'),
@@ -270,7 +287,7 @@ def validate_records(records, sample, index):
 
 def render(records, sample):
     title = '# 160案逐案模型复读：五领域精选证据（V1）\n\n'
-    warning = ('2026-10-26初读；保婴及口齿各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿三处指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。'
+    warning = ('2026-10-26初读；保婴、口齿及正体各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿及正体指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。'
                '未选到证据保留不确定，不解释为患者没有。\n\n'
                'initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。'
                '病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。\n\n'
@@ -308,9 +325,10 @@ def summary(records):
         'multi_segment_observations': sum(len(o['evidence'])>1 for o in observations),
         'phases': dict(Counter(o['time_phase'] for o in observations)),
         'default_retrieval_excluded': sum(r['default_retrieval_excluded'] for r in records),
-        'human_adjudicated_cases': 0, 'print_images_checked_this_pass': len({s['pdf_page'] for s in scan_spots()}),
+        'human_adjudicated_cases': 0, 'print_images_checked_this_pass': len({(s['scan_pdf_sha256'],s['pdf_page']) for s in scan_spots()}),
         'full_case_print_collations_this_pass': 0,
-        'targeted_print_spot_review_ref': 'research/scan_reviews/KCLY_target_spots_2026-10-27.json',
+        'targeted_print_spot_review_refs': sorted({s['scan_record_ref'] for s in scan_spots()}),
+        'targeted_print_spots_recorded': len(scan_spots()),
         'initial_query_exported': 0,
         'cases_with_second_model_pass': sum(r['model_review_passes'] == 2 for r in records),
         'interpretation_scope': 'initial_model_read_all_cases_followup_scope_in_per_case_records_not_exhaustive',

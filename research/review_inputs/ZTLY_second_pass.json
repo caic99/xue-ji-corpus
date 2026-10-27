@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-27",
+  "work_ref": "XJ-ZTLY",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 ZTLY full case windows; selected five domains, relative chronology and speaker attribution; not exhaustive clinical annotation",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "separate_targeted_scan_record": "research/scan_reviews/ZTLY_target_spots_2026-10-27.json",
+  "cases": [
+    {
+      "case_id": "XJ-ZTLY-C-V1-P057-1",
+      "case_text_sha256": "17c07e1dd2714ad83884dea15e8f28ad16caf8951088ecc1739e0b32c9da7b6f",
+      "finding": "补入大黄等药后胸膈胀痛、喘促短气；下黑血不反推最初病机。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P022-1",
+      "case_text_sha256": "2429753ccd4380a1d13f1ab4223c120cc8e234352766f212ef538e24b330ca3f",
+      "finding": "割除和芩连用药者不明，保留阶段不确定；补入后续新肉不生。脉象属于前药之后。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P028-1",
+      "case_text_sha256": "1c8eec74ac8781eb4aa8dc3f1e594173016c9bf9370c6568d77a449c63cd067c",
+      "finding": "禀实年壮为叙述者体质及年龄概括，不能生成精确年龄或现代体格测量。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P034-1",
+      "case_text_sha256": "f0a6475ac157cf4b65792b79aecd4799941ec5ea91f3183dc6b401a7608af6f8",
+      "finding": "补入初段昏愦不食；始言遍身强痛在神思稍苏后。仲冬瘀血凝结是治疗过程。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P039-1",
+      "case_text_sha256": "028a585f722415f991b0592e58169e84434916f41ec016785a589a4071420add",
+      "finding": "补入后段口干、少腹引阴茎痛、小便如淋、白津；失砭不是已实施处置。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P102-1",
+      "case_text_sha256": "fdf2938afea638afe571202816a2874771dbc330f1462ed2fbc0df4d6e545782",
+      "finding": "彼以为毒气内攻是患者判断；痛伤胃气是医者判断，逐条分角色。手背另有本轮影像点核。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P112-1",
+      "case_text_sha256": "f13f80bc04828d6f0941c4c5aefa21e46bbfe804c42eec25e0d861b535be0903",
+      "finding": "补入口干发热、日晡加重；两月不敛为本次处置前病程。汤伤不误作饮汤。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P086-1",
+      "case_text_sha256": "bc8d5f56b7cf029226fd72738744b050c34af9ae353db3cc567898cfd3814d43",
+      "finding": "泻肝火等杂药在余曰之后；仲春死亡为后续结局。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P021-1",
+      "case_text_sha256": "6d03831530cdd1e9c1917231580b9db8fe38274898211ac101682258029ac29c",
+      "finding": "洪大按之如无另为脉象；日晡发热在当归补血汤后。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P091-1",
+      "case_text_sha256": "e6b9f29000b51f26e8b39a1901f759b775d3ec0f12cf6a1a4af61a0756e49c7f",
+      "finding": "下药后发热汗出及浮涩脉分阶段；补入十全大补汤后益甚，不标为首次前史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P108-1",
+      "case_text_sha256": "1c0b8302dd4796f6a5b3a0b30625e97f2313c056eadafd17df5960973d84fe89",
+      "finding": "解患处为未被采纳建议，不是已实施治疗；另以完整案文事件分段试点记录拒治、敷药、变化、再请及结局。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P109-1",
+      "case_text_sha256": "1c5dc438cecccd424eee9e7a7b1701ce0f9ce58f357b59dae6a77466d56140aa",
+      "finding": "火伤为起病背景；因劳再发及气血虚判断为后段。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P090-1",
+      "case_text_sha256": "adfacf8b3f0dd6d551f352f34033a2959b67900d610bb67b92e9b8148055d623",
+      "finding": "补入寒凉药后饮食顿减、患处不溃；因劳日晡热为本次治疗后。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P054-1",
+      "case_text_sha256": "f4cf8a5335d077cd47bc894c4a34ca09ea14c16c357218cc2708c1b979ce4afc",
+      "finding": "痓字原样保留，原刻指定字句另点核；同来源末尾刘宗厚通论及平木不属于本案观察。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P060-1",
+      "case_text_sha256": "d62abcdfcea01ce7ef3e1cc9319841e447304d0409ce9e0ea1e71cb5f380ed49",
+      "finding": "或欲投破伤风药是未执行建议，不增加既往已服药记录。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P036-1",
+      "case_text_sha256": "3a52da1fc28e4e98c581f48108a3b4b50469f9f6fe294d7257d29cb7a30f7e08",
+      "finding": "补入后段肌肉溃烂、脓水淋漓、筋挛骨痛；浮涩沉弱脉同属后段。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P068-1",
+      "case_text_sha256": "75e73fb4dafef74e91af1a68f3374036fcdb55fcc731b2b3bc98a734101ed508",
+      "finding": "遍身作痛、发热口干在辛热破血药之后，补prior_response；素有湿痰不混为体形或习惯。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P040-1",
+      "case_text_sha256": "2a81b56742763d9044e4fcf67ef44477388a4a74df3f490aaccfb6925f3e7d9d",
+      "finding": "补入行气破血后口干便不调、患处色黯；不据痛伤胃气解释倒补其他症状。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P038-1",
+      "case_text_sha256": "613fbd819d117ae4222a84dcac18be643f47f074bc025f5f9d9704a739581c16",
+      "finding": "愈后腿痛，前次治疗未载；余意为医家判断，不假定病前体质或具体旧方。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P037-1",
+      "case_text_sha256": "63d66d5c30b17510ddb9ccdb572bbf6c112af5376e66f1c0c8553af1606ae706",
+      "finding": "补入祛风化痰后眩晕、牛黄清心丸后多症，以及后因劳再发；余毒复作之以为未明说话者，不强行归给医者。",
+      "outcome": "corrected_or_extended"
+    }
+  ]
+}
