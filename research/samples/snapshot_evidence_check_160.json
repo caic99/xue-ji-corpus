@@ -52,10 +52,10 @@
     }
   ],
   "summary": {
-    "exact_quote_present_in_mapped_snapshot_record": 640,
+    "exact_quote_present_in_mapped_snapshot_record": 649,
     "quote_differs_from_cached_transcription": 16
   },
-  "evidence_segments": 656,
+  "evidence_segments": 665,
   "original_print_images_checked": 0,
   "details": [
     {
@@ -3254,6 +3254,32 @@
     },
     {
       "case_id": "XJ-KCLY-C-H4-P008-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H4-P008",
+      "raw_quote": "舌腫勢急",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 61,
+        "volume": "舌症四",
+        "section": ""
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 17,
+          "end_char_exclusive": 21
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 17,
+      "snapshot_end_char_exclusive": 21,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H4-P008-1",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -3380,6 +3406,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 6,
       "snapshot_end_char_exclusive": 10,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H2-P004-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H2-P004",
+      "raw_quote": "體倦口乾",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 17,
+        "volume": "口瘡二",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 71,
+          "end_char_exclusive": 75
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 71,
+      "snapshot_end_char_exclusive": 75,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -4056,6 +4108,32 @@
     },
     {
       "case_id": "XJ-KCLY-C-H4-P009-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H4-P009",
+      "raw_quote": "前症益甚，兩脅作脹",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 62,
+        "volume": "舌症四",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 19,
+          "end_char_exclusive": 28
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 19,
+      "snapshot_end_char_exclusive": 28,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H4-P009-1",
       "field": "prior_treatment",
       "observation_index": 0,
       "segment_index": 0,
@@ -4156,6 +4234,84 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 6,
       "snapshot_end_char_exclusive": 15,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P010-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H1-P010",
+      "raw_quote": "食少作嘔，大便不實，唇出血水",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 10,
+        "volume": "繭唇一",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 21,
+          "end_char_exclusive": 35
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 21,
+      "snapshot_end_char_exclusive": 35,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P010-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H1-P010",
+      "raw_quote": "胸膈痞滿，頭目不清，唇腫經閉",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 10,
+        "volume": "繭唇一",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 42,
+          "end_char_exclusive": 56
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 42,
+      "snapshot_end_char_exclusive": 56,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P010-1",
+      "field": "symptoms",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H1-P010",
+      "raw_quote": "肢體愈倦，發熱煩躁，涎水湧出",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 10,
+        "volume": "繭唇一",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 63,
+          "end_char_exclusive": 77
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 63,
+      "snapshot_end_char_exclusive": 77,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -4286,6 +4442,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 16,
       "snapshot_end_char_exclusive": 20,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P010-1",
+      "field": "prior_treatment",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H1-P010",
+      "raw_quote": "用理氣消導",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 10,
+        "volume": "繭唇一",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 36,
+          "end_char_exclusive": 41
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 36,
+      "snapshot_end_char_exclusive": 41,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P010-1",
+      "field": "prior_treatment",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H1-P010",
+      "raw_quote": "用清胃行血",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 10,
+        "volume": "繭唇一",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 57,
+          "end_char_exclusive": 62
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 57,
+      "snapshot_end_char_exclusive": 62,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -4612,6 +4820,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 7,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P009-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-KCLY-H1-P009",
+      "raw_quote": "時出血水",
+      "snapshot_path": "work/source-snapshots/kcly-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 9,
+        "volume": "繭唇一",
+        "section": ""
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 20,
+          "end_char_exclusive": 24
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 20,
+      "snapshot_end_char_exclusive": 24,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {

@@ -32,6 +32,8 @@ jobs:
         run: |
           python3 research/build_close_read_160.py
           python3 research/check_sample_snapshots.py
+          python3 research/build_extended_kcly.py
+          python3 research/check_scan_spots.py
       - name: Reject invalid provenance, spans, verification and query claims
         run: python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
 

@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-27",
+  "work_ref": "XJ-KCLY",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 KCLY full case windows; selected five-domain observations, temporal and speaker checks; not exhaustive event annotation",
+  "human_adjudication": "pending",
+  "separate_targeted_scan_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "cases": [
+    {
+      "case_id": "XJ-KCLY-C-H3-P014-1",
+      "case_text_sha256": "ccdbedb40202fa14465bd79e943cdeb0b8e8e70864011213ada77a01bae65045",
+      "finding": "劳心与齿缝胀为每次关联；先用补中益气汤为本案处置，不列他医前史。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P012-1",
+      "case_text_sha256": "81da99a329550b0652bfb62a40c3686821099a49359ca9a3dcdbbab44ac1b600",
+      "finding": "年余、又年余及半年均在余曰前；不信后通经药和死亡另列后段。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P005-1",
+      "case_text_sha256": "33c64a9dfcbfb167b9391adc9f4199c92a3f9a910bf3be1024aa7231281fe02b",
+      "finding": "因怒为叙述诱发背景；怒生热、热生风为医家解释。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P011-1",
+      "case_text_sha256": "61eced3c25831d6309ee1c96942f86f8854758ba6d4c7a28c4bb4024d2d7e3e1",
+      "finding": "首次建议未被采纳；次年及自服均在建议后，不等同已接受首次治疗。阴虚字句另有本轮影像点核。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H2-P005-1",
+      "case_text_sha256": "211493a4e8fe0a54b25ca4685c45c05370b20e7326799a79ee430018a984f2b6",
+      "finding": "口舌生疮、口干饮汤为症状，不能据此填入舌苔或舌色。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H4-P008-1",
+      "case_text_sha256": "d760794ef80f8ea0607f8d4ef1f1485767ba62a94451f1114138c34c540a7c6b",
+      "finding": "补入前药后的舌肿势急；多次刺舌后寒热作呕、头痛作晕及洪浮数脉均属后段。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H2-P004-1",
+      "case_text_sha256": "eb6794b12c15d9150fd7ac52101a5cd0ef43e646f6597fb3cb632a078e7c33a3",
+      "finding": "脉数有力和数无力分属首次与劳役后复发；补入后段体倦口干。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H6-P015-1",
+      "case_text_sha256": "0768a780e89ea20069e44e004ed41946b54003231a2037822964c95f6015bfd5",
+      "finding": "癸卯、甲辰、乙巳先后清楚；患者彼云与余曰须区分。三处脉象按阶段另收，未把患者话语补为医家客观事实。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H2-P008-1",
+      "case_text_sha256": "442798b164b94097cae82e29af4ecfda862078653b64ddb38a5835da686bb106",
+      "finding": "数无力另为脉象；不将血虚有火解释为客观症状。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H3-P012-1",
+      "case_text_sha256": "95346f2fed5eb1e43f6e228ec174ba5bab4c44f45003d3e8e927ce5e84f96ed6",
+      "finding": "补阴药在余曰建议之后；呻吟彻夜为后段。右寸后半指保留原文，不改写现代解剖定位。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H3-P005-1",
+      "case_text_sha256": "6c75706eaf658b4d3e2aab250e17200e2bdd8ebf59dc597e7ac95f1d1c931bc9",
+      "finding": "齿痛作渴为症状，脾胃虚弱阴火炽甚为医家解释；齿痛字句本轮另点核影像。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H3-P023-1",
+      "case_text_sha256": "ab44a44d78a9af8777f19f328cbbce3c122bf5f4fe86a63fea0d44e4c13d3d78",
+      "finding": "因怒明载；不据处方补充未明述的病机。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P006-1",
+      "case_text_sha256": "de471c081e0d4e7b6735633b07d3a82df21b19abe9c666eeec21bb603d8cbbb8",
+      "finding": "素善怒仅平素性情；骨立在清胃药后，不能视为发病前体质。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H4-P009-1",
+      "case_text_sha256": "4ce54065b5781d99e109002d16fbafdd196cede8c7a2dd28da99b6d6149b3e27",
+      "finding": "降火化痰后前症加重、两胁胀，流气饮后腹胀和经行不止，补齐两段前药反应。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P010-1",
+      "case_text_sha256": "0a0fbcfa5d0fe54166e99a6060bc275ad62c7611cb23498aae3ea831acc7fa99",
+      "finding": "补齐理气消导、清胃行血前药，以及三段用药后的变化；复发仍归later。素善怒不等于每次发病因怒。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H5-P011-1",
+      "case_text_sha256": "95f665ff01dd82e25f7b66a9098c287ba1ace8dce0b9ab369872f7bfda0284b6",
+      "finding": "因怒忽喉肿为个体叙述；肝主筋膜等属于解释，不补为额外患者表现；喉肿另点核影像。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H6-P013-1",
+      "case_text_sha256": "2b394ef5df291a8aca2d5db0992a8ad5613ad69e7e693534279f262e45eecc0b",
+      "finding": "素善饮为习惯证据，饮食如常为当时功能状态；不得混为饮食习惯正常。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H2-P012-1",
+      "case_text_sha256": "26f37089ea984fd52372e07463ddeee0a40e50e149ff1d88193635a05478e7c1",
+      "finding": "口咸位于黄柏等药益甚之后，补prior_response；不将原文或解释为固定频率。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H1-P009-1",
+      "case_text_sha256": "d27adc2fd4bf5e496fca8b09dc8245a7384f3935578cbf95489f70334a9a1bb1",
+      "finding": "补入寒凉药后时出血水；二年为前史，后因怒为本案处置后复发。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-KCLY-C-H6-P018-1",
+      "case_text_sha256": "2ac6af51e5fbbe3ddf7a2f169b3903f70a4f3a418d821e8ef45ce781f22616a6",
+      "finding": "沈大方本人署名见证，立斋为解释者；左顾吐痰是动作时序，不据肝火判断反推先怒。",
+      "outcome": "retained_selected_observations"
+    }
+  ],
+  "full_case_print_collations": 0
+}

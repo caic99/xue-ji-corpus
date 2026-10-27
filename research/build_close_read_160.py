@@ -126,6 +126,21 @@ def load_choices():
     return choices
 
 
+def scan_spots():
+    from check_scan_spots import PATH, validate
+    index, _ = base.load()
+    return validate(json.loads(PATH.read_text()), index)['spots']
+
+
+def case_scan_refs(case, spots):
+    return [spot['spot_id'] for spot in spots if any(
+        span['source_ref'] == spot['source_ref'] and
+        span['start'] <= spot['working_evidence']['source_start_char'] <
+        spot['working_evidence']['source_end_char_exclusive'] <= span['end']
+        for span in case['segments'])]
+
+
+
 def build():
     freeze_check()
     index, all_cases = base.load()
@@ -139,11 +154,22 @@ def build():
     source_meta = {row['meta']['source_id']: row['meta']
                    for book in base.books(base.CORPUS.read_text(encoding='utf-8'))
                    for row in book['rows']}
-    followup = json.loads((INPUTS / 'BYCY_second_pass.json').read_text())
-    followup_by_id = {x['case_id']: x for x in followup['cases']}
-    expected_followup = {c['case_id'] for c in sample if c['work_ref'] == 'XJ-BYCY'}
-    if len(followup['cases']) != 20 or set(followup_by_id) != expected_followup:
-        raise ValueError('Second pass must cover exactly 20 BYCY cases')
+    followup_by_id = {}
+    for path in sorted(INPUTS.glob('*_second_pass.json')):
+        followup = json.loads(path.read_text())
+        work = followup['work_ref']
+        expected = {c['case_id'] for c in sample if c['work_ref'] == work}
+        found = {x['case_id'] for x in followup['cases']}
+        if len(followup['cases']) != 20 or len(expected) != 20 or found != expected:
+            raise ValueError('Second pass must cover exactly 20 cases of one known work')
+        if followup['human_adjudication'] != 'pending':
+            raise ValueError('Second-pass model record cannot claim human adjudication')
+        for entry in followup['cases']:
+            if entry['case_id'] in followup_by_id:
+                raise ValueError('Duplicate second-pass case')
+            followup_by_id[entry['case_id']] = dict(entry, date=followup['date'],
+                ref=str(path.relative_to(ROOT)))
+    spots = scan_spots()
     records = []
     for c in sample:
         selected, note = choices[c['case_id']]
@@ -165,6 +191,7 @@ def build():
                     'retrieval_status') if k in md}
             keep['source_metadata_is_legacy_not_new_scan_verification'] = True
             provenance.append(keep)
+        scan_refs = case_scan_refs(c, spots)
         audit = followup_by_id.get(c['case_id'])
         if audit and audit['case_text_sha256'] != hashlib.sha256(c['body'].encode()).hexdigest():
             raise ValueError('Second-pass case digest drift')
@@ -173,10 +200,11 @@ def build():
             'sample_stratum': c['stratum'], 'review_date': DATE,
             'review_method': 'model_full_case_read_selected_observations_not_exhaustive',
             'model_review_passes': 2 if audit else 1,
-            'followup_review_ref': 'research/review_inputs/BYCY_second_pass.json' if audit else None,
-            'latest_model_review_date': followup['date'] if audit else DATE,
+            'followup_review_ref': audit['ref'] if audit else None,
+            'latest_model_review_date': audit['date'] if audit else DATE,
             'human_adjudication': 'pending',
-            'original_print_image_verification_this_pass': 'not_performed',
+            'original_print_image_verification_this_pass': ('targeted_spots_only_not_full_case' if scan_refs else 'not_performed'),
+            'targeted_print_spot_refs': scan_refs,
             'source_git_blob': base.BLOB_SHA_AT_FREEZE,
             'case_text_sha256': hashlib.sha256(c['body'].encode()).hexdigest(),
             'case_source_spans': c['segments'],
@@ -193,11 +221,14 @@ def validate_records(records, sample, index):
     by_id = {c['case_id']: c for c in sample}
     if len(records) != 160 or len({r['case_id'] for r in records}) != 160:
         raise ValueError('Must contain 160 unique reviewed cases')
+    spots = scan_spots()
     for row in records:
         c = by_id[row['case_id']]
+        expected_scan_refs = case_scan_refs(c, spots)
+        expected_scan_status = 'targeted_spots_only_not_full_case' if expected_scan_refs else 'not_performed'
         if set(row['fields']) != set(FIELDS):
             raise ValueError('Five domains required')
-        if row['human_adjudication'] != 'pending' or row['original_print_image_verification_this_pass'] != 'not_performed':
+        if row['human_adjudication'] != 'pending' or row['original_print_image_verification_this_pass'] != expected_scan_status or row['targeted_print_spot_refs'] != expected_scan_refs:
             raise ValueError('Unsupported verification claim')
         if row['default_retrieval_excluded'] != (c['md'].get('retrieval_status') == 'needs_review'):
             raise ValueError('Pending source exclusion lost')
@@ -239,7 +270,7 @@ def validate_records(records, sample, index):
 
 def render(records, sample):
     title = '# 160案逐案模型复读：五领域精选证据（V1）\n\n'
-    warning = ('2026-10-26初读；保婴20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。'
+    warning = ('2026-10-26初读；保婴及口齿各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿三处指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。'
                '未选到证据保留不确定，不解释为患者没有。\n\n'
                'initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。'
                '病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。\n\n'
@@ -248,7 +279,8 @@ def render(records, sample):
     out = [title, warning]
     for i, (r, c) in enumerate(zip(records, sample), 1):
         out.append(f"## {i:03d} · {r['case_id']}\n\n")
-        out.append(f"来源状态：`{r['retrieval_status']}`；原刻本轮未核；人工审校待办。\n\n")
+        scan_label = '仅指定字句影像点核，非全案校定' if r['targeted_print_spot_refs'] else '本轮未核'
+        out.append(f"来源状态：`{r['retrieval_status']}`；原刻：{scan_label}；人工审校待办。\n\n")
         out.append('案文窗口：\n\n')
         for part, sp in zip(c['parts'], c['segments']):
             out.append(f"`{sp['source_ref']}[{sp['start']}:{sp['end']})`\n\n> {part.replace(chr(10), chr(10)+'> ')}\n\n")
@@ -276,10 +308,12 @@ def summary(records):
         'multi_segment_observations': sum(len(o['evidence'])>1 for o in observations),
         'phases': dict(Counter(o['time_phase'] for o in observations)),
         'default_retrieval_excluded': sum(r['default_retrieval_excluded'] for r in records),
-        'human_adjudicated_cases': 0, 'print_images_checked_this_pass': 0,
+        'human_adjudicated_cases': 0, 'print_images_checked_this_pass': len({s['pdf_page'] for s in scan_spots()}),
+        'full_case_print_collations_this_pass': 0,
+        'targeted_print_spot_review_ref': 'research/scan_reviews/KCLY_target_spots_2026-10-27.json',
         'initial_query_exported': 0,
         'cases_with_second_model_pass': sum(r['model_review_passes'] == 2 for r in records),
-        'interpretation_scope': 'initial_model_read_all_cases_second_pass_20_BYCY_selected_observations_not_exhaustive',
+        'interpretation_scope': 'initial_model_read_all_cases_followup_scope_in_per_case_records_not_exhaustive',
         'source_git_blob': base.BLOB_SHA_AT_FREEZE,
     }
 

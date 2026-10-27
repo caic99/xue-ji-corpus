@@ -1,0 +1,13 @@
+{
+  "execution": "actual_local_subprocess_execution",
+  "command": [
+    "python3",
+    "research/check_scan_spots.py",
+    "--pdf",
+    "../scan-audit/kcly-ncl-0014.pdf"
+  ],
+  "returncode": 0,
+  "stdout": "{\"recorded_model_visual_spots\": 3, \"recorded_pdf_pages_viewed\": 3, \"pdf_artifact_hash_checked_this_command\": true, \"full_case_print_collations\": 0, \"human_adjudication\": \"pending\"}\nPASS: recorded provenance and source links valid; visual glyph judgments are not automatically verified\n",
+  "stderr": "",
+  "downloaded_pdf_not_redistributed": true
+}

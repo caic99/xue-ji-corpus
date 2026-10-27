@@ -117,5 +117,81 @@ class ReviewContractTests(unittest.TestCase):
         self.assertEqual(prior, [])
 
 
+class ExtendedAndScanTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_extended_kcly as extended
+        import check_scan_spots as scan
+        import json
+        cls.extended=extended
+        cls.rows,cls.cases,cls.index=extended.build()
+        cls.scan=scan
+        cls.scan_record=json.loads(scan.PATH.read_text())
+
+    def test_empty_tongue_slot_is_not_explicit_absence(self):
+        rows=copy.deepcopy(self.rows)
+        row=next(r for r in rows if not r['fields']['tongue_features']['observations'])
+        row['fields']['tongue_features']['missingness']='explicitly_absent'
+        with self.assertRaisesRegex(ValueError,'unresolved, not absent'):
+            self.extended.validate(rows,self.cases,self.index)
+
+    def test_extended_observation_cannot_enable_query_export(self):
+        rows=copy.deepcopy(self.rows)
+        row=next(r for r in rows if r['fields']['pulse']['observations'])
+        row['fields']['pulse']['observations'][0]['initial_query_eligible']=True
+        with self.assertRaisesRegex(ValueError,'query or phase'):
+            self.extended.validate(rows,self.cases,self.index)
+
+    def test_recurrent_case_pulse_stages_remain_separate(self):
+        row=next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H2-P004-1')
+        obs=row['fields']['pulse']['observations']
+        self.assertEqual([o['reading_joined_source_segments'] for o in obs],['脈數而有力','脈數而無力'])
+        self.assertEqual([o['time_phase'] for o in obs],['initial_narrator_window','later_narrator_window'])
+
+    def test_tongue_swelling_cannot_be_promoted_to_formal_exam(self):
+        rows=copy.deepcopy(self.rows)
+        row=next(r for r in rows if r['fields']['tongue_features']['observations'])
+        row['fields']['tongue_features']['observations'][0]['interpretation_type']='formal_tongue_exam'
+        with self.assertRaisesRegex(ValueError,'formal tongue-exam'):
+            self.extended.validate(rows,self.cases,self.index)
+
+    def test_scan_spot_cannot_claim_full_case_collation(self):
+        rec=copy.deepcopy(self.scan_record)
+        rec['full_case_print_collations']=3
+        with self.assertRaisesRegex(ValueError,'adjudication claim'):
+            self.scan.validate(rec,self.index)
+
+    def test_scan_page_must_be_in_downloaded_pdf(self):
+        rec=copy.deepcopy(self.scan_record)
+        rec['spots'][0]['pdf_page']=49
+        with self.assertRaisesRegex(ValueError,'page out of range'):
+            self.scan.validate(rec,self.index)
+
+    def test_scan_artifact_hash_rejects_unrelated_pdf(self):
+        import tempfile
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as directory:
+            path=Path(directory)/'unrelated.pdf';path.write_bytes(b'%PDF-not-the-recorded-artifact')
+            with self.assertRaisesRegex(ValueError,'differs from recorded'):
+                self.scan.validate(self.scan_record,self.index,path)
+
+    def test_scan_reference_does_not_leak_to_other_case_in_same_paragraph(self):
+        spot=self.scan_record['spots'][0]
+        ev=spot['working_evidence']
+        other_case={'segments':[{'source_ref':spot['source_ref'],
+                                 'start':0,'end':ev['source_start_char']}]}
+        self.assertEqual(review.case_scan_refs(other_case,[spot]),[])
+        own_case={'segments':[{'source_ref':spot['source_ref'],
+                               'start':ev['source_start_char'],'end':ev['source_end_char_exclusive']}]}
+        self.assertEqual(review.case_scan_refs(own_case,[spot]),[spot['spot_id']])
+
+    def test_case_cannot_invent_targeted_scan_reference(self):
+        rows,sample,index=review.build()
+        row=next(r for r in rows if not r['targeted_print_spot_refs'])
+        row['targeted_print_spot_refs']=['unviewed-page']
+        with self.assertRaisesRegex(ValueError,'verification claim'):
+            review.validate_records(rows,sample,index)
+
+
 if __name__ == '__main__':
     unittest.main()

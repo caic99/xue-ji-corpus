@@ -1,6 +1,6 @@
 # 160案逐案模型复读：五领域精选证据（V1）
 
-2026-10-26初读；保婴20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。未选到证据保留不确定，不解释为患者没有。
+2026-10-26初读；保婴及口齿各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿三处指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
 
 initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。
 
@@ -8,7 +8,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 001 · XJ-BYCY-C-V5-L0234
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -35,7 +35,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 002 · XJ-BYCY-C-V5-L0046
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -62,7 +62,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 003 · XJ-BYCY-C-V5-L0028
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -94,7 +94,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 004 · XJ-BYCY-C-V5-L0061
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -120,7 +120,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 005 · XJ-BYCY-C-V5-L0119
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -156,7 +156,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 006 · XJ-BYCY-C-V5-L0546
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -202,7 +202,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 007 · XJ-BYCY-C-V5-L0185
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -267,7 +267,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 008 · XJ-BYCY-C-V5-L0052
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -307,7 +307,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 009 · XJ-BYCY-C-V5-L0026
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -334,7 +334,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 010 · XJ-BYCY-C-V5-L0021
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -370,7 +370,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 011 · XJ-BYCY-C-V5-L0553
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -392,7 +392,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 012 · XJ-BYCY-C-V5-L0555
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -419,7 +419,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 013 · XJ-BYCY-C-V5-L0524
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -445,7 +445,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 014 · XJ-BYCY-C-V5-L0558
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -467,7 +467,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 015 · XJ-BYCY-C-V5-L0203
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -507,7 +507,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 016 · XJ-BYCY-C-V5-L0527
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -533,7 +533,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 017 · XJ-BYCY-C-V5-L0213
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -559,7 +559,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 018 · XJ-BYCY-C-V5-L0521
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -587,7 +587,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 019 · XJ-BYCY-C-V5-L0261
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -610,7 +610,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 020 · XJ-BYCY-C-V5-L0227
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -641,7 +641,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 021 · XJ-KCLY-C-H3-P014-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -655,11 +655,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此元氣虛弱（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H3-P014[19:24)`
 
-复读意见：先用补中益气汤属本次医者处置，非既往干预。
+复读意见：劳心与齿缝胀为每次关联；先用补中益气汤为本案处置，不列他医前史。
 
 ## 022 · XJ-KCLY-C-H1-P012-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -675,11 +675,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：用通經等藥而死（later_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H1-P012[82:89)`
 - **病机解释**：此肝脾血虛火症（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H1-P012[70:77)`
 
-复读意见：又年余及又半年为就医前病情演变；通经药在余曰彼不信之后，非初次前史。
+复读意见：年余、又年余及半年均在余曰前；不信后通经药和死亡另列后段。
 
 ## 023 · XJ-KCLY-C-H1-P005-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -693,11 +693,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：怒生熱，熱生風（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H1-P005[21:28)`
 
-复读意见：明确因怒叙述与医家病机分层。
+复读意见：因怒为叙述诱发背景；怒生热、热生风为医家解释。
 
 ## 024 · XJ-KCLY-C-H1-P011-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -712,11 +712,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **病机解释**：此脾腎陰虛陽旺之症（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H1-P011[31:40)`
 - **病机解释**：大便結黑，小便淋瀝，肝腎敗也（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H1-P011[101:115)`
 
-复读意见：次年唇肿及自服二陈等在首次问治之后；需后续事件层，不列首次前史。
+复读意见：首次建议未被采纳；次年及自服均在建议后，不等同已接受首次治疗。阴虚字句另有本轮影像点核。
 
 ## 025 · XJ-KCLY-C-H2-P005-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -730,11 +730,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：乃胃氣虛而不能化生津液也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H2-P005[15:27)`
 
-复读意见：口舌生疮为症状，不作舌诊。
+复读意见：口舌生疮、口干饮汤为症状，不能据此填入舌苔或舌色。
 
 ## 026 · XJ-KCLY-C-H4-P008-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -744,17 +744,18 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：患舌痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P008[5:8)`
 - **症状**：寒熱作嘔，頭痛作暈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P008[95:104)`
+- **症状**：舌腫勢急（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P008[17:21)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：翌早復腫脹（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P008[51:56)`
 - **病程**：良久舌大腫（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P008[75:80)`
 - **干预前史/后续插入干预**：敷服皆消毒之藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H4-P008[9:16)`
 - **病机解释**：此邪雖去而真氣愈傷（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H4-P008[111:120)`
 
-复读意见：此邪虽去而真气愈伤为反复针刺后解释；寒热呕晕脉洪浮数均为后续表现。
+复读意见：补入前药后的舌肿势急；多次刺舌后寒热作呕、头痛作晕及洪浮数脉均属后段。
 
 ## 027 · XJ-KCLY-C-H2-P004-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -763,17 +764,18 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 進士劉華甫，口舌生瘡，午前熱甚，脈數而有力，用清心蓮子飲稍愈。更以四物二連湯全愈。後因勞役，日晡發熱，脈數而無力，用四物加參、朮、柴胡少瘥。但體倦口乾，再用補中益氣湯而愈。
 
 - **症状**：口舌生瘡（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H2-P004[6:10)`
+- **症状**：體倦口乾（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H2-P004[71:75)`
 - **诱发/缓解关联**：後因勞役，日晡發熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H2-P004[41:50)`
 - **病程**：午前熱甚（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H2-P004[11:15)`
 - **病程**：後因勞役，日晡發熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H2-P004[41:50)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：后因劳役是后续事件诱因；日晡发热及脉数无力不得并入首次表现。
+复读意见：脉数有力和数无力分属首次与劳役后复发；补入后段体倦口干。
 
 ## 028 · XJ-KCLY-C-H6-P015-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -790,11 +792,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **病机解释**：此胃火傳於肺也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H6-P015[29:36)`
 - **病机解释**：此肺金不能生腎水（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H6-P015[63:71)`
 
-复读意见：甲辰秋及乙巳孟春是后续复诊；泻火药在后段，非首次前史。
+复读意见：癸卯、甲辰、乙巳先后清楚；患者彼云与余曰须区分。四次脉象按阶段另收，未把患者话语补为医家客观事实。
 
 ## 029 · XJ-KCLY-C-H2-P008-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -808,11 +810,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此血虛而有火（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H2-P008[12:18)`
 
-复读意见：脉数无力另为检查维度。
+复读意见：数无力另为脉象；不将血虚有火解释为客观症状。
 
 ## 030 · XJ-KCLY-C-H3-P012-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -826,11 +828,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：服補陰之藥（later_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H3-P012[40:45)`
 - **病机解释**：此大腸積熱（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H3-P012[22:27)`
 
-复读意见：自服补阴药发生在余曰之后；虽先于同舟治疗，不能不分阶段标为首次前史。
+复读意见：补阴药在余曰建议之后；呻吟彻夜为后段。右寸后半指保留原文，不改写现代解剖定位。
 
 ## 031 · XJ-KCLY-C-H3-P005-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -844,11 +846,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：屬脾胃虛弱，陰火熾甚（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H3-P005[8:18)`
 
-复读意见：不以方药反推未载症状。
+复读意见：齿痛作渴为症状，脾胃虚弱阴火炽甚为医家解释；齿痛字句本轮另点核影像。
 
 ## 032 · XJ-KCLY-C-H3-P023-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -862,11 +864,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：本案未明述病机，不据小柴胡等补病机。
+复读意见：因怒明载；不据处方补充未明述的病机。
 
 ## 033 · XJ-KCLY-C-H1-P006-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -881,11 +883,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：服清胃等藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H1-P006[11:16)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：素善怒是平素情志描述；月余为本次治疗后历时。
+复读意见：素善怒仅平素性情；骨立在清胃药后，不能视为发病前体质。
 
 ## 034 · XJ-KCLY-C-H4-P009-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -895,17 +897,18 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：舌痛煩熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P009[6:10)`
 - **症状**：肚腹亦脹，經行不止（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P009[34:43)`
+- **症状**：前症益甚，兩脅作脹（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H4-P009[19:28)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：本次复读未选定证据；未载/归属不明待专家确认。
 - **干预前史/后续插入干预**：用降火化痰等藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H4-P009[11:18)`
 - **干预前史/后续插入干预**：服流氣飲（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H4-P009[29:33)`
 - **病机解释**：此肝虛不能藏血，脾虛不能統血（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H4-P009[44:58)`
 
-复读意见：善怒不等于因怒；流气饮后腹胀及经行不止为前史的后续反应。
+复读意见：降火化痰后前症加重、两胁胀，流气饮后腹胀和经行不止，补齐两段前药反应。
 
 ## 035 · XJ-KCLY-C-H1-P010-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -914,19 +917,24 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人善怒，下唇微腫，內熱體倦。用化痰藥，食少作嘔，大便不實，唇出血水；用理氣消導，胸膈痞滿，頭目不清，唇腫經閉；用清胃行血，肢體愈倦，發熱煩躁，涎水湧出。余曰：此七情損傷肝脾，誤行克伐所致。遂用濟生歸脾湯，食進便實；用加味逍遙散，腫消熱退；用補中益氣湯，脾健涎止。後因怒，寒熱耳痛，胸膈脹悶，唇焮腫甚。此怒動肝火，而傷陰血，用四物合小柴胡加山梔頓愈。又因怒，脅乳作脹，肚腹作痛，嘔吐酸涎，飲食不入，小水不利。此怒動肝木而克脾土，用補中益氣加川芎、芍藥而愈。又勞役怒氣，飲食失節，發熱喘渴，體倦不食，下血如崩，唇腫熾甚。此肝經有火，不能藏血，脾經氣虛，不能攝血，用補中益氣加炒黑山梔、芍藥、丹皮而愈。
 
 - **症状**：下唇微腫，內熱體倦（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[6:15)`
+- **症状**：食少作嘔，大便不實，唇出血水（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[21:35)`
+- **症状**：胸膈痞滿，頭目不清，唇腫經閉（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[42:56)`
+- **症状**：肢體愈倦，發熱煩躁，涎水湧出（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[63:77)`
 - **诱发/缓解关联**：後因怒，寒熱耳痛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[133:141)`
 - **诱发/缓解关联**：又因怒，脅乳作脹（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[176:184)`
 - **诱发/缓解关联**：又勞役怒氣，飲食失節（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[229:239)`
 - **病程**：後因怒，寒熱耳痛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P010[133:141)`
 - **干预前史/后续插入干预**：用化痰藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H1-P010[16:20)`
+- **干预前史/后续插入干预**：用理氣消導（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H1-P010[36:41)`
+- **干预前史/后续插入干预**：用清胃行血（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H1-P010[57:62)`
 - **病机解释**：此七情損傷肝脾，誤行克伐所致（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H1-P010[81:95)`
 - **病机解释**：此怒動肝木而克脾土（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H1-P010[205:214)`
 
-复读意见：善怒为背景；后因怒、又因怒、又劳役均在本次治疗后反复发作，另存过程。
+复读意见：补齐理气消导、清胃行血前药，以及三段用药后的变化；复发仍归later。素善怒不等于每次发病因怒。
 
 ## 036 · XJ-KCLY-C-H5-P011-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -940,11 +948,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此皆肝火之症（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H5-P011[29:35)`
 
-复读意见：素阴虚为既有背景标签；后续肝主筋膜等属解释而非额外观察。
+复读意见：因怒忽喉肿为个体叙述；肝主筋膜等属于解释，不补为额外患者表现；喉肿另点核影像。
 
 ## 037 · XJ-KCLY-C-H6-P013-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -958,11 +966,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此膀胱積熱（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H6-P013[27:32)`
 
-复读意见：素善饮属生活习惯；饮食如常是明确肯定记录，不等于未载。
+复读意见：素善饮为习惯证据，饮食如常为当时功能状态；不得混为饮食习惯正常。
 
 ## 038 · XJ-KCLY-C-H2-P012-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -976,11 +984,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：或用黃柏等藥益甚（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H2-P012[16:24)`
 - **病机解释**：此腎經虛熱（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-KCLY-H2-P012[30:35)`
 
-复读意见：口咸记录在前药之后；未把腿膝痿软推成现代诊断。
+复读意见：口咸位于黄柏等药益甚之后，补prior_response；不将原文或解释为固定频率。
 
 ## 039 · XJ-KCLY-C-H1-P009-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -989,17 +997,18 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一婦人唇裂內熱，二年矣。每作服寒涼之劑，時出血水，益增他症，余用加味清胃散而愈。後因怒，唇口腫脹，寒熱而嘔，用小柴胡，加山梔、茯苓、桔梗，諸症頓愈。復用加味逍遙散而康。
 
 - **症状**：唇裂內熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P009[3:7)`
+- **症状**：時出血水（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P009[20:24)`
 - **诱发/缓解关联**：後因怒，唇口腫脹（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P009[40:48)`
 - **病程**：二年矣（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P009[8:11)`
 - **病程**：後因怒，唇口腫脹（later_narrator_window；case_narrator；narrated_observation；present） `XJ-KCLY-H1-P009[40:48)`
 - **干预前史/后续插入干预**：每作服寒涼之劑（initial_narrator_window；uncertain；treatment_given；present） `XJ-KCLY-H1-P009[12:19)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：后因怒是本次治疗后再发，不能当作原先二年病程的既定诱因。
+复读意见：补入寒凉药后时出血水；二年为前史，后因怒为本案处置后复发。
 
 ## 040 · XJ-KCLY-C-H6-P018-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1014,11 +1023,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：此怒動肝火，膽得火而筋攣縮（initial_narrator_window；named_physician_in_signed_testimony；physician_interpretation；present） `XJ-KCLY-H6-P018[102:115)`
 
-复读意见：署名沈大方第一人称见证；左顾是叙事触发动作，怒动肝火为先生解释，未记本人先怒。
+复读意见：沈大方本人署名见证，立斋为解释者；左顾吐痰是动作时序，不据肝火判断反推先怒。
 
 ## 041 · XJ-LYJY-C-V1-P075
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1036,7 +1045,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 042 · XJ-LYJY-C-V2-P002
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1058,7 +1067,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 043 · XJ-LYJY-C-V1-P064
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1079,7 +1088,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 044 · XJ-LYJY-C-V1-P072
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1097,7 +1106,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 045 · XJ-LYJY-C-V1-P080
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1115,7 +1124,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 046 · XJ-LYJY-C-V1-P081
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1133,7 +1142,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 047 · XJ-LYJY-C-V1-P087
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1152,7 +1161,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 048 · XJ-LYJY-C-V1-P086
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1172,7 +1181,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 049 · XJ-LYJY-C-V1-P078
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1191,7 +1200,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 050 · XJ-LYJY-C-V2-P013
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1209,7 +1218,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 051 · XJ-LYJY-C-V1-P090
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1228,7 +1237,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 052 · XJ-LYJY-C-V1-P091
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1247,7 +1256,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 053 · XJ-LYJY-C-V1-P092
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1265,7 +1274,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 054 · XJ-LYJY-C-V1-P093
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1284,7 +1293,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 055 · XJ-LYJY-C-V1-P083
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1302,7 +1311,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 056 · XJ-LYJY-C-V1-P094
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1320,7 +1329,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 057 · XJ-LYJY-C-V1-P082
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1338,7 +1347,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 058 · XJ-LYJY-C-V1-P095
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1358,7 +1367,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 059 · XJ-LYJY-C-V1-P096
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1377,7 +1386,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 060 · XJ-LYJY-C-V1-P097
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1395,7 +1404,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 061 · XJ-LZWKFH-C-V2-P015-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1415,7 +1424,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 062 · XJ-LZWKFH-C-V4-P086-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1433,7 +1442,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 063 · XJ-LZWKFH-C-V1-P016-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1451,7 +1460,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 064 · XJ-LZWKFH-C-V2-P006-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1470,7 +1479,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 065 · XJ-LZWKFH-C-V2-P057-2
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1489,7 +1498,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 066 · XJ-LZWKFH-C-V3-P069-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1508,7 +1517,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 067 · XJ-LZWKFH-C-V3-P072-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1526,7 +1535,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 068 · XJ-LZWKFH-C-V4-P090-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1544,7 +1553,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 069 · XJ-LZWKFH-C-V3-P088-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1562,7 +1571,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 070 · XJ-LZWKFH-C-V1-P002-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1580,7 +1589,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 071 · XJ-LZWKFH-C-V7-P117-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1599,7 +1608,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 072 · XJ-LZWKFH-C-V8-P086-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1618,7 +1627,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 073 · XJ-LZWKFH-C-V5-P183-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1636,7 +1645,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 074 · XJ-LZWKFH-C-V3-P091-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1654,7 +1663,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 075 · XJ-LZWKFH-C-V5-P030-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1673,7 +1682,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 076 · XJ-LZWKFH-C-V8-P113-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1691,7 +1700,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 077 · XJ-LZWKFH-C-V8-P118-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1709,7 +1718,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 078 · XJ-LZWKFH-C-V6-P019-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1727,7 +1736,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 079 · XJ-LZWKFH-C-V7-P122-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1745,7 +1754,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 080 · XJ-LZWKFH-C-V4-P005-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1765,7 +1774,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 081 · XJ-NKCZ-C-V1-P026-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1784,7 +1793,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 082 · XJ-NKCZ-C-V1-P106-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1802,7 +1811,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 083 · XJ-NKCZ-C-V1-P010-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1820,7 +1829,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 084 · XJ-NKCZ-C-V1-P022-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1839,7 +1848,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 085 · XJ-NKCZ-C-V1-P037-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1857,7 +1866,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 086 · XJ-NKCZ-C-V1-P119-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1875,7 +1884,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 087 · XJ-NKCZ-C-V1-P105-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1894,7 +1903,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 088 · XJ-NKCZ-C-V1-P096-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1913,7 +1922,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 089 · XJ-NKCZ-C-V1-P111-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1931,7 +1940,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 090 · XJ-NKCZ-C-V2-P048-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1949,7 +1958,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 091 · XJ-NKCZ-C-V1-P113-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1967,7 +1976,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 092 · XJ-NKCZ-C-V1-P147-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -1985,7 +1994,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 093 · XJ-NKCZ-C-V1-P103-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2003,7 +2012,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 094 · XJ-NKCZ-C-V1-P033-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2021,7 +2030,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 095 · XJ-NKCZ-C-V1-P125-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2040,7 +2049,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 096 · XJ-NKCZ-C-V1-P155-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2058,7 +2067,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 097 · XJ-NKCZ-C-V1-P038-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2076,7 +2085,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 098 · XJ-NKCZ-C-V1-P024-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2095,7 +2104,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 099 · XJ-NKCZ-C-V1-P146-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2114,7 +2123,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 100 · XJ-NKCZ-C-V1-P011-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2132,7 +2141,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 101 · XJ-NKZY-C-V1-P002-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2151,7 +2160,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 102 · XJ-NKZY-C-V1-P098-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2169,7 +2178,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 103 · XJ-NKZY-C-V1-P020-1
 
-来源状态：`needs_review`；原刻本轮未核；人工审校待办。
+来源状态：`needs_review`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2187,7 +2196,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 104 · XJ-NKZY-C-V1-P008-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2206,7 +2215,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 105 · XJ-NKZY-C-V1-P021-1
 
-来源状态：`needs_review`；原刻本轮未核；人工审校待办。
+来源状态：`needs_review`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2224,7 +2233,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 106 · XJ-NKZY-C-V1-P075-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2244,7 +2253,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 107 · XJ-NKZY-C-V1-P056-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2263,7 +2272,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 108 · XJ-NKZY-C-V1-P063-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2282,7 +2291,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 109 · XJ-NKZY-C-V2-P062-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2300,7 +2309,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 110 · XJ-NKZY-C-V1-P062-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2319,7 +2328,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 111 · XJ-NKZY-C-V2-P092-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2337,7 +2346,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 112 · XJ-NKZY-C-V1-P126-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2357,7 +2366,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 113 · XJ-NKZY-C-V2-P051-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2375,7 +2384,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 114 · XJ-NKZY-C-V2-P078-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2393,7 +2402,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 115 · XJ-NKZY-C-V1-P120-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2411,7 +2420,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 116 · XJ-NKZY-C-V1-P107-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2431,7 +2440,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 117 · XJ-NKZY-C-V1-P023-1
 
-来源状态：`needs_review`；原刻本轮未核；人工审校待办。
+来源状态：`needs_review`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2449,7 +2458,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 118 · XJ-NKZY-C-V1-P128-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2467,7 +2476,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 119 · XJ-NKZY-C-V2-P007-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2485,7 +2494,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 120 · XJ-NKZY-C-V1-P046-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2504,7 +2513,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 121 · XJ-WKSY-C-V1-P095-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2524,7 +2533,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 122 · XJ-WKSY-C-V2-P122-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2543,7 +2552,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 123 · XJ-WKSY-C-V1-P048-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2561,7 +2570,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 124 · XJ-WKSY-C-V1-P082-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2581,7 +2590,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 125 · XJ-WKSY-C-V2-P012-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2599,7 +2608,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 126 · XJ-WKSY-C-V2-P126-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2617,7 +2626,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 127 · XJ-WKSY-C-V3-P017-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2638,7 +2647,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 128 · XJ-WKSY-C-V2-P121-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2656,7 +2665,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 129 · XJ-WKSY-C-V1-P091-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2674,7 +2683,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 130 · XJ-WKSY-C-V1-P085-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2692,7 +2701,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 131 · XJ-WKSY-C-V2-P097-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2710,7 +2719,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 132 · XJ-WKSY-C-V3-P053-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2728,7 +2737,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 133 · XJ-WKSY-C-V3-P149-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2748,7 +2757,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 134 · XJ-WKSY-C-V3-P026-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2766,7 +2775,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 135 · XJ-WKSY-C-V3-P083-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2788,7 +2797,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 136 · XJ-WKSY-C-V1-P098-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2806,7 +2815,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 137 · XJ-WKSY-C-V3-P120-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2824,7 +2833,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 138 · XJ-WKSY-C-V3-P063-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2843,7 +2852,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 139 · XJ-WKSY-C-V3-P039-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2861,7 +2870,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 140 · XJ-WKSY-C-V1-P051-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2879,7 +2888,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 141 · XJ-ZTLY-C-V1-P057-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2897,7 +2906,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 142 · XJ-ZTLY-C-V1-P022-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2915,7 +2924,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 143 · XJ-ZTLY-C-V1-P028-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2933,7 +2942,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 144 · XJ-ZTLY-C-V1-P034-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2952,7 +2961,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 145 · XJ-ZTLY-C-V1-P039-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2971,7 +2980,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 146 · XJ-ZTLY-C-V1-P102-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -2989,7 +2998,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 147 · XJ-ZTLY-C-V1-P112-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3007,7 +3016,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 148 · XJ-ZTLY-C-V1-P086-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3026,7 +3035,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 149 · XJ-ZTLY-C-V1-P021-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3044,7 +3053,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 150 · XJ-ZTLY-C-V1-P091-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3065,7 +3074,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 151 · XJ-ZTLY-C-V1-P108-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3086,7 +3095,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 152 · XJ-ZTLY-C-V1-P109-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3106,7 +3115,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 153 · XJ-ZTLY-C-V1-P090-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3125,7 +3134,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 154 · XJ-ZTLY-C-V1-P054-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3143,7 +3152,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 155 · XJ-ZTLY-C-V1-P060-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3161,7 +3170,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 156 · XJ-ZTLY-C-V1-P036-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3179,7 +3188,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 157 · XJ-ZTLY-C-V1-P068-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3197,7 +3206,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 158 · XJ-ZTLY-C-V1-P040-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3215,7 +3224,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 159 · XJ-ZTLY-C-V1-P038-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
@@ -3233,7 +3242,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 160 · XJ-ZTLY-C-V1-P037-1
 
-来源状态：`source_research_with_caveats`；原刻本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
 
 案文窗口：
 
