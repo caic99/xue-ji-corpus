@@ -20,7 +20,7 @@ READABLE = ROOT / 'research/samples/CLOSE_READ_160_V1.md'
 SUMMARY = ROOT / 'research/samples/close_read_160_summary.json'
 FIELDS = base.FIELD_NAMES
 PHASES = {'initial_narrator_window', 'later_narrator_window', 'unknown'}
-PREFIXES = {'@post:', '@prior_response:', '@theory:', '@absent:', '@unknown:'}
+PREFIXES = {'@post:', '@prior_response:', '@theory:', '@absent:', '@unknown:', '@post_absent:'}
 DATE = '2026-10-26'
 
 
@@ -78,6 +78,9 @@ def make_observation(case, field, token, index, overrides, role_overrides=None):
         if prefix == '@post:':
             phase = 'later_narrator_window'
             narrative = 'later_episode_or_after_first_narrator_assessment'
+        elif prefix == '@post_absent:':
+            phase, polarity = 'later_narrator_window', 'explicitly_absent'
+            narrative = 'explicit_negative_after_first_narrator_assessment_or_care'
         elif prefix == '@prior_response:':
             narrative = 'after_earlier_treatment_before_narrator_assessment'
         elif prefix == '@theory:':

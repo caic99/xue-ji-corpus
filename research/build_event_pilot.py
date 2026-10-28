@@ -14,7 +14,7 @@ READABLE=ROOT/'research/samples/EVENT_PILOT_ZTLY_V1.md'
 
 
 def build(work="ZTLY"):
-    if work not in {"ZTLY","NKCZ","NKZY","WKSY"}:raise ValueError("Unsupported event pilot work")
+    if work not in {"ZTLY","NKCZ","NKZY","WKSY","LZWKFH"}:raise ValueError("Unsupported event pilot work")
     _,sample,index=review.build()
     record=json.loads((ROOT/f'research/review_inputs/{work}_event_pilot.json').read_text())
     case=next(c for c in sample if c['case_id']==record['case_id'])
@@ -44,6 +44,7 @@ def validate(record,case,index):
         raise ValueError('Event IDs or care anchor invalid')
     if not set(record.get('claim_only_event_ids',[]))<=set(ids):raise ValueError('Unknown claim-only event')
     if not set(record.get('forecast_only_event_ids',[]))<=set(ids):raise ValueError('Unknown forecast-only event')
+    if not set(record.get('intent_only_event_ids',[]))<=set(ids):raise ValueError('Unknown intent-only event')
     anchor=ids.index(record['first_recorded_care_decision_event'])
     expected_anchor_types={
         'first_recorded_narrator_assessment_in_window_not_first_performed_treatment':'narrator_interpretation',
@@ -68,6 +69,8 @@ def validate(record,case,index):
             raise ValueError('Recommendation cannot be promoted to performed treatment')
         if e['event_type']=='care_intent' and e['intervention_status']!='intended_only_no_performance_claim':
             raise ValueError('Intention cannot be promoted to performed treatment or issued recommendation')
+        if e['event_id'] in record.get('intent_only_event_ids',[]) and (e['event_type']!='care_intent' or e['intervention_status']!='intended_only_no_performance_claim'):
+            raise ValueError('Protected intent cannot become performed treatment or recommendation')
         if e['event_id'] in record.get('claim_only_event_ids',[]) and (e['event_type']!='reported_intervention_claim_with_narrator_deception_attribution' or e['intervention_status']!='claimed_only_not_performance_evidence'):
             raise ValueError('Reported intervention claim cannot become performed treatment')
         if e['event_id'] in record.get('forecast_only_event_ids',[]) and (e['event_type']!='reported_healing_expectation' or e['intervention_status']!='forecast_only_not_observed_outcome'):
@@ -80,7 +83,7 @@ def validate(record,case,index):
 
 
 def render(r):
-    title={'XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要'}[r['work_ref']]
+    title={'XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要','XJ-LZWKFH':'立斋外科发挥'}[r['work_ref']]
     out=[f'# {title}事件轴试点：完整案文叙事分段（1案）\n\n',
          '模型按来源顺序逐段选择，非专家裁定，也不代表160案完整事件轴已完成。医者建议、处置意向与实际治疗严格分开；次日、数日后不换算日历日期。相邻关系只指叙事顺序，不证明因果。全部查询导出禁用。\n\n',
          f"案例：`{r['case_id']}`。首次记录医者决策：`{r['first_recorded_care_decision_event']}`，未据此认定建议或意向已实施。\n\n"]
@@ -92,11 +95,13 @@ def render(r):
         out.append('\n本案末段黄连是被转述的用药声称，叙述者另记阴仍用参附汤并称诈；这不是独立核实了欺骗事实。辛丑年不换算公历；相邻叙事不证明声称和实际处置严格先后。\n')
     if r.get('forecast_only_event_ids'):
         out.append('\n旬日收敛是被转述且至今未应的预期，不当作十日已愈或精确已观察时长。不数日亦保留原词，不强定天数；云字说话者未明。\n')
+    if r.get('intent_only_event_ids'):
+        out.append('\n余欲及待发后用针为分期处置计划，并非已经施行；复求治后仍投前药及托出针之才是后段叙述治疗。彼欲内消是患者意愿，不是已证实的实际治疗。相邻先后不能证明攻伐药的真实因果效应。\n')
     return ''.join(out)
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['ZTLY','NKCZ','NKZY','WKSY'],default='ZTLY');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['ZTLY','NKCZ','NKZY','WKSY','LZWKFH'],default='ZTLY');a=p.parse_args()
     record,case,index=build(a.work);validate(record,case,index)
     out=ROOT/f'research/samples/event_pilot_{a.work.lower()}_v1.json'
     readable=ROOT/f'research/samples/EVENT_PILOT_{a.work}_V1.md'

@@ -1,0 +1,14 @@
+{
+  "date_client_timezone_Asia_Shanghai": "2026-10-28",
+  "source_ref": "XJ-LZWKFH-V5-P183",
+  "source_url": "https://archive.wul.waseda.ac.jp/kosho/ya09/ya09_00584/ya09_00584_0032/ya09_00584_0032_p0040.jpg",
+  "operation": "actual_curl_public_source_image_download",
+  "exit_code": 22,
+  "http_status": 503,
+  "browser_tool_open_followup": "source_not_accessible",
+  "visual_read_performed": false,
+  "working_reading": "四劑少愈",
+  "cached_reading": "四劑稍愈",
+  "interpretation": "legacy_preferred_reading_not_newly_verified",
+  "next_step": "retry_original_image_when_available_or_find_independent_edition_with_exact_page_identity"
+}

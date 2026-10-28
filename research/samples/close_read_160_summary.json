@@ -16,16 +16,16 @@
   "domains_with_evidence": {
     "symptoms": 160,
     "trigger": 54,
-    "course": 119,
+    "course": 128,
     "prior_treatment": 72,
     "mechanism": 121
   },
-  "observations": 747,
-  "literal_source_spans": 761,
+  "observations": 787,
+  "literal_source_spans": 801,
   "multi_segment_observations": 14,
   "phases": {
-    "initial_narrator_window": 524,
-    "later_narrator_window": 213,
+    "initial_narrator_window": 528,
+    "later_narrator_window": 249,
     "unknown": 10
   },
   "default_retrieval_excluded": 3,
@@ -42,7 +42,7 @@
   ],
   "targeted_print_spots_recorded": 15,
   "initial_query_exported": 0,
-  "cases_with_second_model_pass": 140,
+  "cases_with_second_model_pass": 160,
   "interpretation_scope": "initial_model_read_all_cases_followup_scope_in_per_case_records_not_exhaustive",
   "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26"
 }

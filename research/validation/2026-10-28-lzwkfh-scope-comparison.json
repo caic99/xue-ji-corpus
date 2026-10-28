@@ -1,0 +1,134 @@
+{
+  "execution": "actual_comparison_of_baseline_git_blob_and_generated_rows",
+  "baseline_commit": "e7c708b812c96e21aff701bd67ab29fda394209e",
+  "case_roster_hashes_and_source_spans_unchanged": 160,
+  "unchanged_non_LZWKFH_five_domain_records": 140,
+  "changed_cases": 19,
+  "changed_fields": 28,
+  "five_domain_changes": [
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P015-1",
+      "changed_fields": [
+        "symptoms",
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P086-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P006-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P057-2",
+      "changed_fields": [
+        "symptoms",
+        "course",
+        "mechanism"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P069-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P072-1",
+      "changed_fields": [
+        "symptoms",
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P090-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P088-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P002-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V7-P117-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P086-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P183-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P091-1",
+      "changed_fields": [
+        "symptoms",
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P030-1",
+      "changed_fields": [
+        "symptoms",
+        "course",
+        "mechanism"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P113-1",
+      "changed_fields": [
+        "symptoms",
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P118-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V6-P019-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V7-P122-1",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P005-1",
+      "changed_fields": [
+        "symptoms",
+        "course"
+      ]
+    }
+  ],
+  "delta_observations": 40
+}

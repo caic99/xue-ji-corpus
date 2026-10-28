@@ -52,10 +52,10 @@
     }
   ],
   "summary": {
-    "exact_quote_present_in_mapped_snapshot_record": 744,
-    "quote_differs_from_cached_transcription": 17
+    "exact_quote_present_in_mapped_snapshot_record": 783,
+    "quote_differs_from_cached_transcription": 18
   },
-  "evidence_segments": 761,
+  "evidence_segments": 801,
   "original_print_images_checked": 0,
   "details": [
     {
@@ -7932,6 +7932,110 @@
     },
     {
       "case_id": "XJ-LZWKFH-C-V2-P015-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P015",
+      "raw_quote": "熱愈甚",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 116,
+        "volume": "卷二",
+        "section": "潰瘍發熱（附惡寒）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 45,
+          "end_char_exclusive": 48
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 45,
+      "snapshot_end_char_exclusive": 48,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P015-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P015",
+      "raw_quote": "膿湧出",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 116,
+        "volume": "卷二",
+        "section": "潰瘍發熱（附惡寒）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 23,
+          "end_char_exclusive": 26
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 23,
+      "snapshot_end_char_exclusive": 26,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P015-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P015",
+      "raw_quote": "又二劑，果應",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 116,
+        "volume": "卷二",
+        "section": "潰瘍發熱（附惡寒）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 57,
+          "end_char_exclusive": 63
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 57,
+      "snapshot_end_char_exclusive": 63,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P015-1",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P015",
+      "raw_quote": "數劑而痊",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 116,
+        "volume": "卷二",
+        "section": "潰瘍發熱（附惡寒）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 71,
+          "end_char_exclusive": 75
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 71,
+      "snapshot_end_char_exclusive": 75,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P015-1",
       "field": "mechanism",
       "observation_index": 0,
       "segment_index": 0,
@@ -8006,6 +8110,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 12,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P086-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V4-P086",
+      "raw_quote": "二劑稍愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 501,
+        "volume": "卷四",
+        "section": "腸癰"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 26,
+          "end_char_exclusive": 30
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 26,
+      "snapshot_end_char_exclusive": 30,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P086-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V4-P086",
+      "raw_quote": "二劑而痊",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 501,
+        "volume": "卷四",
+        "section": "腸癰"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 38,
+          "end_char_exclusive": 42
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 38,
+      "snapshot_end_char_exclusive": 42,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8139,6 +8295,32 @@
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
+      "case_id": "XJ-LZWKFH-C-V2-P006-1",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P006",
+      "raw_quote": "以人參養榮湯加柴胡、地骨皮而愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 107,
+        "volume": "卷二",
+        "section": "潰瘍發熱（附惡寒）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 25,
+          "end_char_exclusive": 40
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 25,
+      "snapshot_end_char_exclusive": 40,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
       "case_id": "XJ-LZWKFH-C-V2-P057-2",
       "field": "symptoms",
       "observation_index": 0,
@@ -8162,6 +8344,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 83,
       "snapshot_end_char_exclusive": 89,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P057-2",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P057",
+      "raw_quote": "致脹痛不安",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 158,
+        "volume": "卷二",
+        "section": "發背"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 143,
+          "end_char_exclusive": 148
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 143,
+      "snapshot_end_char_exclusive": 148,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8196,7 +8404,7 @@
       "observation_index": 1,
       "segment_index": 0,
       "source_ref": "XJ-LZWKFH-V2-P057",
-      "raw_quote": "後雖自穿，毒已攻深矣",
+      "raw_quote": "後雖自穿",
       "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
       "snapshot_location": {
         "snapshot_paragraph_ordinal": 158,
@@ -8208,12 +8416,90 @@
       "snapshot_candidate_spans": [
         {
           "start_char": 161,
-          "end_char_exclusive": 171
+          "end_char_exclusive": 165
         }
       ],
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 161,
-      "snapshot_end_char_exclusive": 171,
+      "snapshot_end_char_exclusive": 165,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P057-2",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P057",
+      "raw_quote": "初生三頭，皆如粟",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 158,
+        "volume": "卷二",
+        "section": "發背"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 74,
+          "end_char_exclusive": 82
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 74,
+      "snapshot_end_char_exclusive": 82,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P057-2",
+      "field": "course",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P057",
+      "raw_quote": "漸起發，尚不潰",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 158,
+        "volume": "卷二",
+        "section": "發背"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 116,
+          "end_char_exclusive": 123
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 116,
+      "snapshot_end_char_exclusive": 123,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P057-2",
+      "field": "course",
+      "observation_index": 4,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P057",
+      "raw_quote": "亦歿",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 158,
+        "volume": "卷二",
+        "section": "發背"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 172,
+          "end_char_exclusive": 174
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 172,
+      "snapshot_end_char_exclusive": 174,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8240,6 +8526,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 166,
       "snapshot_end_char_exclusive": 171,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P057-2",
+      "field": "mechanism",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V2-P057",
+      "raw_quote": "惟筋所隔，膿不得出",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 158,
+        "volume": "卷二",
+        "section": "發背"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 133,
+          "end_char_exclusive": 142
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 133,
+      "snapshot_end_char_exclusive": 142,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8321,6 +8633,32 @@
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
+      "case_id": "XJ-LZWKFH-C-V3-P069-1",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V3-P069",
+      "raw_quote": "飲食遂進",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 306,
+        "volume": "卷三",
+        "section": "臀癰（附腿癰並腿痛腳氣）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 40,
+          "end_char_exclusive": 44
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 40,
+      "snapshot_end_char_exclusive": 44,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
       "case_id": "XJ-LZWKFH-C-V3-P072-1",
       "field": "symptoms",
       "observation_index": 0,
@@ -8348,6 +8686,32 @@
     },
     {
       "case_id": "XJ-LZWKFH-C-V3-P072-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V3-P072",
+      "raw_quote": "服攻伐藥愈虛",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 309,
+        "volume": "卷三",
+        "section": "臀癰（附腿癰並腿痛腳氣）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 51,
+          "end_char_exclusive": 57
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 51,
+      "snapshot_end_char_exclusive": 57,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P072-1",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -8370,6 +8734,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 58,
       "snapshot_end_char_exclusive": 61,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P072-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V3-P072",
+      "raw_quote": "以大補藥而愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 309,
+        "volume": "卷三",
+        "section": "臀癰（附腿癰並腿痛腳氣）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 72,
+          "end_char_exclusive": 78
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 72,
+      "snapshot_end_char_exclusive": 78,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8448,6 +8838,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 20,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P090-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V4-P090",
+      "raw_quote": "一劑諸證悉退",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 505,
+        "volume": "卷四",
+        "section": "腸癰"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 30,
+          "end_char_exclusive": 36
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 30,
+      "snapshot_end_char_exclusive": 36,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P090-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V4-P090",
+      "raw_quote": "二劑而瘥",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 505,
+        "volume": "卷四",
+        "section": "腸癰"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 43,
+          "end_char_exclusive": 47
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 43,
+      "snapshot_end_char_exclusive": 47,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8530,6 +8972,32 @@
     },
     {
       "case_id": "XJ-LZWKFH-C-V3-P088-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V3-P088",
+      "raw_quote": "治之而消",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 325,
+        "volume": "卷三",
+        "section": "臀癰（附腿癰並腿痛腳氣）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 46,
+          "end_char_exclusive": 50
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 46,
+      "snapshot_end_char_exclusive": 50,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P088-1",
       "field": "prior_treatment",
       "observation_index": 0,
       "segment_index": 0,
@@ -8604,6 +9072,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 11,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P002-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V1-P002",
+      "raw_quote": "表證悉減",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 4,
+        "volume": "卷一",
+        "section": "腫瘍（謂瘡瘍未出膿者）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 26,
+          "end_char_exclusive": 30
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 26,
+      "snapshot_end_char_exclusive": 30,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P002-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V1-P002",
+      "raw_quote": "四劑而消",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 4,
+        "volume": "卷一",
+        "section": "腫瘍（謂瘡瘍未出膿者）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 38,
+          "end_char_exclusive": 42
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 38,
+      "snapshot_end_char_exclusive": 42,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8686,6 +9206,32 @@
     },
     {
       "case_id": "XJ-LZWKFH-C-V7-P117-1",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V7-P117",
+      "raw_quote": "血止",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 973,
+        "volume": "卷七",
+        "section": "痔漏（附便血脫肛）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 34,
+          "end_char_exclusive": 36
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 34,
+      "snapshot_end_char_exclusive": 36,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V7-P117-1",
       "field": "mechanism",
       "observation_index": 0,
       "segment_index": 0,
@@ -8763,6 +9309,32 @@
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
+      "case_id": "XJ-LZWKFH-C-V8-P086-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P086",
+      "raw_quote": "治之而愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1105,
+        "volume": "卷八",
+        "section": "瘡疥"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 32,
+          "end_char_exclusive": 36
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 32,
+      "snapshot_end_char_exclusive": 36,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
       "case_id": "XJ-LZWKFH-C-V5-P183-1",
       "field": "symptoms",
       "observation_index": 0,
@@ -8812,6 +9384,82 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 9,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P183-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V5-P183",
+      "raw_quote": "四劑少愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 713,
+        "volume": "卷五",
+        "section": "作嘔"
+      },
+      "source_paragraph_identical": false,
+      "status": "quote_differs_from_cached_transcription",
+      "working_record": "一男子因瘡痛傷胃氣，少食作嘔，惡寒，以六君子湯加當歸，四劑少愈；以十宣散加白朮、茯苓、陳皮，數劑而膿成，針之；又以前散去防風、白芷，數劑而痊。",
+      "snapshot_record": "一男子因瘡痛傷胃氣，少食作嘔，惡寒，以六君子湯加當歸，四劑稍愈；以十宣散加白朮、茯苓、陳皮，數劑而膿成，針之；又以前散去防風、白芷，數劑而痊。",
+      "existing_correction_metadata": {
+        "collation_status": "glyph_corrected_against_waseda_scan",
+        "original_public_transcription": "四劑稍愈",
+        "preferred_reading": "四劑少愈"
+      },
+      "interpretation": "difference_only_not_newly_adjudicated_transcription_error_or_edition_variant"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P183-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V5-P183",
+      "raw_quote": "數劑而膿成",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 713,
+        "volume": "卷五",
+        "section": "作嘔"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 46,
+          "end_char_exclusive": 51
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 46,
+      "snapshot_end_char_exclusive": 51,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P183-1",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V5-P183",
+      "raw_quote": "數劑而痊",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 713,
+        "volume": "卷五",
+        "section": "作嘔"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 66,
+          "end_char_exclusive": 70
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 66,
+      "snapshot_end_char_exclusive": 70,
       "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
     },
     {
@@ -8868,6 +9516,32 @@
     },
     {
       "case_id": "XJ-LZWKFH-C-V3-P091-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V3-P091",
+      "raw_quote": "或作嘈雜",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 328,
+        "volume": "卷三",
+        "section": "臀癰（附腿癰並腿痛腳氣）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 12,
+          "end_char_exclusive": 16
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 12,
+      "snapshot_end_char_exclusive": 16,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P091-1",
       "field": "trigger",
       "observation_index": 0,
       "segment_index": 0,
@@ -8916,6 +9590,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 6,
       "snapshot_end_char_exclusive": 11,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P091-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V3-P091",
+      "raw_quote": "治之而安",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 328,
+        "volume": "卷三",
+        "section": "臀癰（附腿癰並腿痛腳氣）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 42,
+          "end_char_exclusive": 46
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 42,
+      "snapshot_end_char_exclusive": 46,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -8972,6 +9672,32 @@
     },
     {
       "case_id": "XJ-LZWKFH-C-V5-P030-1",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V5-P030",
+      "raw_quote": "且不潮熱",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 560,
+        "volume": "卷五",
+        "section": "瘰癧"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 70,
+          "end_char_exclusive": 74
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 70,
+      "snapshot_end_char_exclusive": 74,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P030-1",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -8994,6 +9720,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 7,
       "snapshot_end_char_exclusive": 13,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P030-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V5-P030",
+      "raw_quote": "遂致不救",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 560,
+        "volume": "卷五",
+        "section": "瘰癧"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 161,
+          "end_char_exclusive": 165
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 161,
+      "snapshot_end_char_exclusive": 165,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -9052,6 +9804,32 @@
       "case_id": "XJ-LZWKFH-C-V8-P113-1",
       "field": "symptoms",
       "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P113",
+      "raw_quote": "出血過多",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1132,
+        "volume": "卷八",
+        "section": "杖瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 6,
+          "end_char_exclusive": 10
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 6,
+      "snapshot_end_char_exclusive": 10,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P113-1",
+      "field": "symptoms",
+      "observation_index": 1,
       "segment_index": 0,
       "source_ref": "XJ-LZWKFH-V8-P113",
       "raw_quote": "煩熱不止，瘀肉不腐",
@@ -9128,6 +9906,84 @@
     },
     {
       "case_id": "XJ-LZWKFH-C-V8-P113-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P113",
+      "raw_quote": "四劑少安",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1132,
+        "volume": "卷八",
+        "section": "杖瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 31,
+          "end_char_exclusive": 35
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 31,
+      "snapshot_end_char_exclusive": 35,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P113-1",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P113",
+      "raw_quote": "以八珍湯加五味子、麥門冬而安",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1132,
+        "volume": "卷八",
+        "section": "杖瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 36,
+          "end_char_exclusive": 50
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 36,
+      "snapshot_end_char_exclusive": 50,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P113-1",
+      "field": "course",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P113",
+      "raw_quote": "數劑而潰",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1132,
+        "volume": "卷八",
+        "section": "杖瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 65,
+          "end_char_exclusive": 69
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 65,
+      "snapshot_end_char_exclusive": 69,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P113-1",
       "field": "prior_treatment",
       "observation_index": 0,
       "segment_index": 0,
@@ -9176,6 +10032,84 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 7,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P118-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P118",
+      "raw_quote": "二劑少愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1137,
+        "volume": "卷八",
+        "section": "杖瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 38,
+          "end_char_exclusive": 42
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 38,
+      "snapshot_end_char_exclusive": 42,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P118-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P118",
+      "raw_quote": "數劑而潰",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1137,
+        "volume": "卷八",
+        "section": "杖瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 59,
+          "end_char_exclusive": 63
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 59,
+      "snapshot_end_char_exclusive": 63,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P118-1",
+      "field": "course",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V8-P118",
+      "raw_quote": "再以托裡、健脾藥而愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 1137,
+        "volume": "卷八",
+        "section": "杖瘡"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 64,
+          "end_char_exclusive": 74
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 64,
+      "snapshot_end_char_exclusive": 74,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -9228,6 +10162,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 13,
       "snapshot_end_char_exclusive": 17,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V6-P019-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V6-P019",
+      "raw_quote": "治之頓愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 754,
+        "volume": "卷六",
+        "section": "咽喉"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 23,
+          "end_char_exclusive": 27
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 23,
+      "snapshot_end_char_exclusive": 27,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -9309,6 +10269,32 @@
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
+      "case_id": "XJ-LZWKFH-C-V7-P122-1",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V7-P122",
+      "raw_quote": "三十餘劑，遂不再作",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 978,
+        "volume": "卷七",
+        "section": "痔漏（附便血脫肛）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 33,
+          "end_char_exclusive": 42
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 33,
+      "snapshot_end_char_exclusive": 42,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
       "case_id": "XJ-LZWKFH-C-V4-P005-1",
       "field": "symptoms",
       "observation_index": 0,
@@ -9384,6 +10370,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 32,
       "snapshot_end_char_exclusive": 34,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P005-1",
+      "field": "symptoms",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V4-P005",
+      "raw_quote": "尚不知痛",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 420,
+        "volume": "卷四",
+        "section": "脫疽"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 21,
+          "end_char_exclusive": 25
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 21,
+      "snapshot_end_char_exclusive": 25,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P005-1",
+      "field": "course",
+      "observation_index": 0,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V4-P005",
+      "raw_quote": "潰脫而愈",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 420,
+        "volume": "卷四",
+        "section": "脫疽"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 51,
+          "end_char_exclusive": 55
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 51,
+      "snapshot_end_char_exclusive": 55,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {

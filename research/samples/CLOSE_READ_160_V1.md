@@ -1,6 +1,6 @@
 # 160案逐案模型复读：五领域精选证据（V1）
 
-2026-10-26初读；140案已完成第二遍模型复审，逐案日期见相应复审记录。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有多书指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
+2026-10-26初读；160案已完成第二遍模型复审，逐案日期见相应复审记录。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有多书指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
 
 initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。
 
@@ -1433,8 +1433,11 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：膿熟不潰，微痛少食，倦怠發熱（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P015[3:17)`
 - **症状**：熱益甚（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P015[27:30)`
+- **症状**：熱愈甚（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P015[45:48)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：膿湧出（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P015[23:26)`
+- **病程**：又二劑，果應（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P015[57:63)`
+- **病程**：數劑而痊（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P015[71:75)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：乃虛也（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V2-P015[31:34)`
 - **病机解释**：此藥力尚未及也（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V2-P015[49:56)`
@@ -1453,7 +1456,8 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：小腹腫痛，小便如淋（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P086[3:12)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：二劑稍愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P086[26:30)`
+- **病程**：二劑而痊（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P086[38:42)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1491,6 +1495,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：日晡尤甚（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P006[12:16)`
 - **病程**：又月餘而斂（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P006[41:46)`
+- **病程**：以人參養榮湯加柴胡、地骨皮而愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P006[25:40)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1507,11 +1512,16 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 老婦患之，初生三頭，皆如粟。腫硬木悶煩躁，至六日，其頭甚多。脈大，按之沉細，為隔蒜灸，及托裡，漸起發，尚不潰，又數劑，內外雖腐，惟筋所隔，膿不得出，致脹痛不安。余謂：「須開之」彼不從，後雖自穿，毒已攻深矣，亦歿。
 
 - **症状**：腫硬木悶煩躁（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[83:89)`
+- **症状**：致脹痛不安（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[143:148)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：至六日，其頭甚多（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[90:98)`
-- **病程**：後雖自穿，毒已攻深矣（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[161:171)`
+- **病程**：後雖自穿（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[161:165)`
+- **病程**：初生三頭，皆如粟（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[74:82)`
+- **病程**：漸起發，尚不潰（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[116:123)`
+- **病程**：亦歿（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V2-P057[172:174)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：毒已攻深矣（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V2-P057[166:171)`
+- **病机解释**：惟筋所隔，膿不得出（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V2-P057[133:142)`
 
 复读意见：须开之为治疗建议，不等于病机；后虽自穿为过程和结局。
 
@@ -1529,6 +1539,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：肌肉漸瘦（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P069[11:15)`
 - **病程**：兩月餘而斂（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P069[59:64)`
+- **病程**：飲食遂進（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P069[40:44)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1545,12 +1556,14 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子臀漫腫，色不變，脈滑數而無力，此臀癰也。膿將成，尚在內，余欲治以托裡藥，待發出而用針。彼欲內消，服攻伐藥愈虛。復求治，仍投前藥，托出針之，以大補藥而愈。
 
 - **症状**：臀漫腫，色不變（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P072[3:10)`
+- **症状**：服攻伐藥愈虛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P072[51:57)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：復求治（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P072[58:61)`
+- **病程**：以大補藥而愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P072[72:78)`
 - **干预前史/后续插入干预**：服攻伐藥愈虛（later_narrator_window；uncertain；treatment_given；present） `XJ-LZWKFH-V3-P072[51:57)`
 - **病机解释**：膿將成，尚在內（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V3-P072[23:30)`
 
-复读意见：服攻伐药在余欲之后，属拒绝本次方案后的外部用药，非首次前史。
+复读意见：余欲托里待发用针为计划；复求治后仍投前药、托出针之才是叙述施治，攻伐药愈虚在首次评议后。
 
 ## 068 · XJ-LZWKFH-C-V4-P090-1
 
@@ -1564,7 +1577,8 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：小腹隱痛，大便秘澀腹脹，轉側作水聲（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P090[3:20)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：一劑諸證悉退（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P090[30:36)`
+- **病程**：二劑而瘥（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P090[43:47)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1583,6 +1597,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：膝腫痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P088[3:6)`
 - **诱发/缓解关联**：遇寒痛益甚（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P088[7:12)`
 - **病程**：月餘不愈（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P088[13:17)`
+- **病程**：治之而消（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P088[46:50)`
 - **干预前史/后续插入干预**：諸藥不應（initial_narrator_window；uncertain；treatment_given；present） `XJ-LZWKFH-V3-P088[18:22)`
 - **病机解释**：此寒邪深伏於內也（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V3-P088[27:35)`
 
@@ -1600,7 +1615,8 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：胸患癰，腫高焮痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V1-P002[3:11)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：表證悉減（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V1-P002[26:30)`
+- **病程**：四劑而消（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V1-P002[38:42)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1620,6 +1636,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：久而不愈（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V7-P117[8:12)`
 - **病程**：月餘不再作（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V7-P117[42:47)`
+- **病程**：血止（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V7-P117[34:36)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：中氣不足（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V7-P117[13:17)`
 
@@ -1638,7 +1655,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：癢少痛多（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P086[3:7)`
 - **症状**：無膿水（initial_narrator_window；case_narrator；narrated_observation；explicitly_absent） `XJ-LZWKFH-V8-P086[7:10)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：治之而愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P086[32:36)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1656,7 +1673,9 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：少食作嘔，惡寒（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P183[10:17)`
 - **诱发/缓解关联**：因瘡痛傷胃氣（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V5-P183[3:9)`
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：四劑少愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P183[27:31)`
+- **病程**：數劑而膿成（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P183[46:51)`
+- **病程**：數劑而痊（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P183[66:70)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：因瘡痛傷胃氣（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V5-P183[3:9)`
 
@@ -1673,8 +1692,10 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子腿痛，每痛則痰盛，或作嘈雜，脈滑而數。以二陳湯加升麻、二朮、澤瀉、羌活、南星，治之而安。
 
 - **症状**：腿痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P091[3:5)`
+- **症状**：或作嘈雜（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P091[12:16)`
 - **诱发/缓解关联**：每痛則痰盛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P091[6:11)`
 - **病程**：每痛則痰盛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P091[6:11)`
+- **病程**：治之而安（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V3-P091[42:46)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1692,12 +1713,14 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：月水尚未通，發熱咳嗽，飲食少思（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P030[14:29)`
 - **症状**：經果通而不止，飲食愈少，更加潮熱（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P030[144:160)`
+- **症状**：且不潮熱（initial_narrator_window；case_narrator；narrated_observation；explicitly_absent） `XJ-LZWKFH-V5-P030[70:74)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：患瘰癧久不愈（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P030[7:13)`
+- **病程**：遂致不救（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V5-P030[161:165)`
 - **干预前史/后续插入干预**：仍用之（later_narrator_window；uncertain；treatment_given；present） `XJ-LZWKFH-V5-P030[101:104)`
 - **病机解释**：大助陽火，陰血得之則妄行，脾胃得之則愈虛（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-LZWKFH-V5-P030[122:142)`
 
-复读意见：老媪欲用是建议；仍用之在余谓之后。剽悍助火的病机是后段告诫，不据治疗预测填初诊机制。
+复读意见：初次且不潮热为明确否定，后段更加潮热另存；大助阳火是用药后医者警告，非独立验证的作用机制，老媪欲用不是已经施药。
 
 ## 076 · XJ-LZWKFH-C-V8-P113-1
 
@@ -1709,9 +1732,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 > 一男子損臂，出血過多，又下之，致煩熱不止，瘀肉不腐，以聖愈湯，四劑少安；以八珍湯加五味子、麥門冬而安；更以六君子湯加芎、歸、黃耆，數劑而潰；又二十餘劑而斂。
 
+- **症状**：出血過多（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P113[6:10)`
 - **症状**：煩熱不止，瘀肉不腐（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P113[16:25)`
 - **诱发/缓解关联**：損臂（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P113[3:5)`
 - **病程**：又二十餘劑而斂（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P113[70:77)`
+- **病程**：四劑少安（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P113[31:35)`
+- **病程**：以八珍湯加五味子、麥門冬而安（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P113[36:50)`
+- **病程**：數劑而潰（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P113[65:69)`
 - **干预前史/后续插入干预**：又下之（initial_narrator_window；uncertain；treatment_given；present） `XJ-LZWKFH-V8-P113[11:14)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1729,7 +1756,9 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：青腫作痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P118[3:7)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：二劑少愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P118[38:42)`
+- **病程**：數劑而潰（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P118[59:63)`
+- **病程**：再以托裡、健脾藥而愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V8-P118[64:74)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1747,7 +1776,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 - **症状**：口舌生瘡，飲食不甘（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V6-P019[3:12)`
 - **诱发/缓解关联**：勞而愈甚（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V6-P019[13:17)`
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：治之頓愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V6-P019[23:27)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1766,6 +1795,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：有痔漏，每登厠肛脫（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V7-P122[3:12)`
 - **诱发/缓解关联**：每登厠肛脫（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V7-P122[7:12)`
 - **病程**：良久方上（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V7-P122[13:17)`
+- **病程**：三十餘劑，遂不再作（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V7-P122[33:42)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
@@ -1784,12 +1814,13 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：足趾患之，色紫（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P005[3:10)`
 - **症状**：不痛（initial_narrator_window；case_narrator；narrated_observation；explicitly_absent） `XJ-LZWKFH-V4-P005[10:12)`
 - **症状**：始痛（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P005[32:34)`
+- **症状**：尚不知痛（later_narrator_window；case_narrator；narrated_observation；explicitly_absent） `XJ-LZWKFH-V4-P005[21:25)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：本次复读未选定证据；未载/归属不明待专家确认。
+- **病程**：潰脫而愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V4-P005[51:55)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：不痛是明确否定，但后续明灸才始痛，不能混为初诊阳性痛。
+复读意见：不痛、隔蒜灸后尚不知痛、明灸后始痛分开；不根据疼痛变化推感觉检查或现代神经损伤诊断。
 
 ## 081 · XJ-NKCZ-C-V1-P026-1
 

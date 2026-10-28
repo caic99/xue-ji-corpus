@@ -491,5 +491,54 @@ class LyjyBoundaryTests(unittest.TestCase):
         self.assertFalse(o['initial_query_eligible'])
 
 
+class LzwStagedCareTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        rows,_,_=review.build();cls.rows={r['case_id']:r for r in rows}
+
+    def obs(self,suffix,field):
+        return self.rows['XJ-LZWKFH-C-'+suffix]['fields'][field]['observations']
+
+    def test_early_negative_and_later_positive_fever_do_not_collapse(self):
+        obs=self.obs('V5-P030-1','symptoms')
+        early=next(o for o in obs if o['reading_joined_source_segments']=='且不潮熱')
+        late=next(o for o in obs if '更加潮熱' in o['reading_joined_source_segments'])
+        self.assertEqual((early['polarity'],early['time_phase']),('explicitly_absent','initial_narrator_window'))
+        self.assertEqual((late['polarity'],late['time_phase']),('present','later_narrator_window'))
+
+    def test_absent_pain_after_moxibustion_is_not_baseline(self):
+        obs=self.obs('V4-P005-1','symptoms')
+        phases={o['reading_joined_source_segments']:(o['time_phase'],o['polarity']) for o in obs}
+        self.assertEqual(phases['不痛'],('initial_narrator_window','explicitly_absent'))
+        self.assertEqual(phases['尚不知痛'],('later_narrator_window','explicitly_absent'))
+        self.assertEqual(phases['始痛'],('later_narrator_window','present'))
+
+    def test_warning_is_not_verified_drug_mechanism(self):
+        o=self.obs('V5-P030-1','mechanism')[0]
+        self.assertEqual(o['assertion_type'],'physician_interpretation')
+        self.assertEqual(o['narrative_role'],'narrator_warning_not_independently_verified_drug_mechanism')
+
+    def test_post_purgation_state_is_separate_from_traumatic_blood_loss(self):
+        obs=self.obs('V8-P113-1','symptoms')
+        self.assertEqual(obs[0]['reading_joined_source_segments'],'出血過多')
+        self.assertIn('after_earlier_treatment',obs[1]['narrative_role'])
+        self.assertEqual(self.obs('V8-P113-1','prior_treatment')[0]['speaker_role'],'uncertain')
+
+    def test_later_intent_cannot_be_promoted_to_performed(self):
+        import build_event_pilot as e
+        row,case,index=e.build('LZWKFH');e.validate(row,case,index)
+        intent=next(x for x in row['events'] if x['event_id']=='E03')
+        self.assertEqual(intent['time_phase'],'later_narrator_window')
+        bad=copy.deepcopy(row);bad['events'][2]['event_type']='reported_narrator_intervention';bad['events'][2]['intervention_status']='narrated_as_performed'
+        with self.assertRaisesRegex(ValueError,'Protected intent'):
+            e.validate(bad,case,index)
+
+    def test_unknown_protected_intent_id_rejected(self):
+        import build_event_pilot as e
+        row,case,index=e.build('LZWKFH');row['intent_only_event_ids']=['E99']
+        with self.assertRaisesRegex(ValueError,'Unknown intent-only'):
+            e.validate(row,case,index)
+
+
 if __name__ == '__main__':
     unittest.main()

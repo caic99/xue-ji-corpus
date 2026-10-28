@@ -1,0 +1,289 @@
+{
+  "case_id": "XJ-LZWKFH-C-V3-P072-1",
+  "review_date": "2026-10-28",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E02",
+  "anchor_scope": "first_recorded_narrator_assessment_in_window_not_first_performed_treatment",
+  "intent_only_event_ids": [
+    "E03"
+  ],
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "patient_state",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 1,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 18,
+          "raw_quote": "一男子臀漫腫，色不變，脈滑數而無力，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E02",
+      "event_type": "narrator_interpretation",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 2,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 18,
+          "source_end_char_exclusive": 31,
+          "raw_quote": "此臀癰也。膿將成，尚在內，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E03",
+      "event_type": "care_intent",
+      "actor_role": "case_narrator",
+      "intervention_status": "intended_only_no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 3,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 31,
+          "source_end_char_exclusive": 46,
+          "raw_quote": "余欲治以托裡藥，待發出而用針。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E04",
+      "event_type": "patient_preference",
+      "actor_role": "patient",
+      "intervention_status": "preference_only_no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 4,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 46,
+          "source_end_char_exclusive": 51,
+          "raw_quote": "彼欲內消，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E05",
+      "event_type": "reported_intervention",
+      "actor_role": "uncertain_prior_treater",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 5,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 51,
+          "source_end_char_exclusive": 55,
+          "raw_quote": "服攻伐藥"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E06",
+      "event_type": "patient_state_after_reported_intervention",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 6,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 55,
+          "source_end_char_exclusive": 58,
+          "raw_quote": "愈虛。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E07",
+      "event_type": "return_for_care",
+      "actor_role": "patient",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 7,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 58,
+          "source_end_char_exclusive": 62,
+          "raw_quote": "復求治，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E08",
+      "event_type": "reported_narrator_intervention",
+      "actor_role": "case_narrator",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 8,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 62,
+          "source_end_char_exclusive": 67,
+          "raw_quote": "仍投前藥，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E09",
+      "event_type": "reported_narrator_intervention",
+      "actor_role": "case_narrator",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 9,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 67,
+          "source_end_char_exclusive": 72,
+          "raw_quote": "托出針之，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E10",
+      "event_type": "reported_narrator_intervention",
+      "actor_role": "case_narrator",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 10,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 72,
+          "source_end_char_exclusive": 76,
+          "raw_quote": "以大補藥"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E11",
+      "event_type": "narrated_outcome",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 11,
+      "evidence": [
+        {
+          "source_ref": "XJ-LZWKFH-V3-P072",
+          "source_start_char": 76,
+          "source_end_char_exclusive": 79,
+          "raw_quote": "而愈。"
+        }
+      ],
+      "initial_query_eligible": false
+    }
+  ],
+  "work_ref": "XJ-LZWKFH",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "20a3c6f3e970f63ad47c96558e643a70418d83d182ace057c078aa915c211823",
+  "relations": [
+    {
+      "from": "E01",
+      "to": "E02",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E02",
+      "to": "E03",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E03",
+      "to": "E04",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E04",
+      "to": "E05",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E05",
+      "to": "E06",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E06",
+      "to": "E07",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E07",
+      "to": "E08",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E08",
+      "to": "E09",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E09",
+      "to": "E10",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E10",
+      "to": "E11",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    }
+  ]
+}

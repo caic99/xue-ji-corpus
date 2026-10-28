@@ -5,14 +5,22 @@
 本PR提交可复现160案样本、五领域模型精选观察、逐字证据回链和验证程序。它是可审阅的研究资料，不是专家已审的金标准、原刻定本或临床系统。
 
 - 160案，八书各20，800领域槽。
-- 641项模型精选观察，655个逐字证据片段，14项观察跨来源。
-- 与缓存电子来源对账：639片段可逐字找到；16片段涉及10条记录保留不同读文。
+- 787项模型精选观察，801个逐字证据片段，14项观察跨来源。
+- 与缓存电子来源对账：783片段可逐字找到；18片段保留不同读文，含本轮尚未新核的立斋少/稍。
 - 3案来源needs_review继续隔离；初诊查询导出全部禁用。
 - 古籍来源文字摘要、ID、样本名单和字符跨度保持不变；来源文件两处非原典书目说明及其版本校验已更新，见SOURCE_BASELINE.md。
 
+八书160案第二遍模型阅读全部完成；独立维度140案101条，事件试点5案54段49关系。专家审核及全案影像校定0；当前影像仅13页15个目标。最新自审见 `samples/SELF_REVIEW_LZWKFH_2026-10-28.md`，历史报告保留各自阶段数字。
+
 ## 复验
 
-在PR检出目录中运行：
+在PR检出目录中运行完整检验（21项命令，保存真实日志）：
+
+```sh
+python3 research/run_research_checks.py --report-date 2026-10-28 --label verification
+```
+
+以下为核心单项入口，独立维度和事件试点由完整检验覆盖：
 
 ```sh
 python3 work/validate_complete_corpus.py
@@ -25,7 +33,7 @@ python3 research/check_publication.py
 python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
 ```
 
-预期：5361条来源、1532案、0结构错误；8条全书影像校定未完成警告保留；待核继承缺口0；9项回归测试通过。缓存文本的16片段差异是保留的研究项，不是将快照差异强改为一致。
+预期：5361条来源、1532案、0结构错误；8条全书影像校定未完成警告保留；待核继承缺口0；67项回归测试通过。缓存文本的18片段差异是保留的研究项，不是将快照差异强改为一致。
 
 ## 人工及Claude Code审阅重点
 
@@ -51,3 +59,5 @@ python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
 内科增量、用药声称与待核继承见 `samples/SELF_REVIEW_NKZY_2026-10-27.md`。追加执行 `python3 research/build_extended_kcly.py --work NKZY`、`python3 research/build_event_pilot.py --work NKZY`。独立维度中的needs_review不得解除，声称用药不得变成已实施。
 
 外科增量、句界、未实现预期和可反驳影像记录见 `samples/SELF_REVIEW_WKSY_2026-10-28.md`。追加 `python3 research/build_extended_kcly.py --work WKSY`、`python3 research/build_event_pilot.py --work WKSY`；影像记录检查不得要求见证必须支持工作稿。
+
+疠疡背景及缺失诊治锚点见 `samples/SELF_REVIEW_LYJY_2026-10-28.md`；立斋阶段性否定、条件计划及当前未决原刻目标见 `samples/SELF_REVIEW_LZWKFH_2026-10-28.md`。全部第二遍模型阅读完成不能表述为专家金标准或全量原典校勘完成。

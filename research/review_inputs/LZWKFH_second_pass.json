@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-28",
+  "work_ref": "XJ-LZWKFH",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 complete LZWKFH case windows; staged care, explicit negatives, intent and narrator warnings",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "cases": [
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P015-1",
+      "case_text_sha256": "66a2199459ac76dc158a3a2d058827f32820efac7fe372eba32505662ca79e83",
+      "finding": "两次热增分别位于针后和参耆后；乃虚与药力未及为医者解释，果应不强补具体退何症。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P086-1",
+      "case_text_sha256": "2d543998e89f049df4a634bdc44011ee48149f1869d7863db755caccfac2515d",
+      "finding": "尺脉独立存；补两次用方后稍愈与痊，不反推病机。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P016-1",
+      "case_text_sha256": "cb37d3e81a50fd45e2793fdf88332e0c1599bf9e6c6235edeef30f6cb99e5540",
+      "finding": "灸与托里为案内处置，不列前史；剂数与月余保留原词。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P006-1",
+      "case_text_sha256": "1d8a4bde62930ec88a8363496f5c71fec694ff589e6b745977af53cbcc3252f0",
+      "finding": "溃后未明前治，脉象独立；愈与月余敛为先后叙述，不强作相同终点。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V2-P057-2",
+      "case_text_sha256": "dd2678d2cf3eca21989051809a04065cf04fb6dcdfea4b39fad5e9befcaa27ed",
+      "finding": "补初三头、灸托后尚不溃及胀痛，开之是建议非施行；自穿后死亡记结局。 病程引文只留后虽自穿，毒已攻深另归医家解释。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P069-1",
+      "case_text_sha256": "a4a6e0a403d75f6e2201892ad7e776b287df3de6ee7aac780df3cddaa9585896",
+      "finding": "补饮食遂进，肌肉渐瘦为当前变化，不反推病前体质。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P072-1",
+      "case_text_sha256": "20a3c6f3e970f63ad47c96558e643a70418d83d182ace057c078aa915c211823",
+      "finding": "诊断与余欲分开，待发用针是条件计划；攻伐后愈虚及复求治在后来；全窗口分段防止重复计算计划和实际施治。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P090-1",
+      "case_text_sha256": "27a2ff368528103092e0e8e684f1389bf0aa205caf7c4e706de795e425fe8833",
+      "finding": "转侧作水声不归诱因，脉独立存；两轮方后结局补入。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P088-1",
+      "case_text_sha256": "4c820ab128bb68eaa71332d72ab139e9b6d668d57a20545e204d30bcf492d94e",
+      "finding": "诸药无效为前史且药名未明，寒加重是关联，不反向归因。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P002-1",
+      "case_text_sha256": "539261b910b5dfb517ebf438f13cf6bfe4a4af6503461f43e5177e3700d5b0e3",
+      "finding": "补表证减与四剂消，仅记概括不凭表证反补具体症状。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V7-P117-1",
+      "case_text_sha256": "12fb4b20f3c989c111a498f5df03e0586db370cbf029806f095419aa87aeb0e7",
+      "finding": "补血止，粪后关联不证明病因；补中不是前史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P086-1",
+      "case_text_sha256": "e8b63d0d885661e4fae910cee96b325606c9f382234c1c35845fcfe06b09e665",
+      "finding": "无脓水为明确否定，不掩盖痒痛阳性；补叙述愈。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P183-1",
+      "case_text_sha256": "fd5dfd4bc7aa582777f9c6d54171ddb25a9a83890a5987dbc4068fbbdf462aec",
+      "finding": "疮痛伤胃气保留医家解释身份，补少愈、脓成及痊三阶段。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V3-P091-1",
+      "case_text_sha256": "5110819fd68e7a91fd10c303764f1e54331c6584a5057f2246e637a7920ee4de",
+      "finding": "补或作嘈杂，疼痛与痰盛保留原方向；脉不改为现代测量。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P030-1",
+      "case_text_sha256": "da70152f8e0148802c0c100cfd3beff0e688fb3dbbaa52c2c94a1d884ede66c6",
+      "finding": "初不潮热与后更加潮热分阶段；医家大助阳火为警告非实证药理，遂致不救补为叙述结局。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P113-1",
+      "case_text_sha256": "6d32d3b092c6ce9508c86bd5ad6e86cc7d607f6abef41b4c8231bb859227caf8",
+      "finding": "出血过多在损伤后，烦热与瘀肉不腐在下之后，治疗者不明；少安、安、溃、敛分开。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P118-1",
+      "case_text_sha256": "853a157b3755fc84f3402beccbd0b7b8e2036301507bad360e8ab769c51d2645",
+      "finding": "补少愈、溃与愈；最初敷药仍为案内处置，不误建前史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V6-P019-1",
+      "case_text_sha256": "760197fbde0c49c5e33c68c0d4a5c899c2df8c71c3d12919d36866b5714a9bdd",
+      "finding": "口舌生疮不生成舌苔舌色检查；劳为加重关联，补顿愈。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V7-P122-1",
+      "case_text_sha256": "fb8fab48c856186818484fe6731554a12edfa7c6688978aac8cc97406881c7fd",
+      "finding": "良久方上与每登厕关联保留，细滑脉独立，三十余剂为本次疗程。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P005-1",
+      "case_text_sha256": "695900e7f87a67ff604bc8f7c0a8c456a3eab9738b8d204a4b4fa7904e29965d",
+      "finding": "初不痛、隔蒜后尚不知痛、明灸后始痛分层；后来明确否定新增post_absent前缀，潰脱而愈补入。",
+      "outcome": "corrected_or_extended"
+    }
+  ]
+}

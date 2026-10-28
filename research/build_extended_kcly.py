@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce manually selected independent dimensions for 20 cases in KCLY, ZTLY, NKCZ, NKZY WKSY or LYJY.
+"""Reproduce manually selected independent dimensions for 20 cases in KCLY, ZTLY, NKCZ, NKZY, WKSY, LYJY or LZWKFH.
 No inference from prescriptions, disease names, or empty fields.
 """
 import argparse
@@ -35,7 +35,7 @@ def interpretation_kind(field,reading):
 
 
 def build(work="KCLY"):
-    if work not in {"KCLY", "ZTLY", "NKCZ", "NKZY", "WKSY", "LYJY"}:raise ValueError("Unsupported extended work")
+    if work not in {"KCLY", "ZTLY", "NKCZ", "NKZY", "WKSY", "LYJY", "LZWKFH"}:raise ValueError("Unsupported extended work")
     _,sample,index=review.build()
     cases={c['case_id']:c for c in sample if c['work_ref']=='XJ-'+work}
     choices={}
@@ -60,7 +60,7 @@ def build(work="KCLY"):
             fields[field]={'status':'model_selected_evidence' if observations else 'not_identified_in_model_case_read',
                            'missingness':None if observations else 'unrecorded_or_unresolved_not_explicit_absence',
                            'observations':observations}
-        records.append({'case_id':cid,'work_ref':'XJ-'+work,'review_date':'2026-10-28' if work in {'WKSY','LYJY'} else '2026-10-27',
+        records.append({'case_id':cid,'work_ref':'XJ-'+work,'review_date':'2026-10-28' if work in {'WKSY','LYJY','LZWKFH'} else '2026-10-27',
             'source_git_blob':review.base.BLOB_SHA_AT_FREEZE,
             'case_text_sha256':hashlib.sha256(c['body'].encode()).hexdigest(),
             'retrieval_status':c['md'].get('retrieval_status','unknown'),
@@ -112,7 +112,7 @@ def summary(rows):
 
 
 def render(rows):
-    title={'XJ-KCLY':'口齿','XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要','XJ-LYJY':'疠疡机要'}[rows[0]['work_ref']]
+    title={'XJ-KCLY':'口齿','XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要','XJ-LYJY':'疠疡机要','XJ-LZWKFH':'立斋外科发挥'}[rows[0]['work_ref']]
     out=[f'# {title}20案：独立脉象、舌部观察、体形与习惯维度\n\n',
          f"{max(r['review_date'] for r in rows)}模型精选证据，"
          '非专家审校或穷尽标注。空字段保留未载/不明，不解释为患者没有。全部初诊查询导出禁用。\n\n',
@@ -135,11 +135,13 @@ def render(rows):
         out[2]='脉象区分首次及后段；善怒不自动生成诱因，膏粱只是叙述者类别描述。未选到舌部形态、体形证据保留未载/不明，舌痛不生成舌苔舌色。素清苦含义未定，未硬归为饮食或心理测量。\n\n'
     if rows[0]['work_ref']=='XJ-LYJY':
         out[2]='脉象保留前药后及本医后段；体瘦只记当前状态。善怒、久郁、房劳、饮酒膏粱为背景描述，不推本次诱因、频次、依赖或现代诊断。未记叙述者诊治的V1-P095背景阶段为unknown。没有选定舌部观察不等于明确没有。\n\n'
+    if rows[0]['work_ref']=='XJ-LZWKFH':
+        out[2]='脉不涩是明确否定涩脉，不是否定所有脉象；所有脉描述为原文叙述，不作现代测量。肌肉渐瘦为当时变化，不反推病前体质。口舌生疮不生成舌苔舌色；本批未选定习惯及舌部形态，不等于明确没有。\n\n'
     return ''.join(out).rstrip()+'\n'
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['KCLY','ZTLY','NKCZ','NKZY','WKSY','LYJY'],default='KCLY');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['KCLY','ZTLY','NKCZ','NKZY','WKSY','LYJY','LZWKFH'],default='KCLY');a=p.parse_args()
     rows,cases,index=build(a.work);validate(rows,cases,index)
     stem=a.work.lower()
     out=ROOT/f'research/samples/extended_{stem}_20_v1.jsonl'
