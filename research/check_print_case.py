@@ -23,6 +23,15 @@ def build(record=None, path=INPUT):
     witness=json.loads((ROOT/r['pdf_record']).read_text())
     if not 1<=r['pdf_page']<=witness['pdf_pages']:raise ValueError('Page outside PDF')
     reading=''.join(r['scan_columns'])
+    column_positions=[]
+    if 'column_locations' in r:
+        if len(r['column_locations'])!=len(r['scan_columns']):raise ValueError('Column location roster drift')
+        for col,(text,location) in enumerate(zip(r['scan_columns'],r['column_locations']),1):
+            if (not 1<=location['pdf_page']<=witness['pdf_pages'] or
+                location['page_half'] not in {'left','right'} or
+                type(location['column_from_right']) is not int or location['column_from_right']<1):
+                raise ValueError('Invalid column location')
+            column_positions.extend({'scan_column_index':col,'scan_column_char_index':i+1} for i in range(len(text)))
     chars=[]
     for segment in case['segments']:
         text=index[segment['source_ref']]
@@ -35,6 +44,8 @@ def build(record=None, path=INPUT):
                 'status':'same_model_reading' if w==s else 'different_model_reading'}
                for i,((sid,pos,w),s) in enumerate(zip(chars,reading))]
     differences=[x for x in alignment if x['working']!=x['scan']]
+    if column_positions:
+        for row,position in zip(alignment,column_positions):row.update(position)
     if [{'working':x['working'],'scan':x['scan']} for x in differences]!=r['expected_substitutions']:
         raise ValueError('Recorded print differences drift')
     return {**r,'source_git_blob':core.base.BLOB_SHA_AT_FREEZE,
@@ -54,7 +65,8 @@ def summarize(records):
             'cases':len(records),'case_ids':ids,
             'compared_body_characters':sum(r['compared_body_characters_excluding_modern_punctuation'] for r in records),
             'different_character_positions':sum(len(r['differences']) for r in records),
-            'unique_pdf_pages':len({(r['pdf_sha256'],r['pdf_page']) for r in records}),
+            'unique_pdf_pages':len({(r['pdf_sha256'],loc['pdf_page']) for r in records
+                                    for loc in r.get('column_locations',[{'pdf_page':r['pdf_page']}])}),
             'expert_collated_cases':0,'initial_query_exported':0}
 
 def main():

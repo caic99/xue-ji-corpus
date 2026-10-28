@@ -798,18 +798,38 @@ class MultiCasePrintTests(unittest.TestCase):
 
     def test_actual_roster_and_unresolved_differences_retained(self):
         summary=self.p.summarize(self.rows)
-        self.assertEqual(summary['cases'],2)
-        self.assertEqual(summary['compared_body_characters'],92)
-        self.assertEqual(summary['different_character_positions'],2)
-        self.assertEqual(len(self.rows[1]['differences']),0)
+        self.assertEqual(summary['cases'],3)
+        self.assertEqual(summary['compared_body_characters'],198)
+        self.assertEqual(summary['different_character_positions'],4)
+        self.assertEqual(len(next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H3-P014-1')['differences']),0)
 
     def test_duplicate_case_cannot_inflate_full_case_count(self):
         with self.assertRaisesRegex(ValueError,'Duplicate'):
             self.p.summarize([self.rows[0],self.rows[0]])
 
     def test_same_pdf_page_cannot_inflate_unique_page_count(self):
-        rows=copy.deepcopy(self.rows);rows[1]['pdf_page']=rows[0]['pdf_page']
+        rows=copy.deepcopy(self.rows)
+        for row in rows:
+            row['pdf_page']=rows[0]['pdf_page']
+            for loc in row.get('column_locations',[]):loc['pdf_page']=rows[0]['pdf_page']
         self.assertEqual(self.p.summarize(rows)['unique_pdf_pages'],1)
+
+    def test_column_roster_cannot_drop_half_leaf(self):
+        import json
+        r=json.loads((self.p.ROOT/'research/print_case_reviews/KCLY_H1_P011_2026-10-28.json').read_text())
+        r['column_locations'].pop()
+        with self.assertRaisesRegex(ValueError,'roster'):self.p.build(r)
+
+    def test_invalid_leaf_side_rejected(self):
+        import json
+        r=json.loads((self.p.ROOT/'research/print_case_reviews/KCLY_H1_P011_2026-10-28.json').read_text())
+        r['column_locations'][0]['page_half']='unknown'
+        with self.assertRaisesRegex(ValueError,'column location'):self.p.build(r)
+
+    def test_summary_counts_all_column_pages(self):
+        rows=copy.deepcopy(self.rows)
+        rows[0]['column_locations'][-1]['pdf_page']=7
+        self.assertEqual(self.p.summarize(rows)['unique_pdf_pages'],4)
 
 if __name__ == '__main__':
     unittest.main()
