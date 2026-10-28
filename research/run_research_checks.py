@@ -18,6 +18,7 @@ commands=[
  ['research/build_extended_kcly.py'], ['research/build_extended_kcly.py','--work','ZTLY'],
  ['research/build_extended_kcly.py','--work','NKCZ'], ['research/build_extended_kcly.py','--work','NKZY'], ['research/build_extended_kcly.py','--work','WKSY'],
  ['research/build_event_pilot.py'], ['research/build_event_pilot.py','--work','NKCZ'], ['research/build_event_pilot.py','--work','NKZY'], ['research/build_event_pilot.py','--work','WKSY'], ['research/check_scan_spots.py'],
+ ['research/build_extended_kcly.py','--work','LYJY'],
  ['research/check_publication.py'],
  ['-m','unittest','discover','-s','research','-p','test_close_read_160.py','-v'],
 ]

@@ -1,0 +1,105 @@
+{
+  "baseline_commit": "95585ced3bb95fd4e49c704509b8364d37f29b47",
+  "execution": "actual_comparison_of_baseline_git_blob_and_generated_rows",
+  "unchanged_case_roster_hashes_and_source_spans": 160,
+  "five_domain_changes": [
+    {
+      "case_id": "XJ-LYJY-C-V1-P075",
+      "changed_fields": [
+        "symptoms",
+        "mechanism"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V2-P002",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P064",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P072",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P081",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P086",
+      "changed_fields": [
+        "symptoms",
+        "trigger",
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P078",
+      "changed_fields": [
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V2-P013",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P090",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P092",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P093",
+      "changed_fields": [
+        "symptoms",
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P094",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P082",
+      "changed_fields": [
+        "symptoms"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P095",
+      "changed_fields": [
+        "symptoms",
+        "course"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P096",
+      "changed_fields": [
+        "symptoms"
+      ]
+    }
+  ],
+  "unchanged_non_LYJY_five_domain_records": 140,
+  "delta_observations": 18,
+  "delta_literal_spans": 18
+}

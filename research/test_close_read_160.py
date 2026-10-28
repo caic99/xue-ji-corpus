@@ -444,5 +444,52 @@ class WksyForecastAndWitnessTests(unittest.TestCase):
                     extended.interpretation_kind('habits',reading)
 
 
+class LyjyBoundaryTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        rows,_,_=review.build()
+        cls.rows={r['case_id']:r for r in rows}
+
+    def observations(self,suffix,field):
+        return self.rows['XJ-LYJY-C-'+suffix]['fields'][field]['observations']
+
+    def test_persistent_gloom_is_not_episode_trigger(self):
+        self.assertEqual(self.observations('V1-P086','trigger'),[])
+        import build_extended_kcly as ex
+        rows,cases,index=ex.build('LYJY'); ex.validate(rows,cases,index)
+        obs=next(r for r in rows if r['case_id'].endswith('V1-P086'))['fields']['habits']['observations'][0]
+        self.assertIn('not_proven_episode_cause',obs['interpretation_type'])
+
+    def test_no_narrator_encounter_does_not_invent_first_visit(self):
+        for field in ('symptoms','course','prior_treatment'):
+            for o in self.observations('V1-P095',field):
+                self.assertEqual(o['time_phase'],'unknown')
+        import build_extended_kcly as ex
+        rows,_,_=ex.build('LYJY')
+        obs=next(r for r in rows if r['case_id'].endswith('V1-P095'))['fields']['habits']['observations'][0]
+        self.assertEqual(obs['time_phase'],'unknown')
+        self.assertIn('no_quantity_or_dependency',obs['interpretation_type'])
+
+    def test_hair_loss_after_prior_drug_not_untreated_baseline(self):
+        for f in ('symptoms','course'):
+            for o in self.observations('V1-P093',f):
+                self.assertEqual(o['narrative_role'],'after_earlier_treatment_before_narrator_assessment')
+                self.assertFalse(o['initial_query_eligible'])
+
+    def test_alternative_clauses_and_sexual_background_stay_literal(self):
+        obs=self.observations('V1-P094','symptoms')
+        self.assertTrue(any('或發熱惡寒' in o['reading_joined_source_segments'] and '或冷至脛' in o['reading_joined_source_segments'] for o in obs))
+        self.assertEqual(self.observations('V1-P094','trigger'),[])
+        import build_extended_kcly as ex
+        self.assertEqual(ex.interpretation_kind('habits','素不慎房勞'),'reported_sexual_behavior_background_no_frequency_or_episode_causality_inferred')
+
+    def test_unknown_prefix_does_not_imply_absence(self):
+        _,sample,index=review.build();c=next(c for c in sample if c['case_id']=='XJ-LYJY-C-V1-P095')
+        o=review.make_observation(c,'symptoms','@unknown:膿水淋漓',index,{})
+        self.assertEqual(o['time_phase'],'unknown')
+        self.assertEqual(o['polarity'],'present')
+        self.assertFalse(o['initial_query_eligible'])
+
+
 if __name__ == '__main__':
     unittest.main()

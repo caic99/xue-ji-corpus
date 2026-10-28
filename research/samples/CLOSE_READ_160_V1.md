@@ -1,6 +1,6 @@
 # 160案逐案模型复读：五领域精选证据（V1）
 
-2026-10-26初读；120案已完成第二遍模型复审，逐案日期见相应复审记录。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有多书指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
+2026-10-26初读；140案已完成第二遍模型复审，逐案日期见相应复审记录。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有多书指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。未选到证据保留不确定，不解释为患者没有。
 
 initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。
 
@@ -1036,10 +1036,14 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 松江掌教翟立之素善飲，遍身疙瘩，搔起白屑，上體為甚，面目焮腫，成瘡結痂，承漿潰膿，眼赤出淚，左關脈洪數有力，或作癘風治之，膿潰淋漓。余謂肝火濕毒，以四物湯加乾葛、連翹、山梔、柴胡、芩、連一劑，諸症悉退，四劑全退。兩睛各顯青白翳一片，亦屬肝火，再劑翳去，乃用六味丸而愈。
 
 - **症状**：遍身疙瘩，搔起白屑，上體為甚，面目焮腫，成瘡結痂（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P075[11:35)`
+- **症状**：承漿潰膿，眼赤出淚（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P075[36:45)`
+- **症状**：膿潰淋漓（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P075[61:65)`
+- **症状**：兩睛各顯青白翳一片（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P075[106:115)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：四劑全退（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P075[101:105)`
 - **干预前史/后续插入干预**：或作癘風治之（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V1-P075[54:60)`
 - **病机解释**：余謂肝火濕毒（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LYJY-V1-P075[66:72)`
+- **病机解释**：亦屬肝火（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-LYJY-V1-P075[116:120)`
 
 复读意见：素善饮为习惯非确定诱因；治疗内容未明者不补药名。
 
@@ -1056,6 +1060,8 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：腿內臁患癬類，色赤作癢（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P002[8:19)`
 - **症状**：發熱焮腫作痛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P002[27:33)`
 - **症状**：愈加皮熱作渴（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P002[47:53)`
+- **症状**：面青（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P002[5:7)`
+- **症状**：膿水淋漓（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P002[58:62)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：兩月餘而痊（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P002[125:130)`
 - **干预前史/后续插入干预**：或為砭刺出血（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V2-P002[20:26)`
@@ -1076,6 +1082,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子面發紫疙瘩，膿水淋漓，睡中搐搦，遍身麻木，漸發赤塊，勞怒則癢，肝脈洪大，砭刺臂腿腕各出血，用清胃湯加大黃、角刺四劑，煎下瀉青丸，肝木少退；以升麻湯數劑，下前丸，諸症少愈；卻用寶鑑換肌散斤許，又用小柴胡合四物湯加參朮、天麻、角刺百餘劑，及六味地黃丸，半載而愈。後因勞遍身麻癢，脈微而遲，此氣血俱虛，不能榮於腠理，用十全大補湯，加五味、麥門，調理年餘而安。
 
 - **症状**：面發紫疙瘩，膿水淋漓，睡中搐搦，遍身麻木（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P064[3:23)`
+- **症状**：後因勞遍身麻癢（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P064[132:139)`
 - **诱发/缓解关联**：勞怒則癢（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P064[29:33)`
 - **诱发/缓解关联**：後因勞遍身麻癢（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P064[132:139)`
 - **病程**：漸發赤塊（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P064[24:28)`
@@ -1133,6 +1140,8 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子面起赤暈，時或發腫，擘手亦然，搔起白屑，服癘風藥，內熱體倦，脈大而虛，此因元氣虛而陰血復傷。用六味地黃丸、補中益氣湯而尋愈。
 
 - **症状**：面起赤暈（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P081[3:7)`
+- **症状**：搔起白屑（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P081[18:22)`
+- **症状**：內熱體倦（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P081[28:32)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：時或發腫（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P081[8:12)`
 - **干预前史/后续插入干预**：服癘風藥（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V1-P081[23:27)`
@@ -1170,18 +1179,19 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一儒者懷抱久郁，先四肢如癘，恪祛風消毒，氣血愈虛，延及遍身，寒熱作渴，肢體倦怠，脈洪大而虛，謂余何也？余曰：始因脾鬱血虛，陰火妄動，後因藥傷脾胃，元氣下陷。遂用補中益氣湯，培補脾胃，升舉元氣；用歸脾湯解散鬱火，生髮脾血；更以六味丸益腎肝精血，引虛火歸源，不兩月諸病悉愈。
 
 - **症状**：先四肢如癘（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P086[8:13)`
-- **诱发/缓解关联**：懷抱久郁（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P086[3:7)`
+- **症状**：寒熱作渴，肢體倦怠（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P086[30:39)`
+- **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：延及遍身（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P086[25:29)`
 - **病程**：不兩月諸病悉愈（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P086[127:134)`
 - **干预前史/后续插入干预**：恪祛風消毒（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V1-P086[14:19)`
 - **病机解释**：始因脾鬱血虛，陰火妄動（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LYJY-V1-P086[54:65)`
 - **病机解释**：後因藥傷脾胃，元氣下陷（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LYJY-V1-P086[66:77)`
 
-复读意见：郁为明载前置背景及医家因果解释，不能作为现代因果证实。
+复读意见：久郁保留持续背景；发病原因是医家解释。药后寒热倦怠及延及遍身另分阶段，不倒填原始皮损。
 
 ## 049 · XJ-LYJY-C-V1-P078
 
-来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -1193,6 +1203,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **症状**：更兼口噤（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P078[61:65)`
 - **诱发/缓解关联**：因勞惡寒（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P078[6:10)`
 - **病程**：愈後（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P078[3:5)`
+- **病程**：用補中益氣湯加五味、麥門益甚（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P078[46:60)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病机解释**：惡寒乃胃氣虛，不能護衛肌表（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-LYJY-V1-P078[18:31)`
 
@@ -1209,6 +1220,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子患搔癢破而成瘡，如大麻風。服遇仙丹，發熱作渴，大便秘結，脈沉實，右關為甚，此熱蓄於內也。先用黃連內疏湯而大便通利，又用防風通聖散去硝黃而熱渴止，卻用八珍湯而瘡愈。
 
 - **症状**：搔癢破而成瘡（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P013[4:10)`
+- **症状**：發熱作渴，大便秘結（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V2-P013[21:30)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：本次复读未选定证据；未载/归属不明待专家确认。
 - **干预前史/后续插入干预**：服遇仙丹（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V2-P013[16:20)`
@@ -1227,6 +1239,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子兩掌每至秋皮厚皺裂起白屑，內熱體倦，此肝脾血燥，故秋金用事之時而作，用加味逍遙散，加川芎、熟地，三十餘劑而愈。再用六味丸加五味、麥門，服之半載後，手足指縫臂腿腕皮厚色白，搔之則木，久服前藥方愈。
 
 - **症状**：兩掌每至秋皮厚皺裂起白屑，內熱體倦（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P090[3:20)`
+- **症状**：手足指縫臂腿腕皮厚色白，搔之則木（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P090[76:92)`
 - **诱发/缓解关联**：每至秋皮厚皺裂起白屑（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P090[5:15)`
 - **病程**：每至秋（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P090[5:8)`
 - **病程**：服之半載後，手足指縫臂腿腕皮厚色白（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P090[70:87)`
@@ -1265,6 +1278,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子遍身搔癢，服祛風辛燥之劑，眉發脫落，余謂前藥復傷肝腎，精血虛而火內熾所致。朝用八珍湯加麥門冬、五味子，夕用六味丸料加當歸、黃耆治之，風熱退而眉發生矣。
 
 - **症状**：遍身搔癢（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P092[3:7)`
+- **症状**：眉發脫落（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P092[16:20)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：本次复读未选定证据；未载/归属不明待专家确认。
 - **干预前史/后续插入干预**：服祛風辛燥之劑（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V1-P092[8:15)`
@@ -1274,7 +1288,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 ## 054 · XJ-LYJY-C-V1-P093
 
-来源状态：`source_research_with_caveats`；原刻：本轮未核；人工审校待办。
+来源状态：`source_research_with_caveats`；原刻：仅指定字句影像点核，非全案校定；人工审校待办。
 
 案文窗口：
 
@@ -1320,6 +1334,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子素不慎房勞，其發忽落，或發熱惡寒，或吐痰頭暈，或口乾作渴，或小便如淋，兩足發熱，或冷至脛，屬足三陰虧損而陰火內熾。朝用十全大補湯，夕用六味丸料加炒黑黃柏、枸杞子治之，諸症退而發漸生。
 
 - **症状**：其發忽落（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P094[9:13)`
+- **症状**：或發熱惡寒，或吐痰頭暈，或口乾作渴，或小便如淋，兩足發熱，或冷至脛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P094[14:47)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：其發忽落（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P094[9:13)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。
@@ -1338,6 +1353,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子兩目俱赤，遍身癢痛，搔起白皮，此肝肺陰虛。誤服祛風燥劑，鼻赤面紫，身發疙瘩，搔出血水，用升麻湯下瀉青丸數服，又用加味逍遙散數劑。身鼻漸白，疙瘩漸消，又用四物湯加參、耆、柴胡、山梔，並換肌散，各百餘服，喜其年少謹疾，痊愈。
 
 - **症状**：兩目俱赤，遍身癢痛，搔起白皮（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P082[3:17)`
+- **症状**：鼻赤面紫，身發疙瘩，搔出血水（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P082[31:45)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：本次复读未选定证据；未载/归属不明待专家确认。
 - **干预前史/后续插入干预**：誤服祛風燥劑（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V1-P082[24:30)`
@@ -1355,15 +1371,17 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 > 一男子素膏粱醇酒，患腎臟風，延及遍身，服癘藥益甚，又用捻藥於被中熏之，嘔吐腹脹，遍身浮腫潰爛，膿水淋漓，如無皮而死。
 
-- **症状**：患腎臟風，延及遍身（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[9:18)`
-- **症状**：嘔吐腹脹，遍身浮腫潰爛（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[35:46)`
+- **症状**：患腎臟風，延及遍身（unknown；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[9:18)`
+- **症状**：嘔吐腹脹，遍身浮腫潰爛（unknown；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[35:46)`
+- **症状**：膿水淋漓（unknown；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[47:51)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
-- **病程**：延及遍身（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[14:18)`
+- **病程**：延及遍身（unknown；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[14:18)`
+- **病程**：如無皮而死（unknown；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P095[52:57)`
 - **干预前史/后续插入干预**：服癘藥益甚（unknown；uncertain；treatment_given；present） `XJ-LYJY-V1-P095[19:24)`
 - **干预前史/后续插入干预**：又用捻藥於被中熏之（unknown；uncertain；treatment_given；present） `XJ-LYJY-V1-P095[25:34)`
 - **病机解释**：本次复读未选定证据；未载/归属不明待专家确认。
 
-复读意见：素膏粱醇酒是生活背景；叙述者未记首次治疗，前史相对回顾叙事为既往且时间边界不明。
+复读意见：饮食酒类为背景；全案未记叙述者诊治，症状、病程、干预相对首次诊治均为unknown；死为叙事结局，不能归为本医治疗失败。
 
 ## 059 · XJ-LYJY-C-V1-P096
 
@@ -1376,6 +1394,7 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 > 一男子足三陰虛患血風瘡症，誤服祛風散毒之劑，外敷斑蝥、巴豆等類，肌肉潰爛，嘔吐腹膨，或泄瀉足冷，或煩熱作渴，此藥復傷脾胃虛敗也。辭不治，不越月而歿。
 
 - **症状**：肌肉潰爛，嘔吐腹膨（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P096[32:41)`
+- **症状**：或泄瀉足冷，或煩熱作渴（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P096[42:53)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：不越月而歿（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LYJY-V1-P096[68:73)`
 - **干预前史/后续插入干预**：誤服祛風散毒之劑（initial_narrator_window；uncertain；treatment_given；present） `XJ-LYJY-V1-P096[13:21)`

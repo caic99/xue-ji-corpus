@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-28",
+  "work_ref": "XJ-LYJY",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 LYJY full case windows; five domains, persistent background and missing narrator encounter",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "separate_targeted_scan_record": "research/scan_reviews/LYJY_target_spots_2026-10-28.json",
+  "cases": [
+    {
+      "case_id": "XJ-LYJY-C-V1-P075",
+      "case_text_sha256": "c7029a517a89c133a0589eef4dbd4cbb31dc755468e49b0cfcb5fd8d6caa487e",
+      "finding": "补入承浆眼赤、前药后脓水及本医首轮后翳；亦属肝火是后段解释，善饮独立保留。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V2-P002",
+      "case_text_sha256": "ed10364ee5a76e115f3c636cae854b0e342f145c22fc8ee768dc34c924670f04",
+      "finding": "面青与前药后脓水补入；善怒非当次怒事件，脉象在前药后。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P064",
+      "case_text_sha256": "3003bffde6060c0fcb6db96f3147c985c81d64f336cc0d2182bf21e8e336ce58",
+      "finding": "补后因劳麻痒；后段气血俱虚不倒填首次病机，两次脉分阶段。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P072",
+      "case_text_sha256": "456ff74c8af7fce201765d5640d31d5a45f471b993d0939b47488fc719973a58",
+      "finding": "熏洗后汗喘不食等改为前药后状态；热伤元气为医家归因，不是已证明药因。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P080",
+      "case_text_sha256": "3c86236689eebc39fc98b185e14d88984be3f279ae6ca605735d249277aaf1ef",
+      "finding": "愈后未交代此前用药，未虚补既往干预。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P081",
+      "case_text_sha256": "be9f519c7fa7b63dd4349dc153c57f3814e0e5962308d1d3d251e8b02290e8cb",
+      "finding": "补搔起白屑及服药后内热体倦；脉大而虚独立存。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P087",
+      "case_text_sha256": "58c99ee6bf96b890113b6ec775f6cbd51b48c4adf978b0c01ebe5f273505eac0",
+      "finding": "六年病史保留；小儿肾疳是比拟，不推患者年龄。消瘦为当时状态。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P086",
+      "case_text_sha256": "fbd0712f4bdc5b22a120b2ec3a14fc65f8422d70c8928a13e012edf3b74b3757",
+      "finding": "久郁移至持续背景，移除当次诱因；药后延及遍身及寒热倦怠单列。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P078",
+      "case_text_sha256": "656389bdab92046c8c4fd9ee545f08c9177becd017800feb37e945ddeb69e3ff",
+      "finding": "补本医药后益甚；口噤脉微细非首次前症，既往未载不补。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V2-P013",
+      "case_text_sha256": "8b27c8ba7463618524909c6d4e50ae36ba4a8bb4e9e3a1114320377daf8edd51",
+      "finding": "补遇仙丹后热渴便秘；黄连内疏汤为案内处置，不列前药。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P090",
+      "case_text_sha256": "c84c84d847eed93af96cb260655b20c72d5e686ad274c49ef71f6f0f1575eac4",
+      "finding": "补半载后手足指缝等皮变；木保留原字，不硬译成现代神经症状。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P091",
+      "case_text_sha256": "f2b580ddad8cd30319193f050d7d082109a041f524e1863d821ba9d94cc31979",
+      "finding": "素虚只来自医者解释；顿落及药后渐生分开。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P092",
+      "case_text_sha256": "bc489f5416cec32e8834e48b60d9b24ae4960725de6f9ffabd7ae3c922dac99c",
+      "finding": "补前药后眉发脱落，不与最初遍身搔痒并为同时。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P093",
+      "case_text_sha256": "405d1ab3188d235465963b7f8626cf01f69445217b85305a96c8beaa037d39bd",
+      "finding": "症状与病程眉毛顿落均标前药后；原刻目标字另核落，非脫，不校勘整案。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P083",
+      "case_text_sha256": "d8cb71806cdff6a73b31ad6fe47e75d35deb20884169281f06b6607e3d78bc68",
+      "finding": "瘦倦为现时体形，愈后未载具体前治。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P094",
+      "case_text_sha256": "25b6d78ec27d273f710347d956ad4aa9da3a9b3c772154cd3f22a9129fcad7fb",
+      "finding": "补或字连接的表现，保留选择性叙述，不断言同时；房劳为平素背景，无频次推断。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P082",
+      "case_text_sha256": "ece71ed3fcf1ad94ce05e91bb533596439f8b8856fb57ed04e9bd4f133eb9d53",
+      "finding": "补前药后鼻面及疙瘩血水，谨疾不强建现代依从性测量。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P095",
+      "case_text_sha256": "502c42114adb869d3a68f21955edaee4fa464ef4d26b24fd5e1055b514c43360",
+      "finding": "无叙述者诊治锚，症状病程干预全部unknown；补脓水及死亡结局，不推为本医治疗失败。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P096",
+      "case_text_sha256": "bf9cde1460e870cb72c01ff9ce872614a2318857181f7e4e22bc2f9902708aed",
+      "finding": "药后肌肉及胃肠等状态补全，或字保留；辞不治非实际施治，不越月不换算固定天数。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P097",
+      "case_text_sha256": "11d1dbc7e69d9f563a9395a6bce0a4c3047fa591d943610447f1fd565fed80c2",
+      "finding": "妇人症状及久不愈保留，先用方是案内处置，未误列前治。",
+      "outcome": "retained_selected_observations"
+    }
+  ]
+}

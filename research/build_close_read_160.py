@@ -20,7 +20,7 @@ READABLE = ROOT / 'research/samples/CLOSE_READ_160_V1.md'
 SUMMARY = ROOT / 'research/samples/close_read_160_summary.json'
 FIELDS = base.FIELD_NAMES
 PHASES = {'initial_narrator_window', 'later_narrator_window', 'unknown'}
-PREFIXES = {'@post:', '@prior_response:', '@theory:', '@absent:'}
+PREFIXES = {'@post:', '@prior_response:', '@theory:', '@absent:', '@unknown:'}
 DATE = '2026-10-26'
 
 
@@ -83,6 +83,8 @@ def make_observation(case, field, token, index, overrides, role_overrides=None):
         elif prefix == '@theory:':
             phase, role, assertion = 'unknown', 'quoted_author', 'quoted_theory'
             narrative = 'theory_quoted_in_case_not_individual_observation'
+        elif prefix == '@unknown:':
+            phase, narrative = 'unknown', 'retrospective_state_no_narrator_encounter_recorded'
         elif prefix == '@absent:':
             polarity = 'explicitly_absent'
     if field == 'mechanism' and assertion != 'quoted_theory':

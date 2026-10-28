@@ -37,6 +37,7 @@ jobs:
           python3 research/build_extended_kcly.py --work NKCZ
           python3 research/build_extended_kcly.py --work NKZY
           python3 research/build_extended_kcly.py --work WKSY
+          python3 research/build_extended_kcly.py --work LYJY
           python3 research/build_event_pilot.py
           python3 research/build_event_pilot.py --work NKCZ
           python3 research/build_event_pilot.py --work NKZY

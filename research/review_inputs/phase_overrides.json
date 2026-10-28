@@ -30,6 +30,14 @@
     "prior_treatment": {
       "time_phase": "unknown",
       "narrative_role": "retrospective_interventions_no_narrator_encounter_recorded"
+    },
+    "symptoms": {
+      "time_phase": "unknown",
+      "narrative_role": "retrospective_state_no_narrator_encounter_recorded"
+    },
+    "course": {
+      "time_phase": "unknown",
+      "narrative_role": "retrospective_state_no_narrator_encounter_recorded"
     }
   },
   "XJ-LZWKFH-C-V5-P183-1": {

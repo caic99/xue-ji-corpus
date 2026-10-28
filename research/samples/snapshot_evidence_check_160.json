@@ -52,10 +52,10 @@
     }
   ],
   "summary": {
-    "exact_quote_present_in_mapped_snapshot_record": 727,
-    "quote_differs_from_cached_transcription": 16
+    "exact_quote_present_in_mapped_snapshot_record": 744,
+    "quote_differs_from_cached_transcription": 17
   },
-  "evidence_segments": 743,
+  "evidence_segments": 761,
   "original_print_images_checked": 0,
   "details": [
     {
@@ -5110,6 +5110,84 @@
     },
     {
       "case_id": "XJ-LYJY-C-V1-P075",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P075",
+      "raw_quote": "承漿潰膿，眼赤出淚",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 77,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 36,
+          "end_char_exclusive": 45
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 36,
+      "snapshot_end_char_exclusive": 45,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P075",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P075",
+      "raw_quote": "膿潰淋漓",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 77,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 61,
+          "end_char_exclusive": 65
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 61,
+      "snapshot_end_char_exclusive": 65,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P075",
+      "field": "symptoms",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P075",
+      "raw_quote": "兩睛各顯青白翳一片",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 77,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 106,
+          "end_char_exclusive": 115
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 106,
+      "snapshot_end_char_exclusive": 115,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P075",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -5184,6 +5262,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 66,
       "snapshot_end_char_exclusive": 72,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P075",
+      "field": "mechanism",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P075",
+      "raw_quote": "亦屬肝火",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 77,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 116,
+          "end_char_exclusive": 120
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 116,
+      "snapshot_end_char_exclusive": 120,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -5262,6 +5366,58 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 47,
       "snapshot_end_char_exclusive": 53,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V2-P002",
+      "field": "symptoms",
+      "observation_index": 3,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V2-P002",
+      "raw_quote": "面青",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 117,
+        "volume": "中卷",
+        "section": "續治諸症"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 5,
+          "end_char_exclusive": 7
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 5,
+      "snapshot_end_char_exclusive": 7,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V2-P002",
+      "field": "symptoms",
+      "observation_index": 4,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V2-P002",
+      "raw_quote": "膿水淋漓",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 117,
+        "volume": "中卷",
+        "section": "續治諸症"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 58,
+          "end_char_exclusive": 62
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 58,
+      "snapshot_end_char_exclusive": 62,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -5418,6 +5574,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 23,
+      "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P064",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P064",
+      "raw_quote": "後因勞遍身麻癢",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 66,
+        "volume": "上卷",
+        "section": "本症治驗"
+      },
+      "source_paragraph_identical": false,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 133,
+          "end_char_exclusive": 140
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 133,
+      "snapshot_end_char_exclusive": 140,
       "snapshot_alignment": "unique_literal_in_differing_paragraph_not_case_boundary_verification"
     },
     {
@@ -5786,6 +5968,58 @@
     },
     {
       "case_id": "XJ-LYJY-C-V1-P081",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P081",
+      "raw_quote": "搔起白屑",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 83,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 18,
+          "end_char_exclusive": 22
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 18,
+      "snapshot_end_char_exclusive": 22,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P081",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P081",
+      "raw_quote": "內熱體倦",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 83,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 28,
+          "end_char_exclusive": 32
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 28,
+      "snapshot_end_char_exclusive": 32,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P081",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -6020,11 +6254,11 @@
     },
     {
       "case_id": "XJ-LYJY-C-V1-P086",
-      "field": "trigger",
-      "observation_index": 0,
+      "field": "symptoms",
+      "observation_index": 1,
       "segment_index": 0,
       "source_ref": "XJ-LYJY-V1-P086",
-      "raw_quote": "懷抱久郁",
+      "raw_quote": "寒熱作渴，肢體倦怠",
       "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
       "snapshot_location": {
         "snapshot_paragraph_ordinal": 88,
@@ -6035,13 +6269,13 @@
       "status": "exact_quote_present_in_mapped_snapshot_record",
       "snapshot_candidate_spans": [
         {
-          "start_char": 3,
-          "end_char_exclusive": 7
+          "start_char": 30,
+          "end_char_exclusive": 39
         }
       ],
       "snapshot_occurrence_count": 1,
-      "snapshot_start_char": 3,
-      "snapshot_end_char_exclusive": 7,
+      "snapshot_start_char": 30,
+      "snapshot_end_char_exclusive": 39,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -6280,6 +6514,28 @@
     },
     {
       "case_id": "XJ-LYJY-C-V1-P078",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P078",
+      "raw_quote": "用補中益氣湯加五味、麥門益甚",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 80,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": false,
+      "status": "quote_differs_from_cached_transcription",
+      "working_record": "一男子愈後，因勞惡寒，頭痛體倦，余謂惡寒乃胃氣虛，不能護衛肌表，頭痛乃清氣虛，不能上升巔頂，用補中益氣湯加五味、麥門益甚，更兼口噤，脈微細如無，又加附子五分，四劑而瘥。",
+      "snapshot_record": "一男子愈後，因勞惡寒，頭痛體倦，余謂惡寒乃胃氣虛，不能護衛肌表，頭痛乃清氣虛，不能上升巔頂，用補中益氣湯加五味、麥冬益甚，更兼口噤，脈微細如無，又加附子五分，四劑而瘥。",
+      "existing_correction_metadata": {
+        "text_correction_applied": "2026-10-08 依承應本影像與四庫本對照改正：「冬」→「門」（承應本影像PDF第31 左葉頁；承應本影像（模型視覺，高確定度）與四庫本一致（低重要差異批次））。原轉錄讀法見 edition-compare/applied_corrections.json"
+      },
+      "interpretation": "difference_only_not_newly_adjudicated_transcription_error_or_edition_variant"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P078",
       "field": "mechanism",
       "observation_index": 0,
       "segment_index": 0,
@@ -6328,6 +6584,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 4,
       "snapshot_end_char_exclusive": 10,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V2-P013",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V2-P013",
+      "raw_quote": "發熱作渴，大便秘結",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 128,
+        "volume": "中卷",
+        "section": "續治諸症"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 21,
+          "end_char_exclusive": 30
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 21,
+      "snapshot_end_char_exclusive": 30,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -6406,6 +6688,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 20,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P090",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P090",
+      "raw_quote": "手足指縫臂腿腕皮厚色白，搔之則木",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 92,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 76,
+          "end_char_exclusive": 92
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 76,
+      "snapshot_end_char_exclusive": 92,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -6666,6 +6974,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 7,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P092",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P092",
+      "raw_quote": "眉發脫落",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 94,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 16,
+          "end_char_exclusive": 20
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 16,
+      "snapshot_end_char_exclusive": 20,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -6948,6 +7282,32 @@
     },
     {
       "case_id": "XJ-LYJY-C-V1-P094",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P094",
+      "raw_quote": "或發熱惡寒，或吐痰頭暈，或口乾作渴，或小便如淋，兩足發熱，或冷至脛",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 96,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 14,
+          "end_char_exclusive": 47
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 14,
+      "snapshot_end_char_exclusive": 47,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P094",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -7022,6 +7382,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
       "snapshot_end_char_exclusive": 17,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P082",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P082",
+      "raw_quote": "鼻赤面紫，身發疙瘩，搔出血水",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 84,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 31,
+          "end_char_exclusive": 45
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 31,
+      "snapshot_end_char_exclusive": 45,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -7130,6 +7516,32 @@
     },
     {
       "case_id": "XJ-LYJY-C-V1-P095",
+      "field": "symptoms",
+      "observation_index": 2,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P095",
+      "raw_quote": "膿水淋漓",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 97,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 47,
+          "end_char_exclusive": 51
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 47,
+      "snapshot_end_char_exclusive": 51,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P095",
       "field": "course",
       "observation_index": 0,
       "segment_index": 0,
@@ -7152,6 +7564,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 14,
       "snapshot_end_char_exclusive": 18,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P095",
+      "field": "course",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P095",
+      "raw_quote": "如無皮而死",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 97,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 52,
+          "end_char_exclusive": 57
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 52,
+      "snapshot_end_char_exclusive": 57,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
@@ -7230,6 +7668,32 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 32,
       "snapshot_end_char_exclusive": 41,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P096",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LYJY-V1-P096",
+      "raw_quote": "或泄瀉足冷，或煩熱作渴",
+      "snapshot_path": "work/source-snapshots/lyjy-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 98,
+        "volume": "上卷",
+        "section": "類症治驗"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 42,
+          "end_char_exclusive": 53
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 42,
+      "snapshot_end_char_exclusive": 53,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
