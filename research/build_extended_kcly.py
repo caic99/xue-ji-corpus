@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce manually selected independent dimensions for 20 cases in KCLY, ZTLY, NKCZ, NKZY, WKSY, LYJY or LZWKFH.
+"""Reproduce manually selected independent dimensions for 20 cases in KCLY, ZTLY, NKCZ, NKZY, WKSY, LYJY, LZWKFH or BYCY.
 No inference from prescriptions, disease names, or empty fields.
 """
 import argparse
@@ -24,6 +24,7 @@ def interpretation_kind(field,reading):
     if field=='tongue_features':return 'reported_tongue_swelling_not_formal_tongue_exam'
     if field=='habitus' and reading=='稟實年壯':return 'narrator_constitution_and_age_assessment_not_objective_measurement'
     if field=='habitus':return 'contemporaneous_body_description_not_premorbid_constitution'
+    if reading=='飲冷':return 'episode_cold_drink_descriptor_not_premorbid_habit_or_quantified_intake'
     if reading=='日飲冰水數碗':return 'episode_drinking_behavior_not_premorbid_habit'
     if '怒' in reading:return 'habitual_affect_description_not_episode_trigger'
     if any(x in reading for x in ('郁','鬱')):return 'persistent_affective_description_not_proven_episode_cause_or_modern_psychiatric_diagnosis'
@@ -35,7 +36,7 @@ def interpretation_kind(field,reading):
 
 
 def build(work="KCLY"):
-    if work not in {"KCLY", "ZTLY", "NKCZ", "NKZY", "WKSY", "LYJY", "LZWKFH"}:raise ValueError("Unsupported extended work")
+    if work not in {"KCLY", "ZTLY", "NKCZ", "NKZY", "WKSY", "LYJY", "LZWKFH", "BYCY"}:raise ValueError("Unsupported extended work")
     _,sample,index=review.build()
     cases={c['case_id']:c for c in sample if c['work_ref']=='XJ-'+work}
     choices={}
@@ -60,7 +61,7 @@ def build(work="KCLY"):
             fields[field]={'status':'model_selected_evidence' if observations else 'not_identified_in_model_case_read',
                            'missingness':None if observations else 'unrecorded_or_unresolved_not_explicit_absence',
                            'observations':observations}
-        records.append({'case_id':cid,'work_ref':'XJ-'+work,'review_date':'2026-10-28' if work in {'WKSY','LYJY','LZWKFH'} else '2026-10-27',
+        records.append({'case_id':cid,'work_ref':'XJ-'+work,'review_date':'2026-10-28' if work in {'WKSY','LYJY','LZWKFH','BYCY'} else '2026-10-27',
             'source_git_blob':review.base.BLOB_SHA_AT_FREEZE,
             'case_text_sha256':hashlib.sha256(c['body'].encode()).hexdigest(),
             'retrieval_status':c['md'].get('retrieval_status','unknown'),
@@ -75,6 +76,7 @@ def validate(records,cases,index):
     if len(records)!=20 or {r['case_id'] for r in records}!=set(cases):raise ValueError('Extended roster drift')
     for row in records:
         c=cases[row['case_id']]
+        if row['work_ref']!=c['work_ref']:raise ValueError('Extended work identity drift')
         if row['source_git_blob']!=review.base.BLOB_SHA_AT_FREEZE or row['case_text_sha256']!=hashlib.sha256(c['body'].encode()).hexdigest():
             raise ValueError('Extended source provenance drift')
         if row['retrieval_status']!=c['md'].get('retrieval_status','unknown') or row['default_retrieval_excluded']!=(c['md'].get('retrieval_status')=='needs_review'):
@@ -98,6 +100,7 @@ def validate(records,cases,index):
                     raise ValueError('Unchecked extended query or phase')
                 if field=='tongue_features' and o['interpretation_type']!='reported_tongue_swelling_not_formal_tongue_exam':
                     raise ValueError('Unsupported formal tongue-exam inference')
+                if o['interpretation_type']!=interpretation_kind(field,q):raise ValueError('Extended interpretation type drift')
 
 
 def summary(rows):
@@ -112,7 +115,7 @@ def summary(rows):
 
 
 def render(rows):
-    title={'XJ-KCLY':'口齿','XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要','XJ-LYJY':'疠疡机要','XJ-LZWKFH':'立斋外科发挥'}[rows[0]['work_ref']]
+    title={'XJ-KCLY':'口齿','XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要','XJ-LYJY':'疠疡机要','XJ-LZWKFH':'立斋外科发挥','XJ-BYCY':'保婴粹要'}[rows[0]['work_ref']]
     out=[f'# {title}20案：独立脉象、舌部观察、体形与习惯维度\n\n',
          f"{max(r['review_date'] for r in rows)}模型精选证据，"
          '非专家审校或穷尽标注。空字段保留未载/不明，不解释为患者没有。全部初诊查询导出禁用。\n\n',
@@ -137,11 +140,13 @@ def render(rows):
         out[2]='脉象保留前药后及本医后段；体瘦只记当前状态。善怒、久郁、房劳、饮酒膏粱为背景描述，不推本次诱因、频次、依赖或现代诊断。未记叙述者诊治的V1-P095背景阶段为unknown。没有选定舌部观察不等于明确没有。\n\n'
     if rows[0]['work_ref']=='XJ-LZWKFH':
         out[2]='脉不涩是明确否定涩脉，不是否定所有脉象；所有脉描述为原文叙述，不作现代测量。肌肉渐瘦为当时变化，不反推病前体质。口舌生疮不生成舌苔舌色；本批未选定习惯及舌部形态，不等于明确没有。\n\n'
+    if rows[0]['work_ref']=='XJ-BYCY':
+        out[2]='仅本批四库卷五20案。母亲郁火血热不归孩子；寅卯关脉赤不径归普通腕脉，肺洪大弦长按之微细字义待核，均另存未决候选。饮冷仅为病中饮冷相关描述，不是平素习惯或量化饮水；肌体骨立和形气消瘦为当时状态，后者属后段。没有舌部选证不等于没有，篇名也不保证各案均为儿童。\n\n'
     return ''.join(out).rstrip()+'\n'
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['KCLY','ZTLY','NKCZ','NKZY','WKSY','LYJY','LZWKFH'],default='KCLY');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['KCLY','ZTLY','NKCZ','NKZY','WKSY','LYJY','LZWKFH','BYCY'],default='KCLY');a=p.parse_args()
     rows,cases,index=build(a.work);validate(rows,cases,index)
     stem=a.work.lower()
     out=ROOT/f'research/samples/extended_{stem}_20_v1.jsonl'

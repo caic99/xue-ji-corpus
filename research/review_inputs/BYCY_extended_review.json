@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-28",
+  "work_ref": "XJ-BYCY",
+  "scope": "20 complete case windows read for four independent dimensions; not whole-book print collation",
+  "method": "model_review_not_independent_expert",
+  "human_adjudication": "pending",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "cases": [
+    {
+      "case_id": "XJ-BYCY-C-V5-L0234",
+      "case_text_sha256": "727e520f2ead99d84253dfa909e5f4e9445e4b90b6c04444d8d5c1b8624b7f8d",
+      "finding": "无明确独立脉、舌部形态、体形和习惯；倦怠属状态，不自动变体质。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0046",
+      "case_text_sha256": "c90f15ddc77ecec028d4e537ff50c7a30ea207a3772a66e172a172d2930ec723",
+      "finding": "肌体骨立是病中当时体形，十四岁不计为习惯或体质。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0028",
+      "case_text_sha256": "c505d0558935fe0ab2aa00d149719e243ccb6fcfb4ec530f6827eccb7f9a4f3f",
+      "finding": "孟冬脉洪数在医者解释之前；不宜于夏是预后，季夏不起是后验。成年嗣子不推为儿童。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0061",
+      "case_text_sha256": "96a1a0f0e3dedd4f3403a2b67587a35d862d5cb9d94b5f0f75e9f50a888672f1",
+      "finding": "肝脉弦长出寸口为明载；血盛无偶是医家解释，不反推实际性行为。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0119",
+      "case_text_sha256": "1486ea94555be003cad3e2ac01fe01915346b3f89381ce9289e3e25214f48458",
+      "finding": "两处连续脉描述在前药后，合存同一原文片段不额外拆计。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0546",
+      "case_text_sha256": "660427fc9ca6787c681442200b20da9ff6b2cefe5f4d6657ae53cc257adaa288",
+      "finding": "脉洪大数和形气消瘦均后段；肺洪大弦长字义未决，不据疑似错字补第二条脉象。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0185",
+      "case_text_sha256": "76d09d049bd02209d38a7619f1a78a266c8e569643c940266e464e4dae5dbeae",
+      "finding": "母亲描述不当孩子；寅卯关脉赤保留候选，不归普通脉字段。跨年时间不转换日历。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0052",
+      "case_text_sha256": "325e5bc7da4e46dfea29e25c6d6b3239183f8a6d03781a874755aa61e9ac594c",
+      "finding": "左关数脉在前药后；色不变与大按痛等在首次皮损阶段，本轮独立维度未重写五领域。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0026",
+      "case_text_sha256": "19948d4eccf2ad18b2318983873a6681fb05749e0374fa7d722f4c8a985f041f",
+      "finding": "浮大按涩在前药之后，医者预测与后来死亡区分。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0021",
+      "case_text_sha256": "e0dd831c22826e08ecbc8ba25e56feae33a2668bdedc1870b14f1f2838137511",
+      "finding": "数无力脉在首个判断前；后脓水与脾虚不倒填。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0553",
+      "case_text_sha256": "2480b2f27120a5ac20691a14a666580d09e098e767b38ec2d4d924dfeafd950a",
+      "finding": "没有选定独立维度证据，不能根据补中方反推气虚体质。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0555",
+      "case_text_sha256": "1e467d004fb1c51623005ba301472594b27daf556da47369b4daa029cda200a1",
+      "finding": "无独立选证，医者肝火和后温补非生活习惯。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0524",
+      "case_text_sha256": "c44e674e671b504cb3e3acdd527c5a8f3b478239de532fa10fa5fda280851781",
+      "finding": "没有独立选证，不能成脓不是体形或舌诊；尅伐是干预。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0558",
+      "case_text_sha256": "916fe15918eb3c5a2cc187babe6eee6e50e45adcace37bc802a0ea15ccdc26f4",
+      "finding": "未从睾丸症状和方药推脉舌体质。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0203",
+      "case_text_sha256": "7444750b6014eafa3377c7617aae9aa7bc964250d4d1bf664b321b41d736b29c",
+      "finding": "乳食不进是后来药后症状，不补为平素饮食习惯。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0527",
+      "case_text_sha256": "14b65aa3d0e4a05b82ebdca86f2f1d7232e3a269a7886d650b16b36ff208f46c",
+      "finding": "饮冷仅病中描述，不推平素偏好、量或实际依赖。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0213",
+      "case_text_sha256": "1bd0d6b7ffec30303071dc4eeaa0c731d9cbec83fe3b75025810c6cc72188dfb",
+      "finding": "凡女子后的惊恼是一般论述，不归当前患者背景或诱因。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0521",
+      "case_text_sha256": "e32fd7fbaecb5fd872280f8f0270d7283cd20b3d777b70c51f7728b92f359569",
+      "finding": "内热倦怠为后段症状，不自动生成独立体质。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0261",
+      "case_text_sha256": "8250842fbf0ab0237e66d4dea3f4992994256965624985ad06501c0ff49928e9",
+      "finding": "邪气上下俱出是药后医者解释，勿药自愈不反推最初病机。"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0227",
+      "case_text_sha256": "8e05af60ffefff6708064025d35ad9bef27a7df7771707786807e9214bb07f8a",
+      "finding": "停食事件与后来吐酸腐保持时序；通论不生成患者脉舌习惯。"
+    }
+  ],
+  "held_out_candidates": [
+    {
+      "case_id": "XJ-BYCY-C-V5-L0185",
+      "field_candidate": "mechanism_or_background",
+      "decision": "other_person_not_patient_feature",
+      "reading": "診其母有欝火血熱",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0186",
+          "source_start_char": 12,
+          "source_end_char_exclusive": 20,
+          "raw_quote": "診其母有欝火血熱"
+        }
+      ],
+      "case_text_sha256": "76d09d049bd02209d38a7619f1a78a266c8e569643c940266e464e4dae5dbeae",
+      "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+      "reason": "原句明指其母，不并入孩子病机、习惯或体形。",
+      "human_adjudication": "pending",
+      "initial_query_eligible": false
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0185",
+      "field_candidate": "pulse",
+      "decision": "observation_not_assigned_to_standard_pulse",
+      "reading": "視其寅夘關脉赤",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0189",
+          "source_start_char": 6,
+          "source_end_char_exclusive": 13,
+          "raw_quote": "視其寅夘關脉赤"
+        }
+      ],
+      "case_text_sha256": "76d09d049bd02209d38a7619f1a78a266c8e569643c940266e464e4dae5dbeae",
+      "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+      "reason": "部位及观察方法未按本研究普通脉描述确定，不能仅见脉字就并入。",
+      "human_adjudication": "pending",
+      "initial_query_eligible": false
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0546",
+      "field_candidate": "pulse",
+      "decision": "unresolved_literal_reading_not_normalized_to_pulse",
+      "reading": "肺洪大弦長按之㣲細",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0550",
+          "source_start_char": 11,
+          "source_end_char_exclusive": 20,
+          "raw_quote": "肺洪大弦長按之㣲細"
+        }
+      ],
+      "case_text_sha256": "660427fc9ca6787c681442200b20da9ff6b2cefe5f4d6657ae53cc257adaa288",
+      "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+      "reason": "冻结原文作肺，疑点保留，不改为脉或自动生成腕脉检查。",
+      "human_adjudication": "pending",
+      "initial_query_eligible": false
+    }
+  ]
+}

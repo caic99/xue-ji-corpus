@@ -21,6 +21,8 @@ commands=[
  ['research/build_extended_kcly.py','--work','LYJY'],
  ['research/build_extended_kcly.py','--work','LZWKFH'],
  ['research/build_event_pilot.py','--work','LZWKFH'],
+ ['research/build_extended_kcly.py','--work','BYCY'],
+ ['research/check_cross_annotation_consistency.py'],
  ['research/check_publication.py'],
  ['-m','unittest','discover','-s','research','-p','test_close_read_160.py','-v'],
 ]
@@ -50,7 +52,7 @@ def main():
  tracked=[ROOT/p for p in ['research/reproduce_sample.py','research/build_close_read_160.py',
            'research/check_sample_snapshots.py','research/test_close_read_160.py',
            'research/run_research_checks.py','research/check_publication.py',
-           'research/build_extended_kcly.py','research/build_event_pilot.py','research/check_scan_spots.py']]
+           'research/build_extended_kcly.py','research/build_event_pilot.py','research/check_scan_spots.py','research/check_cross_annotation_consistency.py']]
  tracked += sorted((ROOT/'research/review_inputs').glob('*'))
  tracked += sorted((ROOT/'research/scan_reviews').glob('*.json'))
  report={'date_client_timezone_Asia_Shanghai':args.report_date,

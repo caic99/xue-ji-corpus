@@ -1473,7 +1473,8 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 
 > 一男子臂患癰，不作膿。灸以豆豉餅，及飲托裡藥三十餘劑而潰，又月餘而瘳。
 
-- **症状**：臂患癰，不作膿（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V1-P016[3:10)`
+- **症状**：臂患癰（initial_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V1-P016[3:6)`
+- **症状**：不作膿（initial_narrator_window；case_narrator；narrated_observation；explicitly_absent） `XJ-LZWKFH-V1-P016[7:10)`
 - **诱发/缓解关联**：本次复读未选定证据；未载/归属不明待专家确认。
 - **病程**：三十餘劑而潰，又月餘而瘳（later_narrator_window；case_narrator；narrated_observation；present） `XJ-LZWKFH-V1-P016[22:34)`
 - **干预前史/后续插入干预**：本次复读未选定证据；未载/归属不明待专家确认。

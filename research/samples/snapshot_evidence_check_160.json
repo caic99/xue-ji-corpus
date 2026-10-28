@@ -52,10 +52,10 @@
     }
   ],
   "summary": {
-    "exact_quote_present_in_mapped_snapshot_record": 783,
+    "exact_quote_present_in_mapped_snapshot_record": 784,
     "quote_differs_from_cached_transcription": 18
   },
-  "evidence_segments": 801,
+  "evidence_segments": 802,
   "original_print_images_checked": 0,
   "details": [
     {
@@ -8170,7 +8170,7 @@
       "observation_index": 0,
       "segment_index": 0,
       "source_ref": "XJ-LZWKFH-V1-P016",
-      "raw_quote": "臂患癰，不作膿",
+      "raw_quote": "臂患癰",
       "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
       "snapshot_location": {
         "snapshot_paragraph_ordinal": 18,
@@ -8182,11 +8182,37 @@
       "snapshot_candidate_spans": [
         {
           "start_char": 3,
-          "end_char_exclusive": 10
+          "end_char_exclusive": 6
         }
       ],
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 3,
+      "snapshot_end_char_exclusive": 6,
+      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P016-1",
+      "field": "symptoms",
+      "observation_index": 1,
+      "segment_index": 0,
+      "source_ref": "XJ-LZWKFH-V1-P016",
+      "raw_quote": "不作膿",
+      "snapshot_path": "work/source-snapshots/lzwkfh-index-2026-09-29.html",
+      "snapshot_location": {
+        "snapshot_paragraph_ordinal": 18,
+        "volume": "卷一",
+        "section": "腫瘍（謂瘡瘍未出膿者）"
+      },
+      "source_paragraph_identical": true,
+      "status": "exact_quote_present_in_mapped_snapshot_record",
+      "snapshot_candidate_spans": [
+        {
+          "start_char": 7,
+          "end_char_exclusive": 10
+        }
+      ],
+      "snapshot_occurrence_count": 1,
+      "snapshot_start_char": 7,
       "snapshot_end_char_exclusive": 10,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },

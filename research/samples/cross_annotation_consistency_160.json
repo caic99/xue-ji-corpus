@@ -1,0 +1,222 @@
+{
+  "review_date": "2026-10-28",
+  "method": "automated_stored_artifact_consistency_not_semantic_adjudication",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "grain": "one_case_row_per_sample_in_each_of_two_tables; observations_nested_by_field; event_rows_only_pilot_subset",
+  "core_case_rows": 160,
+  "independent_case_rows": 160,
+  "matched_case_ids": 160,
+  "core_field_slots": 800,
+  "independent_field_slots": 640,
+  "core_empty_unresolved_slots": 265,
+  "independent_empty_unresolved_slots": 538,
+  "core_observations": 788,
+  "independent_observations": 111,
+  "core_literal_spans": 802,
+  "independent_literal_spans": 115,
+  "core_phases": {
+    "initial_narrator_window": 529,
+    "later_narrator_window": 249,
+    "unknown": 10
+  },
+  "independent_phases": {
+    "initial_narrator_window": 92,
+    "later_narrator_window": 18,
+    "unknown": 1
+  },
+  "core_explicit_negative_observations": 5,
+  "independent_explicit_negative_observations": 1,
+  "default_excluded_cases": 3,
+  "event_pilot_cases": 5,
+  "event_segments": 54,
+  "overlapping_cross_dimension_observation_pairs_checked": 14,
+  "core_observations_overlapping_pilot_events_checked": 30,
+  "phase_difference_candidates": [],
+  "bounded_negation_screen_candidates": [],
+  "held_out_candidates": 3,
+  "human_adjudicated_cases": 0,
+  "initial_query_exported": 0,
+  "independent_profiles": [
+    {
+      "work_ref": "XJ-BYCY",
+      "date": "2026-10-28",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 7,
+        "tongue_features": 0,
+        "habitus": 2,
+        "habits": 1
+      },
+      "observations": 10,
+      "literal_spans": 14,
+      "phases": {
+        "initial_narrator_window": 8,
+        "later_narrator_window": 2
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 0,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    },
+    {
+      "work_ref": "XJ-KCLY",
+      "date": "2026-10-27",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 5,
+        "tongue_features": 1,
+        "habitus": 2,
+        "habits": 5
+      },
+      "observations": 17,
+      "literal_spans": 17,
+      "phases": {
+        "initial_narrator_window": 12,
+        "later_narrator_window": 5
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 0,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    },
+    {
+      "work_ref": "XJ-LYJY",
+      "date": "2026-10-28",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 8,
+        "tongue_features": 0,
+        "habitus": 2,
+        "habits": 5
+      },
+      "observations": 16,
+      "literal_spans": 16,
+      "phases": {
+        "initial_narrator_window": 13,
+        "later_narrator_window": 2,
+        "unknown": 1
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 0,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    },
+    {
+      "work_ref": "XJ-LZWKFH",
+      "date": "2026-10-28",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 11,
+        "tongue_features": 0,
+        "habitus": 1,
+        "habits": 0
+      },
+      "observations": 12,
+      "literal_spans": 12,
+      "phases": {
+        "initial_narrator_window": 12
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 0,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    },
+    {
+      "work_ref": "XJ-NKCZ",
+      "date": "2026-10-27",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 2,
+        "tongue_features": 0,
+        "habitus": 1,
+        "habits": 6
+      },
+      "observations": 9,
+      "literal_spans": 9,
+      "phases": {
+        "initial_narrator_window": 9
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 0,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    },
+    {
+      "work_ref": "XJ-NKZY",
+      "date": "2026-10-27",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 10,
+        "tongue_features": 0,
+        "habitus": 5,
+        "habits": 6
+      },
+      "observations": 22,
+      "literal_spans": 22,
+      "phases": {
+        "initial_narrator_window": 18,
+        "later_narrator_window": 4
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 3,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    },
+    {
+      "work_ref": "XJ-WKSY",
+      "date": "2026-10-28",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 10,
+        "tongue_features": 0,
+        "habitus": 0,
+        "habits": 2
+      },
+      "observations": 15,
+      "literal_spans": 15,
+      "phases": {
+        "initial_narrator_window": 11,
+        "later_narrator_window": 4
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 0,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    },
+    {
+      "work_ref": "XJ-ZTLY",
+      "date": "2026-10-27",
+      "cases": 20,
+      "dimension_slots": 80,
+      "cases_with_selected_evidence": {
+        "pulse": 9,
+        "tongue_features": 0,
+        "habitus": 1,
+        "habits": 0
+      },
+      "observations": 10,
+      "literal_spans": 10,
+      "phases": {
+        "initial_narrator_window": 9,
+        "later_narrator_window": 1
+      },
+      "human_adjudicated": 0,
+      "initial_query_exported": 0,
+      "default_retrieval_excluded": 0,
+      "scope": "independent_dimensions_separate_from_five_domain_totals"
+    }
+  ],
+  "limitations": [
+    "No automatic interpretation of drug causality, patient identity, negation meaning or missing clinical facts.",
+    "Zero interval-label candidates is not zero semantic errors; only selected overlapping evidence is compared.",
+    "The negation screen uses a bounded cue list; zero candidates does not establish exhaustive negation coverage.",
+    "No third full-case clinical review or new print collation is established by this command."
+  ]
+}

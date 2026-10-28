@@ -38,6 +38,7 @@ jobs:
           python3 research/build_extended_kcly.py --work NKZY
           python3 research/build_extended_kcly.py --work WKSY
           python3 research/build_extended_kcly.py --work LZWKFH
+          python3 research/build_extended_kcly.py --work BYCY
           python3 research/build_extended_kcly.py --work LYJY
           python3 research/build_event_pilot.py
           python3 research/build_event_pilot.py --work NKCZ
@@ -45,6 +46,7 @@ jobs:
           python3 research/build_event_pilot.py --work WKSY
           python3 research/build_event_pilot.py --work LZWKFH
           python3 research/check_scan_spots.py
+          python3 research/check_cross_annotation_consistency.py
       - name: Reject invalid provenance, spans, verification and query claims
         run: python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
 

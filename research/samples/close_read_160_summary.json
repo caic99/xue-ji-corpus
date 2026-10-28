@@ -20,11 +20,11 @@
     "prior_treatment": 72,
     "mechanism": 121
   },
-  "observations": 787,
-  "literal_source_spans": 801,
+  "observations": 788,
+  "literal_source_spans": 802,
   "multi_segment_observations": 14,
   "phases": {
-    "initial_narrator_window": 528,
+    "initial_narrator_window": 529,
     "later_narrator_window": 249,
     "unknown": 10
   },

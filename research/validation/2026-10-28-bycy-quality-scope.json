@@ -1,0 +1,25 @@
+{
+  "execution": "actual_baseline_git_blob_comparison",
+  "baseline_commit": "b2dc4baf5f68a931c372c254949caf0ae5baf1b2",
+  "case_roster_hashes_and_source_spans_unchanged": 160,
+  "unchanged_core_five_domain_records": 159,
+  "changed_core_fields": [
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P016-1",
+      "fields": [
+        "symptoms"
+      ]
+    }
+  ],
+  "unchanged_existing_independent_files": [
+    "research/samples/extended_kcly_20_v1.jsonl",
+    "research/samples/extended_lyjy_20_v1.jsonl",
+    "research/samples/extended_lzwkfh_20_v1.jsonl",
+    "research/samples/extended_nkcz_20_v1.jsonl",
+    "research/samples/extended_nkzy_20_v1.jsonl",
+    "research/samples/extended_wksy_20_v1.jsonl",
+    "research/samples/extended_ztly_20_v1.jsonl"
+  ],
+  "new_independent_work": "XJ-BYCY",
+  "core_observation_delta": 1
+}

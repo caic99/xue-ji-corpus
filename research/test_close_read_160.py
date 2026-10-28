@@ -540,5 +540,84 @@ class LzwStagedCareTests(unittest.TestCase):
             e.validate(row,case,index)
 
 
+class IndependentJoinQualityTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_extended_kcly as ex
+        cls.rows,cls.cases,cls.index=ex.build('BYCY')
+
+    def test_wrong_work_identity_rejected(self):
+        import build_extended_kcly as ex
+        rows=copy.deepcopy(self.rows);rows[0]['work_ref']='XJ-NKZY'
+        with self.assertRaisesRegex(ValueError,'work identity drift'):
+            ex.validate(rows,self.cases,self.index)
+
+    def test_literal_pulse_cannot_be_retyped_as_habit(self):
+        import build_extended_kcly as ex
+        rows=copy.deepcopy(self.rows)
+        obs=next(o for r in rows for o in r['fields']['pulse']['observations'])
+        obs['interpretation_type']='reported_drinking_habit_no_quantity_or_dependency_inferred'
+        with self.assertRaisesRegex(ValueError,'interpretation type drift'):
+            ex.validate(rows,self.cases,self.index)
+
+    def test_mother_evidence_cannot_be_promoted_to_child_feature(self):
+        import check_cross_annotation_consistency as q
+        record=__import__('json').loads((review.ROOT/'research/review_inputs/BYCY_extended_review.json').read_text())
+        rows=copy.deepcopy(self.rows)
+        candidate=next(c for c in record['held_out_candidates'] if c['decision']=='other_person_not_patient_feature')
+        c=self.cases[candidate['case_id']]
+        obs=review.make_observation(c,'symptoms',candidate['reading'],self.index,{})
+        row=next(r for r in rows if r['case_id']==c['case_id'])
+        row['fields']['pulse']['observations'].append(obs)
+        with self.assertRaisesRegex(ValueError,'Held-out evidence was promoted'):
+            q.validate_held_out(record,self.cases,self.index,rows)
+
+    def test_cold_drink_wording_is_not_premorbid_habit(self):
+        import build_extended_kcly as ex
+        row=next(r for r in self.rows if r['case_id']=='XJ-BYCY-C-V5-L0527')
+        o=row['fields']['habits']['observations'][0]
+        self.assertEqual(o['reading_joined_source_segments'],'飲冷')
+        self.assertEqual(o['interpretation_type'],'episode_cold_drink_descriptor_not_premorbid_habit_or_quantified_intake')
+        self.assertFalse(o['initial_query_eligible'])
+
+    def test_compound_pus_nonformation_is_split_without_negating_whole_case(self):
+        rows,_,_=review.build();row=next(r for r in rows if r['case_id']=='XJ-LZWKFH-C-V1-P016-1')
+        obs=row['fields']['symptoms']['observations']
+        self.assertEqual([(o['reading_joined_source_segments'],o['polarity']) for o in obs],[('臂患癰','present'),('不作膿','explicitly_absent')])
+
+    def test_bounded_negation_screen_flags_compound_without_auto_relabeling(self):
+        import check_cross_annotation_consistency as q
+        fixture=[{'case_id':'synthetic','fields':{'symptoms':{'observations':[{'reading_joined_source_segments':'臂患癰，不作膿','polarity':'present'}]}}}]
+        flags=q.negation_candidates(fixture)
+        self.assertEqual(flags[0]['matched_cue'],'不作膿')
+        self.assertEqual(fixture[0]['fields']['symptoms']['observations'][0]['polarity'],'present')
+
+    def test_interval_comparison_excludes_touching_endpoints(self):
+        import check_cross_annotation_consistency as q
+        a=[{'source_ref':'A','source_start_char':0,'source_end_char_exclusive':2}]
+        b=[{'source_ref':'A','source_start_char':2,'source_end_char_exclusive':4}]
+        self.assertFalse(q.overlap(a,b))
+        b[0]['source_start_char']=1;self.assertTrue(q.overlap(a,b))
+        b[0]['source_ref']='B';self.assertFalse(q.overlap(a,b))
+
+    def test_real_overlapping_body_feature_phase_mismatch_flagged(self):
+        import build_extended_kcly as ex
+        import check_cross_annotation_consistency as q
+        core,_,_=review.build();rows,_,_=ex.build('LYJY')
+        row=next(r for r in rows if r['case_id']=='XJ-LYJY-C-V1-P087')
+        row['fields']['habitus']['observations'][0]['time_phase']='later_narrator_window'
+        flags,_,_=q.phase_candidates(core,rows,[])
+        self.assertTrue(any(f['case_id']==row['case_id'] and f['kind']=='overlapping_dimension_phase_difference' for f in flags))
+
+    def test_real_event_core_phase_mismatch_flagged(self):
+        import build_event_pilot as ev
+        import check_cross_annotation_consistency as q
+        core,_,_=review.build();row,_,_=ev.build('LZWKFH')
+        c=next(r for r in core if r['case_id']==row['case_id'])
+        c['fields']['mechanism']['observations'][0]['time_phase']='later_narrator_window'
+        flags,_,_=q.phase_candidates(core,[],[row])
+        self.assertTrue(any(f['kind']=='observation_event_phase_difference' and f['case_id']==row['case_id'] for f in flags))
+
+
 if __name__ == '__main__':
     unittest.main()
