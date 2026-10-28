@@ -684,5 +684,35 @@ class BycyRoleTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'evidence mapping'):
             self.role.validate(row,self.case,self.index)
 
+class BycyFullEventTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as event
+        cls.event=event
+        cls.record,cls.case,cls.index=event.build('BYCY')
+
+    def reject_event_change(self,event_id,key,value):
+        row=copy.deepcopy(self.record)
+        next(e for e in row['events'] if e['event_id']==event_id)[key]=value
+        with self.assertRaises(ValueError):self.event.validate(row,self.case,self.index)
+
+    def test_mother_diagnosis_cannot_move_to_child(self):
+        self.reject_event_change('E05','subjects',['child'])
+
+    def test_shared_treatment_cannot_drop_mother(self):
+        self.reject_event_change('E06','subjects',['child'])
+
+    def test_proposed_fuzi_cannot_be_performed(self):
+        self.reject_event_change('E10','intervention_status','narrated_as_performed')
+
+    def test_conditional_warning_cannot_be_death(self):
+        self.reject_event_change('E27','event_type','narrated_death')
+
+    def test_unknown_prior_treater_cannot_be_narrator(self):
+        self.reject_event_change('E08','actor_role','case_narrator')
+
+    def test_calendar_conversion_rejected(self):
+        self.reject_event_change('E16','calendar_date','1537-01-01')
+
 if __name__ == '__main__':
     unittest.main()

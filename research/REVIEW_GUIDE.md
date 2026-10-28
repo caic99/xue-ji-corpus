@@ -16,7 +16,9 @@
 
 保婴母子人物与语气试点另选7处关键片段，见 `samples/ROLE_PILOT_BYCY_V1.md`，未计入六案完整事件轴。最新增量自审见 `samples/SELF_REVIEW_BYCY_ROLES_2026-10-28.md`。
 
-在PR检出目录中运行完整检验（25项命令，保存真实日志）：
+保婴跨年案已另扩为26段完整来源覆盖，完整事件试点现7案87段80相邻关系。阶段比较覆盖44条核心观察，保留1处“余作胎毒治之”的跨锚点候选，见 `samples/SELF_REVIEW_BYCY_EVENTS_2026-10-28.md`；旧报告保留历史数字。
+
+在PR检出目录中运行完整检验（26项命令，保存真实日志）：
 
 ```sh
 python3 research/run_research_checks.py --report-date 2026-10-28 --label verification

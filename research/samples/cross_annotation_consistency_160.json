@@ -27,11 +27,23 @@
   "core_explicit_negative_observations": 5,
   "independent_explicit_negative_observations": 1,
   "default_excluded_cases": 3,
-  "event_pilot_cases": 6,
-  "event_segments": 61,
+  "event_pilot_cases": 7,
+  "event_segments": 87,
   "overlapping_cross_dimension_observation_pairs_checked": 14,
-  "core_observations_overlapping_pilot_events_checked": 36,
-  "phase_difference_candidates": [],
+  "core_observations_overlapping_pilot_events_checked": 44,
+  "phase_difference_candidates": [
+    {
+      "kind": "observation_event_phase_difference",
+      "case_id": "XJ-BYCY-C-V5-L0185",
+      "core_field": "mechanism",
+      "reading": "余作胎毒治之",
+      "core_phase": "initial_narrator_window",
+      "event_phases": [
+        "initial_narrator_window",
+        "later_narrator_window"
+      ]
+    }
+  ],
   "bounded_negation_screen_candidates": [],
   "held_out_candidates": 3,
   "human_adjudicated_cases": 0,
