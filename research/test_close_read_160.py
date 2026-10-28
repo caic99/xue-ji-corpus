@@ -789,5 +789,27 @@ class FullCasePrintComparisonTests(unittest.TestCase):
         p,r=self.record();r['pdf_page']=49
         with self.assertRaisesRegex(ValueError,'outside PDF'):p.build(r)
 
+class MultiCasePrintTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import check_print_case as p
+        cls.p=p
+        cls.rows=[p.build(path=f) for f in sorted((p.ROOT/'research/print_case_reviews').glob('*.json'))]
+
+    def test_actual_roster_and_unresolved_differences_retained(self):
+        summary=self.p.summarize(self.rows)
+        self.assertEqual(summary['cases'],2)
+        self.assertEqual(summary['compared_body_characters'],92)
+        self.assertEqual(summary['different_character_positions'],2)
+        self.assertEqual(len(self.rows[1]['differences']),0)
+
+    def test_duplicate_case_cannot_inflate_full_case_count(self):
+        with self.assertRaisesRegex(ValueError,'Duplicate'):
+            self.p.summarize([self.rows[0],self.rows[0]])
+
+    def test_same_pdf_page_cannot_inflate_unique_page_count(self):
+        rows=copy.deepcopy(self.rows);rows[1]['pdf_page']=rows[0]['pdf_page']
+        self.assertEqual(self.p.summarize(rows)['unique_pdf_pages'],1)
+
 if __name__ == '__main__':
     unittest.main()

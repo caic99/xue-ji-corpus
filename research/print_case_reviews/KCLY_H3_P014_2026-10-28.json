@@ -1,0 +1,23 @@
+{
+  "case_id": "XJ-KCLY-C-H3-P014-1",
+  "review_date": "2026-10-28",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 12,
+  "page_half": "left",
+  "location": "左半叶自右向左第2至第4正文列，从膳部鍾復齋至雖勞不作；下一案儒者柴濟美。",
+  "render_command": "pdftoppm -f 12 -l 12 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256": "26f1203877d4b9c671e6333d9a45d5c40624ae62234e7b9b161a5c3730dfc78d",
+  "scan_columns": [
+    "膳部鍾復齋每勞心則齒縫脹而不能咀嚼此元",
+    "氣虛弱先用補中益氣湯而痊更用十全大補湯",
+    "雖勞不作"
+  ],
+  "transcription_policy": "正文常用字编码逐字读法；不收入圈点、训点与旁注，不作古文字形摹写或现代标点验证。",
+  "expected_substitutions": [],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_case_one_print_witness_not_consensus_text_or_source_correction"
+}

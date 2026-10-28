@@ -1,0 +1,13 @@
+{
+  "scope": "full_case_model_image_comparisons_not_expert_collation",
+  "cases": 2,
+  "case_ids": [
+    "XJ-KCLY-C-H3-P005-1",
+    "XJ-KCLY-C-H3-P014-1"
+  ],
+  "compared_body_characters": 92,
+  "different_character_positions": 2,
+  "unique_pdf_pages": 2,
+  "expert_collated_cases": 0,
+  "initial_query_exported": 0
+}

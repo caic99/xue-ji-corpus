@@ -27,7 +27,7 @@ commands=[
  ['research/build_role_pilot.py'],
  ['research/build_event_pilot.py','--work','BYCY'],
  ['research/build_event_pilot.py','--work','KCLY'],
- ['research/check_print_case.py'],
+ ['research/check_print_case.py','--all'],
  ['research/check_publication.py'],
  ['-m','unittest','discover','-s','research','-p','test_close_read_160.py','-v'],
 ]
