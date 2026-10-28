@@ -650,5 +650,39 @@ class LyjyDeclinedCareTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'calendar date'):
             self.event.validate(row, self.case, self.index)
 
+class BycyRoleTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_role_pilot as role
+        cls.role=role
+        cls.record,cls.case,cls.index=role.build()
+
+    def reject_change(self, finding_id, key, value):
+        row=copy.deepcopy(self.record)
+        next(f for f in row['findings'] if f['id']==finding_id)[key]=value
+        with self.assertRaisesRegex(ValueError,'person/modality'):
+            self.role.validate(row,self.case,self.index)
+
+    def test_mother_assessment_cannot_be_child_feature(self):
+        self.reject_change('MOTHER','subjects',['child'])
+
+    def test_shared_medicine_cannot_drop_mother(self):
+        self.reject_change('BOTH','subjects',['child'])
+
+    def test_proposed_fuzi_cannot_be_performed(self):
+        self.reject_change('PLAN','assertion_type','narrated_as_performed')
+
+    def test_conditional_death_cannot_be_observed_outcome(self):
+        self.reject_change('COUNTER','assertion_type','narrated_death')
+
+    def test_unresolved_sign_cannot_be_standard_pulse(self):
+        self.reject_change('SIGN','assertion_type','standard_wrist_pulse')
+
+    def test_roles_cannot_keep_labels_but_swap_evidence(self):
+        row=copy.deepcopy(self.record)
+        row['findings'][0]['evidence']=row['findings'][1]['evidence']
+        with self.assertRaisesRegex(ValueError,'evidence mapping'):
+            self.role.validate(row,self.case,self.index)
+
 if __name__ == '__main__':
     unittest.main()

@@ -14,7 +14,9 @@
 
 ## 复验
 
-在PR检出目录中运行完整检验（24项命令，保存真实日志）：
+保婴母子人物与语气试点另选7处关键片段，见 `samples/ROLE_PILOT_BYCY_V1.md`，未计入六案完整事件轴。最新增量自审见 `samples/SELF_REVIEW_BYCY_ROLES_2026-10-28.md`。
+
+在PR检出目录中运行完整检验（25项命令，保存真实日志）：
 
 ```sh
 python3 research/run_research_checks.py --report-date 2026-10-28 --label verification

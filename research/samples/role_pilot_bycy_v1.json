@@ -1,0 +1,150 @@
+{
+  "case_id": "XJ-BYCY-C-V5-L0185",
+  "review_date": "2026-10-28",
+  "method": "model_selected_role_and_modality_review_after_full_window_reading",
+  "human_adjudication": "pending",
+  "scope": "selected_passages_not_full_event_axis",
+  "findings": [
+    {
+      "id": "MOTHER",
+      "subjects": [
+        "mother"
+      ],
+      "assertion_type": "narrator_assessment",
+      "note": "母亲的医者判断不转填孩子。",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0186",
+          "source_start_char": 12,
+          "source_end_char_exclusive": 20,
+          "raw_quote": "診其母有欝火血熱"
+        }
+      ]
+    },
+    {
+      "id": "BOTH",
+      "subjects": [
+        "child",
+        "mother"
+      ],
+      "assertion_type": "narrated_shared_treatment_and_outcome",
+      "note": "子母俱服明确双方用药；而愈未逐人细分症状、剂量或疗效。",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0186",
+          "source_start_char": 20,
+          "source_end_char_exclusive": 21,
+          "raw_quote": "用"
+        },
+        {
+          "source_ref": "XJ-BYCY-V5-L0187",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 12,
+          "raw_quote": "解鬱凉血之藥子母俱服而愈"
+        }
+      ]
+    },
+    {
+      "id": "PRIOR",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "prior_intervention_and_interpretation_actor_uncertain",
+      "note": "既往干预及慢惊判断，叙述未明示施治者。",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0188",
+          "source_start_char": 6,
+          "source_end_char_exclusive": 17,
+          "raw_quote": "投參术之類不應以為慢驚"
+        }
+      ]
+    },
+    {
+      "id": "PLAN",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "proposed_intervention_no_performance_claim",
+      "note": "欲用及请议只证计划，不能生成已服附子。",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0188",
+          "source_start_char": 17,
+          "source_end_char_exclusive": 21,
+          "raw_quote": "然欲用附"
+        },
+        {
+          "source_ref": "XJ-BYCY-V5-L0189",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 6,
+          "raw_quote": "子之藥請余議"
+        }
+      ]
+    },
+    {
+      "id": "SIGN",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "unresolved_observation_not_standard_wrist_pulse",
+      "note": "保留原字，具体观察方法及部位待核。",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0189",
+          "source_start_char": 6,
+          "source_end_char_exclusive": 13,
+          "raw_quote": "視其寅夘關脉赤"
+        }
+      ]
+    },
+    {
+      "id": "TREAT",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "narrator_assessment_and_narrated_treatment",
+      "note": "医者判断及叙述施治，不作现代因果验证。",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0189",
+          "source_start_char": 13,
+          "source_end_char_exclusive": 21,
+          "raw_quote": "此屬風熱用柴胡清"
+        },
+        {
+          "source_ref": "XJ-BYCY-V5-L0190",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 13,
+          "raw_quote": "肝散加鈎藤鈎木賊草一劑即愈"
+        }
+      ]
+    },
+    {
+      "id": "COUNTER",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "conditional_warning_not_observed_death",
+      "note": "若、则、或构成条件预后；本案前段已记而愈，不据末句生成死亡结局。",
+      "evidence": [
+        {
+          "source_ref": "XJ-BYCY-V5-L0195",
+          "source_start_char": 7,
+          "source_end_char_exclusive": 21,
+          "raw_quote": "此症若砭緩則血凝滯或為破傷風"
+        },
+        {
+          "source_ref": "XJ-BYCY-V5-L0196",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 3,
+          "raw_quote": "皆致死"
+        }
+      ]
+    }
+  ],
+  "work_ref": "XJ-BYCY",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "76d09d049bd02209d38a7619f1a78a266c8e569643c940266e464e4dae5dbeae",
+  "initial_query_eligible": false
+}
