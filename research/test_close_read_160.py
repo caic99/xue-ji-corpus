@@ -767,5 +767,27 @@ class KclySignedWitnessTests(unittest.TestCase):
     def test_ganzhi_cannot_be_calendar_date(self):
         self.reject_change('E01','calendar_date','1541-08-15')
 
+class FullCasePrintComparisonTests(unittest.TestCase):
+    def record(self):
+        import check_print_case as p
+        import json
+        return p,json.loads(p.INPUT.read_text())
+
+    def test_model_reading_cannot_be_expert_review(self):
+        p,r=self.record();r['human_adjudication']='completed'
+        with self.assertRaisesRegex(ValueError,'verification'):p.build(r)
+
+    def test_scan_omission_cannot_pass_equal_length_alignment(self):
+        p,r=self.record();r['scan_columns'][0]=r['scan_columns'][0][1:]
+        with self.assertRaisesRegex(ValueError,'character count'):p.build(r)
+
+    def test_differences_cannot_be_silently_emptied(self):
+        p,r=self.record();r['expected_substitutions']=[]
+        with self.assertRaisesRegex(ValueError,'differences drift'):p.build(r)
+
+    def test_print_page_must_exist(self):
+        p,r=self.record();r['pdf_page']=49
+        with self.assertRaisesRegex(ValueError,'outside PDF'):p.build(r)
+
 if __name__ == '__main__':
     unittest.main()
