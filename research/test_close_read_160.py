@@ -13,7 +13,7 @@ class ReviewContractTests(unittest.TestCase):
         review.validate_records(self.records, self.sample, self.index)
         self.assertEqual(sum(r['default_retrieval_excluded'] for r in self.records), 3)
         self.assertEqual(sum(len(o['evidence']) > 1 for r in self.records
-                             for f in r['fields'].values() for o in f['observations']), 14)
+                             for f in r['fields'].values() for o in f['observations']), 13)
 
     def test_tampered_literal_rejected(self):
         rows = copy.deepcopy(self.records)
@@ -713,6 +713,30 @@ class BycyFullEventTests(unittest.TestCase):
 
     def test_calendar_conversion_rejected(self):
         self.reject_event_change('E16','calendar_date','1537-01-01')
+
+class BycyAssessmentBoundaryTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as event
+        cls.records,cls.sample,cls.index=review.build()
+        cls.pilot,cls.case,_=event.build('BYCY')
+
+    def test_mechanism_stops_before_performed_care(self):
+        row=next(r for r in self.records if r['case_id']==self.case['case_id'])
+        obs=row['fields']['mechanism']['observations'][0]
+        self.assertEqual(obs['reading_joined_source_segments'],'余作胎毒')
+        self.assertEqual(len(obs['evidence']),1)
+        self.assertEqual(obs['time_phase'],'initial_narrator_window')
+        self.assertEqual(''.join(e['raw_quote'] for e in self.pilot['events'][2]['evidence']),'治之而瘥')
+
+    def test_old_merged_quote_still_triggers_phase_candidate(self):
+        import check_cross_annotation_consistency as q
+        rows=copy.deepcopy(self.records)
+        obs=next(r for r in rows if r['case_id']==self.case['case_id'])['fields']['mechanism']['observations'][0]
+        obs['reading_joined_source_segments']='余作胎毒治之'
+        obs['evidence']=review.evidence_for(self.case,'余作胎毒治之',self.index)
+        flags,_,_=q.phase_candidates(rows,[],[self.pilot])
+        self.assertTrue(any(f['reading']=='余作胎毒治之' for f in flags))
 
 if __name__ == '__main__':
     unittest.main()

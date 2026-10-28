@@ -21,8 +21,8 @@
     "mechanism": 121
   },
   "observations": 788,
-  "literal_source_spans": 802,
-  "multi_segment_observations": 14,
+  "literal_source_spans": 801,
+  "multi_segment_observations": 13,
   "phases": {
     "initial_narrator_window": 529,
     "later_narrator_window": 249,

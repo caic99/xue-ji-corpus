@@ -260,10 +260,10 @@ initial/later window 相对于首次明确叙述者评议或处置；later 包�
 - **病程**：至六月初患吐㵼（later_narrator_window；case_narrator；narrated_observation；present） `XJ-BYCY-V5-L0187[12:19)`
 - **病程**：至丁酉正月初旬頸 ／ 患熱毒（later_narrator_window；case_narrator；narrated_observation；present） `XJ-BYCY-V5-L0190[13:21); XJ-BYCY-V5-L0191[0:3)`
 - **干预前史/后续插入干预**：投參术之類不應（later_narrator_window；uncertain；treatment_given；present） `XJ-BYCY-V5-L0188[6:13)`
-- **病机解释**：余作胎毒 ／ 治之（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-BYCY-V5-L0185[17:21); XJ-BYCY-V5-L0186[0:2)`
+- **病机解释**：余作胎毒（initial_narrator_window；case_narrator；physician_interpretation；present） `XJ-BYCY-V5-L0185[17:21)`
 - **病机解释**：此風熱上攻血得熱而然（later_narrator_window；case_narrator；physician_interpretation；present） `XJ-BYCY-V5-L0192[4:14)`
 
-复读意见：跨年多轮治疗；贴药感风发热、吐泻及参术不应均属后续阶段，不倒填首诊。
+复读意见：跨年多轮治疗；贴药感风发热、吐泻及参术不应均属后续阶段，不倒填首诊。胎毒机制选证止于判断，治之而瘥另见事件E03。
 
 ## 008 · XJ-BYCY-C-V5-L0052
 

@@ -52,10 +52,10 @@
     }
   ],
   "summary": {
-    "exact_quote_present_in_mapped_snapshot_record": 784,
+    "exact_quote_present_in_mapped_snapshot_record": 783,
     "quote_differs_from_cached_transcription": 18
   },
-  "evidence_segments": 802,
+  "evidence_segments": 801,
   "original_print_images_checked": 0,
   "details": [
     {
@@ -1231,31 +1231,6 @@
       "snapshot_occurrence_count": 1,
       "snapshot_start_char": 17,
       "snapshot_end_char_exclusive": 21,
-      "snapshot_alignment": "identical_paragraph_preserves_working_offset"
-    },
-    {
-      "case_id": "XJ-BYCY-C-V5-L0185",
-      "field": "mechanism",
-      "observation_index": 0,
-      "segment_index": 1,
-      "source_ref": "XJ-BYCY-V5-L0186",
-      "raw_quote": "治之",
-      "snapshot_path": "work/source-snapshots/bycy-kr3e0070_005-2026-09-29.txt",
-      "snapshot_location": {
-        "snapshot_line_ordinal": 186,
-        "folio": "KR3e0070_WYG_005-12b"
-      },
-      "source_paragraph_identical": true,
-      "status": "exact_quote_present_in_mapped_snapshot_record",
-      "snapshot_candidate_spans": [
-        {
-          "start_char": 0,
-          "end_char_exclusive": 2
-        }
-      ],
-      "snapshot_occurrence_count": 1,
-      "snapshot_start_char": 0,
-      "snapshot_end_char_exclusive": 2,
       "snapshot_alignment": "identical_paragraph_preserves_working_offset"
     },
     {
