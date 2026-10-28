@@ -21,6 +21,7 @@ commands=[
  ['research/build_extended_kcly.py','--work','LYJY'],
  ['research/build_extended_kcly.py','--work','LZWKFH'],
  ['research/build_event_pilot.py','--work','LZWKFH'],
+ ['research/build_event_pilot.py','--work','LYJY'],
  ['research/build_extended_kcly.py','--work','BYCY'],
  ['research/check_cross_annotation_consistency.py'],
  ['research/check_publication.py'],

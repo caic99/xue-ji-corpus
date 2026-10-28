@@ -45,6 +45,7 @@ jobs:
           python3 research/build_event_pilot.py --work NKZY
           python3 research/build_event_pilot.py --work WKSY
           python3 research/build_event_pilot.py --work LZWKFH
+          python3 research/build_event_pilot.py --work LYJY
           python3 research/check_scan_spots.py
           python3 research/check_cross_annotation_consistency.py
       - name: Reject invalid provenance, spans, verification and query claims

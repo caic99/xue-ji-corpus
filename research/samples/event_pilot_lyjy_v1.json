@@ -1,0 +1,189 @@
+{
+  "case_id": "XJ-LYJY-C-V1-P096",
+  "review_date": "2026-10-28",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E05",
+  "anchor_scope": "first_recorded_narrator_assessment_in_window_not_first_performed_treatment",
+  "refusal_only_event_ids": [
+    "E06"
+  ],
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "narrated_case_introduction",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 1,
+      "evidence": [
+        {
+          "source_ref": "XJ-LYJY-V1-P096",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 13,
+          "raw_quote": "一男子足三陰虛患血風瘡症，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E02",
+      "event_type": "reported_intervention_with_narrator_misuse_attribution",
+      "actor_role": "uncertain_prior_treater",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 2,
+      "evidence": [
+        {
+          "source_ref": "XJ-LYJY-V1-P096",
+          "source_start_char": 13,
+          "source_end_char_exclusive": 22,
+          "raw_quote": "誤服祛風散毒之劑，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E03",
+      "event_type": "reported_intervention",
+      "actor_role": "uncertain_prior_treater",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 3,
+      "evidence": [
+        {
+          "source_ref": "XJ-LYJY-V1-P096",
+          "source_start_char": 22,
+          "source_end_char_exclusive": 32,
+          "raw_quote": "外敷斑蝥、巴豆等類，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E04",
+      "event_type": "patient_state_after_reported_intervention",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 4,
+      "evidence": [
+        {
+          "source_ref": "XJ-LYJY-V1-P096",
+          "source_start_char": 32,
+          "source_end_char_exclusive": 54,
+          "raw_quote": "肌肉潰爛，嘔吐腹膨，或泄瀉足冷，或煩熱作渴，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E05",
+      "event_type": "narrator_interpretation",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 5,
+      "evidence": [
+        {
+          "source_ref": "XJ-LYJY-V1-P096",
+          "source_start_char": 54,
+          "source_end_char_exclusive": 64,
+          "raw_quote": "此藥復傷脾胃虛敗也。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E06",
+      "event_type": "narrator_declines_care",
+      "actor_role": "case_narrator",
+      "intervention_status": "declined_no_narrator_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 6,
+      "evidence": [
+        {
+          "source_ref": "XJ-LYJY-V1-P096",
+          "source_start_char": 64,
+          "source_end_char_exclusive": 68,
+          "raw_quote": "辭不治，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E07",
+      "event_type": "narrated_outcome",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "不越月",
+      "calendar_date": null,
+      "relative_time_anchor": "preceding_declined_care_in_source_narrative_no_precise_elapsed_days",
+      "narrative_order": 7,
+      "evidence": [
+        {
+          "source_ref": "XJ-LYJY-V1-P096",
+          "source_start_char": 68,
+          "source_end_char_exclusive": 74,
+          "raw_quote": "不越月而歿。"
+        }
+      ],
+      "initial_query_eligible": false
+    }
+  ],
+  "work_ref": "XJ-LYJY",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "bf9cde1460e870cb72c01ff9ce872614a2318857181f7e4e22bc2f9902708aed",
+  "relations": [
+    {
+      "from": "E01",
+      "to": "E02",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E02",
+      "to": "E03",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E03",
+      "to": "E04",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E04",
+      "to": "E05",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E05",
+      "to": "E06",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E06",
+      "to": "E07",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    }
+  ]
+}

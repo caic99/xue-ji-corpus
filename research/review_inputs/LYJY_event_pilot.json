@@ -1,0 +1,91 @@
+{
+  "case_id": "XJ-LYJY-C-V1-P096",
+  "review_date": "2026-10-28",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E05",
+  "anchor_scope": "first_recorded_narrator_assessment_in_window_not_first_performed_treatment",
+  "refusal_only_event_ids": [
+    "E06"
+  ],
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "narrated_case_introduction",
+      "quote": "一男子足三陰虛患血風瘡症，",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E02",
+      "event_type": "reported_intervention_with_narrator_misuse_attribution",
+      "quote": "誤服祛風散毒之劑，",
+      "actor_role": "uncertain_prior_treater",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E03",
+      "event_type": "reported_intervention",
+      "quote": "外敷斑蝥、巴豆等類，",
+      "actor_role": "uncertain_prior_treater",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E04",
+      "event_type": "patient_state_after_reported_intervention",
+      "quote": "肌肉潰爛，嘔吐腹膨，或泄瀉足冷，或煩熱作渴，",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E05",
+      "event_type": "narrator_interpretation",
+      "quote": "此藥復傷脾胃虛敗也。",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E06",
+      "event_type": "narrator_declines_care",
+      "quote": "辭不治，",
+      "actor_role": "case_narrator",
+      "intervention_status": "declined_no_narrator_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E07",
+      "event_type": "narrated_outcome",
+      "quote": "不越月而歿。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "不越月",
+      "calendar_date": null,
+      "relative_time_anchor": "preceding_declined_care_in_source_narrative_no_precise_elapsed_days"
+    }
+  ]
+}

@@ -619,5 +619,36 @@ class IndependentJoinQualityTests(unittest.TestCase):
         self.assertTrue(any(f['kind']=='observation_event_phase_difference' and f['case_id']==row['case_id'] for f in flags))
 
 
+class LyjyDeclinedCareTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as event
+        cls.event = event
+        cls.record, cls.case, cls.index = event.build('LYJY')
+
+    def test_declined_care_cannot_become_performed(self):
+        row = copy.deepcopy(self.record)
+        row['events'][5]['intervention_status'] = 'narrated_as_performed'
+        with self.assertRaisesRegex(ValueError, 'Protected refusal'):
+            self.event.validate(row, self.case, self.index)
+
+    def test_declined_care_cannot_become_patient_refusal(self):
+        row = copy.deepcopy(self.record)
+        row['events'][5]['actor_role'] = 'patient'
+        with self.assertRaisesRegex(ValueError, 'Protected refusal'):
+            self.event.validate(row, self.case, self.index)
+
+    def test_death_cannot_be_dropped_from_window(self):
+        row = copy.deepcopy(self.record)
+        row['events'].pop()
+        with self.assertRaisesRegex(ValueError, 'entire case window'):
+            self.event.validate(row, self.case, self.index)
+
+    def test_relative_month_cannot_become_calendar_date(self):
+        row = copy.deepcopy(self.record)
+        row['events'][-1]['calendar_date'] = '1600-01-30'
+        with self.assertRaisesRegex(ValueError, 'calendar date'):
+            self.event.validate(row, self.case, self.index)
+
 if __name__ == '__main__':
     unittest.main()
