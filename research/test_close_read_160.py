@@ -738,5 +738,34 @@ class BycyAssessmentBoundaryTests(unittest.TestCase):
         flags,_,_=q.phase_candidates(rows,[],[self.pilot])
         self.assertTrue(any(f['reading']=='余作胎毒治之' for f in flags))
 
+class KclySignedWitnessTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as event
+        cls.event=event
+        cls.record,cls.case,cls.index=event.build('KCLY')
+
+    def reject_change(self,event_id,key,value):
+        row=copy.deepcopy(self.record)
+        next(e for e in row['events'] if e['event_id']==event_id)[key]=value
+        with self.assertRaises(ValueError):self.event.validate(row,self.case,self.index)
+
+    def test_physician_quote_cannot_be_patient_interpretation(self):
+        self.reject_change('E04','speaker_role','signed_patient_witness')
+
+    def test_praise_cannot_be_verified_outcome(self):
+        self.reject_change('E08','event_type','independently_verified_outcome')
+
+    def test_bystander_opinion_cannot_be_physician_observation(self):
+        self.reject_change('E07','actor_role','quoted_physician_lizhai')
+
+    def test_signature_cannot_be_lizhai(self):
+        row=copy.deepcopy(self.record);row['narrator_identity']='physician_lizhai'
+        with self.assertRaisesRegex(ValueError,'narrator drift'):
+            self.event.validate(row,self.case,self.index)
+
+    def test_ganzhi_cannot_be_calendar_date(self):
+        self.reject_change('E01','calendar_date','1541-08-15')
+
 if __name__ == '__main__':
     unittest.main()

@@ -14,7 +14,7 @@ READABLE=ROOT/'research/samples/EVENT_PILOT_ZTLY_V1.md'
 
 
 def build(work="ZTLY"):
-    if work not in {"ZTLY","NKCZ","NKZY","WKSY","LZWKFH","LYJY","BYCY"}:raise ValueError("Unsupported event pilot work")
+    if work not in {"ZTLY","NKCZ","NKZY","WKSY","LZWKFH","LYJY","BYCY","KCLY"}:raise ValueError("Unsupported event pilot work")
     _,sample,index=review.build()
     record=json.loads((ROOT/f'research/review_inputs/{work}_event_pilot.json').read_text())
     case=next(c for c in sample if c['case_id']==record['case_id'])
@@ -47,15 +47,21 @@ def validate(record,case,index):
     if not set(record.get('intent_only_event_ids',[]))<=set(ids):raise ValueError('Unknown intent-only event')
     if not set(record.get('refusal_only_event_ids',[]))<=set(ids):raise ValueError('Unknown refusal-only event')
     anchor=ids.index(record['first_recorded_care_decision_event'])
-    if record['work_ref']=='XJ-BYCY':
-        reviewed=json.loads((ROOT/'research/review_inputs/BYCY_event_pilot.json').read_text())
-        if ids!=[e['event_id'] for e in reviewed['events']]:raise ValueError('BYCY event roster drift')
+    if record['work_ref'] in {'XJ-BYCY','XJ-KCLY'}:
+        work=record['work_ref'].removeprefix('XJ-')
+        reviewed=json.loads((ROOT/f'research/review_inputs/{work}_event_pilot.json').read_text())
+        if ids!=[e['event_id'] for e in reviewed['events']]:raise ValueError('Reviewed event roster drift')
         for actual,expected_event in zip(events,reviewed['events']):
             if any(actual.get(k)!=expected_event[k] for k in ('subjects','event_type','actor_role','intervention_status')):
-                raise ValueError('BYCY reviewed subjects or modality drift')
+                raise ValueError('Reviewed subjects or modality drift')
             if ''.join(e['raw_quote'] for e in actual['evidence'])!=expected_event['quote']:
-                raise ValueError('BYCY event quote identity drift')
+                raise ValueError('Reviewed event quote identity drift')
+            if work=='KCLY' and actual.get('speaker_role')!=expected_event['speaker_role']:
+                raise ValueError('Signed witness speaker drift')
+        if work=='KCLY' and record.get('narrator_identity')!=reviewed['narrator_identity']:
+            raise ValueError('Signed witness narrator drift')
     expected_anchor_types={
+        'first_reported_physician_assessment_in_signed_witness_window':'quoted_physician_interpretation',
         'first_recorded_narrator_assessment_in_window_not_first_performed_treatment':'narrator_interpretation',
         'first_recorded_narrator_recommendation_in_window_not_first_performed_treatment':'care_recommendation',
         'first_explicit_narrator_advice_in_this_window_not_first_performed_treatment':'care_recommendation',
@@ -94,7 +100,7 @@ def validate(record,case,index):
 
 
 def render(r):
-    title={'XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要','XJ-LZWKFH':'立斋外科发挥','XJ-LYJY':'疠疡机要','XJ-BYCY':'保婴撮要'}[r['work_ref']]
+    title={'XJ-ZTLY':'正体','XJ-NKCZ':'女科','XJ-NKZY':'内科','XJ-WKSY':'外科枢要','XJ-LZWKFH':'立斋外科发挥','XJ-LYJY':'疠疡机要','XJ-BYCY':'保婴撮要','XJ-KCLY':'口齿类要'}[r['work_ref']]
     out=[f'# {title}事件轴试点：完整案文叙事分段（1案）\n\n',
          '模型按来源顺序逐段选择，非专家裁定，也不代表160案完整事件轴已完成。医者建议、处置意向与实际治疗严格分开；次日、数日后不换算日历日期。相邻关系只指叙事顺序，不证明因果。全部查询导出禁用。\n\n',
          f"案例：`{r['case_id']}`。首次记录医者决策：`{r['first_recorded_care_decision_event']}`，未据此认定建议或意向已实施。\n\n"]
@@ -102,6 +108,7 @@ def render(r):
         quote=' ／ '.join(x['raw_quote'] for x in e['evidence'])
         refs='; '.join(f"{x['source_ref']}[{x['source_start_char']}:{x['source_end_char_exclusive']})" for x in e['evidence'])
         if e.get('subjects'):refs+='; subjects='+','.join(e['subjects'])
+        if e.get('speaker_role'):refs+='; speaker='+e['speaker_role']
         out.append(f"- **{e['event_id']}** {quote} `{refs}`；{e['event_type']}；{e['actor_role']}；{e['intervention_status']}；{e['time_phase']}\n")
     if r.get('claim_conflict_note'):
         out.append('\n本案末段黄连是被转述的用药声称，叙述者另记阴仍用参附汤并称诈；这不是独立核实了欺骗事实。辛丑年不换算公历；相邻叙事不证明声称和实际处置严格先后。\n')
@@ -113,11 +120,13 @@ def render(r):
         out.append('\n辞不治记为叙述医者谢绝施治；原句省略主语，此归属为模型语境解释，待专家审核。误服为叙述者评价，先前处方与外敷执行者未明。或字连接表现不强定共时；此药复伤是医者病机解释。死亡为随后叙述结局，不推断拒治导致死亡或此后没有其他照护。不越月保留原词，不换算30天或具体日期。\n')
     if r['work_ref']=='XJ-BYCY':
         out.append('\n母亲郁火血热归母亲，子母俱服保留双方；共同用药不证明同病同量。欲用附子仅为拟议，慢惊判断和先前施治者未明。若砭缓皆致死是条件警告，前段而愈是叙述结局。干支、翌日和二盏许保持原词，不折算公历或现代体积；寅卯关脉赤观察方法继续未决。首段胎毒解释为首次评估锚点，后续不同发作不重新命名初诊；相邻段只是文本顺序。\n')
+    if r['work_ref']=='XJ-KCLY':
+        out.append('\n署名沈大方的亲历叙述不等于立斋本人叙述。怒动肝火为转述医者解释，不反推先前实际发怒；左顾吐痰只记动作顺序。旁观者以为、赞誉和自称明验不作独立验证。叙述药后恢复不证明药物因果疗效；嘉靖辛丑不转日历，一剂未竟日不强定24小时或精确疗程。署名属于文本证据，未核实历史作者身份。\n')
     return ''.join(out)
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['ZTLY','NKCZ','NKZY','WKSY','LZWKFH','LYJY','BYCY'],default='ZTLY');a=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--write',action='store_true');p.add_argument('--work',choices=['ZTLY','NKCZ','NKZY','WKSY','LZWKFH','LYJY','BYCY','KCLY'],default='ZTLY');a=p.parse_args()
     record,case,index=build(a.work);validate(record,case,index)
     out=ROOT/f'research/samples/event_pilot_{a.work.lower()}_v1.json'
     readable=ROOT/f'research/samples/EVENT_PILOT_{a.work}_V1.md'

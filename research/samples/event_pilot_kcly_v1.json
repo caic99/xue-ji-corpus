@@ -1,0 +1,331 @@
+{
+  "case_id": "XJ-KCLY-C-H6-P018-1",
+  "review_date": "2026-10-28",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E04",
+  "anchor_scope": "first_reported_physician_assessment_in_signed_witness_window",
+  "narrator_identity": "signed_patient_witness_shen_dafang",
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "narrated_context",
+      "actor_role": "patient_witness",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": "嘉靖辛丑仲秋",
+      "calendar_date": null,
+      "relative_time_anchor": "raw_narrative_expression_no_calendar_or_duration_conversion",
+      "narrative_order": 1,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 16,
+          "raw_quote": "嘉靖辛丑仲秋，大方憑几執筆就書，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E02",
+      "event_type": "patient_self_report",
+      "actor_role": "patient_witness",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": "如是者三四日",
+      "calendar_date": null,
+      "relative_time_anchor": "raw_narrative_expression_no_calendar_or_duration_conversion",
+      "narrative_order": 2,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 16,
+          "source_end_char_exclusive": 93,
+          "raw_quote": "咽喉間偶有痰涎，遂左顧吐之，以未及合而頸骨如摧，莫能轉視，至夜增劇，夜發盜汗，手足麻冷，臥起必藉人扶持，稍動則痛連心腹，苦楚萬狀，不可勝數，如是者三四日。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E03",
+      "event_type": "reported_consultation",
+      "actor_role": "quoted_physician_lizhai",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 3,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 93,
+          "source_end_char_exclusive": 102,
+          "raw_quote": "得立齋先生視之曰："
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E04",
+      "event_type": "quoted_physician_interpretation",
+      "actor_role": "quoted_physician_lizhai",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "quoted_physician_lizhai",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 4,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 102,
+          "source_end_char_exclusive": 116,
+          "raw_quote": "此怒動肝火，膽得火而筋攣縮。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E05",
+      "event_type": "reported_physician_intervention",
+      "actor_role": "quoted_physician_lizhai",
+      "intervention_status": "narrated_as_performed",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 5,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 116,
+          "source_end_char_exclusive": 138,
+          "raw_quote": "以六味地黃丸料加山梔、柴胡，以清肝火生膽血。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E06",
+      "event_type": "witness_reported_recovery",
+      "actor_role": "patient_witness",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "一劑未竟日",
+      "calendar_date": null,
+      "relative_time_anchor": "raw_narrative_expression_no_calendar_or_duration_conversion",
+      "narrative_order": 6,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 138,
+          "source_end_char_exclusive": 156,
+          "raw_quote": "一劑未竟日，而談笑舉動，一一如常矣。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E07",
+      "event_type": "reported_bystander_opinion",
+      "actor_role": "reported_bystanders",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "reported_bystanders",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 7,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 156,
+          "source_end_char_exclusive": 172,
+          "raw_quote": "接見賓從，俱以為前日之病者罔也，"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E08",
+      "event_type": "testimonial_praise",
+      "actor_role": "patient_witness",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 8,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 172,
+          "source_end_char_exclusive": 183,
+          "raw_quote": "先生之神妙，類多若此。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E09",
+      "event_type": "narrative_limitation",
+      "actor_role": "patient_witness",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 9,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 183,
+          "source_end_char_exclusive": 198,
+          "raw_quote": "惜乎，不肖疏怠蹇拙，不能盡述。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E10",
+      "event_type": "self_attested_testimony",
+      "actor_role": "patient_witness",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 10,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 198,
+          "source_end_char_exclusive": 213,
+          "raw_quote": "姑以其親試者，筆之以為明驗耳。"
+        }
+      ],
+      "initial_query_eligible": false
+    },
+    {
+      "event_id": "E11",
+      "event_type": "signature",
+      "actor_role": "patient_witness",
+      "intervention_status": "not_applicable",
+      "subjects": [
+        "shen_dafang"
+      ],
+      "speaker_role": "signed_patient_witness",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null,
+      "narrative_order": 11,
+      "evidence": [
+        {
+          "source_ref": "XJ-KCLY-H6-P018",
+          "source_start_char": 213,
+          "source_end_char_exclusive": 229,
+          "raw_quote": "吳門晚學生沈大方履文再頓首謹書。"
+        }
+      ],
+      "initial_query_eligible": false
+    }
+  ],
+  "work_ref": "XJ-KCLY",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "2ac6af51e5fbbe3ddf7a2f169b3903f70a4f3a418d821e8ef45ce781f22616a6",
+  "relations": [
+    {
+      "from": "E01",
+      "to": "E02",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E02",
+      "to": "E03",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E03",
+      "to": "E04",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E04",
+      "to": "E05",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E05",
+      "to": "E06",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E06",
+      "to": "E07",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E07",
+      "to": "E08",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E08",
+      "to": "E09",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E09",
+      "to": "E10",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    },
+    {
+      "from": "E10",
+      "to": "E11",
+      "relation": "next_in_source_narrative_not_proven_causality"
+    }
+  ]
+}
