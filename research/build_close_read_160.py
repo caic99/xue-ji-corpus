@@ -97,7 +97,7 @@ def make_observation(case, field, token, index, overrides, role_overrides=None):
     obj = {'reading_joined_source_segments': reading,
            'evidence': evidence_for(case, reading, index),
            'polarity': polarity, 'time_phase': phase,
-           'relative_to': 'first_explicit_narrator_care_decision_including_advice',
+           'relative_to': 'first_recorded_narrator_assessment_or_care_decision_including_advice',
            'speaker_role': role, 'assertion_type': assertion,
            'narrative_role': narrative,
            'certainty': 'model_interpretation_requires_expert_review',
@@ -288,7 +288,8 @@ def validate_records(records, sample, index):
 
 def render(records, sample):
     title = '# 160案逐案模型复读：五领域精选证据（V1）\n\n'
-    warning = ('2026-10-26初读；保婴、口齿、正体、女科及内科各20案于2026-10-27完成第二遍模型复审。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有口齿、正体、女科及内科指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。'
+    warning = (f"{DATE}初读；{sum(r['model_review_passes']==2 for r in records)}案已完成第二遍模型复审，逐案日期见相应复审记录。"
+               '每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有多书指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。'
                '未选到证据保留不确定，不解释为患者没有。\n\n'
                'initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。'
                '病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。\n\n'

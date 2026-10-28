@@ -369,5 +369,80 @@ class NkzyClaimAndExclusionTests(unittest.TestCase):
         self.assertEqual(obs['time_phase'],'later_narrator_window')
 
 
+class WksyForecastAndWitnessTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import build_event_pilot as events
+        import check_scan_spots as scan
+        import json
+        cls.events=events;cls.scan=scan
+        cls.row,cls.case,cls.index=events.build('WKSY')
+        cls.core,_,_=review.build()
+        cls.scan_record=json.loads(scan.PATH.read_text())
+
+    def test_healing_forecast_is_not_observed_outcome(self):
+        row=copy.deepcopy(self.row)
+        row['events'][3]['intervention_status']='observed_outcome'
+        with self.assertRaisesRegex(ValueError,'expectation cannot become observed'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_healing_forecast_cannot_be_retyped_as_outcome(self):
+        row=copy.deepcopy(self.row)
+        row['events'][3]['event_type']='narrated_outcome'
+        with self.assertRaisesRegex(ValueError,'expectation cannot become observed'):
+            self.events.validate(row,self.case,self.index)
+
+    def test_collective_comparison_is_not_individual_death(self):
+        row=next(r for r in self.core if r['case_id']=='XJ-WKSY-C-V3-P120-1')
+        self.assertTrue(all('俱不救' not in o['reading_joined_source_segments']
+                            for f in row['fields'].values() for o in f['observations']))
+
+    def test_narrator_sexual_explanation_does_not_generate_reported_exposure(self):
+        row=next(r for r in self.core if r['case_id']=='XJ-WKSY-C-V3-P083-1')
+        self.assertFalse(row['fields']['trigger']['observations'])
+        obs=next(o for o in row['fields']['mechanism']['observations']
+                 if '思色' in o['reading_joined_source_segments'])
+        self.assertEqual(obs['assertion_type'],'physician_interpretation')
+        self.assertEqual(obs['time_phase'],'later_narrator_window')
+
+    def test_general_theory_does_not_add_case_observations(self):
+        row=next(r for r in self.core if r['case_id']=='XJ-WKSY-C-V3-P026-1')
+        limit=self.index['XJ-WKSY-V3-P026'].index('經云')
+        self.assertTrue(all(e['source_end_char_exclusive']<=limit
+                            for f in row['fields'].values() for o in f['observations'] for e in o['evidence']))
+
+    def test_mechanism_stops_before_next_treatment_marker(self):
+        row=next(r for r in self.core if r['case_id']=='XJ-WKSY-C-V3-P017-1')
+        obs=row['fields']['mechanism']['observations'][-1]
+        self.assertTrue(obs['reading_joined_source_segments'].endswith('不能潰'))
+        ev=obs['evidence'][-1];text=self.index[ev['source_ref']]
+        self.assertEqual(text[ev['source_end_char_exclusive']:ev['source_end_char_exclusive']+3],'先。用')
+
+    def test_synthetic_opposing_scan_reading_is_recordable(self):
+        rec=copy.deepcopy(self.scan_record)
+        rec['spots'][0]['model_verdict']='opposes_working_reading_at_target_only'
+        rec['spots'][0]['image_target_reading_without_added_punctuation']='合成反例讀法'
+        self.scan.validate(rec,self.index)
+
+    def test_synthetic_unresolved_scan_reading_is_recordable(self):
+        rec=copy.deepcopy(self.scan_record)
+        rec['spots'][0]['model_verdict']='unresolved_model_reading'
+        rec['spots'][0]['image_target_reading_without_added_punctuation']=''
+        self.scan.validate(rec,self.index)
+
+    def test_claimed_scan_support_requires_target_in_recorded_reading(self):
+        rec=copy.deepcopy(self.scan_record)
+        rec['spots'][0]['image_target_reading_without_added_punctuation']=''
+        with self.assertRaisesRegex(ValueError,'support lacks working target'):
+            self.scan.validate(rec,self.index)
+
+    def test_ambiguous_background_does_not_default_to_drinking(self):
+        import build_extended_kcly as extended
+        for reading in ('素清苦','飲食如常'):
+            with self.subTest(reading=reading):
+                with self.assertRaisesRegex(ValueError,'Unclassified background'):
+                    extended.interpretation_kind('habits',reading)
+
+
 if __name__ == '__main__':
     unittest.main()

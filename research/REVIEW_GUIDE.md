@@ -49,3 +49,5 @@ python3 -m unittest discover -s research -p 'test_close_read_160.py' -v
 女科增量、先前解释者不明及处置意向见 `samples/SELF_REVIEW_NKCZ_2026-10-27.md`。追加执行 `python3 research/build_extended_kcly.py --work NKCZ`、`python3 research/build_event_pilot.py --work NKCZ`；意向和建议均不作为已实施治疗。
 
 内科增量、用药声称与待核继承见 `samples/SELF_REVIEW_NKZY_2026-10-27.md`。追加执行 `python3 research/build_extended_kcly.py --work NKZY`、`python3 research/build_event_pilot.py --work NKZY`。独立维度中的needs_review不得解除，声称用药不得变成已实施。
+
+外科增量、句界、未实现预期和可反驳影像记录见 `samples/SELF_REVIEW_WKSY_2026-10-28.md`。追加 `python3 research/build_extended_kcly.py --work WKSY`、`python3 research/build_event_pilot.py --work WKSY`；影像记录检查不得要求见证必须支持工作稿。

@@ -27,8 +27,13 @@ def validate(record,index,pdf=None):
             raise ValueError('Scan PDF page out of range')
         if spot['human_adjudication']!='pending' or spot['scope']!='specified_glyph_and_context_only_not_entire_case_or_edition':
             raise ValueError('Unsupported spot verification scope')
-        if spot['disputed_working_glyph'] not in ev['raw_quote'] or spot['disputed_working_glyph'] not in spot['image_target_reading_without_added_punctuation']:
+        verdict=spot['model_verdict']
+        if verdict not in {'supports_working_glyph_at_target_only','opposes_working_reading_at_target_only','unresolved_model_reading'}:
+            raise ValueError('Unknown model scan verdict')
+        if spot['disputed_working_glyph'] not in ev['raw_quote']:
             raise ValueError('Target glyph is not linked to the working reading')
+        if verdict=='supports_working_glyph_at_target_only' and spot['disputed_working_glyph'] not in spot['image_target_reading_without_added_punctuation']:
+            raise ValueError('Recorded support lacks working target in model reading')
     if pdf is not None:
         raw=Path(pdf).read_bytes()
         if len(raw)!=record['pdf_bytes'] or hashlib.sha256(raw).hexdigest()!=record['pdf_sha256']:
