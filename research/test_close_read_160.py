@@ -872,5 +872,26 @@ class ReviewedBlockAlignmentTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Invalid'):
             p.align_blocks([{'kind':'transposition_candidate','working':'甲乙','scan':'乙丙'}],[('A',0,'甲'),('A',1,'乙')],'乙丙')
 
+class PrintTraceabilityAuditTests(unittest.TestCase):
+    def record(self):
+        import check_print_case as p
+        import json
+        return p,json.loads((p.ROOT/'research/print_case_reviews/KCLY_H1_P012_2026-10-28.json').read_text())
+
+    def test_duplicate_column_location_rejected(self):
+        p,r=self.record();r['column_locations'][1]=copy.deepcopy(r['column_locations'][0])
+        with self.assertRaisesRegex(ValueError,'column reading order'):p.build(r)
+
+    def test_reversed_column_order_rejected(self):
+        p,r=self.record();r['column_locations'].reverse()
+        with self.assertRaisesRegex(ValueError,'column reading order'):p.build(r)
+
+    def test_print_insertion_has_physical_position_without_fake_source(self):
+        p,r=self.record();row=p.build(r)
+        insertion=next(b for b in row['reviewed_alignment'] if b['kind']=='insertion_in_print')
+        self.assertEqual(insertion['working_character_refs'],[])
+        ref=insertion['scan_character_refs'][0]
+        self.assertEqual((ref['scan_char'],ref['pdf_page'],ref['page_half'],ref['column_from_right'],ref['scan_column_char_index']),('發',6,'left',5,10))
+
 if __name__ == '__main__':
     unittest.main()

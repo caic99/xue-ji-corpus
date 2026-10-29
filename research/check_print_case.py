@@ -46,11 +46,15 @@ def build(record=None, path=INPUT):
     column_positions=[]
     if 'column_locations' in r:
         if len(r['column_locations'])!=len(r['scan_columns']):raise ValueError('Column location roster drift')
+        previous=None
         for col,(text,location) in enumerate(zip(r['scan_columns'],r['column_locations']),1):
             if (not 1<=location['pdf_page']<=witness['pdf_pages'] or
                 location['page_half'] not in {'left','right'} or
                 type(location['column_from_right']) is not int or location['column_from_right']<1):
                 raise ValueError('Invalid column location')
+            order=(location['pdf_page'],{'right':0,'left':1}[location['page_half']],location['column_from_right'])
+            if previous is not None and order<=previous:raise ValueError('Duplicate or reversed column reading order')
+            previous=order
             column_positions.extend({'scan_column_index':col,'scan_column_char_index':i+1} for i in range(len(text)))
     chars=[]
     used_pages={x['pdf_page'] for x in r.get('column_locations',[{'pdf_page':r['pdf_page']}])}
@@ -66,6 +70,11 @@ def build(record=None, path=INPUT):
                 chars.append((segment['source_ref'],pos,text[pos]))
     if 'alignment_blocks' in r:
         blocks=align_blocks(r['alignment_blocks'],chars,reading)
+        if column_positions:
+            refs=[{**p,**r['column_locations'][p['scan_column_index']-1],'scan_char':reading[i]}
+                  for i,p in enumerate(column_positions)]
+            for block in blocks:
+                block['scan_character_refs']=refs[block['scan_start_ordinal_zero_based']:block['scan_end_ordinal_exclusive']]
         return {**r,'source_git_blob':core.base.BLOB_SHA_AT_FREEZE,
                 'case_text_sha256':hashlib.sha256(case['body'].encode()).hexdigest(),
                 'pdf_sha256':witness['pdf_sha256'],'pdf_bytes':witness['pdf_bytes'],

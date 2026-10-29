@@ -166,6 +166,80 @@
           "source_start_char": 9,
           "source_end_char_exclusive": 10
         }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 1,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "一"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 2,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "婦"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 3,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "人"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 4,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "月"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 5,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "經"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 6,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "不"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 7,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "調"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 8,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "兩"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 9,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "足"
+        }
       ]
     },
     {
@@ -176,7 +250,17 @@
       "working_end_ordinal_exclusive": 9,
       "scan_start_ordinal_zero_based": 9,
       "scan_end_ordinal_exclusive": 10,
-      "working_character_refs": []
+      "working_character_refs": [],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 10,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "發"
+        }
+      ]
     },
     {
       "kind": "equal",
@@ -247,6 +331,104 @@
           "source_start_char": 23,
           "source_end_char_exclusive": 24
         }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 11,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "熱"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 12,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "年"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 13,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "餘"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 14,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "後"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 15,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "而"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 16,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "身"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 17,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "亦"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 18,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "熱"
+        },
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 19,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "勞"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 1,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "則"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 2,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "足"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 3,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "腿"
+        }
       ]
     },
     {
@@ -262,6 +444,16 @@
           "source_ref": "XJ-KCLY-H1-P012",
           "source_start_char": 24,
           "source_end_char_exclusive": 25
+        }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 4,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "酸"
         }
       ]
     },
@@ -304,6 +496,56 @@
           "source_start_char": 32,
           "source_end_char_exclusive": 33
         }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 5,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "疼"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 6,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "又"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 7,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "年"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 8,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "餘"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 9,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "唇"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 10,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "腫"
+        }
       ]
     },
     {
@@ -324,6 +566,24 @@
           "source_ref": "XJ-KCLY-H1-P012",
           "source_start_char": 34,
           "source_end_char_exclusive": 35
+        }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 11,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "痛"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 12,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "裂"
         }
       ]
     },
@@ -361,6 +621,48 @@
           "source_start_char": 41,
           "source_end_char_exclusive": 42
         }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 13,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "又"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 14,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "半"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 15,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "年"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 16,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "唇"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 17,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "裂"
+        }
       ]
     },
     {
@@ -381,6 +683,24 @@
           "source_ref": "XJ-KCLY-H1-P012",
           "source_start_char": 43,
           "source_end_char_exclusive": 44
+        }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 18,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "血"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 19,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "出"
         }
       ]
     },
@@ -578,6 +898,304 @@
           "source_start_char": 88,
           "source_end_char_exclusive": 89
         }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 1,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "形"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 2,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "體"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 3,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "瘦"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 4,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "倦"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 5,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "飲"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 6,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "食"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 7,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "無"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 8,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "味"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 9,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "月"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 10,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "水"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 11,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "不"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 12,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "通"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 13,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "唇"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 14,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "下"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 15,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "腫"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 16,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "如"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 17,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "黑"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 18,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "棗"
+        },
+        {
+          "scan_column_index": 3,
+          "scan_column_char_index": 19,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 7,
+          "scan_char": "余"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 1,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "曰"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 2,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "此"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 3,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "肝"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 4,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "脾"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 5,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "血"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 6,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "虛"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 7,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "火"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 8,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "症"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 9,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "彼"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 10,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "不"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 11,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "信"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 12,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "用"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 13,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "通"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 14,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "經"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 15,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "等"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 16,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "藥"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 17,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "而"
+        },
+        {
+          "scan_column_index": 4,
+          "scan_column_char_index": 18,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 8,
+          "scan_char": "死"
+        }
       ]
     }
   ],
@@ -590,7 +1208,17 @@
       "working_end_ordinal_exclusive": 9,
       "scan_start_ordinal_zero_based": 9,
       "scan_end_ordinal_exclusive": 10,
-      "working_character_refs": []
+      "working_character_refs": [],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 1,
+          "scan_column_char_index": 10,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 5,
+          "scan_char": "發"
+        }
+      ]
     },
     {
       "kind": "substitution",
@@ -605,6 +1233,16 @@
           "source_ref": "XJ-KCLY-H1-P012",
           "source_start_char": 24,
           "source_end_char_exclusive": 25
+        }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 4,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "酸"
         }
       ]
     },
@@ -627,6 +1265,24 @@
           "source_start_char": 34,
           "source_end_char_exclusive": 35
         }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 11,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "痛"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 12,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "裂"
+        }
       ]
     },
     {
@@ -647,6 +1303,24 @@
           "source_ref": "XJ-KCLY-H1-P012",
           "source_start_char": 43,
           "source_end_char_exclusive": 44
+        }
+      ],
+      "scan_character_refs": [
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 18,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "血"
+        },
+        {
+          "scan_column_index": 2,
+          "scan_column_char_index": 19,
+          "pdf_page": 6,
+          "page_half": "left",
+          "column_from_right": 6,
+          "scan_char": "出"
         }
       ]
     }
