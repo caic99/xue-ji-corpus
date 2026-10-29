@@ -98,6 +98,8 @@
   ],
   "bibliographic_review_ref": "research/witness_reviews/KCLY_bibliography_2026-10-29.json",
   "edition_date_verification": "inherited_metadata_not_reverified_from_images",
+  "catalog_review_ref": "research/witness_reviews/KCLY_catalog_2026-10-29.json",
+  "edition_catalog_verification": "institutional_catalog_record_supported_not_colophon_verified",
   "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
   "case_text_sha256": "81da99a329550b0652bfb62a40c3686821099a49359ca9a3dcdbbab44ac1b600",
   "pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",

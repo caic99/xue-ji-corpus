@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-29",
+  "method": "retrieved_institutional_union_catalog_metadata_not_colophon_reading",
+  "human_adjudication": "pending",
+  "source_url": "https://catalog.digitalarchives.tw/item/00/2f/fa/fc.html",
+  "source_provider_label": "國家圖書館",
+  "source_system_label": "古籍文獻資訊網",
+  "retrieval": {
+    "transport": "actual_curl_https_success_after_web_cache_miss",
+    "html_bytes": 20749,
+    "html_sha256": "7d277cfdfbc4e674d5bd68c00d5eb68cb9062761457c9e684d4c2ee5de8ff01c",
+    "reproducibility_note": "HTML hash identifies this response, not a permanent stable hash of future dynamic pages"
+  },
+  "target_pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "target_pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",
+  "catalog_fields": {
+    "title": "口齒類要",
+    "book_number": "06248-0014",
+    "author_label": "(明)薛己",
+    "edition_label": "日本承應3年(1654)刊本",
+    "binding_label": "線裝",
+    "rights_holder_label": "國家圖書館"
+  },
+  "citation_template_date_label": "年代不詳",
+  "date_field_interpretation": "edition field supports 1654 attribution; generic citation date is separately unknown; do not overwrite either or infer chronology independently",
+  "edition_catalog_verification": "institutional_catalog_record_supported_not_colophon_verified",
+  "original_ncl_item_fetch": {
+    "result": "web_open_timeout_for_parent_collection_record; returned original-source link leads to NCL search index, not a successful item-level fetch",
+    "original_source_link": "https://rbook.ncl.edu.tw/NCLSearch/Search/Index/1"
+  },
+  "colophon_verified": false,
+  "new_independent_print_witnesses": 0,
+  "limitations": [
+    "Union catalog attributes metadata to NCL; this retrieval is not a fresh successful NCL item-page retrieval.",
+    "Catalog attribution does not establish an imprint in the inspected PDF pages or a second independent edition."
+  ]
+}

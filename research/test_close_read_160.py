@@ -916,5 +916,28 @@ class WitnessBibliographyTests(unittest.TestCase):
         self.assertEqual(r['edition_date_verification'],'inherited_metadata_not_reverified_from_images')
         self.assertIn('witness_reviews/',r['bibliographic_review_ref'])
 
+class WitnessCatalogTests(unittest.TestCase):
+    def test_catalog_cannot_be_promoted_to_colophon(self):
+        import check_witness_catalog as c
+        r=c.build();r['colophon_verified']=True
+        with self.assertRaisesRegex(ValueError,'cannot be promoted'):c.build(r)
+
+    def test_other_book_number_rejected(self):
+        import check_witness_catalog as c
+        r=c.build();r['catalog_fields']['book_number']='06265-0014'
+        with self.assertRaisesRegex(ValueError,'book number'):c.build(r)
+
+    def test_citation_template_date_cannot_be_overwritten(self):
+        import check_witness_catalog as c
+        r=c.build();r['citation_template_date_label']='1654'
+        with self.assertRaisesRegex(ValueError,'Separate citation date'):c.build(r)
+
+    def test_catalog_and_image_verification_remain_separate(self):
+        import check_print_case as p
+        r=p.build()
+        self.assertEqual(r['edition_date_verification'],'inherited_metadata_not_reverified_from_images')
+        self.assertEqual(r['edition_catalog_verification'],'institutional_catalog_record_supported_not_colophon_verified')
+        self.assertIn('witness_reviews/',r['catalog_review_ref'])
+
 if __name__ == '__main__':
     unittest.main()

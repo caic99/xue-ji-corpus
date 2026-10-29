@@ -29,6 +29,7 @@ commands=[
  ['research/build_event_pilot.py','--work','KCLY'],
  ['research/check_print_case.py','--all'],
  ['research/check_witness_bibliography.py'],
+ ['research/check_witness_catalog.py'],
  ['research/check_publication.py'],
  ['-m','unittest','discover','-s','research','-p','test_close_read_160.py','-v'],
 ]
@@ -62,6 +63,7 @@ def main():
  tracked += sorted((ROOT/'research/review_inputs').glob('*'))
  tracked += [ROOT/'research/check_print_case.py',*sorted((ROOT/'research/print_case_reviews').glob('*.json'))]
  tracked += [ROOT/'research/check_witness_bibliography.py',*sorted((ROOT/'research/witness_reviews').glob('*.json'))]
+ tracked += [ROOT/'research/check_witness_catalog.py']
  tracked += [ROOT/'research/build_role_pilot.py']
  tracked += sorted((ROOT/'research/scan_reviews').glob('*.json'))
  report={'date_client_timezone_Asia_Shanghai':args.report_date,

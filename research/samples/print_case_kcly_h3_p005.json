@@ -31,6 +31,8 @@
   "scope": "one_case_one_print_witness_with_differences_not_consensus_text_or_source_correction",
   "bibliographic_review_ref": "research/witness_reviews/KCLY_bibliography_2026-10-29.json",
   "edition_date_verification": "inherited_metadata_not_reverified_from_images",
+  "catalog_review_ref": "research/witness_reviews/KCLY_catalog_2026-10-29.json",
+  "edition_catalog_verification": "institutional_catalog_record_supported_not_colophon_verified",
   "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
   "case_text_sha256": "6c75706eaf658b4d3e2aab250e17200e2bdd8ebf59dc597e7ac95f1d1c931bc9",
   "pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",

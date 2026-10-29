@@ -34,10 +34,12 @@
 
 新增口齿扫描书目核查，第1/2/3/47/48页可见书名及薛己署名；所看页未见刊年，承应三年1654仍为沿用旧元数据，本轮没有重新证实，不能说已证伪。五案派生文件均附书目核查引用与刊年限制。原scan_reviews文件为历史记录保留。
 
-在PR检出目录中运行完整检验（29项命令，保存真实日志）：
+目录追溯新增：实际取得[机构联合目录详情](https://catalog.digitalarchives.tw/item/00/2f/fa/fc.html)，题名口齒類要、书号06248-0014与目标PDF标识一致，版本字段为日本承應3年(1654)刊本，资料来源标为国家图书馆古籍文献资讯网。故1654获得目录字段支持；上段所述图像刊记未复证仍成立。引用模板另列年代不詳，保留两字段原貌。原馆精确条目未成功取得，不计新独立版本或刊记图读。最新自审见 `samples/SELF_REVIEW_CATALOG_DATE_2026-10-29.md`；五案同时携带目录支持与图像未复证两项状态。
+
+在PR检出目录中运行完整检验（30项命令，保存真实日志；当前127项回归）：
 
 ```sh
-python3 research/run_research_checks.py --report-date 2026-10-28 --label verification
+python3 research/run_research_checks.py --report-date 2026-10-29 --label catalog-date
 ```
 
 以下为核心单项入口，独立维度和事件试点由完整检验覆盖：

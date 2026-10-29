@@ -45,6 +45,10 @@ def build(record=None, path=INPUT):
         if audited['pdf_sha256']!=witness['pdf_sha256']:raise ValueError('Bibliographic witness mismatch')
         r.update(bibliographic_review_ref='research/witness_reviews/KCLY_bibliography_2026-10-29.json',
                  edition_date_verification=audited['date_claim']['status'])
+        import check_witness_catalog as catalog
+        reviewed_catalog=catalog.build()
+        r.update(catalog_review_ref='research/witness_reviews/KCLY_catalog_2026-10-29.json',
+                 edition_catalog_verification=reviewed_catalog['edition_catalog_verification'])
     if not 1<=r['pdf_page']<=witness['pdf_pages']:raise ValueError('Page outside PDF')
     if any(not 1<=x['pdf_page']<=witness['pdf_pages'] for x in r.get('boundary_checks',[])):
         raise ValueError('Boundary inspection page outside PDF')
