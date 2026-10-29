@@ -893,5 +893,28 @@ class PrintTraceabilityAuditTests(unittest.TestCase):
         ref=insertion['scan_character_refs'][0]
         self.assertEqual((ref['scan_char'],ref['pdf_page'],ref['page_half'],ref['column_from_right'],ref['scan_column_char_index']),('發',6,'left',5,10))
 
+class WitnessBibliographyTests(unittest.TestCase):
+    def record(self):
+        import check_witness_bibliography as b
+        return b,b.build()
+
+    def test_inherited_year_cannot_be_image_verified(self):
+        b,r=self.record();r['date_claim']['status']='image_verified'
+        with self.assertRaisesRegex(ValueError,'Inherited date'):b.build(r)
+
+    def test_claim_cannot_cite_unviewed_page(self):
+        b,r=self.record();r['title_claim']['supporting_pdf_pages']=[4]
+        with self.assertRaisesRegex(ValueError,'unviewed page'):b.build(r)
+
+    def test_bibliography_cannot_switch_pdf_identity(self):
+        b,r=self.record();r['pdf_sha256']='0'*64
+        with self.assertRaisesRegex(ValueError,'identity drift'):b.build(r)
+
+    def test_case_output_inherits_year_limit(self):
+        import check_print_case as p
+        r=p.build()
+        self.assertEqual(r['edition_date_verification'],'inherited_metadata_not_reverified_from_images')
+        self.assertIn('witness_reviews/',r['bibliographic_review_ref'])
+
 if __name__ == '__main__':
     unittest.main()

@@ -65,6 +65,8 @@
   "full_case_model_image_comparisons": 1,
   "expert_collated_cases": 0,
   "scope": "one_case_across_two_halves_one_print_witness_not_source_correction",
+  "bibliographic_review_ref": "research/witness_reviews/KCLY_bibliography_2026-10-29.json",
+  "edition_date_verification": "inherited_metadata_not_reverified_from_images",
   "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
   "case_text_sha256": "61eced3c25831d6309ee1c96942f86f8854758ba6d4c7a28c4bb4024d2d7e3e1",
   "pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",

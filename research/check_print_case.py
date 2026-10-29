@@ -39,6 +39,12 @@ def build(record=None, path=INPUT):
     if r['full_case_model_image_comparisons']!=1 or r['expert_collated_cases']!=0:
         raise ValueError('Model image comparison is not expert collation')
     witness=json.loads((ROOT/r['pdf_record']).read_text())
+    if r['pdf_record']=='research/scan_reviews/KCLY_target_spots_2026-10-27.json':
+        import check_witness_bibliography as bibliography
+        audited=bibliography.build()
+        if audited['pdf_sha256']!=witness['pdf_sha256']:raise ValueError('Bibliographic witness mismatch')
+        r.update(bibliographic_review_ref='research/witness_reviews/KCLY_bibliography_2026-10-29.json',
+                 edition_date_verification=audited['date_claim']['status'])
     if not 1<=r['pdf_page']<=witness['pdf_pages']:raise ValueError('Page outside PDF')
     if any(not 1<=x['pdf_page']<=witness['pdf_pages'] for x in r.get('boundary_checks',[])):
         raise ValueError('Boundary inspection page outside PDF')
