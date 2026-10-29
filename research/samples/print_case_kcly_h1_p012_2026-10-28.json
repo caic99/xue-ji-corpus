@@ -1,0 +1,660 @@
+{
+  "case_id": "XJ-KCLY-C-H1-P012-1",
+  "review_date": "2026-10-28",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 6,
+  "page_half": "left",
+  "location": "左半叶自右向左第5至第8列，一妇人月经不调起而死止；下一案一妇人善怒。",
+  "render_sha256": "e477f772ae76cdfa3656170bc85d039210e69d4ab29be022bae1532d43ee6b9a",
+  "render_command": "pdftoppm -f 6 -l 6 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "scan_columns": [
+    "一婦人月經不調兩足發熱年餘後而身亦熱勞",
+    "則足腿酸疼又年餘唇腫痛裂又半年唇裂血出",
+    "形體瘦倦飲食無味月水不通唇下腫如黑棗余",
+    "曰此肝脾血虛火症彼不信用通經等藥而死"
+  ],
+  "column_locations": [
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 5
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 6
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 7
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 8
+    }
+  ],
+  "transcription_policy": "保留扫描正文發、酸及字序；不据单一刻本修正文，不裁定哪版发生增删或倒置。训点及标点未校。",
+  "alignment_blocks": [
+    {
+      "kind": "equal",
+      "working": "一婦人月經不調兩足",
+      "scan": "一婦人月經不調兩足"
+    },
+    {
+      "kind": "insertion_in_print",
+      "working": "",
+      "scan": "發"
+    },
+    {
+      "kind": "equal",
+      "working": "熱年餘後而身亦熱勞則足腿",
+      "scan": "熱年餘後而身亦熱勞則足腿"
+    },
+    {
+      "kind": "substitution",
+      "working": "痠",
+      "scan": "酸"
+    },
+    {
+      "kind": "equal",
+      "working": "疼又年餘唇腫",
+      "scan": "疼又年餘唇腫"
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "裂痛",
+      "scan": "痛裂"
+    },
+    {
+      "kind": "equal",
+      "working": "又半年唇裂",
+      "scan": "又半年唇裂"
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "出血",
+      "scan": "血出"
+    },
+    {
+      "kind": "equal",
+      "working": "形體瘦倦飲食無味月水不通唇下腫如黑棗余曰此肝脾血虛火症彼不信用通經等藥而死",
+      "scan": "形體瘦倦飲食無味月水不通唇下腫如黑棗余曰此肝脾血虛火症彼不信用通經等藥而死"
+    }
+  ],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_case_reviewed_alignment_blocks_not_automatic_edit_script_or_consensus",
+  "boundary_checks": [
+    {
+      "pdf_page": 7,
+      "render_sha256": "9cf0d57defa876ae10d3d9c6d2957ed60f75401a2769bbb16cd1401f67b41d25",
+      "finding": "page7 continues the next case, not this case; inspected for boundary only"
+    }
+  ],
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "81da99a329550b0652bfb62a40c3686821099a49359ca9a3dcdbbab44ac1b600",
+  "pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",
+  "pdf_bytes": 11427465,
+  "working_case_evidence": [
+    {
+      "source_ref": "XJ-KCLY-H1-P012",
+      "source_start_char": 0,
+      "source_end_char_exclusive": 90,
+      "raw_quote": "一婦人月經不調，兩足熱，年餘後而身亦熱，勞則足腿痠疼。又年餘，唇腫裂痛。又半年，唇裂出血，形體瘦倦，飲食無味，月水不通，唇下腫如黑棗。余曰：此肝脾血虛火症。彼不信，用通經等藥而死。"
+    }
+  ],
+  "scan_reading": "一婦人月經不調兩足發熱年餘後而身亦熱勞則足腿酸疼又年餘唇腫痛裂又半年唇裂血出形體瘦倦飲食無味月水不通唇下腫如黑棗余曰此肝脾血虛火症彼不信用通經等藥而死",
+  "compared_body_characters_excluding_modern_punctuation": 74,
+  "scan_body_characters": 75,
+  "reviewed_alignment": [
+    {
+      "kind": "equal",
+      "working": "一婦人月經不調兩足",
+      "scan": "一婦人月經不調兩足",
+      "working_start_ordinal_zero_based": 0,
+      "working_end_ordinal_exclusive": 9,
+      "scan_start_ordinal_zero_based": 0,
+      "scan_end_ordinal_exclusive": 9,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 0,
+          "source_end_char_exclusive": 1
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 1,
+          "source_end_char_exclusive": 2
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 2,
+          "source_end_char_exclusive": 3
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 3,
+          "source_end_char_exclusive": 4
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 4,
+          "source_end_char_exclusive": 5
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 5,
+          "source_end_char_exclusive": 6
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 6,
+          "source_end_char_exclusive": 7
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 8,
+          "source_end_char_exclusive": 9
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 9,
+          "source_end_char_exclusive": 10
+        }
+      ]
+    },
+    {
+      "kind": "insertion_in_print",
+      "working": "",
+      "scan": "發",
+      "working_start_ordinal_zero_based": 9,
+      "working_end_ordinal_exclusive": 9,
+      "scan_start_ordinal_zero_based": 9,
+      "scan_end_ordinal_exclusive": 10,
+      "working_character_refs": []
+    },
+    {
+      "kind": "equal",
+      "working": "熱年餘後而身亦熱勞則足腿",
+      "scan": "熱年餘後而身亦熱勞則足腿",
+      "working_start_ordinal_zero_based": 9,
+      "working_end_ordinal_exclusive": 21,
+      "scan_start_ordinal_zero_based": 10,
+      "scan_end_ordinal_exclusive": 22,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 10,
+          "source_end_char_exclusive": 11
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 12,
+          "source_end_char_exclusive": 13
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 13,
+          "source_end_char_exclusive": 14
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 14,
+          "source_end_char_exclusive": 15
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 15,
+          "source_end_char_exclusive": 16
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 16,
+          "source_end_char_exclusive": 17
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 17,
+          "source_end_char_exclusive": 18
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 18,
+          "source_end_char_exclusive": 19
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 20,
+          "source_end_char_exclusive": 21
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 21,
+          "source_end_char_exclusive": 22
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 22,
+          "source_end_char_exclusive": 23
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 23,
+          "source_end_char_exclusive": 24
+        }
+      ]
+    },
+    {
+      "kind": "substitution",
+      "working": "痠",
+      "scan": "酸",
+      "working_start_ordinal_zero_based": 21,
+      "working_end_ordinal_exclusive": 22,
+      "scan_start_ordinal_zero_based": 22,
+      "scan_end_ordinal_exclusive": 23,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 24,
+          "source_end_char_exclusive": 25
+        }
+      ]
+    },
+    {
+      "kind": "equal",
+      "working": "疼又年餘唇腫",
+      "scan": "疼又年餘唇腫",
+      "working_start_ordinal_zero_based": 22,
+      "working_end_ordinal_exclusive": 28,
+      "scan_start_ordinal_zero_based": 23,
+      "scan_end_ordinal_exclusive": 29,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 25,
+          "source_end_char_exclusive": 26
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 27,
+          "source_end_char_exclusive": 28
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 28,
+          "source_end_char_exclusive": 29
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 29,
+          "source_end_char_exclusive": 30
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 31,
+          "source_end_char_exclusive": 32
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 32,
+          "source_end_char_exclusive": 33
+        }
+      ]
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "裂痛",
+      "scan": "痛裂",
+      "working_start_ordinal_zero_based": 28,
+      "working_end_ordinal_exclusive": 30,
+      "scan_start_ordinal_zero_based": 29,
+      "scan_end_ordinal_exclusive": 31,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 33,
+          "source_end_char_exclusive": 34
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 34,
+          "source_end_char_exclusive": 35
+        }
+      ]
+    },
+    {
+      "kind": "equal",
+      "working": "又半年唇裂",
+      "scan": "又半年唇裂",
+      "working_start_ordinal_zero_based": 30,
+      "working_end_ordinal_exclusive": 35,
+      "scan_start_ordinal_zero_based": 31,
+      "scan_end_ordinal_exclusive": 36,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 36,
+          "source_end_char_exclusive": 37
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 37,
+          "source_end_char_exclusive": 38
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 38,
+          "source_end_char_exclusive": 39
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 40,
+          "source_end_char_exclusive": 41
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 41,
+          "source_end_char_exclusive": 42
+        }
+      ]
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "出血",
+      "scan": "血出",
+      "working_start_ordinal_zero_based": 35,
+      "working_end_ordinal_exclusive": 37,
+      "scan_start_ordinal_zero_based": 36,
+      "scan_end_ordinal_exclusive": 38,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 42,
+          "source_end_char_exclusive": 43
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 43,
+          "source_end_char_exclusive": 44
+        }
+      ]
+    },
+    {
+      "kind": "equal",
+      "working": "形體瘦倦飲食無味月水不通唇下腫如黑棗余曰此肝脾血虛火症彼不信用通經等藥而死",
+      "scan": "形體瘦倦飲食無味月水不通唇下腫如黑棗余曰此肝脾血虛火症彼不信用通經等藥而死",
+      "working_start_ordinal_zero_based": 37,
+      "working_end_ordinal_exclusive": 74,
+      "scan_start_ordinal_zero_based": 38,
+      "scan_end_ordinal_exclusive": 75,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 45,
+          "source_end_char_exclusive": 46
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 46,
+          "source_end_char_exclusive": 47
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 47,
+          "source_end_char_exclusive": 48
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 48,
+          "source_end_char_exclusive": 49
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 50,
+          "source_end_char_exclusive": 51
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 51,
+          "source_end_char_exclusive": 52
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 52,
+          "source_end_char_exclusive": 53
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 53,
+          "source_end_char_exclusive": 54
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 55,
+          "source_end_char_exclusive": 56
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 56,
+          "source_end_char_exclusive": 57
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 57,
+          "source_end_char_exclusive": 58
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 58,
+          "source_end_char_exclusive": 59
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 60,
+          "source_end_char_exclusive": 61
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 61,
+          "source_end_char_exclusive": 62
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 62,
+          "source_end_char_exclusive": 63
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 63,
+          "source_end_char_exclusive": 64
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 64,
+          "source_end_char_exclusive": 65
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 65,
+          "source_end_char_exclusive": 66
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 67,
+          "source_end_char_exclusive": 68
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 68,
+          "source_end_char_exclusive": 69
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 70,
+          "source_end_char_exclusive": 71
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 71,
+          "source_end_char_exclusive": 72
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 72,
+          "source_end_char_exclusive": 73
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 73,
+          "source_end_char_exclusive": 74
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 74,
+          "source_end_char_exclusive": 75
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 75,
+          "source_end_char_exclusive": 76
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 76,
+          "source_end_char_exclusive": 77
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 78,
+          "source_end_char_exclusive": 79
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 79,
+          "source_end_char_exclusive": 80
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 80,
+          "source_end_char_exclusive": 81
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 82,
+          "source_end_char_exclusive": 83
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 83,
+          "source_end_char_exclusive": 84
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 84,
+          "source_end_char_exclusive": 85
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 85,
+          "source_end_char_exclusive": 86
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 86,
+          "source_end_char_exclusive": 87
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 87,
+          "source_end_char_exclusive": 88
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 88,
+          "source_end_char_exclusive": 89
+        }
+      ]
+    }
+  ],
+  "block_differences": [
+    {
+      "kind": "insertion_in_print",
+      "working": "",
+      "scan": "發",
+      "working_start_ordinal_zero_based": 9,
+      "working_end_ordinal_exclusive": 9,
+      "scan_start_ordinal_zero_based": 9,
+      "scan_end_ordinal_exclusive": 10,
+      "working_character_refs": []
+    },
+    {
+      "kind": "substitution",
+      "working": "痠",
+      "scan": "酸",
+      "working_start_ordinal_zero_based": 21,
+      "working_end_ordinal_exclusive": 22,
+      "scan_start_ordinal_zero_based": 22,
+      "scan_end_ordinal_exclusive": 23,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 24,
+          "source_end_char_exclusive": 25
+        }
+      ]
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "裂痛",
+      "scan": "痛裂",
+      "working_start_ordinal_zero_based": 28,
+      "working_end_ordinal_exclusive": 30,
+      "scan_start_ordinal_zero_based": 29,
+      "scan_end_ordinal_exclusive": 31,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 33,
+          "source_end_char_exclusive": 34
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 34,
+          "source_end_char_exclusive": 35
+        }
+      ]
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "出血",
+      "scan": "血出",
+      "working_start_ordinal_zero_based": 35,
+      "working_end_ordinal_exclusive": 37,
+      "scan_start_ordinal_zero_based": 36,
+      "scan_end_ordinal_exclusive": 38,
+      "working_character_refs": [
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 42,
+          "source_end_char_exclusive": 43
+        },
+        {
+          "source_ref": "XJ-KCLY-H1-P012",
+          "source_start_char": 43,
+          "source_end_char_exclusive": 44
+        }
+      ]
+    }
+  ],
+  "differences": [],
+  "difference_counting_scope": "block_events_not_character_position_differences",
+  "limitations": [
+    "Manual model alignment is not expert collation or an automatic correction.",
+    "Insertion/deletion labels are relative to frozen working text, not edition history."
+  ]
+}

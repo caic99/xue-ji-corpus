@@ -1,14 +1,20 @@
 {
   "scope": "full_case_model_image_comparisons_not_expert_collation",
-  "cases": 3,
+  "cases": 4,
   "case_ids": [
     "XJ-KCLY-C-H1-P011-1",
+    "XJ-KCLY-C-H1-P012-1",
     "XJ-KCLY-C-H3-P005-1",
     "XJ-KCLY-C-H3-P014-1"
   ],
-  "compared_body_characters": 198,
+  "compared_body_characters": 272,
   "different_character_positions": 4,
   "unique_pdf_pages": 3,
   "expert_collated_cases": 0,
-  "initial_query_exported": 0
+  "initial_query_exported": 0,
+  "reviewed_block_cases": 1,
+  "reviewed_block_difference_events": 4,
+  "counting_note": "different_character_positions covers equal-length cases only; block events reported separately",
+  "boundary_only_pdf_pages": 1,
+  "unique_pdf_pages_including_boundary_checks": 4
 }

@@ -798,8 +798,8 @@ class MultiCasePrintTests(unittest.TestCase):
 
     def test_actual_roster_and_unresolved_differences_retained(self):
         summary=self.p.summarize(self.rows)
-        self.assertEqual(summary['cases'],3)
-        self.assertEqual(summary['compared_body_characters'],198)
+        self.assertEqual(summary['cases'],4)
+        self.assertEqual(summary['compared_body_characters'],272)
         self.assertEqual(summary['different_character_positions'],4)
         self.assertEqual(len(next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H3-P014-1')['differences']),0)
 
@@ -830,6 +830,31 @@ class MultiCasePrintTests(unittest.TestCase):
         rows=copy.deepcopy(self.rows)
         rows[0]['column_locations'][-1]['pdf_page']=7
         self.assertEqual(self.p.summarize(rows)['unique_pdf_pages'],4)
+
+class ReviewedBlockAlignmentTests(unittest.TestCase):
+    def test_true_insert_is_preserved_without_source_padding(self):
+        import check_print_case as p
+        chars=[('A',0,'甲'),('A',1,'乙')]
+        r=p.align_blocks([{'kind':'equal','working':'甲','scan':'甲'},
+                          {'kind':'insertion_in_print','working':'','scan':'丙'},
+                          {'kind':'equal','working':'乙','scan':'乙'}],chars,'甲丙乙')
+        self.assertEqual(r[1]['working_character_refs'],[])
+        self.assertEqual(r[1]['scan_end_ordinal_exclusive']-r[1]['scan_start_ordinal_zero_based'],1)
+
+    def test_missing_working_text_rejected(self):
+        import check_print_case as p
+        with self.assertRaisesRegex(ValueError,'cover both'):
+            p.align_blocks([{'kind':'equal','working':'甲','scan':'甲'}],[('A',0,'乙')],'甲')
+
+    def test_different_reading_cannot_be_marked_equal(self):
+        import check_print_case as p
+        with self.assertRaisesRegex(ValueError,'Invalid'):
+            p.align_blocks([{'kind':'equal','working':'甲','scan':'乙'}],[('A',0,'甲')],'乙')
+
+    def test_false_transposition_rejected(self):
+        import check_print_case as p
+        with self.assertRaisesRegex(ValueError,'Invalid'):
+            p.align_blocks([{'kind':'transposition_candidate','working':'甲乙','scan':'乙丙'}],[('A',0,'甲'),('A',1,'乙')],'乙丙')
 
 if __name__ == '__main__':
     unittest.main()
