@@ -798,9 +798,9 @@ class MultiCasePrintTests(unittest.TestCase):
 
     def test_actual_roster_and_unresolved_differences_retained(self):
         summary=self.p.summarize(self.rows)
-        self.assertEqual(summary['cases'],4)
-        self.assertEqual(summary['compared_body_characters'],272)
-        self.assertEqual(summary['different_character_positions'],4)
+        self.assertEqual(summary['cases'],5)
+        self.assertEqual(summary['compared_body_characters'],519)
+        self.assertEqual(summary['different_character_positions'],7)
         self.assertEqual(len(next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H3-P014-1')['differences']),0)
 
     def test_duplicate_case_cannot_inflate_full_case_count(self):
@@ -828,8 +828,24 @@ class MultiCasePrintTests(unittest.TestCase):
 
     def test_summary_counts_all_column_pages(self):
         rows=copy.deepcopy(self.rows)
-        rows[0]['column_locations'][-1]['pdf_page']=7
-        self.assertEqual(self.p.summarize(rows)['unique_pdf_pages'],4)
+        next(r for r in rows if r['case_id']=='XJ-KCLY-C-H1-P011-1')['column_locations'][-1]['pdf_page']=7
+        self.assertEqual(self.p.summarize(rows)['unique_pdf_pages'],self.p.summarize(self.rows)['unique_pdf_pages']+1)
+
+    def test_cross_page_record_cannot_drop_render_identity(self):
+        import json
+        r=json.loads((self.p.ROOT/'research/print_case_reviews/KCLY_H1_P010_2026-10-29.json').read_text())
+        r['page_renders'].pop()
+        with self.assertRaisesRegex(ValueError,'rendered-page identity'):self.p.build(r)
+
+    def test_true_page_join_and_case_boundary_preserved(self):
+        row=next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H1-P010-1')
+        self.assertTrue(row['scan_columns'][5].endswith('後因怒寒熱'))
+        self.assertTrue(row['scan_columns'][6].startswith('耳痛'))
+        self.assertEqual([x['pdf_page'] for x in row['column_locations']],[5]*6+[6]*7)
+
+    def test_corrected_neighbor_column_numbers_preserved(self):
+        row=next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H1-P011-1')
+        self.assertEqual([x['column_from_right'] for x in row['column_locations'][:2]],[8,9])
 
 class ReviewedBlockAlignmentTests(unittest.TestCase):
     def test_true_insert_is_preserved_without_source_padding(self):

@@ -53,6 +53,12 @@ def build(record=None, path=INPUT):
                 raise ValueError('Invalid column location')
             column_positions.extend({'scan_column_index':col,'scan_column_char_index':i+1} for i in range(len(text)))
     chars=[]
+    used_pages={x['pdf_page'] for x in r.get('column_locations',[{'pdf_page':r['pdf_page']}])}
+    if len(used_pages)>1:
+        renders=r.get('page_renders',[])
+        if (len(renders)!=len(used_pages) or {x['pdf_page'] for x in renders}!=used_pages or
+            any(len(x.get('render_sha256',''))!=64 or any(c not in '0123456789abcdef' for c in x['render_sha256']) for x in renders)):
+            raise ValueError('Cross-page reading requires one rendered-page identity per used page')
     for segment in case['segments']:
         text=index[segment['source_ref']]
         for pos in range(segment['start'],segment['end']):

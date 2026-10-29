@@ -1,0 +1,123 @@
+{
+  "case_id": "XJ-KCLY-C-H1-P010-1",
+  "review_date": "2026-10-29",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 5,
+  "page_half": "left_then_next_page_right",
+  "location": "第5页左半叶第4至第9列接第6页右半叶第1至第7列；起一妇人善怒下唇微肿，止丹皮而愈；下一案一男子内热作渴。",
+  "render_command": "pdftoppm -f PAGE -l PAGE -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256": "faaa83850b5c931630b3414a6dfcee05505206567e156ffceb48a5f721c153f5",
+  "page_renders": [
+    {
+      "pdf_page": 5,
+      "render_sha256": "faaa83850b5c931630b3414a6dfcee05505206567e156ffceb48a5f721c153f5"
+    },
+    {
+      "pdf_page": 6,
+      "render_sha256": "e477f772ae76cdfa3656170bc85d039210e69d4ab29be022bae1532d43ee6b9a"
+    }
+  ],
+  "scan_columns": [
+    "一婦人善怒下唇微腫內熱體倦用化痰藥食少",
+    "作嘔大便不實唇出血水用理氣消導胸膈痞滿",
+    "頭目不清唇腫經閉用清胃行血股體愈倦發熱",
+    "煩躁涎水湧出余曰此七情損傷肝脾誤行剋伐",
+    "所致遂用濟生歸脾湯食進便實用加味逍遙散",
+    "腫消熱退用補中益氣湯脾健涎止後因怒寒熱",
+    "耳痛胸膈脹悶唇焮腫甚此怒動肝火而傷陰血",
+    "用四物合小柴胡加山梔頓愈又因怒脅乳作脹",
+    "肚腹作痛嘔吐酸涎飲食不入小水不利此怒動",
+    "肝木而剋脾土用補中益氣加川芎芍藥而愈又",
+    "勞役怒氣飲食失節發熱喘渴體倦不食下血如",
+    "崩唇腫熾甚此肝經有火不能藏血脾經氣虛不",
+    "能攝血用補中益氣加炒黑山梔芍藥丹皮而愈"
+  ],
+  "column_locations": [
+    {
+      "pdf_page": 5,
+      "page_half": "left",
+      "column_from_right": 4
+    },
+    {
+      "pdf_page": 5,
+      "page_half": "left",
+      "column_from_right": 5
+    },
+    {
+      "pdf_page": 5,
+      "page_half": "left",
+      "column_from_right": 6
+    },
+    {
+      "pdf_page": 5,
+      "page_half": "left",
+      "column_from_right": 7
+    },
+    {
+      "pdf_page": 5,
+      "page_half": "left",
+      "column_from_right": 8
+    },
+    {
+      "pdf_page": 5,
+      "page_half": "left",
+      "column_from_right": 9
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 1
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 2
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 3
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 4
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 5
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 6
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 7
+    }
+  ],
+  "transcription_policy": "正文常用字编码对照，记录股/肢与剋/克，不裁其他细部异体、训点或标点，不据病案叙述验证疗效因果。",
+  "expected_substitutions": [
+    {
+      "working": "肢",
+      "scan": "股"
+    },
+    {
+      "working": "克",
+      "scan": "剋"
+    },
+    {
+      "working": "克",
+      "scan": "剋"
+    }
+  ],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_case_across_two_pdf_pages_one_print_witness_not_source_correction"
+}
