@@ -1,5 +1,6 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-28",
+  "initial_review_date": "2026-10-26",
   "cases": 160,
   "domains": 800,
   "cases_per_work": {
@@ -14,23 +15,34 @@
   },
   "domains_with_evidence": {
     "symptoms": 160,
-    "trigger": 55,
-    "course": 117,
+    "trigger": 54,
+    "course": 128,
     "prior_treatment": 72,
     "mechanism": 121
   },
-  "observations": 641,
-  "literal_source_spans": 655,
-  "multi_segment_observations": 14,
+  "observations": 788,
+  "literal_source_spans": 801,
+  "multi_segment_observations": 13,
   "phases": {
-    "initial_narrator_window": 473,
-    "later_narrator_window": 163,
-    "unknown": 5
+    "initial_narrator_window": 529,
+    "later_narrator_window": 249,
+    "unknown": 10
   },
   "default_retrieval_excluded": 3,
   "human_adjudicated_cases": 0,
-  "print_images_checked_this_pass": 0,
+  "print_images_checked_this_pass": 13,
+  "full_case_print_collations_this_pass": 0,
+  "targeted_print_spot_review_refs": [
+    "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+    "research/scan_reviews/LYJY_target_spots_2026-10-28.json",
+    "research/scan_reviews/NKCZ_target_spots_2026-10-27.json",
+    "research/scan_reviews/NKZY_target_spots_2026-10-27.json",
+    "research/scan_reviews/WKSY_target_spots_2026-10-28.json",
+    "research/scan_reviews/ZTLY_target_spots_2026-10-27.json"
+  ],
+  "targeted_print_spots_recorded": 15,
   "initial_query_exported": 0,
-  "interpretation_scope": "one_model_read_selected_observations_not_exhaustive",
+  "cases_with_second_model_pass": 160,
+  "interpretation_scope": "initial_model_read_all_cases_followup_scope_in_per_case_records_not_exhaustive",
   "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26"
 }

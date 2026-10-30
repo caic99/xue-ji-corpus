@@ -1,0 +1,126 @@
+{
+  "execution": "actual_interval_overlap_comparison_not_visual_collation",
+  "diff_segments": 17,
+  "all_overlap_selected_targets": true,
+  "details": [
+    {
+      "case_id": "XJ-KCLY-C-H1-P011-1",
+      "field": "mechanism",
+      "target_spot_ids": [
+        "KCLY-06-P011"
+      ]
+    },
+    {
+      "case_id": "XJ-KCLY-C-H3-P005-1",
+      "field": "symptoms",
+      "target_spot_ids": [
+        "KCLY-11-P005"
+      ]
+    },
+    {
+      "case_id": "XJ-KCLY-C-H5-P011-1",
+      "field": "symptoms",
+      "target_spot_ids": [
+        "KCLY-20-P011"
+      ]
+    },
+    {
+      "case_id": "XJ-KCLY-C-H5-P011-1",
+      "field": "trigger",
+      "target_spot_ids": [
+        "KCLY-20-P011"
+      ]
+    },
+    {
+      "case_id": "XJ-KCLY-C-H5-P011-1",
+      "field": "course",
+      "target_spot_ids": [
+        "KCLY-20-P011"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P078",
+      "field": "course",
+      "target_spot_ids": [
+        "LYJY-31-P078-CASE"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P093",
+      "field": "symptoms",
+      "target_spot_ids": [
+        "LYJY-35-P093-CASE"
+      ]
+    },
+    {
+      "case_id": "XJ-LYJY-C-V1-P093",
+      "field": "course",
+      "target_spot_ids": [
+        "LYJY-35-P093-CASE"
+      ]
+    },
+    {
+      "case_id": "XJ-NKCZ-C-V1-P096-1",
+      "field": "symptoms",
+      "target_spot_ids": [
+        "NKCZ-35-P096-CASE"
+      ]
+    },
+    {
+      "case_id": "XJ-NKZY-C-V2-P092-1",
+      "field": "mechanism",
+      "target_spot_ids": [
+        "NKZY-78-P092-CASE"
+      ]
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P017-1",
+      "field": "prior_treatment",
+      "target_spot_ids": [
+        "WKSY-99-P017-DOSE"
+      ]
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P026-1",
+      "field": "symptoms",
+      "target_spot_ids": [
+        "WKSY-103-P026-FATIGUE"
+      ]
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P120-1",
+      "field": "prior_treatment",
+      "target_spot_ids": [
+        "WKSY-128-P120-MEDICATION"
+      ]
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P120-1",
+      "field": "mechanism",
+      "target_spot_ids": [
+        "WKSY-128-P120-JUDGMENT"
+      ]
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P102-1",
+      "field": "symptoms",
+      "target_spot_ids": [
+        "ZTLY-36-P102-CASE"
+      ]
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P054-1",
+      "field": "symptoms",
+      "target_spot_ids": [
+        "ZTLY-24-P054-CASE"
+      ]
+    },
+    {
+      "case_id": "XJ-ZTLY-C-V1-P054-1",
+      "field": "trigger",
+      "target_spot_ids": [
+        "ZTLY-24-P054-CASE"
+      ]
+    }
+  ]
+}

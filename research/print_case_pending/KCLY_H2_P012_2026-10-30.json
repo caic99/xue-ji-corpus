@@ -1,0 +1,26 @@
+{
+  "case_id":"XJ-KCLY-C-H2-P012-1",
+  "review_date":"2026-10-30",
+  "status":"unresolved_image_glyph_not_full_case_comparison",
+  "human_adjudication":"pending",
+  "initial_query_eligible":false,
+  "full_case_model_image_comparisons":0,
+  "expert_collated_cases":0,
+  "pdf_record":"research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_sha256":"6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",
+  "viewed_pdf_pages":[9],
+  "location":"案起第9页右半叶自右第9列一男子口臭，接左半叶第1列止六味丸悉瘥；本轮未形成稳定的整案扫描编码。",
+  "render_command":"pdftoppm -f 9 -l 9 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256":"ac6615b58ea8e6c1db21e33d7fe1c518f2fba65a20540c95b9292183c3ff5a2d",
+  "detail_render_command":"pdftoppm -f 9 -l 9 -scale-to 4000 -x 1500 -y 400 -W 300 -H 2200 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "detail_render_sha256":"53f5177a7c9d08b146f337db7c68c59ea1ba3bcba6ce86284b5b5d6e9aaffbd1",
+  "unresolved_readings":[{
+    "working_quote":"時或口咸",
+    "pdf_page":9,
+    "page_half":"left",
+    "column_from_right":1,
+    "glyph_description":"口之后的印字左部尚不能稳定判为酉或鹵；不强制转换为咸、鹹或醎。",
+    "resolved_scan_text":null
+  }],
+  "next_action":"由独立读者复核原图左部构形；未解前不加入逐字等长对齐或完成数。"
+}

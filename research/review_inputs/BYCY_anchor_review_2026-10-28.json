@@ -1,0 +1,14 @@
+{
+  "case_id": "XJ-BYCY-C-V5-L0185",
+  "case_text_sha256": "76d09d049bd02209d38a7619f1a78a266c8e569643c940266e464e4dae5dbeae",
+  "review_method": "model_context_review_not_expert_adjudication",
+  "field": "mechanism",
+  "before_reading": "余作胎毒治之",
+  "after_reading": "余作胎毒",
+  "decision": "trim_intervention_from_mechanism_evidence_keep_assessment_phase",
+  "reason": "作胎毒为医者解释；治之为施治，后接而瘥。施治及结局继续保留在完整窗口事件E03，不删除原典文字或事件。",
+  "source_text_changed": false,
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "scope": "one_case_one_selected_observation_no_new_full_sample_or_print_review"
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-27",
+  "edition": "日本承應三年（1654）刊本，國家圖書館藏本，NCL-06248-0014",
+  "file_page_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0014_%E5%8F%A3%E9%BD%92%E9%A1%9E%E8%A6%81.pdf",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/NCL-06248-0014_%E5%8F%A3%E9%BD%92%E9%A1%9E%E8%A6%81.pdf",
+  "pdf_bytes": 11427465,
+  "pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",
+  "pdf_pages": 48,
+  "page_numbering": "1-based PDF pages, not printed folio numbers",
+  "method": "model_visual_read_of_rendered_target_spots_after_actual_pdf_download",
+  "render_command_template": "pdftoppm -f PAGE -l PAGE -scale-to 2500 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_version": "pdftoppm version 26.05.0",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "spots": [
+    {
+      "spot_id": "KCLY-06-P011",
+      "source_ref": "XJ-KCLY-H1-P011",
+      "working_evidence": {
+        "source_start_char": 31,
+        "source_end_char_exclusive": 40,
+        "raw_quote": "此脾腎陰虛陽旺之症"
+      },
+      "pdf_page": 6,
+      "page_half": "right",
+      "page_location": "右半葉靠左，起「一男子內熱作渴」案，問治於余之後的判語。",
+      "image_target_reading_without_added_punctuation": "此脾腎陰虛陽旺之症",
+      "disputed_working_glyph": "虛",
+      "cached_transcription_glyph": "虧",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "3226482d72bf8b07b81dea0541cd3ff650b2dc61303e36d133db03cae58d0b9d"
+    },
+    {
+      "spot_id": "KCLY-11-P005",
+      "source_ref": "XJ-KCLY-H3-P005",
+      "working_evidence": {
+        "source_start_char": 3,
+        "source_end_char_exclusive": 7,
+        "raw_quote": "齒痛作渴"
+      },
+      "pdf_page": 11,
+      "page_half": "right",
+      "page_location": "右半葉，起「楊考功」案，開頭四字「齒痛作渴」。",
+      "image_target_reading_without_added_punctuation": "楊考功齒痛作渴",
+      "disputed_working_glyph": "痛",
+      "cached_transcription_glyph": "動",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "a9b991ada3366e065c91f5f3af3e046e2629b2407e44474b349174903c2bca48"
+    },
+    {
+      "spot_id": "KCLY-20-P011",
+      "source_ref": "XJ-KCLY-H5-P011",
+      "working_evidence": {
+        "source_start_char": 8,
+        "source_end_char_exclusive": 13,
+        "raw_quote": "因怒忽喉腫"
+      },
+      "pdf_page": 20,
+      "page_half": "right",
+      "page_location": "右半葉「秋官葉」之後，正文「素陰虛因怒忽喉腫寒熱頭痛項強」。",
+      "image_target_reading_without_added_punctuation": "素陰虛因怒忽喉腫寒熱頭痛項強",
+      "disputed_working_glyph": "腫",
+      "cached_transcription_glyph": "痛",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "26f5e4cd9f96334205d28af4e28afbfc11e25c9297abc5434d0baa42feea08f6"
+    }
+  ]
+}

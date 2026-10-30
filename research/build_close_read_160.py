@@ -20,7 +20,7 @@ READABLE = ROOT / 'research/samples/CLOSE_READ_160_V1.md'
 SUMMARY = ROOT / 'research/samples/close_read_160_summary.json'
 FIELDS = base.FIELD_NAMES
 PHASES = {'initial_narrator_window', 'later_narrator_window', 'unknown'}
-PREFIXES = {'@post:', '@prior_response:', '@theory:', '@absent:'}
+PREFIXES = {'@post:', '@prior_response:', '@theory:', '@absent:', '@unknown:', '@post_absent:'}
 DATE = '2026-10-26'
 
 
@@ -63,7 +63,7 @@ def evidence_for(case, reading, index):
     return evidence
 
 
-def make_observation(case, field, token, index, overrides):
+def make_observation(case, field, token, index, overrides, role_overrides=None):
     phase = 'initial_narrator_window'
     role = 'case_narrator'
     assertion = 'narrated_observation'
@@ -78,11 +78,16 @@ def make_observation(case, field, token, index, overrides):
         if prefix == '@post:':
             phase = 'later_narrator_window'
             narrative = 'later_episode_or_after_first_narrator_assessment'
+        elif prefix == '@post_absent:':
+            phase, polarity = 'later_narrator_window', 'explicitly_absent'
+            narrative = 'explicit_negative_after_first_narrator_assessment_or_care'
         elif prefix == '@prior_response:':
             narrative = 'after_earlier_treatment_before_narrator_assessment'
         elif prefix == '@theory:':
             phase, role, assertion = 'unknown', 'quoted_author', 'quoted_theory'
             narrative = 'theory_quoted_in_case_not_individual_observation'
+        elif prefix == '@unknown:':
+            phase, narrative = 'unknown', 'retrospective_state_no_narrator_encounter_recorded'
         elif prefix == '@absent:':
             polarity = 'explicitly_absent'
     if field == 'mechanism' and assertion != 'quoted_theory':
@@ -97,7 +102,7 @@ def make_observation(case, field, token, index, overrides):
     obj = {'reading_joined_source_segments': reading,
            'evidence': evidence_for(case, reading, index),
            'polarity': polarity, 'time_phase': phase,
-           'relative_to': 'first_explicit_narrator_care_decision_including_advice',
+           'relative_to': 'first_recorded_narrator_assessment_or_care_decision_including_advice',
            'speaker_role': role, 'assertion_type': assertion,
            'narrative_role': narrative,
            'certainty': 'model_interpretation_requires_expert_review',
@@ -105,6 +110,10 @@ def make_observation(case, field, token, index, overrides):
     if field == 'trigger':
         obj['relation_type'] = 'narrated_trigger_relief_or_association_not_proven_causality'
     obj.update(overrides.get(case['case_id'], {}).get(field, {}) if not token.startswith('@') else {})
+    selected = (role_overrides or {}).get(case['case_id'], {}).get(field, {}).get(reading, {})
+    if not set(selected) <= {'speaker_role', 'assertion_type', 'narrative_role'}:
+        raise ValueError('Role override may not alter evidence, phase or query status')
+    obj.update(selected)
     return obj
 
 
@@ -126,6 +135,23 @@ def load_choices():
     return choices
 
 
+def scan_spots():
+    from check_scan_spots import load_records
+    index, _ = base.load()
+    return [dict(spot, scan_record_ref=str(path.relative_to(ROOT)), scan_pdf_sha256=record['pdf_sha256'])
+            for path, record in load_records(index) for spot in record['spots']]
+
+
+
+def case_scan_refs(case, spots):
+    return [spot['spot_id'] for spot in spots if any(
+        span['source_ref'] == spot['source_ref'] and
+        span['start'] <= spot['working_evidence']['source_start_char'] <
+        spot['working_evidence']['source_end_char_exclusive'] <= span['end']
+        for span in case['segments'])]
+
+
+
 def build():
     freeze_check()
     index, all_cases = base.load()
@@ -136,16 +162,43 @@ def build():
     overrides = json.loads((INPUTS / 'phase_overrides.json').read_text())
     if not set(overrides) <= set(choices):
         raise ValueError('Unknown case in phase overrides')
+    role_overrides = json.loads((INPUTS / 'observation_role_overrides.json').read_text())
+    for cid, fields in role_overrides.items():
+        if cid not in choices:
+            raise ValueError('Unknown case in role overrides')
+        for field, readings in fields.items():
+            if field not in FIELDS:
+                raise ValueError('Unknown field in role overrides')
+            selected = choices[cid][0][field].split('¦')
+            selected = [t.split(':', 1)[1] if t.startswith('@') else t for t in selected]
+            if not set(readings) <= set(selected):
+                raise ValueError('Unused reading in role overrides')
     source_meta = {row['meta']['source_id']: row['meta']
                    for book in base.books(base.CORPUS.read_text(encoding='utf-8'))
                    for row in book['rows']}
+    followup_by_id = {}
+    for path in sorted(INPUTS.glob('*_second_pass.json')):
+        followup = json.loads(path.read_text())
+        work = followup['work_ref']
+        expected = {c['case_id'] for c in sample if c['work_ref'] == work}
+        found = {x['case_id'] for x in followup['cases']}
+        if len(followup['cases']) != 20 or len(expected) != 20 or found != expected:
+            raise ValueError('Second pass must cover exactly 20 cases of one known work')
+        if followup['human_adjudication'] != 'pending':
+            raise ValueError('Second-pass model record cannot claim human adjudication')
+        for entry in followup['cases']:
+            if entry['case_id'] in followup_by_id:
+                raise ValueError('Duplicate second-pass case')
+            followup_by_id[entry['case_id']] = dict(entry, date=followup['date'],
+                ref=str(path.relative_to(ROOT)))
+    spots = scan_spots()
     records = []
     for c in sample:
         selected, note = choices[c['case_id']]
         fields = {}
         for name, text in selected.items():
             tokens = text.split('¦') if text else []
-            observations = [make_observation(c, name, token, index, overrides) for token in tokens]
+            observations = [make_observation(c, name, token, index, overrides, role_overrides) for token in tokens]
             fields[name] = {
                 'status': ('model_selected_evidence' if observations else
                            'not_identified_in_model_case_read'),
@@ -160,12 +213,20 @@ def build():
                     'retrieval_status') if k in md}
             keep['source_metadata_is_legacy_not_new_scan_verification'] = True
             provenance.append(keep)
+        scan_refs = case_scan_refs(c, spots)
+        audit = followup_by_id.get(c['case_id'])
+        if audit and audit['case_text_sha256'] != hashlib.sha256(c['body'].encode()).hexdigest():
+            raise ValueError('Second-pass case digest drift')
         records.append({
             'case_id': c['case_id'], 'work_ref': c['work_ref'],
             'sample_stratum': c['stratum'], 'review_date': DATE,
             'review_method': 'model_full_case_read_selected_observations_not_exhaustive',
-            'model_review_passes': 1, 'human_adjudication': 'pending',
-            'original_print_image_verification_this_pass': 'not_performed',
+            'model_review_passes': 2 if audit else 1,
+            'followup_review_ref': audit['ref'] if audit else None,
+            'latest_model_review_date': audit['date'] if audit else DATE,
+            'human_adjudication': 'pending',
+            'original_print_image_verification_this_pass': ('targeted_spots_only_not_full_case' if scan_refs else 'not_performed'),
+            'targeted_print_spot_refs': scan_refs,
             'source_git_blob': base.BLOB_SHA_AT_FREEZE,
             'case_text_sha256': hashlib.sha256(c['body'].encode()).hexdigest(),
             'case_source_spans': c['segments'],
@@ -182,21 +243,31 @@ def validate_records(records, sample, index):
     by_id = {c['case_id']: c for c in sample}
     if len(records) != 160 or len({r['case_id'] for r in records}) != 160:
         raise ValueError('Must contain 160 unique reviewed cases')
+    spots = scan_spots()
     for row in records:
         c = by_id[row['case_id']]
+        expected_scan_refs = case_scan_refs(c, spots)
+        expected_scan_status = 'targeted_spots_only_not_full_case' if expected_scan_refs else 'not_performed'
         if set(row['fields']) != set(FIELDS):
             raise ValueError('Five domains required')
-        if row['human_adjudication'] != 'pending' or row['original_print_image_verification_this_pass'] != 'not_performed':
+        if row['human_adjudication'] != 'pending' or row['original_print_image_verification_this_pass'] != expected_scan_status or row['targeted_print_spot_refs'] != expected_scan_refs:
             raise ValueError('Unsupported verification claim')
         if row['default_retrieval_excluded'] != (c['md'].get('retrieval_status') == 'needs_review'):
             raise ValueError('Pending source exclusion lost')
+        if row['source_git_blob'] != base.BLOB_SHA_AT_FREEZE:
+            raise ValueError('Source blob provenance drift')
         if row['case_text_sha256'] != hashlib.sha256(c['body'].encode()).hexdigest():
             raise ValueError('Case digest drift')
         for name, field in row['fields'].items():
             if not field['observations']:
                 if field['status'] != 'not_identified_in_model_case_read' or not field['missingness']:
                     raise ValueError('Missing evidence must remain explicitly unresolved')
+            observed = set()
             for obs in field['observations']:
+                reading = obs['reading_joined_source_segments']
+                if reading in observed:
+                    raise ValueError('Duplicate observation in domain')
+                observed.add(reading)
                 if obs['time_phase'] not in PHASES or obs['initial_query_eligible'] is not False:
                     raise ValueError('Unsupported phase or unchecked query export')
                 if obs['polarity'] not in {'present', 'explicitly_absent', 'uncertain'}:
@@ -212,14 +283,18 @@ def validate_records(records, sample, index):
                         raise ValueError('Literal evidence mismatch')
                 if ''.join(ev['raw_quote'] for ev in obs['evidence']) != obs['reading_joined_source_segments']:
                     raise ValueError('Joined reading mismatch')
+                if obs['evidence'] != evidence_for(c, reading, index):
+                    raise ValueError('Evidence is not the canonical case-local source mapping')
                 if name == 'mechanism' and obs['assertion_type'] not in {
-                        'physician_interpretation', 'patient_interpretation', 'quoted_theory'}:
+                        'physician_interpretation', 'patient_interpretation', 'quoted_theory',
+                        'reported_prior_interpretation_actor_uncertain'}:
                     raise ValueError('Mechanism confused with objective observation')
 
 
 def render(records, sample):
     title = '# 160案逐案模型复读：五领域精选证据（V1）\n\n'
-    warning = ('2026-10-26。每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。'
+    warning = (f"{DATE}初读；{sum(r['model_review_passes']==2 for r in records)}案已完成第二遍模型复审，逐案日期见相应复审记录。"
+               '每案完整窗口已由模型阅读，以下为精选证据，**不是穷尽临床标注、专家审核或原刻影像校定**。另有多书指定字句影像点核，见对应案例及独立影像记录；不升级为整案校定。'
                '未选到证据保留不确定，不解释为患者没有。\n\n'
                'initial/later window 相对于首次明确叙述者评议或处置；later 包括评议后拒治、自服及后来复发，不等于已接受首次治疗。'
                '病机、理论和后续表现不能直接导出初诊查询。全部初诊查询导出暂禁用。\n\n'
@@ -228,7 +303,8 @@ def render(records, sample):
     out = [title, warning]
     for i, (r, c) in enumerate(zip(records, sample), 1):
         out.append(f"## {i:03d} · {r['case_id']}\n\n")
-        out.append(f"来源状态：`{r['retrieval_status']}`；原刻本轮未核；人工审校待办。\n\n")
+        scan_label = '仅指定字句影像点核，非全案校定' if r['targeted_print_spot_refs'] else '本轮未核'
+        out.append(f"来源状态：`{r['retrieval_status']}`；原刻：{scan_label}；人工审校待办。\n\n")
         out.append('案文窗口：\n\n')
         for part, sp in zip(c['parts'], c['segments']):
             out.append(f"`{sp['source_ref']}[{sp['start']}:{sp['end']})`\n\n> {part.replace(chr(10), chr(10)+'> ')}\n\n")
@@ -247,7 +323,8 @@ def render(records, sample):
 def summary(records):
     observations = [o for r in records for f in r['fields'].values() for o in f['observations']]
     return {
-        'date': DATE, 'cases': len(records), 'domains': len(records)*5,
+        'date': max(r['latest_model_review_date'] for r in records),
+        'initial_review_date': DATE, 'cases': len(records), 'domains': len(records)*5,
         'cases_per_work': dict(sorted(Counter(r['work_ref'] for r in records).items())),
         'domains_with_evidence': dict((k,sum(bool(r['fields'][k]['observations']) for r in records)) for k in FIELDS),
         'observations': len(observations),
@@ -255,9 +332,13 @@ def summary(records):
         'multi_segment_observations': sum(len(o['evidence'])>1 for o in observations),
         'phases': dict(Counter(o['time_phase'] for o in observations)),
         'default_retrieval_excluded': sum(r['default_retrieval_excluded'] for r in records),
-        'human_adjudicated_cases': 0, 'print_images_checked_this_pass': 0,
+        'human_adjudicated_cases': 0, 'print_images_checked_this_pass': len({(s['scan_pdf_sha256'],s['pdf_page']) for s in scan_spots()}),
+        'full_case_print_collations_this_pass': 0,
+        'targeted_print_spot_review_refs': sorted({s['scan_record_ref'] for s in scan_spots()}),
+        'targeted_print_spots_recorded': len(scan_spots()),
         'initial_query_exported': 0,
-        'interpretation_scope': 'one_model_read_selected_observations_not_exhaustive',
+        'cases_with_second_model_pass': sum(r['model_review_passes'] == 2 for r in records),
+        'interpretation_scope': 'initial_model_read_all_cases_followup_scope_in_per_case_records_not_exhaustive',
         'source_git_blob': base.BLOB_SHA_AT_FREEZE,
     }
 

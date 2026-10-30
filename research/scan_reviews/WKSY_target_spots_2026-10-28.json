@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-28",
+  "edition": "日本承應三年（1654）刊本，國家圖書館藏本，NCL-06248-0005",
+  "bibliographic_metadata_origin": "existing_corpus_metadata_not_new_titlepage_audit",
+  "file_page_url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0005_%E5%A4%96%E7%A7%91%E6%A8%9E%E8%A6%81.pdf",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/NCL-06248-0005_%E5%A4%96%E7%A7%91%E6%A8%9E%E8%A6%81.pdf",
+  "pdf_bytes": 50231558,
+  "pdf_sha256": "b7b14dfd1ea7ae520b5d6fb89c13c81acd34caad48e8f7d2553f865136672e80",
+  "pdf_pages": 201,
+  "page_numbering": "1-based PDF pages, not printed folio numbers",
+  "method": "model_visual_read_of_rendered_target_spots_after_actual_pdf_download",
+  "render_command_template": "pdftoppm -f PAGE -l PAGE -scale-to 2500 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_version": "pdftoppm version 26.05.0",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "spots": [
+    {
+      "spot_id": "WKSY-99-P017-DOSE",
+      "source_ref": "XJ-WKSY-V3-P017",
+      "working_evidence": {
+        "source_start_char": 87,
+        "source_end_char_exclusive": 92,
+        "raw_quote": "服溫補之劑"
+      },
+      "pdf_page": 99,
+      "page_half": "left",
+      "page_location": "左半葉靠左正文，温补之后接肿痛上攻。",
+      "image_target_reading_without_added_punctuation": "服溫補之劑腫痛上攻小便不利",
+      "disputed_working_glyph": "劑",
+      "cached_transcription_glyph": "藥",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "19da16eb71d0cb8ed514483ed32bd654a00f1e6eaf4c7818de074902da786f90"
+    },
+    {
+      "spot_id": "WKSY-100-P017-BOUNDARY",
+      "source_ref": "XJ-WKSY-V3-P017",
+      "working_evidence": {
+        "source_start_char": 122,
+        "source_end_char_exclusive": 138,
+        "raw_quote": "因氣血虛而不能潰先。用補中益氣湯"
+      },
+      "pdf_page": 100,
+      "page_half": "right",
+      "page_location": "右半葉首列接次列，不能潰先用補中益氣湯。",
+      "image_target_reading_without_added_punctuation": "因氣血虛而不能潰先用補中益氣湯",
+      "disputed_working_glyph": "先",
+      "cached_transcription_glyph": "也",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "764c086deb6fed45b9f6c27c8ae1f580d2182d26b37895145d5e2a27e5ec415f",
+      "editorial_boundary_interpretation": "印面字序为不能潰先用；本轮模型将先视为下一处置起头，病机选证止于不能潰。冻结工作句读先。用未改，仍待专家裁定及另行迁移。",
+      "punctuation_verified": false
+    },
+    {
+      "spot_id": "WKSY-103-P026-FATIGUE",
+      "source_ref": "XJ-WKSY-V3-P026",
+      "working_evidence": {
+        "source_start_char": 42,
+        "source_end_char_exclusive": 45,
+        "raw_quote": "更體倦"
+      },
+      "pdf_page": 103,
+      "page_half": "left",
+      "page_location": "左半葉通府張敬之案，前症益甚后，更體倦少食所在列。",
+      "image_target_reading_without_added_punctuation": "前症益甚更體倦少食大便不實",
+      "disputed_working_glyph": "更",
+      "cached_transcription_glyph": "肢",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "3e3c8a0319a8e791c1ee93f345926d8614332896c3b17f0dd531ed5bbd135f69",
+      "additional_editorial_note": "同页可见而然也遂用字序；工作稿然。也遂与句读归属问题未据此迁移，非全段影像逐字校定。"
+    },
+    {
+      "spot_id": "WKSY-128-P120-JUDGMENT",
+      "source_ref": "XJ-WKSY-V3-P120",
+      "working_evidence": {
+        "source_start_char": 32,
+        "source_end_char_exclusive": 39,
+        "raw_quote": "余為此足三陰虛"
+      },
+      "pdf_page": 128,
+      "page_half": "right",
+      "page_location": "右半葉一膏粱之人案，左尺為甚后余為此足三陰虛。",
+      "image_target_reading_without_added_punctuation": "余為此足三陰虛當滋化源為主",
+      "disputed_working_glyph": "為",
+      "cached_transcription_glyph": "謂",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "1f27b7c7145c8889cbdbf2a718bb2edd74c879ecc1e3a20f615c96d8d80d706e"
+    },
+    {
+      "spot_id": "WKSY-128-P120-MEDICATION",
+      "source_ref": "XJ-WKSY-V3-P120",
+      "working_evidence": {
+        "source_start_char": 47,
+        "source_end_char_exclusive": 55,
+        "raw_quote": "固服除濕敗毒等劑"
+      },
+      "pdf_page": 128,
+      "page_half": "right",
+      "page_location": "右半葉為主之后，固服除濕敗毒等劑所在列。",
+      "image_target_reading_without_added_punctuation": "為主固服除濕敗毒等劑元氣益虛",
+      "disputed_working_glyph": "固",
+      "cached_transcription_glyph": "因",
+      "model_verdict": "supports_working_glyph_at_target_only",
+      "model_confidence": "high",
+      "scope": "specified_glyph_and_context_only_not_entire_case_or_edition",
+      "human_adjudication": "pending",
+      "rendered_page_sha256": "1f27b7c7145c8889cbdbf2a718bb2edd74c879ecc1e3a20f615c96d8d80d706e"
+    }
+  ]
+}

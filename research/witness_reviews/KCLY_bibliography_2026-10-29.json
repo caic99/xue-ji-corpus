@@ -1,0 +1,73 @@
+{
+  "review_date": "2026-10-29",
+  "method": "model_visual_bibliographic_page_audit_not_expert_cataloguing",
+  "human_adjudication": "pending",
+  "source_metadata_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",
+  "pdf_bytes": 11427465,
+  "pdf_pages": 48,
+  "reviewed_pages": [
+    {
+      "pdf_page": 1,
+      "render_sha256": "8426f01ea7e6c01ded1b49bf11bca8bc75037e9b2e60b863fd331d2204d1653a",
+      "finding": "目录题口齒類要目錄"
+    },
+    {
+      "pdf_page": 2,
+      "render_sha256": "d2dc2f83d28927afb50d458833b738b542f24cb539b8d6d0262a181b4d4f150e",
+      "finding": "目录末題口齒類要目錄終"
+    },
+    {
+      "pdf_page": 3,
+      "render_sha256": "dddc606b17c1df20b181fd486392ca6710b84feeea17a1f037e3803156724f2e",
+      "finding": "正文題口齒類要，署古吳薛己著；校者姓名未作完整辨识"
+    },
+    {
+      "pdf_page": 47,
+      "render_sha256": "b4bc5e02fee3625b04e8db8402d7c2e1abf4517c549532577178b7760036ba6a",
+      "finding": "附方正文，所看页未见刊年"
+    },
+    {
+      "pdf_page": 48,
+      "render_sha256": "3467bdf9b5f07e312cc6f291f732d38d3070adaddb589d491e490f9807669349",
+      "finding": "附方及口齒類要終，所看页未见刊年"
+    }
+  ],
+  "title_claim": {
+    "reading": "口齒類要",
+    "status": "model_image_supported_in_reviewed_pages",
+    "supporting_pdf_pages": [
+      1,
+      2,
+      3,
+      48
+    ]
+  },
+  "authorship_claim": {
+    "reading": "古吳薛己著",
+    "status": "model_read_printed_attribution_not_historical_authorship_proof",
+    "supporting_pdf_pages": [
+      3
+    ]
+  },
+  "date_claim": {
+    "inherited_description": "日本承應三年（1654）刊本",
+    "status": "inherited_metadata_not_reverified_from_images",
+    "supporting_pdf_pages": [],
+    "year_observed_in_reviewed_pages": false
+  },
+  "collection_claim": {
+    "inherited_description": "國家圖書館藏本，NCL-06248-0014",
+    "status": "inherited_identifier_and_observed_watermark_not_fresh_catalog_verification"
+  },
+  "catalog_page_fetch": {
+    "url": "https://commons.wikimedia.org/wiki/File:NCL-06248-0014_%E5%8F%A3%E9%BD%92%E9%A1%9E%E8%A6%81.pdf",
+    "result": "web_open_inaccessible",
+    "catalog_metadata_retrieved": false
+  },
+  "limitations": [
+    "Only 5 specified pages were inspected; no claim that the other pages lack an imprint.",
+    "Legacy metadata may be correct; lack of fresh verification is not proof that 1654 is wrong.",
+    "No new independent witness, clinical observation or expert adjudication."
+  ]
+}

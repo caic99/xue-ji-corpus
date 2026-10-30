@@ -1,0 +1,124 @@
+{
+  "date_client_timezone_Asia_Shanghai": "2026-10-27",
+  "execution": "actual_local_subprocess_execution",
+  "python_version": "3.15.0",
+  "source_baseline_commit": "3266f7ba3bbf01806b44e01f7cfe415b03f8da2a",
+  "files_sha256": {
+    "research/reproduce_sample.py": "3be515bf526107d003cf1ac847515eba038e7305c079d9c39e30af340ed4e5e4",
+    "research/build_close_read_160.py": "d2642fd5f346223259bf1282ae9297609cd7d328683006efe65aa42bfe30f791",
+    "research/check_sample_snapshots.py": "20e1ef6c759238fdfcace2abf286fec883b1f1528708bc487df43b1af92c76df",
+    "research/test_close_read_160.py": "c8c3c3fc8072ed4ad364d8c8ba9f742e0de00fb1ea753669689f4d97d78a57da",
+    "research/run_research_checks.py": "c3d553f981934125457d97423946fb504ab6daeb4a418e0bd0b003f216680dd9",
+    "research/check_publication.py": "2c3572140d46ece37c66e69405385016f5a80ae580df65a29f11857f5783cb70",
+    "research/review_inputs/BYCY.tsv": "f7559998e5a427355b9cab3a552a31c234d9c30af3ddfb671b7048fe0f4515ae",
+    "research/review_inputs/BYCY_second_pass.json": "10a1183b9eb6cecad0bcf585101c9c05dff998d35fae970d004667546144fa35",
+    "research/review_inputs/KCLY.tsv": "a1c8b48fa12019e7f772629ec43c748b25cb538dcb65d231c48de825c1743b10",
+    "research/review_inputs/LYJY.tsv": "46198ef2157a9c3bd4fe24550750bbbfa5ec068d935a1c6af7ed506ffd82e960",
+    "research/review_inputs/LZWKFH.tsv": "7a555453d021b60f0970b32381d24898923ced71e4d835c3ad2ea60680176ec1",
+    "research/review_inputs/NKCZ.tsv": "00faa7e45e0af7ee83b33db153d45e5d34820970e9448302a33722eaf69fd23c",
+    "research/review_inputs/NKZY.tsv": "528d1a3e9954702ef3578da59f102202d620787421bf674b35952956f68d7113",
+    "research/review_inputs/WKSY.tsv": "ec87266b509964d1e85fbc852377d71ebbd67ccb6af651e78edff6841059076e",
+    "research/review_inputs/ZTLY.tsv": "b7cfab2931c783e1b846a1092ef7ce83d02c1142d6c363421e265a2a5a6e02c3",
+    "research/review_inputs/phase_overrides.json": "05d11cd3e76901fe1c43dc8866ba5e9ab455e96d5bad1a48894a5ae2bafb09f6"
+  },
+  "structural_summary": {
+    "works": 8,
+    "records": 5361,
+    "duplicate_source_ids": 0,
+    "errors": 0,
+    "warnings": 8
+  },
+  "source_summary": {
+    "works": 8,
+    "records": 5361,
+    "structured": {
+      "cases": 1532,
+      "non_case_units": 3272
+    },
+    "review_exclusions": 9,
+    "text_sha256": "a719e844641d9b610848a923e108f663d0fc1620d4f28c26f1925bfc9d5d27aa",
+    "report_refreshed": false
+  },
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "work/validate_complete_corpus.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"corpus\": \"outputs/薛己核心医案_结构化样本.md\",\n  \"works\": {\n    \"XJ-NKZY\": {\n      \"title\": \"內科摘要\",\n      \"records\": 546,\n      \"headings\": [\n        \"卷上\",\n        \"卷下\"\n      ],\n      \"id_series\": {\n        \"XJ-NKZY-V1\": {\n          \"count\": 178,\n          \"first\": 1,\n          \"last\": 176\n        },\n        \"XJ-NKZY-V2\": {\n          \"count\": 368,\n          \"first\": 1,\n          \"last\": 368\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    },\n    \"XJ-NKCZ\": {\n      \"title\": \"女科撮要\",\n      \"records\": 593,\n      \"headings\": [\n        \"前序\",\n        \"卷上\",\n        \"卷下\"\n      ],\n      \"id_series\": {\n        \"XJ-NKCZ-PRE\": {\n          \"count\": 2,\n          \"first\": 1,\n          \"last\": 2\n        },\n        \"XJ-NKCZ-V1\": {\n          \"count\": 257,\n          \"first\": 1,\n          \"last\": 257\n        },\n        \"XJ-NKCZ-V2\": {\n          \"count\": 334,\n          \"first\": 1,\n          \"last\": 334\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    },\n    \"XJ-ZTLY\": {\n      \"title\": \"正體類要\",\n      \"records\": 329,\n      \"headings\": [\n        \"序\",\n        \"上卷\",\n        \"下卷\"\n      ],\n      \"id_series\": {\n        \"XJ-ZTLY-PRE\": {\n          \"count\": 2,\n          \"first\": 1,\n          \"last\": 2\n        },\n        \"XJ-ZTLY-V1\": {\n          \"count\": 112,\n          \"first\": 1,\n          \"last\": 112\n        },\n        \"XJ-ZTLY-V2\": {\n          \"count\": 215,\n          \"first\": 1,\n          \"last\": 215\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    },\n    \"XJ-KCLY\": {\n      \"title\": \"口齒類要\",\n      \"records\": 322,\n      \"headings\": [\n        \"繭唇一\",\n        \"口瘡二\",\n        \"齒痛三\",\n        \"舌症四\",\n        \"喉痹諸症五\",\n        \"喉痛六\",\n        \"諸骨稻穀發鯁七\",\n        \"治諸鯁咒法八\",\n        \"誤吞水蛭九\",\n        \"諸蟲入耳十\",\n        \"蛇入七竅及蟲咬傷十一\",\n        \"男女體氣十二\",\n        \"附方並注\"\n      ],\n      \"id_series\": {\n        \"XJ-KCLY-H1\": {\n          \"count\": 13,\n          \"first\": 1,\n          \"last\": 13\n        },\n        \"XJ-KCLY-H2\": {\n          \"count\": 15,\n          \"first\": 1,\n          \"last\": 15\n        },\n        \"XJ-KCLY-H3\": {\n          \"count\": 25,\n          \"first\": 1,\n          \"last\": 25\n        },\n        \"XJ-KCLY-H4\": {\n          \"count\": 13,\n          \"first\": 1,\n          \"last\": 13\n        },\n        \"XJ-KCLY-H5\": {\n          \"count\": 14,\n          \"first\": 1,\n          \"last\": 14\n        },\n        \"XJ-KCLY-H6\": {\n          \"count\": 21,\n          \"first\": 1,\n          \"last\": 21\n        },\n        \"XJ-KCLY-H7\": {\n          \"count\": 10,\n          \"first\": 1,\n          \"last\": 10\n        },\n        \"XJ-KCLY-H8\": {\n          \"count\": 1,\n          \"first\": 1,\n          \"last\": 1\n        },\n        \"XJ-KCLY-H9\": {\n          \"count\": 1,\n          \"first\": 1,\n          \"last\": 1\n        },\n        \"XJ-KCLY-H10\": {\n          \"count\": 3,\n          \"first\": 1,\n          \"last\": 3\n        },\n        \"XJ-KCLY-H11\": {\n          \"count\": 1,\n          \"first\": 1,\n          \"last\": 1\n        },\n        \"XJ-KCLY-H12\": {\n          \"count\": 1,\n          \"first\": 1,\n          \"last\": 1\n        },\n        \"XJ-KCLY-H13\": {\n          \"count\": 204,\n          \"first\": 1,\n          \"last\": 204\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    },\n    \"XJ-LZWKFH\": {\n      \"title\": \"立齋外科發揮\",\n      \"records\": 1170,\n      \"headings\": [\n        \"敘\",\n        \"卷一\",\n        \"卷二\",\n        \"卷三\",\n        \"卷四\",\n        \"卷五\",\n        \"卷六\",\n        \"卷七\",\n        \"卷八\"\n      ],\n      \"id_series\": {\n        \"XJ-LZWKFH-H1\": {\n          \"count\": 2,\n          \"first\": 1,\n          \"last\": 2\n        },\n        \"XJ-LZWKFH-V1\": {\n          \"count\": 99,\n          \"first\": 1,\n          \"last\": 99\n        },\n        \"XJ-LZWKFH-V2\": {\n          \"count\": 136,\n          \"first\": 1,\n          \"last\": 136\n        },\n        \"XJ-LZWKFH-V3\": {\n          \"count\": 178,\n          \"first\": 1,\n          \"last\": 178\n        },\n        \"XJ-LZWKFH-V4\": {\n          \"count\": 115,\n          \"first\": 1,\n          \"last\": 115\n        },\n        \"XJ-LZWKFH-V5\": {\n          \"count\": 205,\n          \"first\": 1,\n          \"last\": 205\n        },\n        \"XJ-LZWKFH-V6\": {\n          \"count\": 121,\n          \"first\": 1,\n          \"last\": 121\n        },\n        \"XJ-LZWKFH-V7\": {\n          \"count\": 163,\n          \"first\": 1,\n          \"last\": 163\n        },\n        \"XJ-LZWKFH-V8\": {\n          \"count\": 151,\n          \"first\": 1,\n          \"last\": 151\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    },\n    \"XJ-WKSY\": {\n      \"title\": \"外科樞要\",\n      \"records\": 853,\n      \"headings\": [\n        \"序\",\n        \"卷一\",\n        \"卷二\",\n        \"卷三\",\n        \"卷四\"\n      ],\n      \"id_series\": {\n        \"XJ-WKSY-PRE\": {\n          \"count\": 2,\n          \"first\": 1,\n          \"last\": 2\n        },\n        \"XJ-WKSY-V1\": {\n          \"count\": 100,\n          \"first\": 1,\n          \"last\": 100\n        },\n        \"XJ-WKSY-V2\": {\n          \"count\": 166,\n          \"first\": 1,\n          \"last\": 166\n        },\n        \"XJ-WKSY-V3\": {\n          \"count\": 168,\n          \"first\": 1,\n          \"last\": 168\n        },\n        \"XJ-WKSY-V4\": {\n          \"count\": 417,\n          \"first\": 1,\n          \"last\": 417\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    },\n    \"XJ-LYJY\": {\n      \"title\": \"癘瘍機要\",\n      \"records\": 409,\n      \"headings\": [\n        \"序\",\n        \"上卷\",\n        \"中卷\",\n        \"下卷\"\n      ],\n      \"id_series\": {\n        \"XJ-LYJY-PRE\": {\n          \"count\": 2,\n          \"first\": 1,\n          \"last\": 2\n        },\n        \"XJ-LYJY-V1\": {\n          \"count\": 113,\n          \"first\": 1,\n          \"last\": 113\n        },\n        \"XJ-LYJY-V2\": {\n          \"count\": 71,\n          \"first\": 1,\n          \"last\": 71\n        },\n        \"XJ-LYJY-V3\": {\n          \"count\": 223,\n          \"first\": 1,\n          \"last\": 221\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    },\n    \"XJ-BYCY\": {\n      \"title\": \"保嬰粹要\",\n      \"records\": 1139,\n      \"headings\": [\n        \"卷五（保嬰粹要）\"\n      ],\n      \"id_series\": {\n        \"XJ-BYCY-V5\": {\n          \"count\": 1139,\n          \"first\": 1,\n          \"last\": 1139\n        }\n      },\n      \"errors\": [],\n      \"warnings\": [\n        \"尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n      ]\n    }\n  },\n  \"summary\": {\n    \"works\": 8,\n    \"records\": 5361,\n    \"duplicate_source_ids\": 0,\n    \"errors\": 0,\n    \"warnings\": 8\n  },\n  \"errors\": [],\n  \"warnings\": [\n    \"XJ-NKZY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\",\n    \"XJ-NKCZ: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\",\n    \"XJ-ZTLY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\",\n    \"XJ-KCLY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\",\n    \"XJ-LZWKFH: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\",\n    \"XJ-WKSY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\",\n    \"XJ-LYJY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\",\n    \"XJ-BYCY: 尚未完成全书馆藏影像逐字校定（现有状态仅代表抽样）\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "work/audit_corpus.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"works\": 8,\n  \"records\": 5361,\n  \"structured\": {\n    \"cases\": 1532,\n    \"non_case_units\": 3272\n  },\n  \"review_exclusions\": 9,\n  \"text_sha256\": \"a719e844641d9b610848a923e108f663d0fc1620d4f28c26f1925bfc9d5d27aa\",\n  \"report_refreshed\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "work/check_retrieval_inheritance.py"
+      ],
+      "returncode": 0,
+      "stdout": "pending sources: 9 | structured records by status: {'source_research_with_caveats': 4777, 'needs_review': 27}\ngaps: 0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "research/reproduce_sample.py"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: 5361 sources, 1532 cases, 160 unique sample rows, 8 works x 20\nPASS: manifest reproducible; 375 evidence spans exact\nCandidate spans by field: {'course': 34, 'mechanism': 112, 'prior_treatment': 31, 'symptoms': 160, 'trigger': 38}\nPASS: 16 model close-read pilot records, 50 exact evidence spans\nPASS: frozen source Git blob: e8459e27e93711c44357fafcf7d106f97ecaca26\nNo clinical feature polarity, time point or medical interpretation has been adjudicated.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "research/build_close_read_160.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"date\": \"2026-10-27\",\n  \"initial_review_date\": \"2026-10-26\",\n  \"cases\": 160,\n  \"domains\": 800,\n  \"cases_per_work\": {\n    \"XJ-BYCY\": 20,\n    \"XJ-KCLY\": 20,\n    \"XJ-LYJY\": 20,\n    \"XJ-LZWKFH\": 20,\n    \"XJ-NKCZ\": 20,\n    \"XJ-NKZY\": 20,\n    \"XJ-WKSY\": 20,\n    \"XJ-ZTLY\": 20\n  },\n  \"domains_with_evidence\": {\n    \"symptoms\": 160,\n    \"trigger\": 55,\n    \"course\": 117,\n    \"prior_treatment\": 72,\n    \"mechanism\": 121\n  },\n  \"observations\": 642,\n  \"literal_source_spans\": 656,\n  \"multi_segment_observations\": 14,\n  \"phases\": {\n    \"initial_narrator_window\": 472,\n    \"later_narrator_window\": 165,\n    \"unknown\": 5\n  },\n  \"default_retrieval_excluded\": 3,\n  \"human_adjudicated_cases\": 0,\n  \"print_images_checked_this_pass\": 0,\n  \"initial_query_exported\": 0,\n  \"cases_with_second_model_pass\": 20,\n  \"interpretation_scope\": \"initial_model_read_all_cases_second_pass_20_BYCY_selected_observations_not_exhaustive\",\n  \"source_git_blob\": \"e8459e27e93711c44357fafcf7d106f97ecaca26\"\n}\nPASS: reviewed choices reproduce all outputs; every quoted segment is exact and inside its case\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "research/check_sample_snapshots.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"date\": \"2026-10-27\",\n  \"source_git_blob\": \"e8459e27e93711c44357fafcf7d106f97ecaca26\",\n  \"summary\": {\n    \"exact_quote_present_in_mapped_snapshot_record\": 640,\n    \"quote_differs_from_cached_transcription\": 16\n  },\n  \"evidence_segments\": 656,\n  \"original_print_images_checked\": 0\n}\nPASS: dated snapshot reconciliation reproduced; differences retained, not silently corrected\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "research/check_publication.py"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: 119 tracked text files; restricted metadata findings=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research",
+        "-p",
+        "test_close_read_160.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_all_rows_are_five_domain_model_drafts (test_close_read_160.ReviewContractTests.test_all_rows_are_five_domain_model_drafts) ... ok\ntest_duplicate_domain_observation_rejected (test_close_read_160.ReviewContractTests.test_duplicate_domain_observation_rejected) ... ok\ntest_invented_human_review_rejected (test_close_read_160.ReviewContractTests.test_invented_human_review_rejected) ... ok\ntest_join_retains_unicode_and_punctuation (test_close_read_160.ReviewContractTests.test_join_retains_unicode_and_punctuation) ... ok\ntest_outside_case_span_rejected (test_close_read_160.ReviewContractTests.test_outside_case_span_rejected) ... ok\ntest_pending_source_exclusion_cannot_be_dropped (test_close_read_160.ReviewContractTests.test_pending_source_exclusion_cannot_be_dropped) ... ok\ntest_repeated_quote_requires_disambiguation (test_close_read_160.ReviewContractTests.test_repeated_quote_requires_disambiguation) ... ok\ntest_second_pass_preserves_later_episode (test_close_read_160.ReviewContractTests.test_second_pass_preserves_later_episode) ... ok\ntest_snapshot_alignment_preserves_second_occurrence (test_close_read_160.ReviewContractTests.test_snapshot_alignment_preserves_second_occurrence) ... ok\ntest_snapshot_search_includes_overlapping_occurrences (test_close_read_160.ReviewContractTests.test_snapshot_search_includes_overlapping_occurrences) ... ok\ntest_tampered_literal_rejected (test_close_read_160.ReviewContractTests.test_tampered_literal_rejected) ... ok\ntest_time_and_speaker_regressions (test_close_read_160.ReviewContractTests.test_time_and_speaker_regressions) ... ok\ntest_unchecked_query_export_rejected (test_close_read_160.ReviewContractTests.test_unchecked_query_export_rejected) ... ok\ntest_wrong_source_blob_rejected (test_close_read_160.ReviewContractTests.test_wrong_source_blob_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.410s\n\nOK\n"
+    }
+  ],
+  "remote_ci_status": "not_established_by_this_local_run"
+}

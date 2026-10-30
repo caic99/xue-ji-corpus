@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-27",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 BYCY cases only; five selected domains and temporal/speaker attribution; not exhaustive event annotation",
+  "human_adjudication": "pending",
+  "original_print_images_checked": 0,
+  "cases": [
+    {
+      "case_id": "XJ-BYCY-C-V5-L0234",
+      "case_text_sha256": "727e520f2ead99d84253dfa909e5f4e9445e4b90b6c04444d8d5c1b8624b7f8d",
+      "finding": "清热发散之后出现腹胀等，保留 prior_response；停食仅为叙述关联。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0046",
+      "case_text_sha256": "c90f15ddc77ecec028d4e537ff50c7a30ea207a3772a66e172a172d2930ec723",
+      "finding": "患二年为前史，三月余为治疗后历时；跨物理行不补字。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0028",
+      "case_text_sha256": "c505d0558935fe0ab2aa00d149719e243ccb6fcfb4ec530f6827eccb7f9a4f3f",
+      "finding": "火治为前史；医者预后判断与季夏死亡分开，不作初诊事实。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0061",
+      "case_text_sha256": "96a1a0f0e3dedd4f3403a2b67587a35d862d5cb9d94b5f0f75e9f50a888672f1",
+      "finding": "删除重复的“時常寒熱”病程观察；血盛无偶保留医家解释。",
+      "outcome": "corrected"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0119",
+      "case_text_sha256": "1486ea94555be003cad3e2ac01fe01915346b3f89381ce9289e3e25214f48458",
+      "finding": "半载溃、年余不敛均在后续叙述者处方前；不得误标叙述者治疗结果。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0546",
+      "case_text_sha256": "660427fc9ca6787c681442200b20da9ff6b2cefe5f4d6657ae53cc257adaa288",
+      "finding": "多轮眼病、复发和赴选劳役患痢分期；六味丸不自动转为他医前史。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0185",
+      "case_text_sha256": "76d09d049bd02209d38a7619f1a78a266c8e569643c940266e464e4dae5dbeae",
+      "finding": "乙未至丁酉多轮事件；参术不应和贴药感风均非首次处置前史。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0052",
+      "case_text_sha256": "325e5bc7da4e46dfea29e25c6d6b3239183f8a6d03781a874755aa61e9ac594c",
+      "finding": "日晡益甚在降火消毒之后，补 prior_response；按痛与不按自痛有先后。",
+      "outcome": "corrected"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0026",
+      "case_text_sha256": "19948d4eccf2ad18b2318983873a6681fb05749e0374fa7d722f4c8a985f041f",
+      "finding": "掌院公前药和夜热加剧在邀余前；时值季夏仅明载时令。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0021",
+      "case_text_sha256": "e0dd831c22826e08ecbc8ba25e56feae33a2668bdedc1870b14f1f2838137511",
+      "finding": "膿水清稀、脾气虚判断均在补阴八珍汤等之后。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0553",
+      "case_text_sha256": "2480b2f27120a5ac20691a14a666580d09e098e767b38ec2d4d924dfeafd950a",
+      "finding": "先用补中益气汤是案内处置；未制造既往干预。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0555",
+      "case_text_sha256": "1e467d004fb1c51623005ba301472594b27daf556da47369b4daa029cda200a1",
+      "finding": "温补肾经发生于余以为肝火且不信之后；保持 later。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0524",
+      "case_text_sha256": "c44e674e671b504cb3e3acdd527c5a8f3b478239de532fa10fa5fda280851781",
+      "finding": "后寒热如疟、小便闭塞与肝火判断属于后续事件。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0558",
+      "case_text_sha256": "916fe15918eb3c5a2cc187babe6eee6e50e45adcace37bc802a0ea15ccdc26f4",
+      "finding": "不由小柴胡汤等方药倒推出未明载的病机。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0203",
+      "case_text_sha256": "7444750b6014eafa3377c7617aae9aa7bc964250d4d1bf664b321b41d736b29c",
+      "finding": "月余后、数日后复发与犀角解毒另列后段；伤脾胃为医家解释。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0527",
+      "case_text_sha256": "14b65aa3d0e4a05b82ebdca86f2f1d7232e3a269a7886d650b16b36ff208f46c",
+      "finding": "饮冷为症状相关偏好；余毒尚在为医家判断，不标确定诱因。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0213",
+      "case_text_sha256": "1bd0d6b7ffec30303071dc4eeaa0c731d9cbec83fe3b75025810c6cc72188dfb",
+      "finding": "凡女子以下是通论；被惊着恼不补为本患者个体诱因。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0521",
+      "case_text_sha256": "e32fd7fbaecb5fd872280f8f0270d7283cd20b3d777b70c51f7728b92f359569",
+      "finding": "补入后续内热倦怠、兼脾气虚弱；均置 later，避免污染首诊。",
+      "outcome": "corrected"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0261",
+      "case_text_sha256": "8250842fbf0ab0237e66d4dea3f4992994256965624985ad06501c0ff49928e9",
+      "finding": "犀角消毒散是本案处置；吐泻及邪气上下俱出为后验表现及解释。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-BYCY-C-V5-L0227",
+      "case_text_sha256": "8e05af60ffefff6708064025d35ad9bef27a7df7771707786807e9214bb07f8a",
+      "finding": "每停食关联与越月复发分开；大抵吐后以下通论不作个体事实。",
+      "outcome": "retained_selected_observations"
+    }
+  ],
+  "work_ref": "XJ-BYCY"
+}

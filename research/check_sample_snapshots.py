@@ -22,6 +22,38 @@ SNAPS={
 }
 
 
+def literal_locations(text, quote):
+ if not quote:
+  raise ValueError('Empty evidence quote')
+ spans=[]; start=0
+ while True:
+  at=text.find(quote,start)
+  if at<0:return spans
+  spans.append({'start_char':at,'end_char_exclusive':at+len(quote)})
+  start=at+1  # Include overlapping occurrences; never assume the first is intended.
+
+
+def quote_alignment(snapshot, working, evidence):
+ locations=literal_locations(snapshot, evidence['raw_quote'])
+ if not locations:return None
+ result={'snapshot_candidate_spans':locations,'snapshot_occurrence_count':len(locations)}
+ if snapshot==working:
+  selected={'start_char':evidence['source_start_char'],
+            'end_char_exclusive':evidence['source_end_char_exclusive']}
+  if selected not in locations:
+   raise ValueError('Identical paragraph lost evidence offset')
+  result.update(snapshot_start_char=selected['start_char'],
+                snapshot_end_char_exclusive=selected['end_char_exclusive'],
+                snapshot_alignment='identical_paragraph_preserves_working_offset')
+ elif len(locations)==1:
+  result.update(snapshot_start_char=locations[0]['start_char'],
+                snapshot_end_char_exclusive=locations[0]['end_char_exclusive'],
+                snapshot_alignment='unique_literal_in_differing_paragraph_not_case_boundary_verification')
+ else:
+  result['snapshot_alignment']='ambiguous_repeated_literal_no_single_offset_assigned'
+ return result
+
+
 def run():
  records,sample,index=review.build()
  books=review.base.books(review.base.CORPUS.read_text())
@@ -70,12 +102,10 @@ def run():
       if not aligned:
        result['status']='source_mapping_unresolved'
       else:
-       at=text.find(ev['raw_quote'])
+       alignment=quote_alignment(text, index[sid], ev)
        result['source_paragraph_identical']=index[sid]==text
-       if at>=0:
-        result.update(status='exact_quote_present_in_mapped_snapshot_record',
-                      snapshot_start_char=at,
-                      snapshot_end_char_exclusive=at+len(ev['raw_quote']))
+       if alignment:
+        result.update(status='exact_quote_present_in_mapped_snapshot_record', **alignment)
        else:
         result.update(status='quote_differs_from_cached_transcription',
                       working_record=index[sid],snapshot_record=text,
@@ -85,7 +115,7 @@ def run():
                       interpretation='difference_only_not_newly_adjudicated_transcription_error_or_edition_variant')
      details.append(result)
  counts=Counter(d['status'] for d in details)
- return {'date':review.DATE,'source_git_blob':review.base.BLOB_SHA_AT_FREEZE,
+ return {'date':max(r['latest_model_review_date'] for r in records),'source_git_blob':review.base.BLOB_SHA_AT_FREEZE,
          'snapshots':manifests,'summary':dict(counts),'evidence_segments':len(details),
          'original_print_images_checked':0,'details':details}
 

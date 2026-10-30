@@ -1,0 +1,73 @@
+{
+  "case_id": "XJ-BYCY-C-V5-L0185",
+  "review_date": "2026-10-28",
+  "method": "model_selected_role_and_modality_review_after_full_window_reading",
+  "human_adjudication": "pending",
+  "scope": "selected_passages_not_full_event_axis",
+  "findings": [
+    {
+      "id": "MOTHER",
+      "quote": "診其母有欝火血熱",
+      "subjects": [
+        "mother"
+      ],
+      "assertion_type": "narrator_assessment",
+      "note": "母亲的医者判断不转填孩子。"
+    },
+    {
+      "id": "BOTH",
+      "quote": "用解鬱凉血之藥子母俱服而愈",
+      "subjects": [
+        "child",
+        "mother"
+      ],
+      "assertion_type": "narrated_shared_treatment_and_outcome",
+      "note": "子母俱服明确双方用药；而愈未逐人细分症状、剂量或疗效。"
+    },
+    {
+      "id": "PRIOR",
+      "quote": "投參术之類不應以為慢驚",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "prior_intervention_and_interpretation_actor_uncertain",
+      "note": "既往干预及慢惊判断，叙述未明示施治者。"
+    },
+    {
+      "id": "PLAN",
+      "quote": "然欲用附子之藥請余議",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "proposed_intervention_no_performance_claim",
+      "note": "欲用及请议只证计划，不能生成已服附子。"
+    },
+    {
+      "id": "SIGN",
+      "quote": "視其寅夘關脉赤",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "unresolved_observation_not_standard_wrist_pulse",
+      "note": "保留原字，具体观察方法及部位待核。"
+    },
+    {
+      "id": "TREAT",
+      "quote": "此屬風熱用柴胡清肝散加鈎藤鈎木賊草一劑即愈",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "narrator_assessment_and_narrated_treatment",
+      "note": "医者判断及叙述施治，不作现代因果验证。"
+    },
+    {
+      "id": "COUNTER",
+      "quote": "此症若砭緩則血凝滯或為破傷風皆致死",
+      "subjects": [
+        "child"
+      ],
+      "assertion_type": "conditional_warning_not_observed_death",
+      "note": "若、则、或构成条件预后；本案前段已记而愈，不据末句生成死亡结局。"
+    }
+  ]
+}

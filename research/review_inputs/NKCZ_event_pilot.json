@@ -1,0 +1,88 @@
+{
+  "case_id": "XJ-NKCZ-C-V1-P125-1",
+  "review_date": "2026-10-27",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E03",
+  "anchor_scope": "first_recorded_narrator_care_intent_in_this_window_not_first_performed_treatment",
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "patient_state",
+      "quote": "一婦人乳內結核年餘，",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": "年餘",
+      "calendar_date": null,
+      "relative_time_anchor": "predecision_duration_no_calendar_date_assigned"
+    },
+    {
+      "event_id": "E02",
+      "event_type": "patient_state",
+      "quote": "晡熱少食，",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E03",
+      "event_type": "care_intent",
+      "quote": "余欲用益氣養榮湯治之，",
+      "actor_role": "case_narrator",
+      "intervention_status": "intended_only_no_performance_claim",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E04",
+      "event_type": "patient_assessment_of_plan",
+      "quote": "彼以為緩，",
+      "actor_role": "patient_or_family",
+      "intervention_status": "no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E05",
+      "event_type": "intervention",
+      "quote": "乃服行氣之劑，",
+      "actor_role": "patient_medication_use_prescriber_unknown",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E06",
+      "event_type": "patient_state",
+      "quote": "其勢愈甚，",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E07",
+      "event_type": "narrated_outcome",
+      "quote": "潰而日出清膿而歿。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    }
+  ]
+}

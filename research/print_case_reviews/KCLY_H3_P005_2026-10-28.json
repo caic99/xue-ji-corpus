@@ -1,0 +1,32 @@
+{
+  "case_id": "XJ-KCLY-C-H3-P005-1",
+  "review_date": "2026-10-28",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 11,
+  "page_half": "right",
+  "location": "右半叶自右向左第4至第6正文列，从杨考功至全愈；下一案起王侍御。",
+  "render_command": "pdftoppm -f 11 -l 11 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256": "5949a29cfb03271f23d918c54507821bc519a57fd747a3cbf1169ad4d73b566f",
+  "scan_columns": [
+    "楊考功齒痛作渴屬脾胃虛弱陰火熾盛用補中",
+    "益氣加酒炒黑黃柏四劑又服加減八味丸諸症",
+    "頓愈又用補中益氣湯而全愈"
+  ],
+  "transcription_policy": "正文逐字读法；不收入圈点、训点与旁注，不声称字形学摹写；柏为常用字编码，细部异体未裁定。现代标点不从此版验证。",
+  "expected_substitutions": [
+    {
+      "working": "甚",
+      "scan": "盛"
+    },
+    {
+      "working": "痊",
+      "scan": "全"
+    }
+  ],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_case_one_print_witness_with_differences_not_consensus_text_or_source_correction"
+}

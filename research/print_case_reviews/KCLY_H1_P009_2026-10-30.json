@@ -1,0 +1,30 @@
+{
+  "case_id": "XJ-KCLY-C-H1-P009-1",
+  "review_date": "2026-10-30",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 5,
+  "page_half": "right_then_left",
+  "location": "第5页右半叶自右第9列接左半叶第1至第3列；起一婦人唇裂內熱，止復用加味逍遙散而康；左半叶第4列另起一婦人善怒下唇微腫。",
+  "render_command": "pdftoppm -f 5 -l 5 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256": "faaa83850b5c931630b3414a6dfcee05505206567e156ffceb48a5f721c153f5",
+  "scan_columns": [
+    "一婦人唇裂內熱二年矣每作服寒涼之劑時出",
+    "血水益增他症余用加味清胃散而愈後因怒唇",
+    "口腫脹寒熱而嘔用小柴胡加山梔茯苓桔梗諸",
+    "症頓愈復用加味逍遙散而康"
+  ],
+  "column_locations": [
+    {"pdf_page": 5, "page_half": "right", "column_from_right": 9},
+    {"pdf_page": 5, "page_half": "left", "column_from_right": 1},
+    {"pdf_page": 5, "page_half": "left", "column_from_right": 2},
+    {"pdf_page": 5, "page_half": "left", "column_from_right": 3}
+  ],
+  "transcription_policy": "正文常用字编码图读，不穷尽细部异体、训点或标点；同读不构成专家校定或疗效验证。",
+  "expected_substitutions": [],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_full_case_two_halves_one_print_witness_not_source_correction"
+}

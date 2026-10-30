@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-28",
+  "work_ref": "XJ-WKSY",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 WKSY full case windows; selected five domains, repeated care, quotations and forecast/outcome boundary",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "separate_targeted_scan_record": "research/scan_reviews/WKSY_target_spots_2026-10-28.json",
+  "cases": [
+    {
+      "case_id": "XJ-WKSY-C-V1-P095-1",
+      "case_text_sha256": "b967ea0249247d63f75b98109c63ad7d241ba603a5f533aa3e8b21702d3f0027",
+      "finding": "轻粉归因是医家解释，发生在诊脉评议与次晨出血之后，补later。邪气而真气虚疑不畅保留原文，不补字。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V2-P122-1",
+      "case_text_sha256": "60abfa9af7b25d188dec08059c9efd4a16f0f019e46bd2597cc5c994525cdf42",
+      "finding": "前药后舌痛口干及浮数脉分开存；舌痛不自动生成舌诊。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V1-P048-1",
+      "case_text_sha256": "756845446b3cbf08e38cdd8d80fabce1816c0a423676c1c533eae7715c411e41",
+      "finding": "经行后患处痛为案内首轮处置后，未倒填首次触发。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V1-P082-1",
+      "case_text_sha256": "e3dc87c230c1b67745d0a9b348464d1fca4d814ae628eaf78eea698e687f60f8",
+      "finding": "补入托里后大便结燥；润肠丸在月余再结且惑人言后，非首次前史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V2-P012-1",
+      "case_text_sha256": "0d268c92d09c3ee7902447b5de4499feb6873033923bfa9a3c37d05fe72dd1b4",
+      "finding": "怒气劳役与发病有明载关联；其肝火气伤解释仍归医者，不当客观测量。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V2-P126-1",
+      "case_text_sha256": "b4a57a3b4c8981fdf7e3d25ab41788a155e4a6d42dc804d366724f62abf58ff6",
+      "finding": "补入首轮后口干内热及后来遍身痒；各次用药为案内处置，不列既往史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P017-1",
+      "case_text_sha256": "e9b5f8ae861f27fdef64dcd6d9213944fb39cda9463786327b9c417471985b65",
+      "finding": "补入足心热至腿膝及后段囊肿、形气虚、尿不利；不能溃后的先字为下一处置起头，病机引文截至不能溃，原文句读问题留作复核。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V2-P121-1",
+      "case_text_sha256": "b14eb3b0784ac8a3cd42601d1e5340d25a6e6d6c5d605ce85c0905cd8ccc64c0",
+      "finding": "补入误服祛风等药后倦怠寒热食减便不实；脉理解释不新增客观测量。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V1-P091-1",
+      "case_text_sha256": "70cc517ddb5db3b5cf9d9e98ab5ff03722df8e5cb05143fead6a8e483a332c69",
+      "finding": "停药且劳是本次好转后再发关联，未并入初始触发。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V1-P085-1",
+      "case_text_sha256": "7cf72c149c6ba417a2b65d9c60279547b3d6f96743b061903f4be12cd81a3a32",
+      "finding": "补入加附子二剂后泻愈甚，仅记先后不证明药因；十年后为远期叙述，不算初次病程。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V2-P097-1",
+      "case_text_sha256": "383b16970f84fb6a107d7c542563969e7ed47c29f4bb2d755b79c2dc04704c90",
+      "finding": "补入托里后腫頓起；脓将成为医家后段判断。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P053-1",
+      "case_text_sha256": "897b308472d1a11b367c802886ae6dcd515fabd9079424855facbe97c4dae315",
+      "finding": "补入后劳倦寒热为后来表现，清肝火导湿热仍为案内用药目的。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P149-1",
+      "case_text_sha256": "0f2c4472cca9b0c379cdf8b0d037da35d8efb2ffcdaf04d774d5fd2c6fa7b7ad",
+      "finding": "次年复发兼小便自遗另记later；善怒和大怒跳跃事件分开。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P026-1",
+      "case_text_sha256": "4f2c160ab983cc35865bff1c3b553b2160a935297e31e838dfdb8352ca3fc72b",
+      "finding": "补入前药后加重、倦怠少食便不实尿频；后段经云及东垣论不作为患者新增表现。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P083-1",
+      "case_text_sha256": "32c872988e4d721cfa5bc754a12de4ab9d4e185e812ec9501309f4043c677736",
+      "finding": "补入年余后遍身、痰渴汗出疮目变化及三年后尿症；思色精不出仅医家解释，不补患者性行为史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V1-P098-1",
+      "case_text_sha256": "21744c3bed0cd2953e343d9778c2126a533fe4f93d2bca7427f03ad1b42ebee1",
+      "finding": "补入他人针后手背肿半体痛；五日昏愦在针后首次诊治前，非本医处置结果。始知痛在手属later。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P120-1",
+      "case_text_sha256": "a14b3a3780b79d46398162df51efe82b5885e275ab4cb4b35cefe0aad34a21d1",
+      "finding": "补入首次评议后色黯延足及案内后段渴不止；末句同病服败毒俱不救为集体比较，不作为本患者死亡。原刻词句另核。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P063-1",
+      "case_text_sha256": "1019bf44c3f6eb305b0984a472baad7190bae6190b09e485fc8b079bcdc780e3",
+      "finding": "补入不信后服四物等药后食少泻呕，保持later。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V3-P039-1",
+      "case_text_sha256": "b507cd14fcd283a491c3c45d4d300bb26a565526fbe8a23981e85301e259dd9c",
+      "finding": "现有晡热汗出月经不行等在败毒寒凉药后，补prior_response；素清苦含义不明，未硬填饮食或心理测量。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-WKSY-C-V1-P051-1",
+      "case_text_sha256": "ee34ee5635c3b906cdb1d6304235ed8c2815d3e20a17c06acc9ad7424dcca03b",
+      "finding": "旬日收敛是未实现的被转述预期，不能当已经十日愈。另分全窗口叙事，区分预期、至今未应、本次诊断和后续结局。",
+      "outcome": "retained_selected_observations"
+    }
+  ]
+}

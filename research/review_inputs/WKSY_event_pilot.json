@@ -1,0 +1,113 @@
+{
+  "case_id": "XJ-WKSY-C-V1-P051-1",
+  "review_date": "2026-10-28",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E07",
+  "anchor_scope": "first_recorded_narrator_assessment_in_window_not_first_performed_treatment",
+  "forecast_only_event_ids": [
+    "E04"
+  ],
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "patient_state",
+      "quote": "銀臺鄭敬齋腿患癰，瘡口不斂。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E02",
+      "event_type": "narrative_context",
+      "quote": "余考績到京，",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E03",
+      "event_type": "reported_prior_interventions",
+      "quote": "請治者，皆用十宣散之類。",
+      "actor_role": "uncertain_prior_treaters",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E04",
+      "event_type": "reported_healing_expectation",
+      "quote": "云旬日收斂，",
+      "actor_role": "uncertain_reported_speaker",
+      "intervention_status": "forecast_only_not_observed_outcome",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": "旬日",
+      "calendar_date": null,
+      "relative_time_anchor": "literal_expression_no_exact_elapsed_days_assigned"
+    },
+    {
+      "event_id": "E05",
+      "event_type": "unmet_expectation_and_care_question",
+      "quote": "至今未應，何也？",
+      "actor_role": "uncertain_reported_speaker",
+      "intervention_status": "no_performance_claim",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": "至今",
+      "calendar_date": null,
+      "relative_time_anchor": "literal_expression_no_exact_elapsed_days_assigned"
+    },
+    {
+      "event_id": "E06",
+      "event_type": "narrated_pulse_examination",
+      "quote": "余診其脈浮大，按之微細，",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E07",
+      "event_type": "narrator_interpretation",
+      "quote": "此因脾氣虛弱，",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E08",
+      "event_type": "intervention",
+      "quote": "遂用補中益氣，加茯苓、半夏，壯其脾胃，",
+      "actor_role": "case_narrator",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E09",
+      "event_type": "narrated_outcome",
+      "quote": "不數日而瘡斂矣。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": "不數日",
+      "calendar_date": null,
+      "relative_time_anchor": "literal_expression_no_exact_elapsed_days_assigned"
+    }
+  ]
+}

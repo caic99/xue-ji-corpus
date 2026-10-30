@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-27",
+  "cases": 20,
+  "dimension_slots": 80,
+  "cases_with_selected_evidence": {
+    "pulse": 5,
+    "tongue_features": 1,
+    "habitus": 2,
+    "habits": 5
+  },
+  "observations": 17,
+  "literal_spans": 17,
+  "phases": {
+    "initial_narrator_window": 12,
+    "later_narrator_window": 5
+  },
+  "human_adjudicated": 0,
+  "initial_query_exported": 0,
+  "default_retrieval_excluded": 0,
+  "scope": "independent_dimensions_separate_from_five_domain_totals"
+}

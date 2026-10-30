@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-27",
+  "work_ref": "XJ-NKZY",
+  "method": "second_model_full_case_read_not_independent_human_review",
+  "scope": "20 NKZY full case windows; selected five domains, prior-drug chronology, speaker and claim/performance distinction",
+  "human_adjudication": "pending",
+  "full_case_print_collations": 0,
+  "separate_targeted_scan_record": "research/scan_reviews/NKZY_target_spots_2026-10-27.json",
+  "cases": [
+    {
+      "case_id": "XJ-NKZY-C-V1-P002-1",
+      "case_text_sha256": "254b1b3d4a350bdbe4d8a3af077d78b1ebbe1c89c370ab5bae57c84a89f6c806",
+      "finding": "指麻只在解释中，不自动增加独立症状；书引三年中风不是本案实际三年病程。补入朝饵暮服后便不禁、食不进。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P098-1",
+      "case_text_sha256": "38258035646f77039b2ae8a0b9279221f3f9eeecbc577ad043a8b4195a8611ec",
+      "finding": "手按痛稍止为缓解关联；有力脉不证明现代实证判断，药后睡觉索食仅为叙述结局。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P020-1",
+      "case_text_sha256": "a10f95a9826494a6525fab4336a80e603eb285d8a6f6b86f835dd9cc323c9a54",
+      "finding": "善饮另存背景；舌本强硬是功能症状，不生成舌苔舌色。来源待核隔离保持；当用不是已服。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P008-1",
+      "case_text_sha256": "ef29515cb0dfab10efdc23fd6ee177cf6a819fe12e3f46fe9939ed2fd090fef9",
+      "finding": "补入前药后口角流涎、身如虫行、搔起白屑；不由医者解释再制造其他独立患者观察。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P021-1",
+      "case_text_sha256": "86306a52e06980ba81bc441618feb844ac2a96920dc9edc911de7bbbb785c998",
+      "finding": "善怒不自动变本次诱因，舌本强不升级正式舌诊；待核来源与建议未实施状态保持。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P075-1",
+      "case_text_sha256": "7e71cc29c3e33bafb0e428c762a9f4f8685c02cf80a46b6eaf85fc06687778d8",
+      "finding": "补入前药后变化及拒绝后仍服前药、后段烦热作渴；五虚及脉欲绝是后段医家判断，不混初始表现。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P056-1",
+      "case_text_sha256": "e186885dd66cb7d3e36f69a2842a03737162a34a4c6c17bbc415a0f39bc62d26",
+      "finding": "补入枳术丸后发热口干；瘦与后来形体充按阶段另记，不据此反推病前体质。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P063-1",
+      "case_text_sha256": "536787eee36001995ed3d0c660420f648993c5653beab2a28c5f33f9b0158b1b",
+      "finding": "补入寒药后热渴益甚；王太仆为理论引文。日饮冰水是病中行为，不认定病前习惯。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V2-P062-1",
+      "case_text_sha256": "9081abd24e83583d20b0978a1546a3cdbe762473766f808d1566840a7ebb8993",
+      "finding": "补入砭血及降火后倦怠痰多；十四娶至二十体丰不等于十四岁发病，更不证明房劳病因。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P062-1",
+      "case_text_sha256": "2fbe3027dd6f3b0afc492411357e42875c94a142a03bf66addd825f73a744d27",
+      "finding": "补入初段谵语。原医声称黄连而叙述者记阴仍用参附，分别存为声称与叙述用药，不把黄连记为已服；另有全窗口分段。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V2-P092-1",
+      "case_text_sha256": "4fc8723bd36bfe663800f6f5913e5d8c30374c32767fdbd433e44310716ce08c",
+      "finding": "补入内疏等剂后少食胀痛倦怠；金旺不起是预测，后果然为叙述者确认，不造具体死亡日期。目标命门字句另行点核。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P126-1",
+      "case_text_sha256": "a51899a4830ec47e2bf210d62adb7269fc550332275f8daeec996dd67ac20d99",
+      "finding": "补入首段前药后少食胁闷、后来痰火剂及吐秽膿结局；患者疑膈气痰饮与医者解释分开，肺内溃是后段判断。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V2-P051-1",
+      "case_text_sha256": "7521324c080650fcae461729f7e487282205eea46203f7d3e2f247701949368f",
+      "finding": "素膏粱仅叙述者饮食类别描述；右寸关数有力独立存脉象，不由方药补病机。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V2-P078-1",
+      "case_text_sha256": "2ebe658b9c98a060fbe49e971036682a68370371a5144b6237b5aa0cd441ae23",
+      "finding": "补入建议后寒凉降火愈甚的病程；丹溪及精血篇是理论引文，不推断本患真实性交史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P120-1",
+      "case_text_sha256": "9a5b3a8f2b87ffe1e49e53afbda7fe9417b89be198f0bde7a8d71ba002fbda74",
+      "finding": "外邪保留医家解释，不补特定暴露；面白鼻流清涕为明载表现。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P107-1",
+      "case_text_sha256": "b644f87bd06a516b6d97d1d6e786eb7d840d45ab1d16ba345983885ef35b195c",
+      "finding": "补入季节性所载病类、止截之药及前药后芒刺样表现；半年还少丹是案内后段，不列首次前史。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P023-1",
+      "case_text_sha256": "0803364769edb75de80a388a91f088ae37658e5214717b3c327b5b4a4b28fa05",
+      "finding": "足三阴虚是医家解释，当用为建议，未补实际结局；待核来源隔离不变。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P128-1",
+      "case_text_sha256": "23196912a129f4dcd78e77b2c44757c765f919e3e19f453cd5fd101257389b01",
+      "finding": "补入乙巳春前药益甚及喉喑；历年药后愈与本年无效分开，半角逗号不改字。",
+      "outcome": "corrected_or_extended"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V2-P007-1",
+      "case_text_sha256": "13195a4bf0c244eae324797f8502075a6b57160c8a120edd3dbc769ae0709e90",
+      "finding": "顾曰我病是的腎虚判断归患者，不归薛己；亦患前症依赖上文，不虚构具体表现。",
+      "outcome": "retained_selected_observations"
+    },
+    {
+      "case_id": "XJ-NKZY-C-V1-P046-1",
+      "case_text_sha256": "bd7225989c3c47a8a6b0e008bcef98c1a2633c08bf5fad187253c0e843f6c700",
+      "finding": "次日复作、重按痛止及客寒乘虚均属后段；痛减六七保留原话，不换算现代量表。",
+      "outcome": "corrected_or_extended"
+    }
+  ]
+}

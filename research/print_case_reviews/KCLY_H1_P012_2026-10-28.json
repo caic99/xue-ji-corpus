@@ -1,0 +1,93 @@
+{
+  "case_id": "XJ-KCLY-C-H1-P012-1",
+  "review_date": "2026-10-28",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 6,
+  "page_half": "left",
+  "location": "左半叶自右向左第5至第8列，一妇人月经不调起而死止；下一案一妇人善怒。",
+  "render_sha256": "e477f772ae76cdfa3656170bc85d039210e69d4ab29be022bae1532d43ee6b9a",
+  "render_command": "pdftoppm -f 6 -l 6 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "scan_columns": [
+    "一婦人月經不調兩足發熱年餘後而身亦熱勞",
+    "則足腿酸疼又年餘唇腫痛裂又半年唇裂血出",
+    "形體瘦倦飲食無味月水不通唇下腫如黑棗余",
+    "曰此肝脾血虛火症彼不信用通經等藥而死"
+  ],
+  "column_locations": [
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 5
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 6
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 7
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 8
+    }
+  ],
+  "transcription_policy": "保留扫描正文發、酸及字序；不据单一刻本修正文，不裁定哪版发生增删或倒置。训点及标点未校。",
+  "alignment_blocks": [
+    {
+      "kind": "equal",
+      "working": "一婦人月經不調兩足",
+      "scan": "一婦人月經不調兩足"
+    },
+    {
+      "kind": "insertion_in_print",
+      "working": "",
+      "scan": "發"
+    },
+    {
+      "kind": "equal",
+      "working": "熱年餘後而身亦熱勞則足腿",
+      "scan": "熱年餘後而身亦熱勞則足腿"
+    },
+    {
+      "kind": "substitution",
+      "working": "痠",
+      "scan": "酸"
+    },
+    {
+      "kind": "equal",
+      "working": "疼又年餘唇腫",
+      "scan": "疼又年餘唇腫"
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "裂痛",
+      "scan": "痛裂"
+    },
+    {
+      "kind": "equal",
+      "working": "又半年唇裂",
+      "scan": "又半年唇裂"
+    },
+    {
+      "kind": "transposition_candidate",
+      "working": "出血",
+      "scan": "血出"
+    },
+    {
+      "kind": "equal",
+      "working": "形體瘦倦飲食無味月水不通唇下腫如黑棗余曰此肝脾血虛火症彼不信用通經等藥而死",
+      "scan": "形體瘦倦飲食無味月水不通唇下腫如黑棗余曰此肝脾血虛火症彼不信用通經等藥而死"
+    }
+  ],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_case_reviewed_alignment_blocks_not_automatic_edit_script_or_consensus",
+  "boundary_checks": [{"pdf_page":7,"render_sha256":"9cf0d57defa876ae10d3d9c6d2957ed60f75401a2769bbb16cd1401f67b41d25","finding":"page7 continues the next case, not this case; inspected for boundary only"}]
+}

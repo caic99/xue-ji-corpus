@@ -1,0 +1,527 @@
+{
+  "case_id": "XJ-KCLY-C-H3-P005-1",
+  "review_date": "2026-10-28",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 11,
+  "page_half": "right",
+  "location": "右半叶自右向左第4至第6正文列，从杨考功至全愈；下一案起王侍御。",
+  "render_command": "pdftoppm -f 11 -l 11 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256": "5949a29cfb03271f23d918c54507821bc519a57fd747a3cbf1169ad4d73b566f",
+  "scan_columns": [
+    "楊考功齒痛作渴屬脾胃虛弱陰火熾盛用補中",
+    "益氣加酒炒黑黃柏四劑又服加減八味丸諸症",
+    "頓愈又用補中益氣湯而全愈"
+  ],
+  "transcription_policy": "正文逐字读法；不收入圈点、训点与旁注，不声称字形学摹写；柏为常用字编码，细部异体未裁定。现代标点不从此版验证。",
+  "expected_substitutions": [
+    {
+      "working": "甚",
+      "scan": "盛"
+    },
+    {
+      "working": "痊",
+      "scan": "全"
+    }
+  ],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_case_one_print_witness_with_differences_not_consensus_text_or_source_correction",
+  "bibliographic_review_ref": "research/witness_reviews/KCLY_bibliography_2026-10-29.json",
+  "edition_date_verification": "inherited_metadata_not_reverified_from_images",
+  "catalog_review_ref": "research/witness_reviews/KCLY_catalog_2026-10-29.json",
+  "edition_catalog_verification": "institutional_catalog_record_supported_not_colophon_verified",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "case_text_sha256": "6c75706eaf658b4d3e2aab250e17200e2bdd8ebf59dc597e7ac95f1d1c931bc9",
+  "pdf_sha256": "6dc895e9e78f130d4914706cae6ec539e418d33d085203030a43ab66ff0d754b",
+  "pdf_bytes": 11427465,
+  "working_case_evidence": [
+    {
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 0,
+      "source_end_char_exclusive": 57,
+      "raw_quote": "楊考功齒痛作渴，屬脾胃虛弱，陰火熾甚，用補中益氣加酒炒黑黃柏四劑，又服加減八味丸，諸症頓愈。又用補中益氣湯而痊愈。"
+    }
+  ],
+  "scan_reading": "楊考功齒痛作渴屬脾胃虛弱陰火熾盛用補中益氣加酒炒黑黃柏四劑又服加減八味丸諸症頓愈又用補中益氣湯而全愈",
+  "compared_body_characters_excluding_modern_punctuation": 50,
+  "differences": [
+    {
+      "ordinal": 16,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 17,
+      "source_end_char_exclusive": 18,
+      "working": "甚",
+      "scan": "盛",
+      "status": "different_model_reading"
+    },
+    {
+      "ordinal": 49,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 54,
+      "source_end_char_exclusive": 55,
+      "working": "痊",
+      "scan": "全",
+      "status": "different_model_reading"
+    }
+  ],
+  "alignment": [
+    {
+      "ordinal": 1,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 0,
+      "source_end_char_exclusive": 1,
+      "working": "楊",
+      "scan": "楊",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 2,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 1,
+      "source_end_char_exclusive": 2,
+      "working": "考",
+      "scan": "考",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 3,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 2,
+      "source_end_char_exclusive": 3,
+      "working": "功",
+      "scan": "功",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 4,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 3,
+      "source_end_char_exclusive": 4,
+      "working": "齒",
+      "scan": "齒",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 5,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 4,
+      "source_end_char_exclusive": 5,
+      "working": "痛",
+      "scan": "痛",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 6,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 5,
+      "source_end_char_exclusive": 6,
+      "working": "作",
+      "scan": "作",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 7,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 6,
+      "source_end_char_exclusive": 7,
+      "working": "渴",
+      "scan": "渴",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 8,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 8,
+      "source_end_char_exclusive": 9,
+      "working": "屬",
+      "scan": "屬",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 9,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 9,
+      "source_end_char_exclusive": 10,
+      "working": "脾",
+      "scan": "脾",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 10,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 10,
+      "source_end_char_exclusive": 11,
+      "working": "胃",
+      "scan": "胃",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 11,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 11,
+      "source_end_char_exclusive": 12,
+      "working": "虛",
+      "scan": "虛",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 12,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 12,
+      "source_end_char_exclusive": 13,
+      "working": "弱",
+      "scan": "弱",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 13,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 14,
+      "source_end_char_exclusive": 15,
+      "working": "陰",
+      "scan": "陰",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 14,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 15,
+      "source_end_char_exclusive": 16,
+      "working": "火",
+      "scan": "火",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 15,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 16,
+      "source_end_char_exclusive": 17,
+      "working": "熾",
+      "scan": "熾",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 16,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 17,
+      "source_end_char_exclusive": 18,
+      "working": "甚",
+      "scan": "盛",
+      "status": "different_model_reading"
+    },
+    {
+      "ordinal": 17,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 19,
+      "source_end_char_exclusive": 20,
+      "working": "用",
+      "scan": "用",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 18,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 20,
+      "source_end_char_exclusive": 21,
+      "working": "補",
+      "scan": "補",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 19,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 21,
+      "source_end_char_exclusive": 22,
+      "working": "中",
+      "scan": "中",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 20,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 22,
+      "source_end_char_exclusive": 23,
+      "working": "益",
+      "scan": "益",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 21,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 23,
+      "source_end_char_exclusive": 24,
+      "working": "氣",
+      "scan": "氣",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 22,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 24,
+      "source_end_char_exclusive": 25,
+      "working": "加",
+      "scan": "加",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 23,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 25,
+      "source_end_char_exclusive": 26,
+      "working": "酒",
+      "scan": "酒",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 24,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 26,
+      "source_end_char_exclusive": 27,
+      "working": "炒",
+      "scan": "炒",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 25,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 27,
+      "source_end_char_exclusive": 28,
+      "working": "黑",
+      "scan": "黑",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 26,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 28,
+      "source_end_char_exclusive": 29,
+      "working": "黃",
+      "scan": "黃",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 27,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 29,
+      "source_end_char_exclusive": 30,
+      "working": "柏",
+      "scan": "柏",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 28,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 30,
+      "source_end_char_exclusive": 31,
+      "working": "四",
+      "scan": "四",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 29,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 31,
+      "source_end_char_exclusive": 32,
+      "working": "劑",
+      "scan": "劑",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 30,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 33,
+      "source_end_char_exclusive": 34,
+      "working": "又",
+      "scan": "又",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 31,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 34,
+      "source_end_char_exclusive": 35,
+      "working": "服",
+      "scan": "服",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 32,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 35,
+      "source_end_char_exclusive": 36,
+      "working": "加",
+      "scan": "加",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 33,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 36,
+      "source_end_char_exclusive": 37,
+      "working": "減",
+      "scan": "減",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 34,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 37,
+      "source_end_char_exclusive": 38,
+      "working": "八",
+      "scan": "八",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 35,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 38,
+      "source_end_char_exclusive": 39,
+      "working": "味",
+      "scan": "味",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 36,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 39,
+      "source_end_char_exclusive": 40,
+      "working": "丸",
+      "scan": "丸",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 37,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 41,
+      "source_end_char_exclusive": 42,
+      "working": "諸",
+      "scan": "諸",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 38,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 42,
+      "source_end_char_exclusive": 43,
+      "working": "症",
+      "scan": "症",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 39,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 43,
+      "source_end_char_exclusive": 44,
+      "working": "頓",
+      "scan": "頓",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 40,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 44,
+      "source_end_char_exclusive": 45,
+      "working": "愈",
+      "scan": "愈",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 41,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 46,
+      "source_end_char_exclusive": 47,
+      "working": "又",
+      "scan": "又",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 42,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 47,
+      "source_end_char_exclusive": 48,
+      "working": "用",
+      "scan": "用",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 43,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 48,
+      "source_end_char_exclusive": 49,
+      "working": "補",
+      "scan": "補",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 44,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 49,
+      "source_end_char_exclusive": 50,
+      "working": "中",
+      "scan": "中",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 45,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 50,
+      "source_end_char_exclusive": 51,
+      "working": "益",
+      "scan": "益",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 46,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 51,
+      "source_end_char_exclusive": 52,
+      "working": "氣",
+      "scan": "氣",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 47,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 52,
+      "source_end_char_exclusive": 53,
+      "working": "湯",
+      "scan": "湯",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 48,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 53,
+      "source_end_char_exclusive": 54,
+      "working": "而",
+      "scan": "而",
+      "status": "same_model_reading"
+    },
+    {
+      "ordinal": 49,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 54,
+      "source_end_char_exclusive": 55,
+      "working": "痊",
+      "scan": "全",
+      "status": "different_model_reading"
+    },
+    {
+      "ordinal": 50,
+      "source_ref": "XJ-KCLY-H3-P005",
+      "source_start_char": 55,
+      "source_end_char_exclusive": 56,
+      "working": "愈",
+      "scan": "愈",
+      "status": "same_model_reading"
+    }
+  ],
+  "limitations": [
+    "Program validates recorded alignment and provenance, not the model visual reading.",
+    "One printed witness cannot adjudicate other editions or correct the frozen corpus.",
+    "Punctuation, kundoku marks and paleographic glyph variants are not fully collated."
+  ]
+}

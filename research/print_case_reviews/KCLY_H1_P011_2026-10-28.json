@@ -1,0 +1,68 @@
+{
+  "case_id": "XJ-KCLY-C-H1-P011-1",
+  "review_date": "2026-10-28",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 6,
+  "page_half": "both",
+  "location": "从右半叶第8、9列接左半叶第1至第4列；一男子内热作渴起，竟殁止；下一案一妇人月经不调。2026-10-29复看九列版面后纠正旧7/8列计数，正文读法不变。",
+  "render_command": "pdftoppm -f 6 -l 6 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256": "e477f772ae76cdfa3656170bc85d039210e69d4ab29be022bae1532d43ee6b9a",
+  "scan_columns": [
+    "一男子內熱作渴咳唾痰涎大便乾澁自喜壯實",
+    "問治於余余曰此脾腎陰虛陽旺之症當壯水之",
+    "主不信自服二陳芩連之類次年下唇漸腫小便",
+    "赤澁執守前藥唇出血水大便黑塊小便淋瀝請",
+    "余往治余曰大便結黑小便淋瀝肝腎敗也唇口",
+    "腫白脾氣敗也辭不赴竟歿"
+  ],
+  "column_locations": [
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 8
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "right",
+      "column_from_right": 9
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 1
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 2
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 3
+    },
+    {
+      "pdf_page": 6,
+      "page_half": "left",
+      "column_from_right": 4
+    }
+  ],
+  "transcription_policy": "正文常用字编码层，保留澁与工作澀的不同编码；不收入训点、圈点，不声称穷尽古字异体或验证现代标点。",
+  "expected_substitutions": [
+    {
+      "working": "澀",
+      "scan": "澁"
+    },
+    {
+      "working": "澀",
+      "scan": "澁"
+    }
+  ],
+  "difference_interpretation": "two_orthographic_variants_not_two_confirmed_transcription_errors",
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_case_across_two_halves_one_print_witness_not_source_correction"
+}

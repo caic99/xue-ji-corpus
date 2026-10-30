@@ -1,0 +1,43 @@
+{
+  "XJ-ZTLY-C-V1-P102-1": {
+    "mechanism": {
+      "彼以為毒氣內攻": {
+        "speaker_role": "patient_or_family",
+        "assertion_type": "patient_interpretation",
+        "narrative_role": "patient_causal_belief_not_narrator_endorsement"
+      }
+    }
+  },
+  "XJ-NKCZ-C-V1-P103-1": {
+    "mechanism": {
+      "或以為木旺之症": {
+        "speaker_role": "uncertain_prior_interpreter",
+        "assertion_type": "reported_prior_interpretation_actor_uncertain",
+        "narrative_role": "prior_explanation_not_narrator_endorsement"
+      }
+    }
+  },
+  "XJ-NKZY-C-V1-P126-1": {
+    "mechanism": {
+      "彼疑為膈氣，痰飲內傷": {
+        "speaker_role": "patient_or_family",
+        "assertion_type": "patient_interpretation",
+        "narrative_role": "patient_suspicion_not_narrator_endorsement"
+      }
+    }
+  },
+  "XJ-LZWKFH-C-V4-P005-1": {
+    "symptoms": {
+      "尚不知痛": {
+        "narrative_role": "explicit_negative_after_first_recorded_moxibustion"
+      }
+    }
+  },
+  "XJ-LZWKFH-C-V5-P030-1": {
+    "mechanism": {
+      "大助陽火，陰血得之則妄行，脾胃得之則愈虛": {
+        "narrative_role": "narrator_warning_not_independently_verified_drug_mechanism"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29",
+  "scope": "edition_lead_only_not_verified_new_witness",
+  "candidate_url": "https://www.shidianguji.com/zh/book/GJTS17/chapter/1lpfcionbf8jz",
+  "search_result_title": "薛己口齒類要-古今圖書集成·藝術典",
+  "page_fetch_result": "web_open_failed_cache_miss",
+  "full_text_retrieved": false,
+  "print_images_viewed": false,
+  "edition_independence_verified": false,
+  "new_verified_witnesses_added": 0,
+  "decision": "retain_as_retrieval_lead_only; do_not_use_search_excerpt_as_case_evidence"
+}

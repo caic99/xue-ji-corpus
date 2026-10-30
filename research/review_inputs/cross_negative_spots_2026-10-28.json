@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-28",
+  "method": "targeted_model_full_window_reread_of_four_cases_not_third_full_sample_pass",
+  "scope": "current explicit-negative labels and one bounded cue-screen finding; not exhaustive language coverage",
+  "human_adjudication": "pending",
+  "source_git_blob": "e8459e27e93711c44357fafcf7d106f97ecaca26",
+  "spots": [
+    {
+      "case_id": "XJ-LZWKFH-C-V8-P086-1",
+      "case_text_sha256": "e8b63d0d885661e4fae910cee96b325606c9f382234c1c35845fcfe06b09e665",
+      "evidence": [
+        {
+          "reading": "無膿水",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V8-P086",
+              "source_start_char": 7,
+              "source_end_char_exclusive": 10,
+              "raw_quote": "無膿水"
+            }
+          ]
+        }
+      ],
+      "finding": "仅否定脓水，不掩盖痒少痛多。"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V5-P030-1",
+      "case_text_sha256": "da70152f8e0148802c0c100cfd3beff0e688fb3dbbaa52c2c94a1d884ede66c6",
+      "evidence": [
+        {
+          "reading": "且不潮熱",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V5-P030",
+              "source_start_char": 70,
+              "source_end_char_exclusive": 74,
+              "raw_quote": "且不潮熱"
+            }
+          ]
+        },
+        {
+          "reading": "脈不澀",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V5-P030",
+              "source_start_char": 66,
+              "source_end_char_exclusive": 69,
+              "raw_quote": "脈不澀"
+            }
+          ]
+        },
+        {
+          "reading": "更加潮熱",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V5-P030",
+              "source_start_char": 156,
+              "source_end_char_exclusive": 160,
+              "raw_quote": "更加潮熱"
+            }
+          ]
+        }
+      ],
+      "finding": "前两条初次否定与后段潮热阳性分开，医者一般预后话语不当作本患者初已有潮热。"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V4-P005-1",
+      "case_text_sha256": "695900e7f87a67ff604bc8f7c0a8c456a3eab9738b8d204a4b4fa7904e29965d",
+      "evidence": [
+        {
+          "reading": "不痛",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V4-P005",
+              "source_start_char": 10,
+              "source_end_char_exclusive": 12,
+              "raw_quote": "不痛"
+            }
+          ]
+        },
+        {
+          "reading": "尚不知痛",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V4-P005",
+              "source_start_char": 21,
+              "source_end_char_exclusive": 25,
+              "raw_quote": "尚不知痛"
+            }
+          ]
+        },
+        {
+          "reading": "始痛",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V4-P005",
+              "source_start_char": 32,
+              "source_end_char_exclusive": 34,
+              "raw_quote": "始痛"
+            }
+          ]
+        }
+      ],
+      "finding": "初不痛、隔蒜后不知痛、明灸后始痛分阶段，未推现代神经疾病。"
+    },
+    {
+      "case_id": "XJ-LZWKFH-C-V1-P016-1",
+      "case_text_sha256": "cb37d3e81a50fd45e2793fdf88332e0c1599bf9e6c6235edeef30f6cb99e5540",
+      "evidence": [
+        {
+          "reading": "臂患癰，不作膿",
+          "segments": [
+            {
+              "source_ref": "XJ-LZWKFH-V1-P016",
+              "source_start_char": 3,
+              "source_end_char_exclusive": 10,
+              "raw_quote": "臂患癰，不作膿"
+            }
+          ]
+        }
+      ],
+      "finding": "完整窗口复看后将复合描述拆为臂患痈阳性和不作脓明确否定，不改源文、不等同无脓水。"
+    }
+  ]
+}

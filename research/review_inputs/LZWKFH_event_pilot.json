@@ -1,0 +1,135 @@
+{
+  "case_id": "XJ-LZWKFH-C-V3-P072-1",
+  "review_date": "2026-10-28",
+  "method": "model_selected_full_window_narrative_segmentation_pilot_not_exhaustive_clinical_events",
+  "first_recorded_care_decision_event": "E02",
+  "anchor_scope": "first_recorded_narrator_assessment_in_window_not_first_performed_treatment",
+  "intent_only_event_ids": [
+    "E03"
+  ],
+  "human_adjudication": "pending",
+  "initial_query_export": "disabled_pending_expert_temporal_role_review",
+  "events": [
+    {
+      "event_id": "E01",
+      "event_type": "patient_state",
+      "quote": "一男子臀漫腫，色不變，脈滑數而無力，",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E02",
+      "event_type": "narrator_interpretation",
+      "quote": "此臀癰也。膿將成，尚在內，",
+      "actor_role": "case_narrator",
+      "intervention_status": "not_applicable",
+      "time_phase": "initial_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E03",
+      "event_type": "care_intent",
+      "quote": "余欲治以托裡藥，待發出而用針。",
+      "actor_role": "case_narrator",
+      "intervention_status": "intended_only_no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E04",
+      "event_type": "patient_preference",
+      "quote": "彼欲內消，",
+      "actor_role": "patient",
+      "intervention_status": "preference_only_no_performance_claim",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E05",
+      "event_type": "reported_intervention",
+      "quote": "服攻伐藥",
+      "actor_role": "uncertain_prior_treater",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E06",
+      "event_type": "patient_state_after_reported_intervention",
+      "quote": "愈虛。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E07",
+      "event_type": "return_for_care",
+      "quote": "復求治，",
+      "actor_role": "patient",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E08",
+      "event_type": "reported_narrator_intervention",
+      "quote": "仍投前藥，",
+      "actor_role": "case_narrator",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E09",
+      "event_type": "reported_narrator_intervention",
+      "quote": "托出針之，",
+      "actor_role": "case_narrator",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E10",
+      "event_type": "reported_narrator_intervention",
+      "quote": "以大補藥",
+      "actor_role": "case_narrator",
+      "intervention_status": "narrated_as_performed",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    },
+    {
+      "event_id": "E11",
+      "event_type": "narrated_outcome",
+      "quote": "而愈。",
+      "actor_role": "not_applicable",
+      "intervention_status": "not_applicable",
+      "time_phase": "later_narrator_window",
+      "time_expression_raw": null,
+      "calendar_date": null,
+      "relative_time_anchor": null
+    }
+  ]
+}
