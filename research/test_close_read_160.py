@@ -798,8 +798,8 @@ class MultiCasePrintTests(unittest.TestCase):
 
     def test_actual_roster_and_unresolved_differences_retained(self):
         summary=self.p.summarize(self.rows)
-        self.assertEqual(summary['cases'],8)
-        self.assertEqual(summary['compared_body_characters'],691)
+        self.assertEqual(summary['cases'],11)
+        self.assertEqual(summary['compared_body_characters'],829)
         self.assertEqual(summary['different_character_positions'],7)
         self.assertEqual(len(next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H3-P014-1')['differences']),0)
 
@@ -967,6 +967,28 @@ class PrintLipBatchTests(unittest.TestCase):
         self.assertEqual(r['column_locations'][1],{'pdf_page':5,'page_half':'left','column_from_right':1})
         self.assertEqual((r['alignment'][cut-1]['scan'],r['alignment'][cut]['scan']),('出','血'))
         self.assertEqual((r['alignment'][cut-1]['scan_column_index'],r['alignment'][cut]['scan_column_index']),(1,2))
+
+class PendingPrintReadingTests(unittest.TestCase):
+    def record(self):
+        import check_print_case as p
+        return p,p.pending_readings()[0]
+
+    def test_pending_reading_cannot_claim_complete(self):
+        p,r=self.record();r['full_case_model_image_comparisons']=1
+        with self.assertRaisesRegex(ValueError,'cannot claim completion'):p.pending_readings(r)
+        with self.assertRaisesRegex(ValueError,'Unresolved image reading'):p.build(r)
+
+    def test_unknown_reading_cannot_be_filled_silently(self):
+        p,r=self.record();r['unresolved_readings'][0]['resolved_scan_text']='鹹'
+        with self.assertRaisesRegex(ValueError,'unresolved location'):p.pending_readings(r)
+
+    def test_pending_case_cannot_double_count_as_complete(self):
+        p,r=self.record()
+        rows=[p.build(path=f) for f in sorted((p.ROOT/'research/print_case_reviews').glob('*.json'))]
+        summary=p.summarize(rows,[r])
+        self.assertEqual((summary['cases'],summary['pending_model_image_readings']),(11,1))
+        r['case_id']=rows[0]['case_id']
+        with self.assertRaisesRegex(ValueError,'cannot also be completed'):p.summarize(rows,[r])
 
 if __name__ == '__main__':
     unittest.main()

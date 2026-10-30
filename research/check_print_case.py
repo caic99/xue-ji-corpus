@@ -33,6 +33,8 @@ def align_blocks(blocks,chars,reading):
 def build(record=None, path=INPUT):
     _,sample,index=core.build()
     r=copy.deepcopy(record) if record is not None else json.loads(path.read_text())
+    if r.get('unresolved_readings'):
+        raise ValueError('Unresolved image reading cannot be counted as full-case comparison')
     case=next(c for c in sample if c['case_id']==r['case_id'])
     if r['human_adjudication']!='pending' or r['initial_query_eligible'] is not False:
         raise ValueError('Unsupported print verification or query claim')
@@ -115,7 +117,30 @@ def build(record=None, path=INPUT):
                            'One printed witness cannot adjudicate other editions or correct the frozen corpus.',
                            'Punctuation, kundoku marks and paleographic glyph variants are not fully collated.']}
 
-def summarize(records):
+def pending_readings(record=None):
+    paths=sorted((ROOT/'research/print_case_pending').glob('*.json'))
+    rows=[copy.deepcopy(record)] if record is not None else [json.loads(p.read_text()) for p in paths]
+    _,sample,_=core.build();cases={c['case_id']:c for c in sample}
+    for r in rows:
+        if (r['status']!='unresolved_image_glyph_not_full_case_comparison' or
+            r['human_adjudication']!='pending' or r['initial_query_eligible'] is not False or
+            r['full_case_model_image_comparisons']!=0 or r['expert_collated_cases']!=0):
+            raise ValueError('Pending image record cannot claim completion or query eligibility')
+        witness=json.loads((ROOT/r['pdf_record']).read_text())
+        if r['pdf_sha256']!=witness['pdf_sha256']:raise ValueError('Pending PDF identity drift')
+        if not r['unresolved_readings']:raise ValueError('Pending image record needs an unresolved reading')
+        pages=r['viewed_pdf_pages']
+        if not pages or len(pages)!=len(set(pages)) or any(not 1<=p<=witness['pdf_pages'] for p in pages):
+            raise ValueError('Invalid pending viewed pages')
+        for u in r['unresolved_readings']:
+            if (not u['working_quote'] or u['working_quote'] not in cases[r['case_id']]['body'] or
+                u['resolved_scan_text'] is not None or u['pdf_page'] not in pages or
+                u['page_half'] not in {'left','right'} or type(u['column_from_right']) is not int or u['column_from_right']<1):
+                raise ValueError('Pending quote or unresolved location drift')
+    if len({r['case_id'] for r in rows})!=len(rows):raise ValueError('Duplicate pending case')
+    return rows
+
+def summarize(records, pending=None):
     ids=[r['case_id'] for r in records]
     if len(ids)!=len(set(ids)):raise ValueError('Duplicate full-case comparison case')
     result={'scope':'full_case_model_image_comparisons_not_expert_collation',
@@ -132,6 +157,9 @@ def summarize(records):
         pages={(r['pdf_sha256'],loc['pdf_page']) for r in records for loc in r.get('column_locations',[{'pdf_page':r['pdf_page']}])}
         boundaries={(r['pdf_sha256'],x['pdf_page']) for r in records for x in r.get('boundary_checks',[])}
         result.update(boundary_only_pdf_pages=len(boundaries-pages),unique_pdf_pages_including_boundary_checks=len(pages|boundaries))
+    if pending:
+        if set(ids)&{r['case_id'] for r in pending}:raise ValueError('Pending case cannot also be completed')
+        result.update(pending_model_image_readings=len(pending),pending_case_ids=[r['case_id'] for r in pending])
     return result
 
 def main():
@@ -147,7 +175,7 @@ def main():
         text=json.dumps(r,ensure_ascii=False,indent=2)+'\n'
         if a.write:out.write_text(text)
         if out.read_text()!=text:raise ValueError('Full-case image comparison artifact drift')
-    result=summarize(records)
+    result=summarize(records,pending_readings() if a.all else None)
     if a.all:
         out=ROOT/'research/samples/print_case_summary.json';text=json.dumps(result,ensure_ascii=False,indent=2)+'\n'
         if a.write:out.write_text(text)

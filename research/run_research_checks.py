@@ -62,6 +62,7 @@ def main():
            'research/build_extended_kcly.py','research/build_event_pilot.py','research/check_scan_spots.py','research/check_cross_annotation_consistency.py']]
  tracked += sorted((ROOT/'research/review_inputs').glob('*'))
  tracked += [ROOT/'research/check_print_case.py',*sorted((ROOT/'research/print_case_reviews').glob('*.json'))]
+ tracked += sorted((ROOT/'research/print_case_pending').glob('*.json'))
  tracked += [ROOT/'research/check_witness_bibliography.py',*sorted((ROOT/'research/witness_reviews').glob('*.json'))]
  tracked += [ROOT/'research/check_witness_catalog.py']
  tracked += [ROOT/'research/build_role_pilot.py']
