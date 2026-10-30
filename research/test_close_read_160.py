@@ -798,8 +798,8 @@ class MultiCasePrintTests(unittest.TestCase):
 
     def test_actual_roster_and_unresolved_differences_retained(self):
         summary=self.p.summarize(self.rows)
-        self.assertEqual(summary['cases'],5)
-        self.assertEqual(summary['compared_body_characters'],519)
+        self.assertEqual(summary['cases'],8)
+        self.assertEqual(summary['compared_body_characters'],691)
         self.assertEqual(summary['different_character_positions'],7)
         self.assertEqual(len(next(r for r in self.rows if r['case_id']=='XJ-KCLY-C-H3-P014-1')['differences']),0)
 
@@ -938,6 +938,35 @@ class WitnessCatalogTests(unittest.TestCase):
         self.assertEqual(r['edition_date_verification'],'inherited_metadata_not_reverified_from_images')
         self.assertEqual(r['edition_catalog_verification'],'institutional_catalog_record_supported_not_colophon_verified')
         self.assertIn('witness_reviews/',r['catalog_review_ref'])
+
+class PrintLipBatchTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import check_print_case as p
+        cls.rows={key:p.build(path=p.ROOT/f'research/print_case_reviews/KCLY_H1_{key}_2026-10-30.json')
+                  for key in ['P005','P006','P009']}
+
+    def test_same_reading_still_has_complete_source_alignment(self):
+        for r in self.rows.values():
+            self.assertEqual(r['differences'],[])
+            self.assertEqual(len(r['alignment']),len(r['scan_reading']))
+            self.assertTrue(all(a['working']==a['scan'] and a['source_end_char_exclusive']==a['source_start_char']+1 for a in r['alignment']))
+            self.assertEqual(r['expert_collated_cases'],0)
+            self.assertFalse(r['initial_query_eligible'])
+
+    def test_neighbor_cases_end_before_next_case(self):
+        a,b=self.rows['P005'],self.rows['P006']
+        self.assertEqual(a['column_locations'][-1],{'pdf_page':4,'page_half':'left','column_from_right':2})
+        self.assertEqual(b['column_locations'][0],{'pdf_page':4,'page_half':'left','column_from_right':3})
+        self.assertTrue(a['scan_reading'].endswith('數劑而愈'))
+        self.assertTrue(b['scan_reading'].endswith('乃去梔加參術而痊'))
+
+    def test_half_page_transition_preserves_source_character_refs(self):
+        r=self.rows['P009'];cut=len(r['scan_columns'][0])
+        self.assertEqual(r['column_locations'][0],{'pdf_page':5,'page_half':'right','column_from_right':9})
+        self.assertEqual(r['column_locations'][1],{'pdf_page':5,'page_half':'left','column_from_right':1})
+        self.assertEqual((r['alignment'][cut-1]['scan'],r['alignment'][cut]['scan']),('出','血'))
+        self.assertEqual((r['alignment'][cut-1]['scan_column_index'],r['alignment'][cut]['scan_column_index']),(1,2))
 
 if __name__ == '__main__':
     unittest.main()

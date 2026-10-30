@@ -1,0 +1,30 @@
+{
+  "case_id": "XJ-KCLY-C-H1-P006-1",
+  "review_date": "2026-10-30",
+  "method": "model_visual_full_case_read_and_comparison_not_expert_collation",
+  "human_adjudication": "pending",
+  "initial_query_eligible": false,
+  "pdf_record": "research/scan_reviews/KCLY_target_spots_2026-10-27.json",
+  "pdf_page": 4,
+  "page_half": "left",
+  "location": "第4页左半叶自右第3至第6列；起一男子素善怒，止乃去梔加參術而痊；第7列另起一婦人懷抱久鬱。",
+  "render_command": "pdftoppm -f 4 -l 4 -scale-to 4000 -png -singlefile INPUT.pdf OUTPUT_PREFIX",
+  "render_sha256": "53fdaa90a5db4838fdcee436d006b0a8732f9a1a34ab3f9e2750286136a747bc",
+  "scan_columns": [
+    "一男子素善怒唇腫脹服清胃等藥時出血水形",
+    "體骨立余用補中益氣加半夏茯苓桔梗月餘唇",
+    "腫漸消元氣漸復又以四物加柴胡炒梔丹皮升",
+    "麻甘草數劑乃去梔加參術而痊"
+  ],
+  "column_locations": [
+    {"pdf_page": 4, "page_half": "left", "column_from_right": 3},
+    {"pdf_page": 4, "page_half": "left", "column_from_right": 4},
+    {"pdf_page": 4, "page_half": "left", "column_from_right": 5},
+    {"pdf_page": 4, "page_half": "left", "column_from_right": 6}
+  ],
+  "transcription_policy": "正文常用字编码图读，不穷尽细部异体、训点或标点；同读不构成专家校定或疗效验证。",
+  "expected_substitutions": [],
+  "full_case_model_image_comparisons": 1,
+  "expert_collated_cases": 0,
+  "scope": "one_full_case_one_print_witness_not_source_correction"
+}
